@@ -47,7 +47,7 @@ def plot_kde(x, y, alg, param, log):
     plt.plot(x,y, '-o')
     plt.ylim(0,)
     plt.ylabel('density')
-    plt.xlabel(param)
+    plt.xlabel('%s__%s' % (alg, param))
     if log:
         plt.xticks(x)
         plt.xscale('log')
