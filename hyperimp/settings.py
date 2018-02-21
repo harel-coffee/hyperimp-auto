@@ -97,7 +97,8 @@ def init_algs(fname, dfs):
 def find_settings(task_id, alg, n, m):
     """ 
     Estimates the 'best' hyperparameter settings for a specific OpenML dataset 
-    based on performance data of other datasets, using a leave-one-out approach.
+    based on performance data of other datasets, using a leave-one-out approach, 
+    for the specified algorithm.
     
     The estimate is the largest bin of a histogram. In case of multiple 
     occurrences of the largest bin, the parameters corresponding to the first 
@@ -107,8 +108,8 @@ def find_settings(task_id, alg, n, m):
     ----------
     task_id : integer
         openml task id of the data set
-    alg : Alg object
-        object of Alg class to the performance data
+    alg : Alg
+        object of Alg class
     n : integer
         top n rows of each dataset will be used to estimate best settings
     m : integer
@@ -129,7 +130,8 @@ def find_settings(task_id, alg, n, m):
         if (len(group) > m) and (group['task_id'].unique() != task_id) :
             groups.append(group.sort_values(by = 'y', ascending  = False)[0:n])
         elif (group['task_id'].unique() != task_id):
-            print('Dataset %s not included because no. obervations is %s.' %(int(g[0]), int(len(group))))
+            None
+            #print('Dataset %s not included because no. obervations is %s.' %(int(g[0]), int(len(group))))
     topn = pd.concat(groups)
     
     # get best setting from top n performance data for each parameter of alg
