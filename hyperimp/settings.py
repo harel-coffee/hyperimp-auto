@@ -94,11 +94,10 @@ def init_algs(fname, dfs):
 
     return algs
     
-def find_settings(task_id, alg, n, m):
+def find_settings(alg, n, m):
     """ 
-    Estimates the 'best' hyperparameter settings for a specific OpenML dataset 
-    based on performance data of other datasets, using a leave-one-out approach, 
-    for the specified algorithm.
+    Estimates the 'best' hyperparameter settings of an algorithm based on 
+    performance data of 100 OpenML data sets.
     
     The estimate is the largest bin of a histogram. In case of multiple 
     occurrences of the largest bin, the parameters corresponding to the first 
@@ -106,8 +105,6 @@ def find_settings(task_id, alg, n, m):
         
     Parameters
     ----------
-    task_id : integer
-        openml task id of the data set
     alg : Alg
         object of Alg class
     n : integer
@@ -118,18 +115,19 @@ def find_settings(task_id, alg, n, m):
     Returns
     -------
     settings : dictionary
-        dictionary with best parameter setting for task_id and alg 
+        dictionary with best parameter setting for an algorithm
             key : parameter name
-            value : 'best' parameter setting
+            value : (lower, upper, average)
+                lower, upper, and average of 'best' hyperparameter setting
     """
     # get top n performance data
     groups = []
     for g in alg.perf.groupby(['task_id']):
         group = pd.DataFrame(g[1])
         group['task_id'] = g[0]
-        if (len(group) > m) and (group['task_id'].unique() != task_id) :
+        if (len(group) > m) :
             groups.append(group.sort_values(by = 'y', ascending  = False)[0:n])
-        elif (group['task_id'].unique() != task_id):
+        else:
             None
             #print('Dataset %s not included because no. obervations is %s.' %(int(g[0]), int(len(group))))
     topn = pd.concat(groups)
@@ -147,12 +145,17 @@ def find_settings(task_id, alg, n, m):
             x = np.log10(x)
         hist, bin_edges = np.histogram(x, bins = bins, range = rnge)
         index = np.argmax(hist)
-        setting = (bin_edges[index] + bin_edges[index + 1])/2
+        setting_lower = bin_edges[index]
+        setting_upper = bin_edges[index + 1]
+        setting_average = (bin_edges[index] + bin_edges[index + 1])/2
         if param.intg:
-            setting = bin_edges[index]
+            setting_upper = bin_edges[index]
+            setting_average = bin_edges[index]
         if param.log:
-            setting = 10**setting
-        settings[param.name] = setting
+            setting_lower = 10**setting_lower
+            setting_upper = 10**setting_upper
+            setting_average = 10**setting_average
+        settings[param.name] = (setting_lower, setting_upper, setting_average)
     return settings
 
 
