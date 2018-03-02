@@ -52,6 +52,47 @@ def generate_data(df, parameter, lb, ub):
         df_fix[['dataset', 'accuracy', 'type']]).reset_index(drop = True)
     return data
 
+def generate_data_new(df_fixed, df_nonfixed, parameter, lb, ub, seed):
+    """ 
+    Generate a dataframe with accuracy scores of random search test folds with 
+    a fixed parameter and with no parameter fixed.
+    
+    Parameters
+    ----------
+    df_fixed : dataframe with results from random search verification experiment
+        columns : fixed_param, fixed_value, dataset, fold, accuracy
+    df_nonfixed : dataframe with results from random search where no parameter was fixed
+        columns : dataset, fold, accuracy, seed (of random search)
+    parameter : parameter we want to fix 
+    lb : lower bound of fixed parameter value
+    ub : upper bound of fixed parameter value
+    seed : seed of random search of non fixed data
+    
+    Returns
+    -------
+    data : dataframe with 20 accuracy scores per dataset 
+        columns : dataset, accuracy, type
+    """
+    # find fixed parameter data
+    df_fix = df_fixed[df_fixed['fixed_param'] == parameter]
+    df_fix = df_fix.astype({'fixed_value' : 'float'}).reset_index(drop = True)
+    df_fix = df_fix[
+        (df_fix['fixed_value'] >= lb) & 
+        (df_fix['fixed_value'] <= ub)]
+
+    datasets = df_fix['dataset'].unique()
+    
+    # select available datasets and seed
+    df_nonfix = df_nonfixed[(df_nonfixed['dataset'].isin(datasets)) & (df_nonfixed['seed'] == seed)].copy()
+   
+    # Create dataset with fixed and overall results
+    df_nonfix['type'] = 'not fixed'
+    df_fix['type'] = 'fixed'
+
+    data = df_nonfix[['dataset', 'accuracy', 'type']].append(
+        df_fix[['dataset', 'accuracy', 'type']]).reset_index(drop = True)
+    return data
+
 def omega_squared(aov):
     mse = aov['sum_sq'][-1]/aov['df'][-1]
     aov['omega_sq'] = 'NaN'

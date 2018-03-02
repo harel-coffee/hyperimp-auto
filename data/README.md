@@ -15,6 +15,14 @@ Accuracy scores per outer fold of 10 x 3 fold cross validation with one paramete
 columns: accuracy, fold, fixed_param, fixed_value, dataset
 * verification_svm_rbf.csv
 * verifcation_svm_sigmoid.csv
+* verfication_rf.csv
+
+### Uniform random search experiment
+Accuracy scores per outer fold of 10 x 3 cross validation with no parameter fixed but with different seeds for the inner random search cross validation splits.
+columns: accuracy, fold, dataset, seed
+* rs_svm_rbf.csv
+* rs_svm_sigmoid.csv
+* rs_rf.csv
 
 ## Other data
 ### Characteristics of hyperparameters
