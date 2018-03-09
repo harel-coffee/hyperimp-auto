@@ -28,3 +28,7 @@ columns: accuracy, fold, dataset, seed
 ### Characteristics of hyperparameters
 columns: algorithm name, parameter name, integer range (T/F), logarithmic range (T/F)
 * parameters.csv: information about hyperparameters
+
+### Search space
+dictionary with parameter ranges (scipy random variable and list objects) for each alg/param combination
+* search_space_rv.pickle
