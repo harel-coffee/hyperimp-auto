@@ -17,7 +17,27 @@ from hyperimp.utils.distributions import loguniform_gen, loguniform_int_gen
 from scipy.stats import uniform, randint
 
 def init_search_space():
+    """ 
+    Returns
+    -------
+    Dictionary with for each alg and parameter a random variable object (continuous 
+    parameters) or a list of values (nominal parameters).
+    
+    {alg1 : {param1 : XXX,
+             param2 : XXX},
+     alg2 : ...}
+    """
     search_space = {
+        # Parameters where just one fixed value is considered
+        ('svm', 'kernel') : {
+                'type' : 'fix',
+                'domain' : ['rbf']},
+                
+        ('random_forest', 'n_features') : {
+                'type' : 'fix',
+                'domain' : [500]},
+        
+        # Parameters where a range of parameter settings is considered
         ('svm', 'gamma') : {
                 'type' : 'log2',
                 'min' : 2**-15,
@@ -41,7 +61,7 @@ def init_search_space():
         ('svm', 'shrinking') : {
                 'type' : 'nom',
                 'domain' : [True, False]},
-                
+
         ('random_forest', 'bootstrap') : {
                 'type' : 'nom',
                 'domain' : [True, False]},
@@ -51,7 +71,7 @@ def init_search_space():
                 'domain' : ['gini', 'entropy']},
         
         ('random_forest', 'max_features') : {
-                'type' : 'exp',
+                'type' : 'lin',
                 'min' : 0, # n ** 0
                 'max' : 1}, # n ** 1
                 
@@ -63,35 +83,15 @@ def init_search_space():
         ('random_forest', 'min_samples_split') : {
                 'type' : 'int',
                 'min' : 2,
-                'max' : 20},
-        
-        ('adaboost', 'algorithm') : {
-                'type' : 'nom',
-                'domain' : ['SAMME', 'SAMME.R']},
-        
-        ('adaboost', 'learning_rate') : {
-                'type' : 'log2',
-                'min' : 0.01, 
-                'max' : 2}, 
-
-        ('adaboost', 'max_depth') : {
-                'type' : 'int',
-                'min' : 1,
-                'max' : 10},
-                
-        ('adaboost', 'iterations') : {
-                'type' : 'int',
-                'min' : 50,
-                'max' : 500},      
+                'max' : 20}
         }
-        
+    
     # Initialize loguniform objects
     loguniform = loguniform_gen(name='loguniform')
     loguniform_int = loguniform_int_gen(name = 'loguniform_int')
     
     search_space_rv = {}
     for (alg, param_name), param in search_space.items():
-        print('Adding %s to dictionary...' %param_name)
         if param['type'] == 'int':
             rv = randint(low = param['min'], high = param['max'] + 1)
         elif param['type'] == 'log2': 
@@ -100,20 +100,24 @@ def init_search_space():
             rv = loguniform(base = 10, low = param['min'], high = param['max'])
         elif param['type'] == 'lin':
             rv = uniform(loc = param['min'], scale = param['max'] - param['min'])
-        elif param['type'] == 'nom':
+        elif param['type'] == 'nom' or param['type'] == 'fix':
             rv = param['domain']
         elif param['type'] == 'exp':
-            print("\tWarning: type 'exp' is not implemented yet.")
+            rv = None
+            print("Warning: could not add '%s' because type 'exp' is not implemented." % param_name)
             #raise NotImplementedError()
         else:
             raise ValueError()
-        search_space_rv[(alg, param_name)] = rv
-        
+            
+        if alg in search_space_rv:
+            search_space_rv[alg][param_name] = rv
+        else:
+            search_space_rv[alg] = {param_name : rv}
     return search_space_rv
 
 if __name__ == '__main__':
     
     search_space_rv = init_search_space()
     
-    with open('data/search_space_rv.pickle', 'wb') as handle:
+    with open('search_space_dict.pickle', 'wb') as handle:
         pickle.dump(search_space_rv, handle, protocol=pickle.HIGHEST_PROTOCOL)
