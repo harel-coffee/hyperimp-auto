@@ -33,9 +33,17 @@ def init_search_space():
                 'type' : 'fix',
                 'domain' : ['rbf']},
                 
-        ('random_forest', 'n_features') : {
+        ('random_forest', 'n_estimators') : {
                 'type' : 'fix',
                 'domain' : [500]},
+        
+        ('svm', 'random_state') : {
+                'type' : 'fix',
+                'domain' : [1]},
+                
+        ('random_forest', 'random_state') : {
+                'type' : 'fix',
+                'domain' : [1]},
         
         # Parameters where a range of parameter settings is considered
         ('svm', 'gamma') : {
@@ -72,8 +80,8 @@ def init_search_space():
         
         ('random_forest', 'max_features') : {
                 'type' : 'lin',
-                'min' : 0, # n ** 0
-                'max' : 1}, # n ** 1
+                'min' : 0, 
+                'max' : 1},
                 
         ('random_forest', 'min_samples_leaf') : {
                 'type' : 'int',
@@ -102,10 +110,6 @@ def init_search_space():
             rv = uniform(loc = param['min'], scale = param['max'] - param['min'])
         elif param['type'] == 'nom' or param['type'] == 'fix':
             rv = param['domain']
-        elif param['type'] == 'exp':
-            rv = None
-            print("Warning: could not add '%s' because type 'exp' is not implemented." % param_name)
-            #raise NotImplementedError()
         else:
             raise ValueError()
             
