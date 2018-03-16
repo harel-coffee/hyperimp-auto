@@ -8,7 +8,6 @@ Created on Wed Mar 14 16:02:45 2018
 import argparse
 import openml
 import hyperimp
-import os
 import traceback
 import sklearn
 from openml.exceptions import OpenMLServerException
