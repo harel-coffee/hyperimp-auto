@@ -27,13 +27,26 @@ def train_model(task, classifier):
 
 def run_experiment(classifier, i, task_id, task, args):
     try:
+        # train model
         print("%s Started run %d on task %s, dataset '%s'" % (hyperimp.utils.get_time(), i, task_id, task.get_dataset().name))
         run = train_model(task, classifier)
         run.tags.append('study_%s' %str(args.study_id))
         score = run.get_metric_fn(sklearn.metrics.accuracy_score)
         print('%s [SCORE] run %d on task %s; Accuracy: %0.2f' % (hyperimp.utils.get_time(), i, task_id, score.mean()))
+        
+        # log xml and predictions file
+        run_xml = run._create_description_xml()
+        predictions_arff = arff.dumps(run._generate_arff_dict())
+        
+        # TODO : logging in case uploading does not work
+            # create folder classifier/i
+            # save settings in .txt file?
+            # save run_xml and precitions_arff
+        
+        # publish run on OpenML
         run.publish()
         print("%s Uploaded run %d with run id %d" % (hyperimp.utils.get_time(), i, run.run_id))
+        
     except TimeoutError as e:
         print("%s Run %d timed out." % (hyperimp.utils.get_time(),i))
     except Exception as e:
@@ -62,6 +75,7 @@ if __name__ == '__main__':
             # Run num pipelines and upload to OpenML
             Parallel(n_jobs = -1)(delayed(run_experiment)(pipeline, i, task_id, task, args) for 
                      pipeline, i in zip(pipelines, range(1, len(pipelines) + 1)))
+            
         except Exception as e:
             print(e)
             #traceback.print_exc()
