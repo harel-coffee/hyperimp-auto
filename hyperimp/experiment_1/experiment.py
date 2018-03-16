@@ -10,15 +10,36 @@ import openml
 import hyperimp
 import traceback
 import sklearn
-from openml.exceptions import OpenMLServerException
+from joblib import Parallel, delayed
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Importance of Tuning')
     parser.add_argument('--study_id', type=int, default=98, help='the study id to retrieve tasks from')
     parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained')
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
-    parser.add_argument('--num', type=int, default=3, help='number of runs')
+    parser.add_argument('--num', type=int, default=5, help='number of runs')
     return parser.parse_args()
+
+@hyperimp.utils.misc.with_timeout(40*60)
+def train_model(task, classifier):
+    run = openml.runs.run_model_on_task(task, classifier)
+    return run
+
+def run_experiment(classifier, i, task_id, task, args):
+    try:
+        print("%s Started run %d on task %s, dataset '%s'" % (hyperimp.utils.get_time(), i, task_id, task.get_dataset().name))
+        run = train_model(task, classifier)
+        run.tags.append('study_%s' %str(args.study_id))
+        score = run.get_metric_fn(sklearn.metrics.accuracy_score)
+        print('%s [SCORE] run %d on task %s; Accuracy: %0.2f' % (hyperimp.utils.get_time(), i, task_id, score.mean()))
+        run.publish()
+        print("%s Uploaded run %d with run id %d" % (hyperimp.utils.get_time(), i, run.run_id))
+    except TimeoutError as e:
+        print("%s Run %d timed out." % (hyperimp.utils.get_time(),i))
+    except Exception as e:
+        print(e)
+        #traceback.print_exc()
+    return
 
 if __name__ == '__main__':
     args = parse_args()
@@ -38,29 +59,9 @@ if __name__ == '__main__':
             pipelines = [hyperimp.experiment_1.generate.build_pipeline(clf, indices) for clf in classifiers]
             print('%s Prepared pipelines.' % hyperimp.utils.get_time())
             
-            # Run num classifiers and upload to OpenML
-            for classifier, i in zip(classifiers, range(1, len(classifiers) + 1 )):
-                try: 
-                    print("%s Started run %d on task %s, dataset '%s'" % (hyperimp.utils.get_time(), i, task_id, task.get_dataset().name))
-                    run = openml.runs.run_model_on_task(task, classifier)
-                    run.tags.append('study_%s' %str(args.study_id))
-                    score = run.get_metric_fn(sklearn.metrics.accuracy_score)
-                    print('%s [SCORE] run %d on task %s; Accuracy: %0.2f' % (hyperimp.utils.get_time(), i, task_id, score.mean()))
-                    run.publish()
-                    print("%s Uploaded with run id %d" % (hyperimp.utils.get_time(), run.run_id))
-                except ValueError as e:
-                    traceback.print_exc()
-                except TypeError as e:
-                    traceback.print_exc()
-                except Exception as e:
-                    traceback.print_exc()
-                except OpenMLServerException as e:
-                    traceback.print_exc()
-        except ValueError as e:
-            traceback.print_exc()
-        except TypeError as e:
-            traceback.print_exc()
+            # Run num pipelines and upload to OpenML
+            Parallel(n_jobs = -1)(delayed(run_experiment)(pipeline, i, task_id, task, args) for 
+                     pipeline, i in zip(pipelines, range(1, len(pipelines) + 1)))
         except Exception as e:
-            traceback.print_exc()
-        except OpenMLServerException as e:
-            traceback.print_exc()
+            print(e)
+            #traceback.print_exc()

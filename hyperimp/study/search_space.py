@@ -47,7 +47,7 @@ def init_search_space():
                 
         ('random_forest', 'n_jobs') : {
                 'type' : 'fix',
-                'domain' : [-1]},
+                'domain' : [1]},
         
         # Parameters where a range of parameter settings is considered
         ('svm', 'gamma') : {
