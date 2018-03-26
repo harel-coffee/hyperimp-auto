@@ -31,7 +31,7 @@ def train_model(task, classifier):
 
 def run_experiment(classifier, i, task_id, task, args):
     try:
-        # train model
+        # train model 
         print("%s Started run %d on task %s, dataset '%s'" % (hyperimp.utils.get_time(), i, task_id, task.get_dataset().name))
         run = train_model(task, classifier)
         run.tags.append('study_%s' %str(args.study_id))
@@ -59,6 +59,7 @@ def run_experiment(classifier, i, task_id, task, args):
     except Exception as e:
         print(e)
         #traceback.print_exc()
+        
     return
 
 if __name__ == '__main__':
