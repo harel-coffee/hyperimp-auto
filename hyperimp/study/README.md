@@ -1,3 +1,0 @@
-# study
-
-Study specific files.

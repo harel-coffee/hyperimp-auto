@@ -1,8 +1,0 @@
-liac_arff==2.1.2.dev0
-scipy==1.0.0
-joblib==0.11
-openml==0.6.0
-pandas==0.22.0
-numpy==1.14.1
-arff==0.9
-scikit_learn==0.19.1

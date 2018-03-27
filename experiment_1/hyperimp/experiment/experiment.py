@@ -20,8 +20,8 @@ def parse_args():
     parser.add_argument('--study_id', type=int, default=98, help='the study id to retrieve tasks from')
     parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained')
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
-    parser.add_argument('--num', type=int, default=1, help='number of runs')
-    parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/experiments')
+    parser.add_argument('--num', type=int, default=5, help='number of runs')
+    parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/results')
     return parser.parse_args()
 
 @hyperimp.utils.misc.with_timeout(40*60)
@@ -55,15 +55,17 @@ def run_experiment(classifier, i, task_id, task, args):
         print("%s Uploaded run %d with run id %d." % (hyperimp.utils.get_time(), i, run.run_id))
         
     except TimeoutError as e:
-        print("%s Run %d timed out." % (hyperimp.utils.get_time(),i))
+        print("%s Run %d timed out." % (hyperimp.utils.get_time(), i))
     except Exception as e:
-        print(e)
+        print("%s Error in run %d: %s" % (hyperimp.utils.get_time(), i, e))
         #traceback.print_exc()
     return
 
 if __name__ == '__main__':
     args = parse_args()
-    
+    # configure openml
+    if args.openml_apikey is not None:
+        openml.config.apikey = args.openml_apikey
     print('%s Retrieving tasks...' % hyperimp.utils.get_time())
     # retrieve tasks_id's from study
     tasks = openml.study.get_study(args.study_id,'tasks').tasks
@@ -75,9 +77,9 @@ if __name__ == '__main__':
             print('%s Downloaded task %d.' % (hyperimp.utils.get_time(), task_id))
             
             # generate pipeline objects
-            classifiers = hyperimp.experiment_1.generate.generate_classifiers(args.classifier, task_id, args.num)
+            classifiers = hyperimp.experiment.generate.generate_classifiers(args.classifier, task_id, args.num)
             indices = task.get_dataset().get_features_by_type('nominal', [task.target_name])
-            pipelines = [hyperimp.experiment_1.generate.build_pipeline(clf, indices) for clf in classifiers]
+            pipelines = [hyperimp.experiment.generate.build_pipeline(clf, indices) for clf in classifiers]
             print('%s Prepared pipelines.' % hyperimp.utils.get_time())
             
             # Run num pipelines and upload to OpenML
@@ -85,5 +87,5 @@ if __name__ == '__main__':
                      pipeline, i in zip(pipelines, range(1, len(pipelines) + 1)))
             
         except Exception as e:
-            print(e)
+            print("%s Error in task %d: %s" % (hyperimp.utils.get_time(), task_id, e))
             #traceback.print_exc()
