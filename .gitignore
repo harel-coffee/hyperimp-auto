@@ -48,3 +48,9 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+# Jupiter notebook checkpoints
+.ipynb_checkpoints
+
+# Spyder stuff
+.spyproject
