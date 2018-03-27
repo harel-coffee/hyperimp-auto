@@ -12,6 +12,7 @@ taken from the search space.
 """
 
 from hyperimp.study.search_space import init_search_space
+from hyperimp.utils.preprocessing import ConditionalImputer
 import scipy
 import random
 import pandas as pd 
@@ -70,7 +71,10 @@ def build_pipeline(classifier, indices):
     classifier : sklearn classification object including parameter settings
     indices : list of indices of all categorical features in the dataset
     """
-    steps = [('imputation', sklearn.preprocessing.Imputer(strategy='mean')),
+    steps = [('imputation', ConditionalImputer(fill_empty=0, 
+                                               categorical_features=indices, 
+                                               strategy = 'mean', 
+                                               strategy_nominal='most_frequent')),
           ('hotencoding', sklearn.preprocessing.OneHotEncoder(handle_unknown='ignore', categorical_features=indices)),
           ('scaling', sklearn.preprocessing.StandardScaler(with_mean=False)),
           ('variencethreshold', sklearn.feature_selection.VarianceThreshold()),

@@ -20,7 +20,7 @@ def parse_args():
     parser.add_argument('--study_id', type=int, default=98, help='the study id to retrieve tasks from')
     parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained')
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
-    parser.add_argument('--num', type=int, default=5, help='number of runs')
+    parser.add_argument('--num', type=int, default=1, help='number of runs')
     parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/experiments')
     return parser.parse_args()
 
@@ -31,14 +31,14 @@ def train_model(task, classifier):
 
 def run_experiment(classifier, i, task_id, task, args):
     try:
-        # train model 
-        print("%s Started run %d on task %s, dataset '%s'" % (hyperimp.utils.get_time(), i, task_id, task.get_dataset().name))
+        # train model
+        print("%s Started run %d on task %s, dataset '%s'." % (hyperimp.utils.get_time(), i, task_id, task.get_dataset().name))
         run = train_model(task, classifier)
         run.tags.append('study_%s' %str(args.study_id))
         score = run.get_metric_fn(sklearn.metrics.accuracy_score)
-        print('%s [SCORE] run %d on task %s; Accuracy: %0.2f' % (hyperimp.utils.get_time(), i, task_id, score.mean()))
+        print('%s [SCORE] run %d on task %s; Accuracy: %0.2f.' % (hyperimp.utils.get_time(), i, task_id, score.mean()))
         
-        # log run xml, predictions, param settings
+        # log xml, predictions, settings 
         output_dir = args.output_dir + '/' + args.classifier + '/task_' + str(task_id) + '/' + str(i)
         os.makedirs(output_dir)
         run_xml = run._create_description_xml()
@@ -52,14 +52,13 @@ def run_experiment(classifier, i, task_id, task, args):
             
         # publish run on OpenML
         run.publish()
-        print("%s Uploaded run %d with run id %d" % (hyperimp.utils.get_time(), i, run.run_id))
+        print("%s Uploaded run %d with run id %d." % (hyperimp.utils.get_time(), i, run.run_id))
         
     except TimeoutError as e:
         print("%s Run %d timed out." % (hyperimp.utils.get_time(),i))
     except Exception as e:
         print(e)
         #traceback.print_exc()
-        
     return
 
 if __name__ == '__main__':
@@ -73,7 +72,7 @@ if __name__ == '__main__':
         try:
             #download task
             task = openml.tasks.get_task(task_id) 
-            print('%s Downloaded task %d' % (hyperimp.utils.get_time(), task_id))
+            print('%s Downloaded task %d.' % (hyperimp.utils.get_time(), task_id))
             
             # generate pipeline objects
             classifiers = hyperimp.experiment_1.generate.generate_classifiers(args.classifier, task_id, args.num)

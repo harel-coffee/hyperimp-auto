@@ -15,10 +15,8 @@ import numpy as np
 from scipy import sparse
 
 from sklearn.utils import check_array
-from sklearn.utils.fixes import astype
 from sklearn.utils.validation import check_is_fitted
 from sklearn.utils.validation import FLOAT_DTYPES
-
 
 class ConditionalImputer(Imputer):
     """Imputation transformer for completing missing values.
@@ -212,8 +210,7 @@ class ConditionalImputer(Imputer):
             indexes = np.repeat(np.arange(len(X.indptr) - 1, dtype=np.int),
                                 np.diff(X.indptr))[mask]
 
-            X.data[mask] = astype(valid_statistics[indexes], X.dtype,
-                                  copy=False)
+            X.data[mask] = valid_statistics[indexes].astype(X.dtype)
         else:
             if sparse.issparse(X):
                 X = X.toarray()
