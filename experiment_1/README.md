@@ -4,6 +4,7 @@
 You can build the docker image from this repository in the following way.
 1. Open terminal and go to this directory
 2. Run `docker build -t $IMAGENAME .` where `$IMAGENAME` will be the name of the image. If docker complains that your forgot an argument you forgot to type the dot.
+
 Alternatively, you can pull the docker image from docker hub by running `docker pull hilde/experiment_1`.
 
 ## Run experiment
