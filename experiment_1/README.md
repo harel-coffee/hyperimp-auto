@@ -14,7 +14,7 @@ docker run -a STDOUT \
     --study_id 98 \
     --classifier random_forest \
     --openml_apikey $APIKEY \
-    --num 1000 \
+    --num 1000
 ```
 Where you replace `$CONTAINERNAME` with the name you want to give to the docker container, and `$APIKEY` with your OpenML apikey. The progress of the container will be printed realtime in the terminal, but can also be retrieved using `docker logs $CONTAINERNAME`.
 
