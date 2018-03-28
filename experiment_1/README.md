@@ -18,6 +18,8 @@ docker run -a STDOUT \
 ```
 Where you replace `$CONTAINERNAME` with the name you want to give to the docker container, and `$APIKEY` with your OpenML apikey. The progress of the container will be printed realtime in the terminal, but can also be retrieved using `docker logs $CONTAINERNAME`.
 
+At this point only "svm" and "random_forest" are supported. The search space is defined in the file [search_space.py](hyperimp/study/search_space.py). The training timeout time of a single experiment is 40 minutes.
+
 ## Retrieve log data
 If, for some reason, runs could not be uploaded to OpenML, the predictions.csv, run.xml, and parameters.pickle files can be retrieved by running `docker cp $CONTAINERNAME:/root/results ./experiments`.
 
