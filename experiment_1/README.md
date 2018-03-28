@@ -3,7 +3,7 @@
 ## Retrieve docker image
 You can build the docker image from this repository in the following way.
 1. Open terminal and go to this directory
-2. Run `docker build -t $IMAGENAME .` where `$IMAGENAME` will be the name of the image.
+2. Run `docker build -t $IMAGENAME .` where `$IMAGENAME` will be the name of the image. Don't forget the dot in the end.
 Alternatively, you can pull the docker image from docker hub by running `docker pull hilde/experiment_1`.
 
 ## Run experiment
@@ -21,7 +21,7 @@ Where you replace `$CONTAINERNAME` with the name you want to give to the docker 
 At this point only "svm" and "random_forest" are supported. The search space is defined in the file [search_space.py](hyperimp/study/search_space.py). The training timeout time of a single experiment is 40 minutes.
 
 ## Retrieve log data
-If, for some reason, runs could not be uploaded to OpenML, the predictions.csv, run.xml, and parameters.pickle files can be retrieved by running `docker cp $CONTAINERNAME:/root/results ./experiments`.
+If, for some reason, runs could not be uploaded to OpenML, the predictions.csv, run.xml, and parameters.pickle files can be retrieved by running `docker cp $CONTAINERNAME:/root/results ./experiments` (i.e. they will be put in the folder /experiments).
 
 ## Run experiment on Azure
 To run the experiment on Azure, you can use docker-machine in the shell.
