@@ -8,7 +8,10 @@ You can build the docker image from this repository in the following way.
 
 Alternatively, you can pull the docker image from docker hub directly by running `docker pull hilde/experiment_1`.
 
-## Run an experiment
+## Run experiment
+You can run an experiment on a list of tasks or on all tasks from an OpenML study.
+
+### List of tasks
 An example on how to run an experiment for a specific set of tasks is shown below.
 ```
 docker run -a STDOUT \
@@ -17,10 +20,14 @@ docker run -a STDOUT \
 --classifier svm \
 --openml_apikey $APIKEY \
 --num 1000
+--log False
 ```
-Where you replace `$CONTAINERNAME` with the name you want to give to the docker container, and `$APIKEY` with your OpenML apikey. Logging information will be printed realtime in the terminal, but can also be retrieved using `docker logs $CONTAINERNAME`.
+Where you replace `$CONTAINERNAME` with the name you want to give to the docker container, and `$APIKEY` with your OpenML apikey. Logging information of the container will be printed realtime in the terminal, but can also be retrieved using `docker logs $CONTAINERNAME`.
 
-It is also possible to immediately run all tasks from an OpenML study. An example on how to run an experiment for random forest for study 98 is shown below.
+By default, predicions, run information, and parameter settings will be logged locally in the `./results` folder. If you want to prevent local logging, you can do so by  setting the `log` argument to `False`.
+
+### OpenML study
+It is also possible to run experiments on all tasks from an OpenML study. An example on how to run an experiment for random forest for study 98 is shown below.
 ```
 docker run -a STDOUT \
     --name $CONTAINERNAME hilde/experiment_1 \

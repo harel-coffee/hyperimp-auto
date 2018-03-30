@@ -23,6 +23,7 @@ def parse_args():
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
     parser.add_argument('--num', type=int, default=5, help='number of runs')
     parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/results')
+    parser.add_argument('--log', default=True, type=lambda x: (str(x).lower() == 'true'), help='results must be logged in container (True) or not (False)')
     return parser.parse_args()
 
 @hyperimp.utils.misc.with_timeout(40*60)
@@ -39,17 +40,20 @@ def run_experiment(classifier, i, task_id, task, args):
         score = run.get_metric_fn(sklearn.metrics.accuracy_score)
         print('%s [SCORE] run %d on task %s; Accuracy: %0.2f.' % (hyperimp.utils.get_time(), i, task_id, score.mean()))
         
-        # log xml, predictions, settings 
-        output_dir = args.output_dir + '/' + args.classifier + '/task_' + str(task_id) + '/' + str(i)
-        os.makedirs(output_dir)
-        run_xml = run._create_description_xml()
-        predictions_arff = arff.dumps(run._generate_arff_dict())
-        with open(output_dir + '/run.xml', 'w') as f:
-            f.write(run_xml)
-        with open(output_dir + '/predictions.arff', 'w') as f:
-            f.write(predictions_arff)
-        with open(output_dir + '/param_settings.pickle', 'wb') as handle:
-            pickle.dump(classifier.get_params(), handle, protocol=pickle.HIGHEST_PROTOCOL)
+        if args.log:
+            # log xml, predictions, settings 
+            output_dir = args.output_dir + '/' + args.classifier + '/task_' + str(task_id) + '/' + str(i)
+            os.makedirs(output_dir)
+            run_xml = run._create_description_xml()
+            predictions_arff = arff.dumps(run._generate_arff_dict())
+            with open(output_dir + '/run.xml', 'w') as f:
+                f.write(run_xml)
+            with open(output_dir + '/predictions.arff', 'w') as f:
+                f.write(predictions_arff)
+            with open(output_dir + '/param_settings.pickle', 'wb') as handle:
+                pickle.dump(classifier.get_params(), handle, protocol=pickle.HIGHEST_PROTOCOL)
+        else:
+            None
             
         # publish run on OpenML
         run.publish()
@@ -67,6 +71,11 @@ if __name__ == '__main__':
     # configure openml
     if args.openml_apikey is not None:
         openml.config.apikey = args.openml_apikey
+    if args.log:
+        print("%s Results will be logged locally in %s." % (hyperimp.utils.get_time(), args.output_dir))
+    else:
+        print("%s Results will not be logged locally." % (hyperimp.utils.get_time()))
+
     print('%s Retrieving tasks...' % hyperimp.utils.get_time())
 
     # retrieve tasks; task_ids argument is preferred, if not provided use study_id instead
