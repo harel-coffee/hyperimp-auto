@@ -18,6 +18,7 @@ import pickle
 def parse_args():
     parser = argparse.ArgumentParser(description='Importance of Tuning')
     parser.add_argument('--study_id', type=int, default=98, help='the study id to retrieve tasks from')
+    parser.add_argument('--task_ids', nargs = '*', type=int, default=None, help='a list of tasks, leave None if a study is preferred')
     parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained')
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
     parser.add_argument('--num', type=int, default=5, help='number of runs')
@@ -67,9 +68,16 @@ if __name__ == '__main__':
     if args.openml_apikey is not None:
         openml.config.apikey = args.openml_apikey
     print('%s Retrieving tasks...' % hyperimp.utils.get_time())
-    # retrieve tasks_id's from study
-    tasks = openml.study.get_study(args.study_id,'tasks').tasks
-    print('%s Tasks retrieved.' % hyperimp.utils.get_time())
+
+    # retrieve tasks; task_ids argument is preferred, if not provided use study_id instead
+    if args.task_ids is not None:
+        print('%s Tasks will be retrieved based on provided task ids.' % hyperimp.utils.get_time())
+        tasks = args.task_ids
+    else:
+        # retrieve tasks_id's from study
+        print('%s Tasks will be retrieved based on study id %d.' % (hyperimp.utils.get_time(), args.study_id))
+        tasks = openml.study.get_study(args.study_id,'tasks').tasks
+    print('%s The following tasks were retrieved: %s.' % (hyperimp.utils.get_time(),tasks))
     for task_id in tasks:
         try:
             #download task
