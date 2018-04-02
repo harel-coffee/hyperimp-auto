@@ -1,0 +1,7 @@
+alg,intg,log,param_name
+svm,False,True,gamma
+svm,False,True,C
+svm,False,True,tol
+rf,False,False,max_features
+rf,True,False,min_samples_leaf
+rf,True,False,min_samples_split

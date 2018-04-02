@@ -45,6 +45,7 @@ def run_experiment(classifier, i, task_id, task, args):
             output_dir = args.output_dir + '/' + args.classifier + '/task_' + str(task_id) + '/' + str(i)
             os.makedirs(output_dir)
             run_xml = run._create_description_xml()
+            
             predictions_arff = arff.dumps(run._generate_arff_dict())
             with open(output_dir + '/run.xml', 'w') as f:
                 f.write(run_xml)
@@ -58,7 +59,6 @@ def run_experiment(classifier, i, task_id, task, args):
         # publish run on OpenML
         run.publish()
         print("%s Uploaded run %d with run id %d." % (hyperimp.utils.get_time(), i, run.run_id))
-        
     except TimeoutError as e:
         print("%s Run %d timed out." % (hyperimp.utils.get_time(), i))
     except Exception as e:
