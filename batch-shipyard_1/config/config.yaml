@@ -1,0 +1,7 @@
+# specify basic settings for whcih Storage account to reference and Docker images to load
+batch_shipyard:
+  # write metadata and resource files needed to the storage account created in credentials.yaml
+  storage_account_settings: mystorageaccount
+global_resources:
+  docker_images:
+    - hilde/experiment_1:sleep

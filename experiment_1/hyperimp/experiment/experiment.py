@@ -14,6 +14,8 @@ import sklearn
 from joblib import Parallel, delayed
 import arff
 import pickle
+from random import randint
+from time import sleep
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Importance of Tuning')
@@ -21,7 +23,7 @@ def parse_args():
     parser.add_argument('--task_ids', nargs = '*', type=int, default=None, help='a list of tasks, leave None if a study is preferred')
     parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained')
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
-    parser.add_argument('--num', type=int, default=5, help='number of runs')
+    parser.add_argument('--num', type=int, default=1000, help='number of runs')
     parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/results')
     parser.add_argument('--log', default=True, type=lambda x: (str(x).lower() == 'true'), help='results must be logged in container (True) or not (False)')
     return parser.parse_args()
@@ -33,9 +35,22 @@ def train_model(task, classifier):
 
 def run_experiment(classifier, i, task_id, task, args):
     try:
-        # train model
-        print("%s Started run %d on task %s, dataset '%s'." % (hyperimp.utils.get_time(), i, task_id, task.get_dataset().name))
-        run = train_model(task, classifier)
+        count = 1
+        while count <= 3:
+            try:
+                print("%s Started run %d on task %s, dataset '%s'." % (hyperimp.utils.get_time(), i, task_id, task.get_dataset().name))
+                # train model
+                run = train_model(task, classifier)
+                break
+            except openml.exceptions.OpenMLServerError as e:
+                if count == 3:
+                    print("%s OpenMLServerError in run %d, I tried this 3 times already, so I'm just going to continue to the next run." % (hyperimp.utils.get_time(), i))
+                    raise
+                print("%s Error in run %d, trying again in %d seconds." % (hyperimp.utils.get_time(), i, sleeptime))
+                count += 1
+                sleeptime = randint(1,15)
+                sleep(sleeptime)
+        
         run.tags.append('study_%s' %str(args.study_id))
         score = run.get_metric_fn(sklearn.metrics.accuracy_score)
         print('%s [SCORE] run %d on task %s; Accuracy: %0.2f.' % (hyperimp.utils.get_time(), i, task_id, score.mean()))

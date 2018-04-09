@@ -1,0 +1,21 @@
+# computing resource needed for executing the jobs found in jobs.yaml
+pool_specification:
+  id: experiment2
+  vm_configuration:
+    platform_image:
+      offer: UbuntuServer
+      publisher: Canonical
+      sku: 16.04-LTS
+  vm_size: standard_ds4_v2 # azure VM size
+  vm_count:
+    dedicated: 0 # minimum number of nodes
+    low_priority: 0 
+  max_tasks_per_node: 1 # maximum number of containers that can do stuff per task
+  autoscale: # to make sure nodes are removed after task completion instead of left idle
+    evaluation_interval: 00:05:00
+    scenario:
+      name: pending_tasks
+      maximum_vm_count:
+        dedicated: 10 # maximum number of nodes
+        low_priority: 0
+      node_deallocation_option: taskcompletion

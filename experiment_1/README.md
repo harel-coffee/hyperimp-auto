@@ -8,7 +8,7 @@ You can build the docker image from this repository in the following way.
 
 Alternatively, you can pull the docker image from docker hub directly by running `docker pull hilde/experiment_1`.
 
-## Run experiment
+## Run experiment locally
 You can run an experiment on a list of tasks or on all tasks from an OpenML study.
 
 ### List of tasks
@@ -41,7 +41,7 @@ Note that the `task_ids` argument takes priority over the `study_id` argument (i
 ## Retrieve log data
 If, for some reason, runs could not be uploaded to OpenML, the predictions.csv, run.xml, and parameters.pickle files can be retrieved by running `docker cp $CONTAINERNAME:/root/results ./experiments` (i.e. they will be put in the folder /experiments of your local machine).
 
-## Run experiment on Azure
+## Run experiment on Azure using docker-machine
 To run the experiment on Azure, you can use docker-machine in the cloud shell of the portal.
 
 1. Save your account id by running `sub=$(az account show --query "id" -o tsv)`.
@@ -57,6 +57,9 @@ To run the experiment on Azure, you can use docker-machine in the cloud shell of
     ```
     Where you replace `myvm` with whatever name you find appropriate for your machine.
 3. Check if the machine is running properly, by running `docker-machine ls`. If it is not running, start it by running `docker-machine start myvm`.
-4. Perform some magic to make sure the deamon is alive `eval $(docker-machine env myvm --shell bash)`.
-5. Actually run your container by running the same command we've seen before.
+4. Perform some magic to make sure the cloud shell is connected to the right VM `eval $(docker-machine env myvm --shell bash)`.
+5. Actually run your container by running the same command we've seen before in the cloud shell of the Azure portal.
+
+## Run experiment on Azure using batch-shipyard
+Rather than spinning up a VM by hand to run the docker container on Azure, you can also use Azure batch to run a whole bunch of experiments on a cluster of nodes. This is explained [here](/batch-shipyard_1/README).
 
