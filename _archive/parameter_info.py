@@ -22,8 +22,8 @@ os.chdir('/Users/hildeweerts/hyperimp/')
 #              'ada': ['learning_rate','max_depth','n_estimators']}
 
 # parameter settings experiment_1
-alg_params = {'svm': ['gamma','C','tol'],
-              'rf': ['max_features','min_samples_leaf','min_samples_split']
+alg_params = {'svm': ['gamma','C','tol', 'shrinking'],
+              'rf': ['max_features','min_samples_leaf','min_samples_split', 'criterion', 'bootstrap']
               }
 
 # parameters defined on a log scale
@@ -34,11 +34,18 @@ logs = ['gamma', 'C', 'tol']
 #integers = ['min_samples_leaf', 'min_samples_split', 'max_depth', 'n_estimators']
 integers = ['min_samples_leaf', 'min_samples_split', 'max_depth']
 
+# nominal parameters
+nominals = ['criterion']
+
+# boolean parameters
+bools = ['bootstrap', 'shrinking']
 
 alg_names = []
 param_names = []
 log_values = []
 intg_values = []
+nom_values = []
+bool_values = []
 
 for key, value in alg_params.items():
     for i in value:
@@ -46,10 +53,14 @@ for key, value in alg_params.items():
         param_names.append(i)
         log_values.append(i in logs)
         intg_values.append(i in integers)
+        nom_values.append(i in nominals)
+        bool_values.append(i in bools)
         
 parameters = pd.DataFrame({'alg': alg_names,
                            'param_name': param_names,
                            'log': log_values,
-                           'intg': intg_values})
+                           'intg': intg_values,
+                           'nom': nom_values,
+                           'bool': bool_values})
 
-parameters.to_csv('evaluate_1/parameters.csv', index = False)
+parameters.to_csv('hyperimp/evaluate/parameters.csv', index = False)

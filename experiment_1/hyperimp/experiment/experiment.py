@@ -28,7 +28,7 @@ def parse_args():
     parser.add_argument('--log', default=True, type=lambda x: (str(x).lower() == 'true'), help='results must be logged in container (True) or not (False)')
     return parser.parse_args()
 
-@hyperimp.utils.misc.with_timeout(40*60)
+@hyperimp.utils.misc.with_timeout(60*60)
 def train_model(task, classifier):
     run = openml.runs.run_model_on_task(task, classifier)
     return run
@@ -46,9 +46,9 @@ def run_experiment(classifier, i, task_id, task, args):
                 if count == 3:
                     print("%s OpenMLServerError in run %d, I tried this 3 times already, so I'm just going to continue to the next run." % (hyperimp.utils.get_time(), i))
                     raise
-                print("%s Error in run %d, trying again in %d seconds." % (hyperimp.utils.get_time(), i, sleeptime))
+                sleeptime = randint(1,20)
+                print("%s Error in run %d, trying again in %d seconds. Message: %s" % (hyperimp.utils.get_time(), i, sleeptime, e))
                 count += 1
-                sleeptime = randint(1,15)
                 sleep(sleeptime)
         
         run.tags.append('study_%s' %str(args.study_id))

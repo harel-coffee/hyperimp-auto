@@ -1,7 +1,10 @@
-alg,intg,log,param_name
-svm,False,True,gamma
-svm,False,True,C
-svm,False,True,tol
-rf,False,False,max_features
-rf,True,False,min_samples_leaf
-rf,True,False,min_samples_split
+alg,bool,intg,log,nom,param_name
+svm,False,False,True,False,gamma
+svm,False,False,True,False,C
+svm,False,False,True,False,tol
+svm,True,False,False,False,shrinking
+rf,False,False,False,False,max_features
+rf,False,True,False,False,min_samples_leaf
+rf,False,True,False,False,min_samples_split
+rf,False,False,False,True,criterion
+rf,True,False,False,False,bootstrap

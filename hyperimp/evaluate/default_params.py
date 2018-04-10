@@ -65,10 +65,12 @@ class Param:
         intg : boolean 
             parameter uses integer scale (True) or not (False)
     """
-    def __init__(self, name, log, intg):
+    def __init__(self, name, log, intg, boolean, nom):
         self.name = name
         self.log = log
         self.intg = intg
+        self.boolean = boolean
+        self.nom = nom
         
 
 def init_algs(fname, dfs):
@@ -93,7 +95,9 @@ def init_algs(fname, dfs):
             param_name = data['param_name']
             log = data['log']
             intg = data['intg']
-            params.append(Param(param_name, log, intg))
+            boolean = data['bool']
+            nom = data['nom']
+            params.append(Param(param_name, log, intg, boolean, nom))
         alg_params[alg_name] = params
     
     # create Alg objects
@@ -175,25 +179,30 @@ def find_default(alg, n, m, log):
         task_settings = {}
         for param in alg.params:
             x = topn_task[param.name]
-            bins = 'fd'
-            rnge = None
-            if param.intg:
-                bins = int(max(x) - min(x) + 1)
-                rnge = (int(min(x)), int(max(x) + 1))
-            if param.log:
-                x = np.log10(x)
-            hist, bin_edges = np.histogram(x, bins = bins, range = rnge)
-            index = np.argmax(hist)
-            setting_lower = bin_edges[index]
-            setting_upper = bin_edges[index + 1]
-            setting_average = (bin_edges[index] + bin_edges[index + 1])/2
-            if param.intg:
-                setting_upper = bin_edges[index]
-                setting_average = bin_edges[index]
-            if param.log:
-                setting_lower = 10**setting_lower
-                setting_upper = 10**setting_upper
-                setting_average = 10**setting_average
+            if param.boolean or param.nom:
+                setting_lower = x.mode()
+                setting_upper = setting_lower
+                setting_average = setting_lower
+            else:
+                bins = 'fd'
+                rnge = None
+                if param.intg:
+                    bins = int(max(x) - min(x) + 1)
+                    rnge = (int(min(x)), int(max(x) + 1))
+                if param.log:
+                    x = np.log10(x)
+                hist, bin_edges = np.histogram(x, bins = bins, range = rnge)
+                index = np.argmax(hist)
+                setting_lower = bin_edges[index]
+                setting_upper = bin_edges[index + 1]
+                setting_average = (bin_edges[index] + bin_edges[index + 1])/2
+                if param.intg:
+                    setting_upper = bin_edges[index]
+                    setting_average = bin_edges[index]
+                if param.log:
+                    setting_lower = 10**setting_lower
+                    setting_upper = 10**setting_upper
+                    setting_average = 10**setting_average
             task_settings[param.name] = (setting_lower, setting_upper, setting_average)
         settings[task_id] = task_settings
     return settings
