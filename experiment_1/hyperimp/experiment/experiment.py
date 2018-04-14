@@ -25,7 +25,7 @@ def parse_args():
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
     parser.add_argument('--num', type=int, default=1000, help='number of runs')
     parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/results')
-    parser.add_argument('--log', default=True, type=lambda x: (str(x).lower() == 'true'), help='results must be logged in container (True) or not (False)')
+    parser.add_argument('--log', default=False, type=lambda x: (str(x).lower() == 'true'), help='results must be logged in container (True) or not (False)')
     return parser.parse_args()
 
 @hyperimp.utils.misc.with_timeout(3*60*60)
@@ -119,7 +119,7 @@ if __name__ == '__main__':
         try:
             #download task
             counts_task = 1
-            while count_task <= 100:
+            while counts_task <= 100:
                 try:
                     # train model
                     task = openml.tasks.get_task(task_id) 
