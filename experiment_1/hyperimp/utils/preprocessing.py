@@ -18,7 +18,7 @@ from sklearn.utils import check_array
 from sklearn.utils.validation import check_is_fitted
 from sklearn.utils.validation import FLOAT_DTYPES
 
-class ConditionalImputer(Imputer):
+class ConditionalImputer2(Imputer):
     """Imputation transformer for completing missing values.
     Read more in the :ref:`User Guide <imputation>`.
     Parameters

@@ -1,0 +1,2029 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/svm/job-1/task-00036/certs"
+declare -x AZ_BATCH_JOB_ID="svm"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/svm/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/svm/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-2112069986_2-20180411t200903z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/svm/job-1/task-00036"
+declare -x AZ_BATCH_TASK_ID="task-00036"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/svm/job-1/task-00036/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/svm/job-1/task-00036/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/svm/job-1/task-00036/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/svm/job-1/task-00036/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+[2018-04-11 20:52:09] Results will not be logged locally.
+[2018-04-11 20:52:09] Retrieving tasks...
+[2018-04-11 20:52:09] Tasks will be retrieved based on provided task ids.
+[2018-04-11 20:52:09] The following tasks were retrieved: [125922].
+[2018-04-11 20:52:16] Downloaded task 125922.
+[2018-04-11 20:52:16] Prepared pipelines.
+[2018-04-11 20:52:17] Started run 1 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:17] Started run 3 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:17] Started run 2 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:17] Started run 4 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:17] Started run 5 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:17] Started run 6 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:17] Started run 7 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:17] Started run 8 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:21] Error in run 1: Run already exists in server. Run id(s): {8941386}
+[2018-04-11 20:52:21] Error in run 3: Run already exists in server. Run id(s): {8951221}
+[2018-04-11 20:52:21] Started run 9 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:21] Error in run 2: Run already exists in server. Run id(s): {8951212}
+[2018-04-11 20:52:21] Started run 10 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:21] Error in run 4: Run already exists in server. Run id(s): {8951225}
+[2018-04-11 20:52:21] Started run 11 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:21] Error in run 5: Run already exists in server. Run id(s): {8951230}
+[2018-04-11 20:52:21] Started run 12 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:21] Started run 13 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:21] Error in run 6: Run already exists in server. Run id(s): {8951238}
+[2018-04-11 20:52:21] Started run 14 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:22] Error in run 7: Run already exists in server. Run id(s): {8951245}
+[2018-04-11 20:52:22] Error in run 8: Run already exists in server. Run id(s): {8951249}
+[2018-04-11 20:52:22] Started run 15 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:22] Started run 16 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:26] Error in run 10: Run already exists in server. Run id(s): {8951260}
+[2018-04-11 20:52:26] Error in run 9: Run already exists in server. Run id(s): {8951252}
+[2018-04-11 20:52:26] Started run 17 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:26] Started run 18 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:26] Error in run 11: Run already exists in server. Run id(s): {8951264}
+[2018-04-11 20:52:26] Error in run 12: Run already exists in server. Run id(s): {8951271}
+[2018-04-11 20:52:26] Started run 19 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:26] Started run 20 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:26] Error in run 13: Run already exists in server. Run id(s): {8951280}
+[2018-04-11 20:52:26] Started run 21 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:26] Error in run 14: Run already exists in server. Run id(s): {8951285}
+[2018-04-11 20:52:26] Started run 22 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:26] Error in run 16: Run already exists in server. Run id(s): {8951299}
+[2018-04-11 20:52:26] Error in run 15: Run already exists in server. Run id(s): {8951293}
+[2018-04-11 20:52:26] Started run 23 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:26] Started run 24 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:30] Error in run 17: Run already exists in server. Run id(s): {8951308}
+[2018-04-11 20:52:30] Error in run 18: Run already exists in server. Run id(s): {8951317}
+[2018-04-11 20:52:30] Started run 25 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:30] Error in run 20: Run already exists in server. Run id(s): {8951326}
+[2018-04-11 20:52:30] Error in run 19: Run already exists in server. Run id(s): {8951322}
+[2018-04-11 20:52:30] Error in run 22: Run already exists in server. Run id(s): {8951339}
+[2018-04-11 20:52:30] Error in run 21: Run already exists in server. Run id(s): {8951331}
+[2018-04-11 20:52:30] Started run 27 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:30] Started run 28 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:30] Started run 26 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:30] Started run 29 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:30] Started run 30 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:31] Error in run 24: Run already exists in server. Run id(s): {8951354}
+[2018-04-11 20:52:31] Error in run 23: Run already exists in server. Run id(s): {8951344}
+[2018-04-11 20:52:31] Started run 31 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:31] Started run 32 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:35] Error in run 26: Run already exists in server. Run id(s): {8951369}
+[2018-04-11 20:52:35] Error in run 27: Run already exists in server. Run id(s): {8951372}
+[2018-04-11 20:52:35] Started run 33 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:35] Started run 34 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:35] Error in run 28: Run already exists in server. Run id(s): {8951381}
+[2018-04-11 20:52:35] Started run 35 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:35] Error in run 29: Run already exists in server. Run id(s): {8951390}
+[2018-04-11 20:52:35] Started run 36 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:35] Error in run 30: Run already exists in server. Run id(s): {8951398}
+[2018-04-11 20:52:35] Started run 37 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:35] Error in run 25: Run already exists in server. Run id(s): {8951363}
+[2018-04-11 20:52:35] Started run 38 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:36] Error in run 31: Run already exists in server. Run id(s): {8951403}
+[2018-04-11 20:52:36] Started run 39 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:36] Error in run 32: Run already exists in server. Run id(s): {8951412}
+[2018-04-11 20:52:36] Started run 40 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:40] Error in run 34: Run already exists in server. Run id(s): {8951426}
+[2018-04-11 20:52:40] Started run 41 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:40] Error in run 37: Run already exists in server. Run id(s): {8951447}
+[2018-04-11 20:52:40] Error in run 33: Run already exists in server. Run id(s): {8951421}
+[2018-04-11 20:52:40] Error in run 35: Run already exists in server. Run id(s): {8951433}
+[2018-04-11 20:52:40] Started run 42 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:40] Error in run 38: Run already exists in server. Run id(s): {8951451}
+[2018-04-11 20:52:40] Started run 43 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:40] Started run 45 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:40] Error in run 36: Run already exists in server. Run id(s): {8951437}
+[2018-04-11 20:52:40] Started run 46 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:40] Started run 44 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:40] Error in run 39: Run already exists in server. Run id(s): {8951456}
+[2018-04-11 20:52:41] Error in run 40: Run already exists in server. Run id(s): {8951459}
+[2018-04-11 20:52:40] Started run 47 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:41] Started run 48 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:44] Error in run 41: Run already exists in server. Run id(s): {8951466}
+[2018-04-11 20:52:44] Started run 49 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:44] Error in run 45: Run already exists in server. Run id(s): {8951485}
+[2018-04-11 20:52:44] Started run 50 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:44] Error in run 44: Run already exists in server. Run id(s): {8951480}
+[2018-04-11 20:52:44] Started run 51 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:44] Error in run 46: Run already exists in server. Run id(s): {8951490}
+[2018-04-11 20:52:44] Started run 52 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:44] Error in run 43: Run already exists in server. Run id(s): {8951474}
+[2018-04-11 20:52:44] Started run 53 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:44] Error in run 42: Run already exists in server. Run id(s): {8951470}
+[2018-04-11 20:52:44] Started run 54 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:45] Error in run 47: Run already exists in server. Run id(s): {8951497}
+[2018-04-11 20:52:45] Started run 55 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:45] Error in run 48: Run already exists in server. Run id(s): {8951506}
+[2018-04-11 20:52:45] Started run 56 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:49] Error in run 49: Run already exists in server. Run id(s): {8951516}
+[2018-04-11 20:52:49] Started run 57 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:49] Error in run 50: Run already exists in server. Run id(s): {8951520}
+[2018-04-11 20:52:49] Started run 58 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:49] Error in run 54: Run already exists in server. Run id(s): {8951540}
+[2018-04-11 20:52:49] Error in run 53: Run already exists in server. Run id(s): {8951537}
+[2018-04-11 20:52:49] Error in run 51: Run already exists in server. Run id(s): {8951523}
+[2018-04-11 20:52:49] Error in run 52: Run already exists in server. Run id(s): {8951527}
+[2018-04-11 20:52:49] Started run 59 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:49] Started run 60 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:49] Started run 61 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:49] Started run 62 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:50] Error in run 55: Run already exists in server. Run id(s): {8951545}
+[2018-04-11 20:52:50] Started run 63 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:50] Error in run 56: Run already exists in server. Run id(s): {8951552}
+[2018-04-11 20:52:50] Started run 64 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:53] Error in run 57: Run already exists in server. Run id(s): {8951556}
+[2018-04-11 20:52:53] Started run 65 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:53] Error in run 58: Run already exists in server. Run id(s): {8951560}
+[2018-04-11 20:52:53] Started run 66 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:54] Error in run 59: Run already exists in server. Run id(s): {8951569}
+[2018-04-11 20:52:54] Error in run 61: Run already exists in server. Run id(s): {8951578}
+[2018-04-11 20:52:54] Error in run 60: Run already exists in server. Run id(s): {8951573}
+[2018-04-11 20:52:54] Started run 67 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:54] Error in run 62: Run already exists in server. Run id(s): {8951581}
+[2018-04-11 20:52:54] Started run 69 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:54] Started run 70 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:54] Started run 68 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:54] Error in run 63: Run already exists in server. Run id(s): {8951585}
+[2018-04-11 20:52:54] Started run 71 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:54] Error in run 64: Run already exists in server. Run id(s): {8951591}
+[2018-04-11 20:52:54] Started run 72 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:58] Error in run 66: Run already exists in server. Run id(s): {8951599}
+[2018-04-11 20:52:58] Error in run 65: Run already exists in server. Run id(s): {8951595}
+[2018-04-11 20:52:58] Started run 73 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:58] Started run 74 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:59] Error in run 68: Run already exists in server. Run id(s): {8951610}
+[2018-04-11 20:52:59] Error in run 69: Run already exists in server. Run id(s): {8951616}
+[2018-04-11 20:52:59] Error in run 67: Run already exists in server. Run id(s): {8951604}
+[2018-04-11 20:52:59] Started run 75 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:59] Error in run 71: Run already exists in server. Run id(s): {8951626}
+[2018-04-11 20:52:59] Error in run 70: Run already exists in server. Run id(s): {8951620}
+[2018-04-11 20:52:59] Started run 76 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:59] Started run 78 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:59] Started run 79 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:59] Error in run 72: Run already exists in server. Run id(s): {8951634}
+[2018-04-11 20:52:59] Started run 77 on task 125922, dataset 'texture'.
+[2018-04-11 20:52:59] Started run 80 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:03] Error in run 74: Run already exists in server. Run id(s): {8951641}
+[2018-04-11 20:53:03] Started run 81 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:03] Error in run 73: Run already exists in server. Run id(s): {8951638}
+[2018-04-11 20:53:03] Started run 82 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:03] Error in run 75: Run already exists in server. Run id(s): {8951651}
+[2018-04-11 20:53:03] Error in run 78: Run already exists in server. Run id(s): {8951667}
+[2018-04-11 20:53:03] Started run 83 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:03] Error in run 79: Run already exists in server. Run id(s): {8951673}
+[2018-04-11 20:53:03] Error in run 77: Run already exists in server. Run id(s): {8951659}
+[2018-04-11 20:53:03] Error in run 80: Run already exists in server. Run id(s): {8951679}
+[2018-04-11 20:53:03] Error in run 76: Run already exists in server. Run id(s): {8951654}
+[2018-04-11 20:53:03] Started run 85 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:03] Started run 87 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:03] Started run 86 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:03] Started run 84 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:03] Started run 88 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:07] Error in run 82: Run already exists in server. Run id(s): {8951694}
+[2018-04-11 20:53:07] Started run 89 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:07] Error in run 81: Run already exists in server. Run id(s): {8951682}
+[2018-04-11 20:53:07] Started run 90 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:08] Error in run 83: Run already exists in server. Run id(s): {8951698}
+[2018-04-11 20:53:08] Error in run 85: Run already exists in server. Run id(s): {8951712}
+[2018-04-11 20:53:08] Error in run 87: Run already exists in server. Run id(s): {8951721}
+[2018-04-11 20:53:08] Started run 91 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:08] Error in run 84: Run already exists in server. Run id(s): {8951707}
+[2018-04-11 20:53:08] Error in run 86: Run already exists in server. Run id(s): {8951716}
+[2018-04-11 20:53:08] Error in run 88: Run already exists in server. Run id(s): {8951725}
+[2018-04-11 20:53:08] Started run 94 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:08] Started run 95 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:08] Started run 96 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:08] Started run 92 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:08] Started run 93 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:12] Error in run 90: Run already exists in server. Run id(s): {8951741}
+[2018-04-11 20:53:12] Error in run 89: Run already exists in server. Run id(s): {8951732}
+[2018-04-11 20:53:12] Started run 97 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:12] Started run 98 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:13] Error in run 93: Run already exists in server. Run id(s): {8951757}
+[2018-04-11 20:53:13] Error in run 95: Run already exists in server. Run id(s): {8951775}
+[2018-04-11 20:53:13] Error in run 92: Run already exists in server. Run id(s): {8951754}
+[2018-04-11 20:53:13] Error in run 91: Run already exists in server. Run id(s): {8951745, 9012394}
+[2018-04-11 20:53:13] Started run 99 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:13] Error in run 94: Run already exists in server. Run id(s): {8951766}
+[2018-04-11 20:53:13] Started run 102 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:13] Error in run 96: Run already exists in server. Run id(s): {8951784}
+[2018-04-11 20:53:13] Started run 104 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:13] Started run 100 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:13] Started run 103 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:13] Started run 101 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:17] Error in run 97: Run already exists in server. Run id(s): {8951788}
+[2018-04-11 20:53:17] Started run 105 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:17] Error in run 98: Run already exists in server. Run id(s): {8951793}
+[2018-04-11 20:53:17] Started run 106 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:18] Error in run 101: Run already exists in server. Run id(s): {8951813}
+[2018-04-11 20:53:18] Started run 107 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:18] Error in run 99: Run already exists in server. Run id(s): {8951801}
+[2018-04-11 20:53:18] Error in run 100: Run already exists in server. Run id(s): {8951809}
+[2018-04-11 20:53:18] Error in run 103: Run already exists in server. Run id(s): {8951823}
+[2018-04-11 20:53:18] Error in run 102: Run already exists in server. Run id(s): {8951818}
+[2018-04-11 20:53:18] Error in run 104: Run already exists in server. Run id(s): {8951832}
+[2018-04-11 20:53:18] Started run 108 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:18] Started run 109 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:18] Started run 110 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:18] Started run 111 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:18] Started run 112 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:22] Error in run 106: Run already exists in server. Run id(s): {8951844}
+[2018-04-11 20:53:22] Started run 113 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:22] Error in run 105: Run already exists in server. Run id(s): {8951839}
+[2018-04-11 20:53:22] Started run 114 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:22] Error in run 107: Run already exists in server. Run id(s): {8951850}
+[2018-04-11 20:53:22] Started run 115 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:22] Error in run 108: Run already exists in server. Run id(s): {8951860}
+[2018-04-11 20:53:22] Error in run 112: Run already exists in server. Run id(s): {8951880}
+[2018-04-11 20:53:22] Started run 116 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:22] Error in run 110: Run already exists in server. Run id(s): {8951869}
+[2018-04-11 20:53:22] Error in run 109: Run already exists in server. Run id(s): {8951865}
+[2018-04-11 20:53:22] Error in run 111: Run already exists in server. Run id(s): {8951874}
+[2018-04-11 20:53:22] Started run 118 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:22] Started run 119 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:22] Started run 120 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:22] Started run 117 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:26] Error in run 113: Run already exists in server. Run id(s): {8951886}
+[2018-04-11 20:53:26] Started run 121 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:26] Error in run 114: Run already exists in server. Run id(s): {8951896}
+[2018-04-11 20:53:26] Started run 122 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:27] Error in run 115: Run already exists in server. Run id(s): {8951900}
+[2018-04-11 20:53:27] Started run 123 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:27] Error in run 119: Run already exists in server. Run id(s): {8951926}
+[2018-04-11 20:53:27] Error in run 117: Run already exists in server. Run id(s): {8951913}
+[2018-04-11 20:53:27] Error in run 116: Run already exists in server. Run id(s): {8951907}
+[2018-04-11 20:53:27] Started run 124 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:27] Error in run 120: Run already exists in server. Run id(s): {8951936}
+[2018-04-11 20:53:27] Error in run 118: Run already exists in server. Run id(s): {8951922}
+[2018-04-11 20:53:27] Started run 127 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:27] Started run 125 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:27] Started run 126 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:27] Started run 128 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:31] Error in run 121: Run already exists in server. Run id(s): {8951943}
+[2018-04-11 20:53:31] Error in run 122: Run already exists in server. Run id(s): {8951952}
+[2018-04-11 20:53:31] Started run 129 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:31] Started run 130 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:31] Error in run 123: Run already exists in server. Run id(s): {8951956}
+[2018-04-11 20:53:31] Started run 131 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:32] Error in run 124: Run already exists in server. Run id(s): {8951959}
+[2018-04-11 20:53:32] Started run 132 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:32] Error in run 125: Run already exists in server. Run id(s): {8951965}
+[2018-04-11 20:53:32] Error in run 126: Run already exists in server. Run id(s): {8951974}
+[2018-04-11 20:53:32] Error in run 128: Run already exists in server. Run id(s): {8951987}
+[2018-04-11 20:53:32] Started run 133 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:32] Started run 134 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:32] Error in run 127: Run already exists in server. Run id(s): {8951983}
+[2018-04-11 20:53:32] Started run 136 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:32] Started run 135 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:35] Error in run 129: Run already exists in server. Run id(s): {8951996}
+[2018-04-11 20:53:35] Started run 137 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:36] Error in run 131: Run already exists in server. Run id(s): {8952004}
+[2018-04-11 20:53:36] Error in run 130: Run already exists in server. Run id(s): {8952000}
+[2018-04-11 20:53:36] Started run 138 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:36] Started run 139 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:36] Error in run 132: Run already exists in server. Run id(s): {8952008}
+[2018-04-11 20:53:36] Started run 140 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:37] Error in run 133: Run already exists in server. Run id(s): {8952012}
+[2018-04-11 20:53:37] Error in run 135: Run already exists in server. Run id(s): {8952033}
+[2018-04-11 20:53:37] Error in run 136: Run already exists in server. Run id(s): {8952038}
+[2018-04-11 20:53:37] Error in run 134: Run already exists in server. Run id(s): {8952023}
+[2018-04-11 20:53:37] Started run 141 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:37] Started run 142 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:37] Started run 143 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:37] Started run 144 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:40] Error in run 137: Run already exists in server. Run id(s): {8952043}
+[2018-04-11 20:53:40] Started run 145 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:41] Error in run 138: Run already exists in server. Run id(s): {8952051}
+[2018-04-11 20:53:41] Error in run 139: Run already exists in server. Run id(s): {8952055}
+[2018-04-11 20:53:41] Started run 146 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:41] Started run 147 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:41] Error in run 140: Run already exists in server. Run id(s): {8952058}
+[2018-04-11 20:53:41] Started run 148 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:41] Error in run 142: Run already exists in server. Run id(s): {8952070}
+[2018-04-11 20:53:41] Error in run 143: Run already exists in server. Run id(s): {8952080}
+[2018-04-11 20:53:41] Started run 149 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:41] Error in run 141: Run already exists in server. Run id(s): {8952065}
+[2018-04-11 20:53:41] Error in run 144: Run already exists in server. Run id(s): {8952087}
+[2018-04-11 20:53:41] Started run 151 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:41] Started run 152 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:41] Started run 150 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:44] Error in run 145: Run already exists in server. Run id(s): {8952097}
+[2018-04-11 20:53:44] Started run 153 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:45] Error in run 147: Run already exists in server. Run id(s): {8952112}
+[2018-04-11 20:53:45] Started run 154 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:45] Error in run 146: Run already exists in server. Run id(s): {8952107}
+[2018-04-11 20:53:45] Started run 155 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:45] Error in run 148: Run already exists in server. Run id(s): {8952123}
+[2018-04-11 20:53:45] Started run 156 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:46] Error in run 149: Run already exists in server. Run id(s): {8952129}
+[2018-04-11 20:53:46] Started run 157 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:46] Error in run 150: Run already exists in server. Run id(s): {8952134}
+[2018-04-11 20:53:46] Error in run 151: Run already exists in server. Run id(s): {8952142}
+[2018-04-11 20:53:46] Started run 158 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:46] Started run 159 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:46] Error in run 152: Run already exists in server. Run id(s): {8952144}
+[2018-04-11 20:53:46] Started run 160 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:49] Error in run 153: Run already exists in server. Run id(s): {8952146}
+[2018-04-11 20:53:49] Started run 161 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:50] Error in run 156: Run already exists in server. Run id(s): {8952168}
+[2018-04-11 20:53:50] Started run 162 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:50] Error in run 155: Run already exists in server. Run id(s): {8952162}
+[2018-04-11 20:53:50] Error in run 154: Run already exists in server. Run id(s): {8952152}
+[2018-04-11 20:53:50] Started run 163 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:50] Started run 164 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:50] Error in run 157: Run already exists in server. Run id(s): {8952177}
+[2018-04-11 20:53:50] Started run 165 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:50] Error in run 158: Run already exists in server. Run id(s): {8952184}
+[2018-04-11 20:53:50] Started run 166 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:50] Error in run 159: Run already exists in server. Run id(s): {8952188}
+[2018-04-11 20:53:50] Started run 167 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:51] Error in run 160: Run already exists in server. Run id(s): {8952194}
+[2018-04-11 20:53:51] Started run 168 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:54] Error in run 161: Run already exists in server. Run id(s): {8952199}
+[2018-04-11 20:53:54] Started run 169 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:54] Error in run 162: Run already exists in server. Run id(s): {8952204}
+[2018-04-11 20:53:54] Started run 170 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:55] Error in run 164: Run already exists in server. Run id(s): {8952218}
+[2018-04-11 20:53:55] Started run 171 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:55] Error in run 163: Run already exists in server. Run id(s): {8952208}
+[2018-04-11 20:53:55] Started run 172 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:55] Error in run 165: Run already exists in server. Run id(s): {8952223}
+[2018-04-11 20:53:55] Started run 173 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:55] Error in run 166: Run already exists in server. Run id(s): {8952228}
+[2018-04-11 20:53:55] Error in run 167: Run already exists in server. Run id(s): {8952231}
+[2018-04-11 20:53:55] Started run 174 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:55] Started run 175 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:56] Error in run 168: Run already exists in server. Run id(s): {8952238}
+[2018-04-11 20:53:56] Started run 176 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:59] Error in run 169: Run already exists in server. Run id(s): {8952243}
+[2018-04-11 20:53:59] Started run 177 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:59] Error in run 170: Run already exists in server. Run id(s): {8952248}
+[2018-04-11 20:53:59] Started run 178 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:59] Error in run 174: Run already exists in server. Run id(s): {8952279}
+[2018-04-11 20:53:59] Error in run 173: Run already exists in server. Run id(s): {8952270}
+[2018-04-11 20:53:59] Started run 179 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:59] Error in run 172: Run already exists in server. Run id(s): {8952263}
+[2018-04-11 20:53:59] Error in run 171: Run already exists in server. Run id(s): {8952258}
+[2018-04-11 20:53:59] Error in run 175: Run already exists in server. Run id(s): {8952282}
+[2018-04-11 20:53:59] Started run 181 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:59] Started run 183 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:59] Started run 182 on task 125922, dataset 'texture'.
+[2018-04-11 20:53:59] Started run 180 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:00] Error in run 176: Run already exists in server. Run id(s): {8952292}
+[2018-04-11 20:54:00] Started run 184 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:03] Error in run 177: Run already exists in server. Run id(s): {8952296}
+[2018-04-11 20:54:03] Started run 185 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:03] Error in run 178: Run already exists in server. Run id(s): {8952301}
+[2018-04-11 20:54:03] Started run 186 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:04] Error in run 179: Run already exists in server. Run id(s): {8952307}
+[2018-04-11 20:54:04] Started run 187 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:04] Error in run 180: Run already exists in server. Run id(s): {8952316}
+[2018-04-11 20:54:04] Started run 188 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:04] Error in run 182: Run already exists in server. Run id(s): {8952333}
+[2018-04-11 20:54:04] Error in run 183: Run already exists in server. Run id(s): {8952339}
+[2018-04-11 20:54:04] Started run 189 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:04] Error in run 181: Run already exists in server. Run id(s): {8952324}
+[2018-04-11 20:54:04] Started run 190 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:04] Started run 191 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:05] Error in run 184: Run already exists in server. Run id(s): {8952350}
+[2018-04-11 20:54:05] Started run 192 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:08] Error in run 185: Run already exists in server. Run id(s): {8952361}
+[2018-04-11 20:54:08] Error in run 186: Run already exists in server. Run id(s): {8952368}
+[2018-04-11 20:54:08] Started run 193 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:08] Started run 194 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:09] Error in run 191: Run already exists in server. Run id(s): {8952398}
+[2018-04-11 20:54:09] Error in run 188: Run already exists in server. Run id(s): {8952381}
+[2018-04-11 20:54:09] Error in run 190: Run already exists in server. Run id(s): {8952395}
+[2018-04-11 20:54:09] Error in run 189: Run already exists in server. Run id(s): {8952384}
+[2018-04-11 20:54:09] Error in run 187: Run already exists in server. Run id(s): {8952376}
+[2018-04-11 20:54:09] Started run 195 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:09] Started run 196 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:09] Started run 197 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:09] Started run 198 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:09] Started run 199 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:10] Error in run 192: Run already exists in server. Run id(s): {8952407}
+[2018-04-11 20:54:10] Started run 200 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:13] Error in run 193: Run already exists in server. Run id(s): {8952417}
+[2018-04-11 20:54:13] Error in run 194: Run already exists in server. Run id(s): {8952424}
+[2018-04-11 20:54:13] Started run 201 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:13] Started run 202 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:14] Error in run 195: Run already exists in server. Run id(s): {8952428}
+[2018-04-11 20:54:14] Error in run 197: Run already exists in server. Run id(s): {8952438}
+[2018-04-11 20:54:14] Started run 203 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:14] Error in run 196: Run already exists in server. Run id(s): {8952434}
+[2018-04-11 20:54:14] Started run 205 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:14] Error in run 199: Run already exists in server. Run id(s): {8952448}
+[2018-04-11 20:54:14] Started run 204 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:14] Error in run 198: Run already exists in server. Run id(s): {8952443}
+[2018-04-11 20:54:14] Started run 206 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:14] Started run 207 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:14] Error in run 200: Run already exists in server. Run id(s): {8952450}
+[2018-04-11 20:54:14] Started run 208 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:18] Error in run 201: Run already exists in server. Run id(s): {8952451}
+[2018-04-11 20:54:18] Started run 209 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:18] Error in run 202: Run already exists in server. Run id(s): {8952455}
+[2018-04-11 20:54:18] Started run 210 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:18] Error in run 203: Run already exists in server. Run id(s): {8952457}
+[2018-04-11 20:54:18] Error in run 204: Run already exists in server. Run id(s): {8952458}
+[2018-04-11 20:54:18] Started run 211 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:18] Error in run 206: Run already exists in server. Run id(s): {8952462}
+[2018-04-11 20:54:18] Error in run 207: Run already exists in server. Run id(s): {8952464}
+[2018-04-11 20:54:18] Error in run 205: Run already exists in server. Run id(s): {8952460}
+[2018-04-11 20:54:18] Started run 212 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:18] Started run 214 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:18] Started run 213 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:18] Started run 215 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:19] Error in run 208: Run already exists in server. Run id(s): {8952466}
+[2018-04-11 20:54:19] Started run 216 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:22] Error in run 209: Run already exists in server. Run id(s): {8952469}
+[2018-04-11 20:54:22] Started run 217 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:22] Error in run 210: Run already exists in server. Run id(s): {8952471}
+[2018-04-11 20:54:22] Started run 218 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:23] Error in run 211: Run already exists in server. Run id(s): {8952473}
+[2018-04-11 20:54:23] Started run 219 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:23] Error in run 215: Run already exists in server. Run id(s): {8952482}
+[2018-04-11 20:54:23] Started run 220 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:23] Error in run 214: Run already exists in server. Run id(s): {8952478}
+[2018-04-11 20:54:23] Error in run 213: Run already exists in server. Run id(s): {8952477}
+[2018-04-11 20:54:23] Started run 221 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:23] Error in run 212: Run already exists in server. Run id(s): {8952475}
+[2018-04-11 20:54:23] Started run 222 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:23] Started run 223 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:24] Error in run 216: Run already exists in server. Run id(s): {8952483}
+[2018-04-11 20:54:24] Started run 224 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:27] Error in run 217: Run already exists in server. Run id(s): {8952486}
+[2018-04-11 20:54:27] Error in run 218: Run already exists in server. Run id(s): {8952490}
+[2018-04-11 20:54:27] Started run 225 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:27] Started run 226 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:27] Error in run 219: Run already exists in server. Run id(s): {8952492}
+[2018-04-11 20:54:27] Started run 227 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:28] Error in run 223: Run already exists in server. Run id(s): {8952502}
+[2018-04-11 20:54:28] Error in run 220: Run already exists in server. Run id(s): {8952495}
+[2018-04-11 20:54:28] Started run 228 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:28] Error in run 221: Run already exists in server. Run id(s): {8952497}
+[2018-04-11 20:54:28] Error in run 222: Run already exists in server. Run id(s): {8952500}
+[2018-04-11 20:54:28] Started run 229 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:28] Started run 230 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:28] Started run 231 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:29] Error in run 224: Run already exists in server. Run id(s): {8952504}
+[2018-04-11 20:54:29] Started run 232 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:32] Error in run 226: Run already exists in server. Run id(s): {8952507}
+[2018-04-11 20:54:32] Error in run 225: Run already exists in server. Run id(s): {8952506}
+[2018-04-11 20:54:32] Started run 233 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:32] Started run 234 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:32] Error in run 227: Run already exists in server. Run id(s): {8952509}
+[2018-04-11 20:54:32] Started run 235 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:33] Error in run 228: Run already exists in server. Run id(s): {8952510}
+[2018-04-11 20:54:33] Error in run 231: Run already exists in server. Run id(s): {8952515}
+[2018-04-11 20:54:33] Started run 236 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:33] Error in run 229: Run already exists in server. Run id(s): {8952512}
+[2018-04-11 20:54:33] Error in run 230: Run already exists in server. Run id(s): {8952513}
+[2018-04-11 20:54:33] Started run 237 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:33] Started run 239 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:33] Started run 238 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:33] Error in run 232: Run already exists in server. Run id(s): {8952516}
+[2018-04-11 20:54:33] Started run 240 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:37] Error in run 234: Run already exists in server. Run id(s): {8952519}
+[2018-04-11 20:54:37] Error in run 235: Run already exists in server. Run id(s): {8952521}
+[2018-04-11 20:54:37] Error in run 233: Run already exists in server. Run id(s): {8952518}
+[2018-04-11 20:54:37] Started run 241 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:37] Started run 242 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:37] Started run 243 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:37] Error in run 237: Run already exists in server. Run id(s): {8952523}
+[2018-04-11 20:54:37] Error in run 236: Run already exists in server. Run id(s): {8952522}
+[2018-04-11 20:54:37] Started run 244 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:37] Error in run 239: Run already exists in server. Run id(s): {8952527}
+[2018-04-11 20:54:37] Started run 246 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:37] Error in run 238: Run already exists in server. Run id(s): {8952525}
+[2018-04-11 20:54:37] Started run 247 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:37] Started run 245 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:38] Error in run 240: Run already exists in server. Run id(s): {8952529}
+[2018-04-11 20:54:38] Started run 248 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:41] Error in run 241: Run already exists in server. Run id(s): {8952531}
+[2018-04-11 20:54:41] Started run 249 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:41] Error in run 243: Run already exists in server. Run id(s): {8952536}
+[2018-04-11 20:54:41] Started run 250 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:41] Error in run 242: Run already exists in server. Run id(s): {8952533}
+[2018-04-11 20:54:41] Started run 251 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:42] Error in run 244: Run already exists in server. Run id(s): {8952538}
+[2018-04-11 20:54:42] Started run 252 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:42] Error in run 246: Run already exists in server. Run id(s): {8952540}
+[2018-04-11 20:54:42] Started run 253 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:42] Error in run 247: Run already exists in server. Run id(s): {8952542}
+[2018-04-11 20:54:42] Error in run 245: Run already exists in server. Run id(s): {8952539}
+[2018-04-11 20:54:42] Started run 254 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:42] Started run 255 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:42] Error in run 248: Run already exists in server. Run id(s): {8952545}
+[2018-04-11 20:54:42] Started run 256 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:46] Error in run 249: Run already exists in server. Run id(s): {8952548}
+[2018-04-11 20:54:46] Started run 257 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:46] Error in run 251: Run already exists in server. Run id(s): {8952552}
+[2018-04-11 20:54:46] Error in run 250: Run already exists in server. Run id(s): {8952551}
+[2018-04-11 20:54:46] Started run 258 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:46] Started run 259 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:46] Error in run 252: Run already exists in server. Run id(s): {8952554}
+[2018-04-11 20:54:46] Started run 260 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:47] Error in run 254: Run already exists in server. Run id(s): {8952558}
+[2018-04-11 20:54:47] Error in run 256: Run already exists in server. Run id(s): {8952561}
+[2018-04-11 20:54:47] Error in run 255: Run already exists in server. Run id(s): {8952560}
+[2018-04-11 20:54:47] Error in run 253: Run already exists in server. Run id(s): {8952556}
+[2018-04-11 20:54:47] Started run 261 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:47] Started run 262 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:47] Started run 264 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:47] Started run 263 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:50] Error in run 257: Run already exists in server. Run id(s): {8952564}
+[2018-04-11 20:54:50] Started run 265 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:51] Error in run 259: Run already exists in server. Run id(s): {8952567}
+[2018-04-11 20:54:51] Started run 266 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:51] Error in run 258: Run already exists in server. Run id(s): {8952565}
+[2018-04-11 20:54:51] Error in run 260: Run already exists in server. Run id(s): {8952568}
+[2018-04-11 20:54:51] Started run 267 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:51] Started run 268 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:51] Error in run 261: Run already exists in server. Run id(s): {8952569}
+[2018-04-11 20:54:51] Error in run 263: Run already exists in server. Run id(s): {8952573}
+[2018-04-11 20:54:51] Started run 269 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:51] Error in run 262: Run already exists in server. Run id(s): {8952571}
+[2018-04-11 20:54:51] Error in run 264: Run already exists in server. Run id(s): {8952574}
+[2018-04-11 20:54:51] Started run 270 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:51] Started run 271 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:51] Started run 272 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:55] Error in run 265: Run already exists in server. Run id(s): {8952577}
+[2018-04-11 20:54:55] Started run 273 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:56] Error in run 266: Run already exists in server. Run id(s): {8952579}
+[2018-04-11 20:54:56] Error in run 268: Run already exists in server. Run id(s): {8952582}
+[2018-04-11 20:54:56] Started run 274 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:56] Error in run 267: Run already exists in server. Run id(s): {8952580}
+[2018-04-11 20:54:56] Started run 275 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:56] Started run 276 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:56] Error in run 272: Run already exists in server. Run id(s): {8952588}
+[2018-04-11 20:54:56] Error in run 270: Run already exists in server. Run id(s): {8952585}
+[2018-04-11 20:54:56] Error in run 271: Run already exists in server. Run id(s): {8952586}
+[2018-04-11 20:54:56] Error in run 269: Run already exists in server. Run id(s): {8952584}
+[2018-04-11 20:54:56] Started run 277 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:56] Started run 278 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:56] Started run 279 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:56] Started run 280 on task 125922, dataset 'texture'.
+[2018-04-11 20:54:59] Error in run 273: Run already exists in server. Run id(s): {8952590}
+[2018-04-11 20:54:59] Started run 281 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:00] Error in run 274: Run already exists in server. Run id(s): {8952594}
+[2018-04-11 20:55:00] Error in run 276: Run already exists in server. Run id(s): {8952597}
+[2018-04-11 20:55:00] Started run 282 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:00] Error in run 275: Run already exists in server. Run id(s): {8952596}
+[2018-04-11 20:55:00] Started run 284 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:00] Started run 283 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:01] Error in run 277: Run already exists in server. Run id(s): {8952600}
+[2018-04-11 20:55:01] Started run 285 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:01] Error in run 279: Run already exists in server. Run id(s): {8952602}
+[2018-04-11 20:55:01] Error in run 278: Run already exists in server. Run id(s): {8952601}
+[2018-04-11 20:55:01] Started run 286 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:01] Error in run 280: Run already exists in server. Run id(s): {8952604}
+[2018-04-11 20:55:01] Started run 288 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:01] Started run 287 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:04] Error in run 281: Run already exists in server. Run id(s): {8952606}
+[2018-04-11 20:55:04] Started run 289 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:05] Error in run 284: Run already exists in server. Run id(s): {8952611}
+[2018-04-11 20:55:05] Started run 290 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:05] Error in run 282: Run already exists in server. Run id(s): {8952608}
+[2018-04-11 20:55:05] Error in run 283: Run already exists in server. Run id(s): {8952609}
+[2018-04-11 20:55:05] Started run 291 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:05] Started run 292 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:05] Error in run 285: Run already exists in server. Run id(s): {8952612}
+[2018-04-11 20:55:05] Started run 293 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:06] Error in run 286: Run already exists in server. Run id(s): {8952615}
+[2018-04-11 20:55:06] Error in run 288: Run already exists in server. Run id(s): {8952618}
+[2018-04-11 20:55:06] Started run 294 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:06] Error in run 287: Run already exists in server. Run id(s): {8952616}
+[2018-04-11 20:55:06] Started run 295 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:06] Started run 296 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:09] Error in run 289: Run already exists in server. Run id(s): {8952619}
+[2018-04-11 20:55:09] Started run 297 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:10] Error in run 290: Run already exists in server. Run id(s): {8952621}
+[2018-04-11 20:55:10] Started run 298 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:10] Error in run 291: Run already exists in server. Run id(s): {8952622}
+[2018-04-11 20:55:10] Started run 299 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:10] Error in run 292: Run already exists in server. Run id(s): {8952624}
+[2018-04-11 20:55:10] Started run 300 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:10] Error in run 293: Run already exists in server. Run id(s): {8952626}
+[2018-04-11 20:55:10] Started run 301 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:10] Error in run 294: Run already exists in server. Run id(s): {8952629}
+[2018-04-11 20:55:10] Started run 302 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:10] Error in run 296: Run already exists in server. Run id(s): {8952632}
+[2018-04-11 20:55:10] Started run 303 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:10] Error in run 295: Run already exists in server. Run id(s): {8952631}
+[2018-04-11 20:55:10] Started run 304 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:14] Error in run 297: Run already exists in server. Run id(s): {8952634}
+[2018-04-11 20:55:14] Started run 305 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:14] Error in run 298: Run already exists in server. Run id(s): {8952636}
+[2018-04-11 20:55:14] Started run 306 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:14] Error in run 299: Run already exists in server. Run id(s): {8952638}
+[2018-04-11 20:55:14] Error in run 300: Run already exists in server. Run id(s): {8952639}
+[2018-04-11 20:55:14] Started run 307 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:14] Error in run 301: Run already exists in server. Run id(s): {8952640}
+[2018-04-11 20:55:14] Started run 308 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:14] Started run 309 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:15] Error in run 302: Run already exists in server. Run id(s): {8952642}
+[2018-04-11 20:55:15] Started run 310 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:15] Error in run 304: Run already exists in server. Run id(s): {8952646}
+[2018-04-11 20:55:15] Started run 311 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:15] Error in run 303: Run already exists in server. Run id(s): {8952643}
+[2018-04-11 20:55:15] Started run 312 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:18] Error in run 305: Run already exists in server. Run id(s): {8952648}
+[2018-04-11 20:55:18] Started run 313 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:19] Error in run 306: Run already exists in server. Run id(s): {8952650}
+[2018-04-11 20:55:19] Started run 314 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:19] Error in run 307: Run already exists in server. Run id(s): {8952651}
+[2018-04-11 20:55:19] Started run 315 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:19] Error in run 308: Run already exists in server. Run id(s): {8952652}
+[2018-04-11 20:55:19] Started run 316 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:19] Error in run 309: Run already exists in server. Run id(s): {8952654}
+[2018-04-11 20:55:19] Started run 317 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:19] Error in run 310: Run already exists in server. Run id(s): {8952656}
+[2018-04-11 20:55:19] Started run 318 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:20] Error in run 311: Run already exists in server. Run id(s): {8952658}
+[2018-04-11 20:55:20] Started run 319 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:20] Error in run 312: Run already exists in server. Run id(s): {8952660}
+[2018-04-11 20:55:20] Started run 320 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:23] Error in run 313: Run already exists in server. Run id(s): {8952662}
+[2018-04-11 20:55:23] Started run 321 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:23] Error in run 314: Run already exists in server. Run id(s): {8952664}
+[2018-04-11 20:55:23] Started run 322 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:23] Error in run 315: Run already exists in server. Run id(s): {8952667}
+[2018-04-11 20:55:23] Started run 323 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:24] Error in run 316: Run already exists in server. Run id(s): {8952668}
+[2018-04-11 20:55:24] Started run 324 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:24] Error in run 318: Run already exists in server. Run id(s): {8952671}
+[2018-04-11 20:55:24] Started run 325 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:24] Error in run 317: Run already exists in server. Run id(s): {8952669}
+[2018-04-11 20:55:24] Started run 326 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:24] Error in run 319: Run already exists in server. Run id(s): {8952673}
+[2018-04-11 20:55:24] Started run 327 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:25] Error in run 320: Run already exists in server. Run id(s): {8952675}
+[2018-04-11 20:55:25] Started run 328 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:27] Error in run 321: Run already exists in server. Run id(s): {8952676}
+[2018-04-11 20:55:27] Started run 329 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:28] Error in run 322: Run already exists in server. Run id(s): {8952677}
+[2018-04-11 20:55:28] Started run 330 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:28] Error in run 323: Run already exists in server. Run id(s): {8952679}
+[2018-04-11 20:55:28] Started run 331 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:28] Error in run 324: Run already exists in server. Run id(s): {8952680}
+[2018-04-11 20:55:28] Started run 332 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:29] Error in run 326: Run already exists in server. Run id(s): {8952685}
+[2018-04-11 20:55:29] Error in run 325: Run already exists in server. Run id(s): {8952682}
+[2018-04-11 20:55:29] Started run 333 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:29] Started run 334 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:29] Error in run 327: Run already exists in server. Run id(s): {8952687}
+[2018-04-11 20:55:29] Started run 335 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:29] Error in run 328: Run already exists in server. Run id(s): {8952689}
+[2018-04-11 20:55:29] Started run 336 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:32] Error in run 329: Run already exists in server. Run id(s): {8952692}
+[2018-04-11 20:55:32] Started run 337 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:32] Error in run 330: Run already exists in server. Run id(s): {8952694}
+[2018-04-11 20:55:32] Started run 338 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:33] Error in run 331: Run already exists in server. Run id(s): {8952696}
+[2018-04-11 20:55:33] Started run 339 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:33] Error in run 332: Run already exists in server. Run id(s): {8952697}
+[2018-04-11 20:55:33] Started run 340 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:33] Error in run 334: Run already exists in server. Run id(s): {8952700}
+[2018-04-11 20:55:33] Error in run 335: Run already exists in server. Run id(s): {8952704}
+[2018-04-11 20:55:33] Started run 341 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:33] Error in run 333: Run already exists in server. Run id(s): {8952699}
+[2018-04-11 20:55:33] Started run 342 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:33] Started run 343 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:34] Error in run 336: Run already exists in server. Run id(s): {8952706}
+[2018-04-11 20:55:34] Started run 344 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:37] Error in run 337: Run already exists in server. Run id(s): {8952708}
+[2018-04-11 20:55:37] Started run 345 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:37] Error in run 340: Run already exists in server. Run id(s): {8952714}
+[2018-04-11 20:55:37] Error in run 339: Run already exists in server. Run id(s): {8952713}
+[2018-04-11 20:55:37] Error in run 338: Run already exists in server. Run id(s): {8952710}
+[2018-04-11 20:55:37] Started run 346 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:37] Started run 347 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:37] Started run 348 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:38] Error in run 341: Run already exists in server. Run id(s): {8952716}
+[2018-04-11 20:55:38] Error in run 343: Run already exists in server. Run id(s): {8952719}
+[2018-04-11 20:55:38] Error in run 342: Run already exists in server. Run id(s): {8952718}
+[2018-04-11 20:55:38] Started run 349 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:38] Started run 351 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:38] Started run 350 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:39] Error in run 344: Run already exists in server. Run id(s): {8952722}
+[2018-04-11 20:55:39] Started run 352 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:41] Error in run 345: Run already exists in server. Run id(s): {8952723}
+[2018-04-11 20:55:41] Started run 353 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:42] Error in run 346: Run already exists in server. Run id(s): {8952724}
+[2018-04-11 20:55:42] Error in run 347: Run already exists in server. Run id(s): {8952726}
+[2018-04-11 20:55:42] Error in run 348: Run already exists in server. Run id(s): {8952727}
+[2018-04-11 20:55:42] Started run 354 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:42] Started run 356 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:42] Started run 355 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:43] Error in run 350: Run already exists in server. Run id(s): {8952732}
+[2018-04-11 20:55:43] Started run 357 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:43] Error in run 351: Run already exists in server. Run id(s): {8952734}
+[2018-04-11 20:55:43] Error in run 349: Run already exists in server. Run id(s): {8952730}
+[2018-04-11 20:55:43] Started run 358 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:43] Started run 359 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:44] Error in run 352: Run already exists in server. Run id(s): {8952735}
+[2018-04-11 20:55:44] Started run 360 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:46] Error in run 353: Run already exists in server. Run id(s): {8952739}
+[2018-04-11 20:55:46] Started run 361 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:47] Error in run 356: Run already exists in server. Run id(s): {8952745}
+[2018-04-11 20:55:47] Error in run 354: Run already exists in server. Run id(s): {8952742}
+[2018-04-11 20:55:47] Started run 362 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:47] Error in run 355: Run already exists in server. Run id(s): {8952743}
+[2018-04-11 20:55:47] Started run 363 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:47] Started run 364 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:47] Error in run 357: Run already exists in server. Run id(s): {8952747}
+[2018-04-11 20:55:47] Started run 365 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:48] Error in run 359: Run already exists in server. Run id(s): {8952750}
+[2018-04-11 20:55:48] Started run 366 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:48] Error in run 358: Run already exists in server. Run id(s): {8952749}
+[2018-04-11 20:55:48] Started run 367 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:48] Error in run 360: Run already exists in server. Run id(s): {8952751}
+[2018-04-11 20:55:48] Started run 368 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:51] Error in run 361: Run already exists in server. Run id(s): {8952753}
+[2018-04-11 20:55:51] Started run 369 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:51] Error in run 363: Run already exists in server. Run id(s): {8952756}
+[2018-04-11 20:55:51] Error in run 364: Run already exists in server. Run id(s): {8952760}
+[2018-04-11 20:55:51] Started run 370 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:51] Error in run 362: Run already exists in server. Run id(s): {8952755}
+[2018-04-11 20:55:51] Started run 371 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:51] Started run 372 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:52] Error in run 365: Run already exists in server. Run id(s): {8952762}
+[2018-04-11 20:55:52] Started run 373 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:52] Error in run 366: Run already exists in server. Run id(s): {8952763}
+[2018-04-11 20:55:52] Started run 374 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:52] Error in run 367: Run already exists in server. Run id(s): {8952765}
+[2018-04-11 20:55:52] Started run 375 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:53] Error in run 368: Run already exists in server. Run id(s): {8952766}
+[2018-04-11 20:55:53] Started run 376 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:55] Error in run 369: Run already exists in server. Run id(s): {8952770}
+[2018-04-11 20:55:55] Started run 377 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:56] Error in run 371: Run already exists in server. Run id(s): {8952775}
+[2018-04-11 20:55:56] Error in run 372: Run already exists in server. Run id(s): {8952776}
+[2018-04-11 20:55:56] Started run 378 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:56] Error in run 370: Run already exists in server. Run id(s): {8952772}
+[2018-04-11 20:55:56] Started run 379 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:56] Started run 380 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:56] Error in run 373: Run already exists in server. Run id(s): {8952778}
+[2018-04-11 20:55:56] Started run 381 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:57] Error in run 374: Run already exists in server. Run id(s): {8952779}
+[2018-04-11 20:55:57] Started run 382 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:57] Error in run 375: Run already exists in server. Run id(s): {8952781}
+[2018-04-11 20:55:57] Started run 383 on task 125922, dataset 'texture'.
+[2018-04-11 20:55:57] Error in run 376: Run already exists in server. Run id(s): {8952783}
+[2018-04-11 20:55:57] Started run 384 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:00] Error in run 377: Run already exists in server. Run id(s): {8952785}
+[2018-04-11 20:56:00] Started run 385 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:01] Error in run 379: Run already exists in server. Run id(s): {8952790}
+[2018-04-11 20:56:01] Started run 386 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:01] Error in run 380: Run already exists in server. Run id(s): {8952791}
+[2018-04-11 20:56:01] Started run 387 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:01] Error in run 381: Run already exists in server. Run id(s): {8952794}
+[2018-04-11 20:56:01] Started run 388 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:01] Error in run 378: Run already exists in server. Run id(s): {8952788}
+[2018-04-11 20:56:01] Started run 389 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:01] Error in run 382: Run already exists in server. Run id(s): {8952796}
+[2018-04-11 20:56:01] Started run 390 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:02] Error in run 384: Run already exists in server. Run id(s): {8952800}
+[2018-04-11 20:56:02] Started run 391 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:02] Error in run 383: Run already exists in server. Run id(s): {8952797}
+[2018-04-11 20:56:02] Started run 392 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:05] Error in run 385: Run already exists in server. Run id(s): {8952801}
+[2018-04-11 20:56:05] Started run 393 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:05] Error in run 386: Run already exists in server. Run id(s): {8952802}
+[2018-04-11 20:56:05] Started run 394 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:06] Error in run 389: Run already exists in server. Run id(s): {8952807}
+[2018-04-11 20:56:06] Error in run 387: Run already exists in server. Run id(s): {8952804}
+[2018-04-11 20:56:06] Error in run 388: Run already exists in server. Run id(s): {8952805}
+[2018-04-11 20:56:06] Started run 395 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:06] Started run 396 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:06] Started run 397 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:06] Error in run 390: Run already exists in server. Run id(s): {8952808}
+[2018-04-11 20:56:06] Started run 398 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:06] Error in run 392: Run already exists in server. Run id(s): {8952812}
+[2018-04-11 20:56:06] Error in run 391: Run already exists in server. Run id(s): {8952809}
+[2018-04-11 20:56:06] Started run 399 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:06] Started run 400 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:10] Error in run 393: Run already exists in server. Run id(s): {8952815}
+[2018-04-11 20:56:10] Started run 401 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:10] Error in run 394: Run already exists in server. Run id(s): {8952816}
+[2018-04-11 20:56:10] Started run 402 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:10] Error in run 395: Run already exists in server. Run id(s): {8952818}
+[2018-04-11 20:56:10] Started run 403 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:10] Error in run 397: Run already exists in server. Run id(s): {8952821}
+[2018-04-11 20:56:10] Error in run 396: Run already exists in server. Run id(s): {8952819}
+[2018-04-11 20:56:10] Started run 404 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:10] Error in run 398: Run already exists in server. Run id(s): {8952823}
+[2018-04-11 20:56:10] Started run 405 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:10] Started run 406 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:11] Error in run 399: Run already exists in server. Run id(s): {8952825}
+[2018-04-11 20:56:11] Error in run 400: Run already exists in server. Run id(s): {8952826}
+[2018-04-11 20:56:11] Started run 407 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:11] Started run 408 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:14] Error in run 401: Run already exists in server. Run id(s): {8952827}
+[2018-04-11 20:56:14] Error in run 402: Run already exists in server. Run id(s): {8952829}
+[2018-04-11 20:56:14] Started run 409 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:14] Started run 410 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:15] Error in run 403: Run already exists in server. Run id(s): {8952831}
+[2018-04-11 20:56:15] Started run 411 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:15] Error in run 404: Run already exists in server. Run id(s): {8952832}
+[2018-04-11 20:56:15] Started run 412 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:15] Error in run 405: Run already exists in server. Run id(s): {8952834}
+[2018-04-11 20:56:15] Started run 413 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:15] Error in run 406: Run already exists in server. Run id(s): {8952836}
+[2018-04-11 20:56:15] Started run 414 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:15] Error in run 407: Run already exists in server. Run id(s): {8952837}
+[2018-04-11 20:56:15] Started run 415 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:15] Error in run 408: Run already exists in server. Run id(s): {8952839}
+[2018-04-11 20:56:15] Started run 416 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:19] Error in run 409: Run already exists in server. Run id(s): {8952840}
+[2018-04-11 20:56:19] Error in run 410: Run already exists in server. Run id(s): {8952841}
+[2018-04-11 20:56:19] Started run 417 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:19] Started run 418 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:19] Error in run 411: Run already exists in server. Run id(s): {8952843}
+[2018-04-11 20:56:19] Started run 419 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:19] Error in run 412: Run already exists in server. Run id(s): {8952844}
+[2018-04-11 20:56:19] Started run 420 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:20] Error in run 413: Run already exists in server. Run id(s): {8952848}
+[2018-04-11 20:56:20] Started run 421 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:20] Error in run 414: Run already exists in server. Run id(s): {8952850}
+[2018-04-11 20:56:20] Started run 422 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:20] Error in run 415: Run already exists in server. Run id(s): {8952851}
+[2018-04-11 20:56:20] Started run 423 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:20] Error in run 416: Run already exists in server. Run id(s): {8952853}
+[2018-04-11 20:56:20] Started run 424 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:24] Error in run 417: Run already exists in server. Run id(s): {8952855}
+[2018-04-11 20:56:24] Started run 425 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:24] Error in run 419: Run already exists in server. Run id(s): {8952857}
+[2018-04-11 20:56:24] Error in run 418: Run already exists in server. Run id(s): {8952856}
+[2018-04-11 20:56:24] Started run 426 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:24] Started run 427 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:24] Error in run 420: Run already exists in server. Run id(s): {8952859}
+[2018-04-11 20:56:24] Started run 428 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:24] Error in run 421: Run already exists in server. Run id(s): {8952860}
+[2018-04-11 20:56:24] Started run 429 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:24] Error in run 422: Run already exists in server. Run id(s): {8952863}
+[2018-04-11 20:56:24] Started run 430 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:25] Error in run 423: Run already exists in server. Run id(s): {8952865}
+[2018-04-11 20:56:25] Error in run 424: Run already exists in server. Run id(s): {8952866}
+[2018-04-11 20:56:25] Started run 431 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:25] Started run 432 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:28] Error in run 425: Run already exists in server. Run id(s): {8952869}
+[2018-04-11 20:56:28] Started run 433 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:29] Error in run 426: Run already exists in server. Run id(s): {8952871}
+[2018-04-11 20:56:29] Started run 434 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:29] Error in run 427: Run already exists in server. Run id(s): {8952874}
+[2018-04-11 20:56:29] Error in run 428: Run already exists in server. Run id(s): {8952875}
+[2018-04-11 20:56:29] Started run 435 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:29] Started run 436 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:29] Error in run 429: Run already exists in server. Run id(s): {8952876}
+[2018-04-11 20:56:29] Started run 437 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:29] Error in run 430: Run already exists in server. Run id(s): {8952878}
+[2018-04-11 20:56:29] Started run 438 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:29] Error in run 432: Run already exists in server. Run id(s): {8952880}
+[2018-04-11 20:56:29] Started run 439 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:29] Error in run 431: Run already exists in server. Run id(s): {8952879}
+[2018-04-11 20:56:29] Started run 440 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:33] Error in run 433: Run already exists in server. Run id(s): {8952882}
+[2018-04-11 20:56:33] Started run 441 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:33] Error in run 434: Run already exists in server. Run id(s): {8952883}
+[2018-04-11 20:56:33] Started run 442 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:33] Error in run 437: Run already exists in server. Run id(s): {8952888}
+[2018-04-11 20:56:33] Error in run 436: Run already exists in server. Run id(s): {8952886}
+[2018-04-11 20:56:33] Started run 443 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:33] Error in run 435: Run already exists in server. Run id(s): {8952885}
+[2018-04-11 20:56:33] Started run 445 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:33] Error in run 438: Run already exists in server. Run id(s): {8952889}
+[2018-04-11 20:56:33] Started run 444 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:33] Started run 446 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:34] Error in run 439: Run already exists in server. Run id(s): {8952891}
+[2018-04-11 20:56:34] Error in run 440: Run already exists in server. Run id(s): {8952893}
+[2018-04-11 20:56:34] Started run 447 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:34] Started run 448 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:37] Error in run 441: Run already exists in server. Run id(s): {8952895}
+[2018-04-11 20:56:37] Started run 449 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:38] Error in run 442: Run already exists in server. Run id(s): {8952896}
+[2018-04-11 20:56:38] Started run 450 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:38] Error in run 446: Run already exists in server. Run id(s): {8952903}
+[2018-04-11 20:56:38] Started run 451 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:38] Error in run 444: Run already exists in server. Run id(s): {8952899}
+[2018-04-11 20:56:38] Error in run 445: Run already exists in server. Run id(s): {8952901}
+[2018-04-11 20:56:38] Error in run 443: Run already exists in server. Run id(s): {8952898}
+[2018-04-11 20:56:38] Started run 452 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:38] Started run 453 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:38] Started run 454 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:39] Error in run 447: Run already exists in server. Run id(s): {8952904}
+[2018-04-11 20:56:39] Started run 455 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:39] Error in run 448: Run already exists in server. Run id(s): {8952906}
+[2018-04-11 20:56:39] Started run 456 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:42] Error in run 449: Run already exists in server. Run id(s): {8952907}
+[2018-04-11 20:56:42] Started run 457 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:42] Error in run 450: Run already exists in server. Run id(s): {8952909}
+[2018-04-11 20:56:42] Started run 458 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:43] Error in run 451: Run already exists in server. Run id(s): {8952911}
+[2018-04-11 20:56:43] Started run 459 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:43] Error in run 452: Run already exists in server. Run id(s): {8952912}
+[2018-04-11 20:56:43] Error in run 454: Run already exists in server. Run id(s): {8952916}
+[2018-04-11 20:56:43] Error in run 453: Run already exists in server. Run id(s): {8952914}
+[2018-04-11 20:56:43] Started run 460 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:43] Started run 462 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:43] Started run 461 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:43] Error in run 455: Run already exists in server. Run id(s): {8952918}
+[2018-04-11 20:56:43] Started run 463 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:44] Error in run 456: Run already exists in server. Run id(s): {8952920}
+[2018-04-11 20:56:44] Started run 464 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:47] Error in run 458: Run already exists in server. Run id(s): {8952925}
+[2018-04-11 20:56:47] Error in run 457: Run already exists in server. Run id(s): {8952922}
+[2018-04-11 20:56:47] Started run 465 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:47] Started run 466 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:47] Error in run 460: Run already exists in server. Run id(s): {8952929}
+[2018-04-11 20:56:47] Error in run 459: Run already exists in server. Run id(s): {8952928}
+[2018-04-11 20:56:47] Error in run 461: Run already exists in server. Run id(s): {8952931}
+[2018-04-11 20:56:47] Started run 467 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:47] Error in run 462: Run already exists in server. Run id(s): {8952933}
+[2018-04-11 20:56:47] Started run 470 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:47] Started run 468 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:47] Started run 469 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:48] Error in run 463: Run already exists in server. Run id(s): {8952934}
+[2018-04-11 20:56:48] Started run 471 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:48] Error in run 464: Run already exists in server. Run id(s): {8952935}
+[2018-04-11 20:56:48] Started run 472 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:51] Error in run 465: Run already exists in server. Run id(s): {8952937}
+[2018-04-11 20:56:51] Started run 473 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:51] Error in run 466: Run already exists in server. Run id(s): {8952940}
+[2018-04-11 20:56:51] Started run 474 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:52] Error in run 467: Run already exists in server. Run id(s): {8952942}
+[2018-04-11 20:56:52] Started run 475 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:52] Error in run 471: Run already exists in server. Run id(s): {8952947}
+[2018-04-11 20:56:52] Started run 476 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:52] Error in run 470: Run already exists in server. Run id(s): {8952946}
+[2018-04-11 20:56:52] Error in run 468: Run already exists in server. Run id(s): {8952943}
+[2018-04-11 20:56:52] Started run 477 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:52] Error in run 469: Run already exists in server. Run id(s): {8952944}
+[2018-04-11 20:56:52] Started run 478 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:52] Started run 479 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:53] Error in run 472: Run already exists in server. Run id(s): {8952948}
+[2018-04-11 20:56:53] Started run 480 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:56] Error in run 473: Run already exists in server. Run id(s): {8952950}
+[2018-04-11 20:56:56] Started run 481 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:56] Error in run 474: Run already exists in server. Run id(s): {8952952}
+[2018-04-11 20:56:56] Started run 482 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:56] Error in run 475: Run already exists in server. Run id(s): {8952956}
+[2018-04-11 20:56:56] Started run 483 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:57] Error in run 476: Run already exists in server. Run id(s): {8952958}
+[2018-04-11 20:56:57] Started run 484 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:57] Error in run 477: Run already exists in server. Run id(s): {8952960}
+[2018-04-11 20:56:57] Started run 485 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:57] Error in run 479: Run already exists in server. Run id(s): {8952965}
+[2018-04-11 20:56:57] Error in run 478: Run already exists in server. Run id(s): {8952962}
+[2018-04-11 20:56:57] Started run 486 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:57] Started run 487 on task 125922, dataset 'texture'.
+[2018-04-11 20:56:58] Error in run 480: Run already exists in server. Run id(s): {8952967}
+[2018-04-11 20:56:58] Started run 488 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:00] Error in run 481: Run already exists in server. Run id(s): {8952968}
+[2018-04-11 20:57:00] Started run 489 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:01] Error in run 482: Run already exists in server. Run id(s): {8952971}
+[2018-04-11 20:57:01] Started run 490 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:01] Error in run 483: Run already exists in server. Run id(s): {8952973}
+[2018-04-11 20:57:01] Started run 491 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:01] Error in run 484: Run already exists in server. Run id(s): {8952975}
+[2018-04-11 20:57:01] Started run 492 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:01] Error in run 485: Run already exists in server. Run id(s): {8952977}
+[2018-04-11 20:57:01] Started run 493 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:02] Error in run 487: Run already exists in server. Run id(s): {8952980}
+[2018-04-11 20:57:02] Started run 494 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:02] Error in run 486: Run already exists in server. Run id(s): {8952979}
+[2018-04-11 20:57:02] Started run 495 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:02] Error in run 488: Run already exists in server. Run id(s): {8952983}
+[2018-04-11 20:57:02] Started run 496 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:05] Error in run 489: Run already exists in server. Run id(s): {8952984}
+[2018-04-11 20:57:05] Started run 497 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:06] Error in run 490: Run already exists in server. Run id(s): {8952987}
+[2018-04-11 20:57:06] Error in run 492: Run already exists in server. Run id(s): {8952990}
+[2018-04-11 20:57:06] Started run 498 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:06] Error in run 491: Run already exists in server. Run id(s): {8952989}
+[2018-04-11 20:57:06] Started run 499 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:06] Started run 500 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:06] Error in run 493: Run already exists in server. Run id(s): {8952993}
+[2018-04-11 20:57:06] Started run 501 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:06] Error in run 494: Run already exists in server. Run id(s): {8952995}
+[2018-04-11 20:57:06] Started run 502 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:06] Error in run 495: Run already exists in server. Run id(s): {8952998}
+[2018-04-11 20:57:06] Started run 503 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:07] Error in run 496: Run already exists in server. Run id(s): {8953000}
+[2018-04-11 20:57:07] Started run 504 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:10] Error in run 497: Run already exists in server. Run id(s): {8953001}
+[2018-04-11 20:57:10] Started run 505 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:10] Error in run 499: Run already exists in server. Run id(s): {8953005}
+[2018-04-11 20:57:10] Started run 506 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:10] Error in run 498: Run already exists in server. Run id(s): {8953004}
+[2018-04-11 20:57:10] Started run 507 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:10] Error in run 500: Run already exists in server. Run id(s): {8953008}
+[2018-04-11 20:57:10] Started run 508 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:10] Error in run 501: Run already exists in server. Run id(s): {8953010}
+[2018-04-11 20:57:10] Started run 509 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:11] Error in run 502: Run already exists in server. Run id(s): {8953012}
+[2018-04-11 20:57:11] Started run 510 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:11] Error in run 503: Run already exists in server. Run id(s): {8953013}
+[2018-04-11 20:57:11] Started run 511 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:11] Error in run 504: Run already exists in server. Run id(s): {8953016}
+[2018-04-11 20:57:11] Started run 512 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:14] Error in run 505: Run already exists in server. Run id(s): {8953018}
+[2018-04-11 20:57:14] Started run 513 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:15] Error in run 506: Run already exists in server. Run id(s): {8953020}
+[2018-04-11 20:57:15] Started run 514 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:15] Error in run 507: Run already exists in server. Run id(s): {8953022}
+[2018-04-11 20:57:15] Started run 515 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:15] Error in run 510: Run already exists in server. Run id(s): {8953028}
+[2018-04-11 20:57:15] Started run 516 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:15] Error in run 508: Run already exists in server. Run id(s): {8953023}
+[2018-04-11 20:57:15] Error in run 509: Run already exists in server. Run id(s): {8953025}
+[2018-04-11 20:57:15] Started run 517 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:15] Started run 518 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:15] Error in run 511: Run already exists in server. Run id(s): {8953030}
+[2018-04-11 20:57:15] Started run 519 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:16] Error in run 512: Run already exists in server. Run id(s): {8953032}
+[2018-04-11 20:57:16] Started run 520 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:19] Error in run 513: Run already exists in server. Run id(s): {8953034}
+[2018-04-11 20:57:19] Started run 521 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:19] Error in run 514: Run already exists in server. Run id(s): {8953035}
+[2018-04-11 20:57:19] Started run 522 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:19] Error in run 515: Run already exists in server. Run id(s): {8953038}
+[2018-04-11 20:57:19] Started run 523 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:20] Error in run 518: Run already exists in server. Run id(s): {8953043}
+[2018-04-11 20:57:20] Started run 524 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:20] Error in run 517: Run already exists in server. Run id(s): {8953042}
+[2018-04-11 20:57:20] Error in run 516: Run already exists in server. Run id(s): {8953039}
+[2018-04-11 20:57:20] Started run 525 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:20] Started run 526 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:20] Error in run 519: Run already exists in server. Run id(s): {8953045}
+[2018-04-11 20:57:20] Started run 527 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:21] Error in run 520: Run already exists in server. Run id(s): {8953049}
+[2018-04-11 20:57:21] Started run 528 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:23] Error in run 521: Run already exists in server. Run id(s): {8953051}
+[2018-04-11 20:57:23] Started run 529 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:24] Error in run 522: Run already exists in server. Run id(s): {8953054}
+[2018-04-11 20:57:24] Started run 530 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:24] Error in run 523: Run already exists in server. Run id(s): {8953056}
+[2018-04-11 20:57:24] Started run 531 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:24] Error in run 524: Run already exists in server. Run id(s): {8953058}
+[2018-04-11 20:57:24] Started run 532 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:24] Error in run 526: Run already exists in server. Run id(s): {8953061}
+[2018-04-11 20:57:24] Started run 533 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:25] Error in run 525: Run already exists in server. Run id(s): {8953059}
+[2018-04-11 20:57:25] Error in run 527: Run already exists in server. Run id(s): {8953062}
+[2018-04-11 20:57:25] Started run 534 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:25] Started run 535 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:25] Error in run 528: Run already exists in server. Run id(s): {8953063}
+[2018-04-11 20:57:25] Started run 536 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:28] Error in run 529: Run already exists in server. Run id(s): {8953066}
+[2018-04-11 20:57:28] Started run 537 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:29] Error in run 530: Run already exists in server. Run id(s): {8953068}
+[2018-04-11 20:57:29] Error in run 531: Run already exists in server. Run id(s): {8953070}
+[2018-04-11 20:57:29] Started run 538 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:29] Started run 539 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:29] Error in run 532: Run already exists in server. Run id(s): {8953073}
+[2018-04-11 20:57:29] Started run 540 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:29] Error in run 533: Run already exists in server. Run id(s): {8953074}
+[2018-04-11 20:57:29] Started run 541 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:29] Error in run 535: Run already exists in server. Run id(s): {8953078}
+[2018-04-11 20:57:29] Started run 542 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:29] Error in run 534: Run already exists in server. Run id(s): {8953076}
+[2018-04-11 20:57:29] Started run 543 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:30] Error in run 536: Run already exists in server. Run id(s): {8953080}
+[2018-04-11 20:57:30] Started run 544 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:32] Error in run 537: Run already exists in server. Run id(s): {8953083}
+[2018-04-11 20:57:32] Started run 545 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:33] Error in run 540: Run already exists in server. Run id(s): {8953088}
+[2018-04-11 20:57:33] Error in run 539: Run already exists in server. Run id(s): {8953086}
+[2018-04-11 20:57:33] Started run 546 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:33] Error in run 538: Run already exists in server. Run id(s): {8953084}
+[2018-04-11 20:57:33] Started run 548 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:33] Started run 547 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:33] Error in run 541: Run already exists in server. Run id(s): {8953091}
+[2018-04-11 20:57:33] Started run 549 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:34] Error in run 542: Run already exists in server. Run id(s): {8953092}
+[2018-04-11 20:57:34] Started run 550 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:34] Error in run 543: Run already exists in server. Run id(s): {8953096}
+[2018-04-11 20:57:34] Started run 551 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:34] Error in run 544: Run already exists in server. Run id(s): {8953099}
+[2018-04-11 20:57:34] Started run 552 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:37] Error in run 545: Run already exists in server. Run id(s): {8953100}
+[2018-04-11 20:57:37] Started run 553 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:38] Error in run 548: Run already exists in server. Run id(s): {8953105}
+[2018-04-11 20:57:38] Error in run 547: Run already exists in server. Run id(s): {8953104}
+[2018-04-11 20:57:38] Error in run 549: Run already exists in server. Run id(s): {8953108}
+[2018-04-11 20:57:38] Started run 554 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:38] Error in run 546: Run already exists in server. Run id(s): {8953102}
+[2018-04-11 20:57:38] Started run 555 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:38] Started run 557 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:38] Started run 556 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:38] Error in run 550: Run already exists in server. Run id(s): {8953111}
+[2018-04-11 20:57:38] Started run 558 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:39] Error in run 551: Run already exists in server. Run id(s): {8953112}
+[2018-04-11 20:57:39] Started run 559 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:39] Error in run 552: Run already exists in server. Run id(s): {8953116}
+[2018-04-11 20:57:39] Started run 560 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:42] Error in run 553: Run already exists in server. Run id(s): {8953117}
+[2018-04-11 20:57:42] Started run 561 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:43] Error in run 555: Run already exists in server. Run id(s): {8953121}
+[2018-04-11 20:57:43] Error in run 557: Run already exists in server. Run id(s): {8953125}
+[2018-04-11 20:57:43] Error in run 558: Run already exists in server. Run id(s): {8953126}
+[2018-04-11 20:57:43] Started run 562 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:43] Error in run 556: Run already exists in server. Run id(s): {8953123}
+[2018-04-11 20:57:43] Error in run 554: Run already exists in server. Run id(s): {8953120}
+[2018-04-11 20:57:43] Started run 564 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:43] Started run 565 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:43] Started run 566 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:43] Started run 563 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:44] Error in run 559: Run already exists in server. Run id(s): {8953128}
+[2018-04-11 20:57:44] Error in run 560: Run already exists in server. Run id(s): {8953130}
+[2018-04-11 20:57:44] Started run 567 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:44] Started run 568 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:47] Error in run 561: Run already exists in server. Run id(s): {8953132}
+[2018-04-11 20:57:47] Started run 569 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:47] Error in run 564: Run already exists in server. Run id(s): {8953138, 9019084}
+[2018-04-11 20:57:47] Started run 570 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:47] Error in run 562: Run already exists in server. Run id(s): {8953135}
+[2018-04-11 20:57:47] Error in run 563: Run already exists in server. Run id(s): {8953137}
+[2018-04-11 20:57:47] Error in run 566: Run already exists in server. Run id(s): {8953142}
+[2018-04-11 20:57:47] Error in run 565: Run already exists in server. Run id(s): {8953139}
+[2018-04-11 20:57:47] Started run 571 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:47] Started run 574 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:47] Started run 572 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:47] Started run 573 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:48] Error in run 567: Run already exists in server. Run id(s): {8953143}
+[2018-04-11 20:57:48] Error in run 568: Run already exists in server. Run id(s): {8953144}
+[2018-04-11 20:57:48] Started run 575 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:48] Started run 576 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:51] Error in run 569: Run already exists in server. Run id(s): {8953147}
+[2018-04-11 20:57:51] Started run 577 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:52] Error in run 570: Run already exists in server. Run id(s): {8953149}
+[2018-04-11 20:57:52] Started run 578 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:52] Error in run 571: Run already exists in server. Run id(s): {8953152}
+[2018-04-11 20:57:52] Error in run 573: Run already exists in server. Run id(s): {8953158}
+[2018-04-11 20:57:52] Error in run 572: Run already exists in server. Run id(s): {8953156}
+[2018-04-11 20:57:52] Started run 580 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:52] Error in run 574: Run already exists in server. Run id(s): {8953159}
+[2018-04-11 20:57:52] Started run 581 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:52] Started run 582 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:52] Started run 579 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:53] Error in run 576: Run already exists in server. Run id(s): {8953165}
+[2018-04-11 20:57:53] Error in run 575: Run already exists in server. Run id(s): {8953161}
+[2018-04-11 20:57:53] Started run 583 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:53] Started run 584 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:56] Error in run 577: Run already exists in server. Run id(s): {8953168}
+[2018-04-11 20:57:56] Started run 585 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:56] Error in run 578: Run already exists in server. Run id(s): {8953170}
+[2018-04-11 20:57:56] Started run 586 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:57] Error in run 581: Run already exists in server. Run id(s): {8953176}
+[2018-04-11 20:57:57] Started run 587 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:57] Error in run 579: Run already exists in server. Run id(s): {8953172}
+[2018-04-11 20:57:57] Error in run 582: Run already exists in server. Run id(s): {8953178}
+[2018-04-11 20:57:57] Error in run 580: Run already exists in server. Run id(s): {8953175}
+[2018-04-11 20:57:57] Started run 588 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:57] Started run 589 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:57] Started run 590 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:58] Error in run 583: Run already exists in server. Run id(s): {8953179}
+[2018-04-11 20:57:58] Started run 591 on task 125922, dataset 'texture'.
+[2018-04-11 20:57:58] Error in run 584: Run already exists in server. Run id(s): {8953183}
+[2018-04-11 20:57:58] Started run 592 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:01] Error in run 585: Run already exists in server. Run id(s): {8953185}
+[2018-04-11 20:58:01] Started run 593 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:01] Error in run 586: Run already exists in server. Run id(s): {8953188}
+[2018-04-11 20:58:01] Started run 594 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:02] Error in run 587: Run already exists in server. Run id(s): {8953190}
+[2018-04-11 20:58:02] Error in run 588: Run already exists in server. Run id(s): {8953193}
+[2018-04-11 20:58:02] Error in run 590: Run already exists in server. Run id(s): {8953199}
+[2018-04-11 20:58:02] Started run 595 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:02] Error in run 589: Run already exists in server. Run id(s): {8953197}
+[2018-04-11 20:58:02] Started run 596 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:02] Started run 597 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:02] Started run 598 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:02] Error in run 591: Run already exists in server. Run id(s): {8953201}
+[2018-04-11 20:58:02] Started run 599 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:03] Error in run 592: Run already exists in server. Run id(s): {8953204}
+[2018-04-11 20:58:03] Started run 600 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:05] Error in run 593: Run already exists in server. Run id(s): {8953207}
+[2018-04-11 20:58:05] Started run 601 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:06] Error in run 594: Run already exists in server. Run id(s): {8953211}
+[2018-04-11 20:58:06] Started run 602 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:06] Error in run 598: Run already exists in server. Run id(s): {8953218}
+[2018-04-11 20:58:06] Error in run 596: Run already exists in server. Run id(s): {8953214}
+[2018-04-11 20:58:06] Started run 603 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:06] Error in run 597: Run already exists in server. Run id(s): {8953215}
+[2018-04-11 20:58:06] Error in run 595: Run already exists in server. Run id(s): {8953212}
+[2018-04-11 20:58:06] Started run 605 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:06] Started run 606 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:06] Started run 604 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:07] Error in run 599: Run already exists in server. Run id(s): {8953219}
+[2018-04-11 20:58:07] Started run 607 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:07] Error in run 600: Run already exists in server. Run id(s): {8953221}
+[2018-04-11 20:58:07] Started run 608 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:10] Error in run 601: Run already exists in server. Run id(s): {8953223}
+[2018-04-11 20:58:10] Started run 609 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:10] Error in run 602: Run already exists in server. Run id(s): {8953226}
+[2018-04-11 20:58:10] Started run 610 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:11] Error in run 603: Run already exists in server. Run id(s): {8953228}
+[2018-04-11 20:58:11] Started run 611 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:11] Error in run 605: Run already exists in server. Run id(s): {8953231}
+[2018-04-11 20:58:11] Started run 612 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:11] Error in run 607: Run already exists in server. Run id(s): {8953236}
+[2018-04-11 20:58:11] Started run 613 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:11] Error in run 606: Run already exists in server. Run id(s): {8953235}
+[2018-04-11 20:58:11] Error in run 604: Run already exists in server. Run id(s): {8953229}
+[2018-04-11 20:58:11] Started run 614 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:11] Started run 615 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:12] Error in run 608: Run already exists in server. Run id(s): {8953237}
+[2018-04-11 20:58:12] Started run 616 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:14] Error in run 609: Run already exists in server. Run id(s): {8953239}
+[2018-04-11 20:58:14] Started run 617 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:15] Error in run 610: Run already exists in server. Run id(s): {8953242}
+[2018-04-11 20:58:15] Started run 618 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:15] Error in run 611: Run already exists in server. Run id(s): {8953243}
+[2018-04-11 20:58:15] Started run 619 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:16] Error in run 612: Run already exists in server. Run id(s): {8953244}
+[2018-04-11 20:58:16] Started run 620 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:16] Error in run 614: Run already exists in server. Run id(s): {8953247}
+[2018-04-11 20:58:16] Error in run 613: Run already exists in server. Run id(s): {8953246}
+[2018-04-11 20:58:16] Error in run 615: Run already exists in server. Run id(s): {8953249}
+[2018-04-11 20:58:16] Started run 621 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:16] Started run 622 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:16] Started run 623 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:17] Error in run 616: Run already exists in server. Run id(s): {8953250}
+[2018-04-11 20:58:17] Started run 624 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:19] Error in run 617: Run already exists in server. Run id(s): {8953252}
+[2018-04-11 20:58:19] Started run 625 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:20] Error in run 618: Run already exists in server. Run id(s): {8953253}
+[2018-04-11 20:58:20] Started run 626 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:20] Error in run 619: Run already exists in server. Run id(s): {8953254}
+[2018-04-11 20:58:20] Error in run 620: Run already exists in server. Run id(s): {8953257}
+[2018-04-11 20:58:20] Started run 627 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:20] Started run 628 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:20] Error in run 621: Run already exists in server. Run id(s): {8953258}
+[2018-04-11 20:58:20] Started run 629 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:21] Error in run 622: Run already exists in server. Run id(s): {8953259}
+[2018-04-11 20:58:21] Error in run 623: Run already exists in server. Run id(s): {8953261}
+[2018-04-11 20:58:21] Started run 630 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:21] Started run 631 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:21] Error in run 624: Run already exists in server. Run id(s): {8953262}
+[2018-04-11 20:58:21] Started run 632 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:24] Error in run 625: Run already exists in server. Run id(s): {8953263}
+[2018-04-11 20:58:24] Started run 633 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:24] Error in run 626: Run already exists in server. Run id(s): {8953265}
+[2018-04-11 20:58:24] Started run 634 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:25] Error in run 628: Run already exists in server. Run id(s): {8953268}
+[2018-04-11 20:58:25] Error in run 627: Run already exists in server. Run id(s): {8953266}
+[2018-04-11 20:58:25] Started run 635 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:25] Started run 636 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:25] Error in run 629: Run already exists in server. Run id(s): {8953271}
+[2018-04-11 20:58:25] Started run 637 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:25] Error in run 631: Run already exists in server. Run id(s): {8953274}
+[2018-04-11 20:58:25] Error in run 630: Run already exists in server. Run id(s): {8953272}
+[2018-04-11 20:58:25] Started run 638 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:25] Started run 639 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:26] Error in run 632: Run already exists in server. Run id(s): {8953275}
+[2018-04-11 20:58:26] Started run 640 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:29] Error in run 633: Run already exists in server. Run id(s): {8953278}
+[2018-04-11 20:58:29] Started run 641 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:29] Error in run 634: Run already exists in server. Run id(s): {8953281}
+[2018-04-11 20:58:29] Started run 642 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:29] Error in run 636: Run already exists in server. Run id(s): {8953286}
+[2018-04-11 20:58:29] Error in run 635: Run already exists in server. Run id(s): {8953285}
+[2018-04-11 20:58:29] Started run 643 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:29] Started run 644 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:29] Error in run 637: Run already exists in server. Run id(s): {8953287}
+[2018-04-11 20:58:29] Started run 645 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:30] Error in run 638: Run already exists in server. Run id(s): {8953289}
+[2018-04-11 20:58:30] Error in run 639: Run already exists in server. Run id(s): {8953290}
+[2018-04-11 20:58:30] Started run 646 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:30] Started run 647 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:31] Error in run 640: Run already exists in server. Run id(s): {8953293}
+[2018-04-11 20:58:31] Started run 648 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:33] Error in run 641: Run already exists in server. Run id(s): {8953294}
+[2018-04-11 20:58:33] Error in run 642: Run already exists in server. Run id(s): {8953296}
+[2018-04-11 20:58:33] Started run 649 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:33] Started run 650 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:34] Error in run 643: Run already exists in server. Run id(s): {8953299}
+[2018-04-11 20:58:34] Error in run 644: Run already exists in server. Run id(s): {8953301}
+[2018-04-11 20:58:34] Started run 651 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:34] Error in run 645: Run already exists in server. Run id(s): {8953302}
+[2018-04-11 20:58:34] Started run 653 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:34] Started run 652 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:35] Error in run 646: Run already exists in server. Run id(s): {8953304}
+[2018-04-11 20:58:35] Error in run 647: Run already exists in server. Run id(s): {8953306}
+[2018-04-11 20:58:35] Started run 654 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:35] Started run 655 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:36] Error in run 648: Run already exists in server. Run id(s): {8953307}
+[2018-04-11 20:58:36] Started run 656 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:38] Error in run 649: Run already exists in server. Run id(s): {8953309}
+[2018-04-11 20:58:38] Started run 657 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:38] Error in run 650: Run already exists in server. Run id(s): {8953310}
+[2018-04-11 20:58:38] Started run 658 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:39] Error in run 653: Run already exists in server. Run id(s): {8953315}
+[2018-04-11 20:58:39] Started run 659 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:39] Error in run 652: Run already exists in server. Run id(s): {8953313}
+[2018-04-11 20:58:39] Error in run 651: Run already exists in server. Run id(s): {8953312}
+[2018-04-11 20:58:39] Started run 660 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:39] Started run 661 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:40] Error in run 654: Run already exists in server. Run id(s): {8953317}
+[2018-04-11 20:58:40] Error in run 655: Run already exists in server. Run id(s): {8953319}
+[2018-04-11 20:58:40] Started run 662 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:40] Started run 663 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:40] Error in run 656: Run already exists in server. Run id(s): {8953320}
+[2018-04-11 20:58:40] Started run 664 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:43] Error in run 657: Run already exists in server. Run id(s): {8953322}
+[2018-04-11 20:58:43] Error in run 658: Run already exists in server. Run id(s): {8953324}
+[2018-04-11 20:58:43] Started run 665 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:43] Started run 666 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:44] Error in run 660: Run already exists in server. Run id(s): {8953328}
+[2018-04-11 20:58:44] Error in run 661: Run already exists in server. Run id(s): {8953329}
+[2018-04-11 20:58:44] Error in run 659: Run already exists in server. Run id(s): {8953326}
+[2018-04-11 20:58:44] Started run 667 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:44] Started run 668 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:44] Started run 669 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:44] Error in run 662: Run already exists in server. Run id(s): {8953331}
+[2018-04-11 20:58:44] Error in run 663: Run already exists in server. Run id(s): {8953333}
+[2018-04-11 20:58:44] Started run 670 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:44] Started run 671 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:45] Error in run 664: Run already exists in server. Run id(s): {8953337}
+[2018-04-11 20:58:45] Started run 672 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:47] Error in run 665: Run already exists in server. Run id(s): {8953339}
+[2018-04-11 20:58:47] Error in run 666: Run already exists in server. Run id(s): {8953342}
+[2018-04-11 20:58:47] Started run 673 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:47] Started run 674 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:48] Error in run 667: Run already exists in server. Run id(s): {8953344}
+[2018-04-11 20:58:48] Started run 675 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:48] Error in run 669: Run already exists in server. Run id(s): {8953350}
+[2018-04-11 20:58:48] Error in run 668: Run already exists in server. Run id(s): {8953347}
+[2018-04-11 20:58:48] Started run 676 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:48] Started run 677 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:49] Error in run 671: Run already exists in server. Run id(s): {8953357}
+[2018-04-11 20:58:49] Error in run 670: Run already exists in server. Run id(s): {8953354}
+[2018-04-11 20:58:49] Started run 678 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:49] Started run 679 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:50] Error in run 672: Run already exists in server. Run id(s): {8953359}
+[2018-04-11 20:58:50] Started run 680 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:52] Error in run 673: Run already exists in server. Run id(s): {8953363}
+[2018-04-11 20:58:52] Started run 681 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:52] Error in run 674: Run already exists in server. Run id(s): {8953365}
+[2018-04-11 20:58:52] Started run 682 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:53] Error in run 675: Run already exists in server. Run id(s): {8953368}
+[2018-04-11 20:58:53] Started run 683 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:53] Error in run 676: Run already exists in server. Run id(s): {8953369}
+[2018-04-11 20:58:53] Error in run 677: Run already exists in server. Run id(s): {8953370}
+[2018-04-11 20:58:53] Started run 684 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:53] Started run 685 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:54] Error in run 678: Run already exists in server. Run id(s): {8953372}
+[2018-04-11 20:58:54] Error in run 679: Run already exists in server. Run id(s): {8953374}
+[2018-04-11 20:58:54] Started run 686 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:54] Started run 687 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:55] Error in run 680: Run already exists in server. Run id(s): {8953375}
+[2018-04-11 20:58:55] Started run 688 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:56] Error in run 681: Run already exists in server. Run id(s): {8953379}
+[2018-04-11 20:58:56] Started run 689 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:57] Error in run 682: Run already exists in server. Run id(s): {8953382}
+[2018-04-11 20:58:57] Started run 690 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:57] Error in run 683: Run already exists in server. Run id(s): {8953384}
+[2018-04-11 20:58:57] Started run 691 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:58] Error in run 684: Run already exists in server. Run id(s): {8953386}
+[2018-04-11 20:58:58] Error in run 685: Run already exists in server. Run id(s): {8953390}
+[2018-04-11 20:58:58] Started run 692 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:58] Started run 693 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:59] Error in run 686: Run already exists in server. Run id(s): {8953393}
+[2018-04-11 20:58:59] Error in run 687: Run already exists in server. Run id(s): {8953397}
+[2018-04-11 20:58:59] Started run 694 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:59] Started run 695 on task 125922, dataset 'texture'.
+[2018-04-11 20:58:59] Error in run 688: Run already exists in server. Run id(s): {8953399}
+[2018-04-11 20:58:59] Started run 696 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:01] Error in run 689: Run already exists in server. Run id(s): {8953400}
+[2018-04-11 20:59:01] Started run 697 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:02] Error in run 690: Run already exists in server. Run id(s): {8953402}
+[2018-04-11 20:59:02] Error in run 691: Run already exists in server. Run id(s): {8953403}
+[2018-04-11 20:59:02] Started run 698 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:02] Started run 699 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:02] Error in run 693: Run already exists in server. Run id(s): {8953406}
+[2018-04-11 20:59:03] Error in run 692: Run already exists in server. Run id(s): {8953405}
+[2018-04-11 20:59:02] Started run 700 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:03] Started run 701 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:03] Error in run 695: Run already exists in server. Run id(s): {8953410}
+[2018-04-11 20:59:03] Started run 702 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:03] Error in run 694: Run already exists in server. Run id(s): {8953408}
+[2018-04-11 20:59:03] Started run 703 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:04] Error in run 696: Run already exists in server. Run id(s): {8953412}
+[2018-04-11 20:59:04] Started run 704 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:06] Error in run 697: Run already exists in server. Run id(s): {8953414}
+[2018-04-11 20:59:06] Started run 705 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:06] Error in run 699: Run already exists in server. Run id(s): {8953417}
+[2018-04-11 20:59:06] Error in run 698: Run already exists in server. Run id(s): {8953416}
+[2018-04-11 20:59:06] Started run 706 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:06] Started run 707 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:07] Error in run 701: Run already exists in server. Run id(s): {8953422}
+[2018-04-11 20:59:07] Started run 708 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:07] Error in run 700: Run already exists in server. Run id(s): {8953419}
+[2018-04-11 20:59:07] Started run 709 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:08] Error in run 702: Run already exists in server. Run id(s): {8953424}
+[2018-04-11 20:59:08] Started run 710 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:08] Error in run 703: Run already exists in server. Run id(s): {8953426}
+[2018-04-11 20:59:08] Started run 711 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:09] Error in run 704: Run already exists in server. Run id(s): {8953429}
+[2018-04-11 20:59:09] Started run 712 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:10] Error in run 705: Run already exists in server. Run id(s): {8953432}
+[2018-04-11 20:59:10] Started run 713 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:11] Error in run 706: Run already exists in server. Run id(s): {8953433}
+[2018-04-11 20:59:11] Started run 714 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:11] Error in run 707: Run already exists in server. Run id(s): {8953436}
+[2018-04-11 20:59:11] Started run 715 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:12] Error in run 709: Run already exists in server. Run id(s): {8953440}
+[2018-04-11 20:59:12] Started run 716 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:12] Error in run 708: Run already exists in server. Run id(s): {8953437}
+[2018-04-11 20:59:12] Started run 717 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:12] Error in run 710: Run already exists in server. Run id(s): {8953441}
+[2018-04-11 20:59:12] Started run 718 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:13] Error in run 711: Run already exists in server. Run id(s): {8953443}
+[2018-04-11 20:59:13] Started run 719 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:13] Error in run 712: Run already exists in server. Run id(s): {8953444}
+[2018-04-11 20:59:13] Started run 720 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:15] Error in run 713: Run already exists in server. Run id(s): {8953445}
+[2018-04-11 20:59:15] Started run 721 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:16] Error in run 714: Run already exists in server. Run id(s): {8953447}
+[2018-04-11 20:59:16] Started run 722 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:16] Error in run 715: Run already exists in server. Run id(s): {8953449}
+[2018-04-11 20:59:16] Started run 723 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:17] Error in run 716: Run already exists in server. Run id(s): {8953450}
+[2018-04-11 20:59:17] Started run 724 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:17] Error in run 717: Run already exists in server. Run id(s): {8953451}
+[2018-04-11 20:59:17] Started run 725 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:17] Error in run 718: Run already exists in server. Run id(s): {9019522, 8953455}
+[2018-04-11 20:59:17] Started run 726 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:18] Error in run 719: Run already exists in server. Run id(s): {8953457}
+[2018-04-11 20:59:18] Started run 727 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:18] Error in run 720: Run already exists in server. Run id(s): {8953462}
+[2018-04-11 20:59:18] Started run 728 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:20] Error in run 721: Run already exists in server. Run id(s): {8953464}
+[2018-04-11 20:59:20] Started run 729 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:20] Error in run 722: Run already exists in server. Run id(s): {8953466}
+[2018-04-11 20:59:20] Started run 730 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:21] Error in run 723: Run already exists in server. Run id(s): {8953469}
+[2018-04-11 20:59:21] Started run 731 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:21] Error in run 726: Run already exists in server. Run id(s): {8953477}
+[2018-04-11 20:59:21] Started run 732 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:21] Error in run 724: Run already exists in server. Run id(s): {8953470}
+[2018-04-11 20:59:21] Error in run 725: Run already exists in server. Run id(s): {8953472}
+[2018-04-11 20:59:21] Started run 733 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:21] Started run 734 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:22] Error in run 727: Run already exists in server. Run id(s): {8953478}
+[2018-04-11 20:59:22] Started run 735 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:22] Error in run 728: Run already exists in server. Run id(s): {8953479}
+[2018-04-11 20:59:22] Started run 736 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:25] Error in run 729: Run already exists in server. Run id(s): {8953482}
+[2018-04-11 20:59:25] Started run 737 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:25] Error in run 730: Run already exists in server. Run id(s): {8953483}
+[2018-04-11 20:59:25] Started run 738 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:25] Error in run 731: Run already exists in server. Run id(s): {8953486}
+[2018-04-11 20:59:25] Started run 739 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:26] Error in run 733: Run already exists in server. Run id(s): {8953489}
+[2018-04-11 20:59:26] Started run 740 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:26] Error in run 732: Run already exists in server. Run id(s): {8953488}
+[2018-04-11 20:59:26] Started run 741 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:26] Error in run 734: Run already exists in server. Run id(s): {8953492}
+[2018-04-11 20:59:26] Started run 742 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:27] Error in run 735: Run already exists in server. Run id(s): {8953496}
+[2018-04-11 20:59:27] Error in run 736: Run already exists in server. Run id(s): {8953498}
+[2018-04-11 20:59:27] Started run 743 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:27] Started run 744 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:29] Error in run 737: Run already exists in server. Run id(s): {8953499}
+[2018-04-11 20:59:29] Started run 745 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:29] Error in run 738: Run already exists in server. Run id(s): {8953501}
+[2018-04-11 20:59:29] Started run 746 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:30] Error in run 739: Run already exists in server. Run id(s): {8953503}
+[2018-04-11 20:59:30] Started run 747 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:31] Error in run 741: Run already exists in server. Run id(s): {8953510}
+[2018-04-11 20:59:31] Error in run 742: Run already exists in server. Run id(s): {8953511}
+[2018-04-11 20:59:31] Error in run 740: Run already exists in server. Run id(s): {8953507}
+[2018-04-11 20:59:31] Started run 748 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:31] Started run 749 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:31] Started run 750 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:32] Error in run 744: Run already exists in server. Run id(s): {8953516}
+[2018-04-11 20:59:32] Error in run 743: Run already exists in server. Run id(s): {8953514}
+[2018-04-11 20:59:32] Started run 751 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:32] Started run 752 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:34] Error in run 746: Run already exists in server. Run id(s): {8953519}
+[2018-04-11 20:59:34] Error in run 745: Run already exists in server. Run id(s): {8953517}
+[2018-04-11 20:59:34] Started run 753 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:34] Started run 754 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:35] Error in run 747: Run already exists in server. Run id(s): {8953520}
+[2018-04-11 20:59:35] Started run 755 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:36] Error in run 749: Run already exists in server. Run id(s): {8953524}
+[2018-04-11 20:59:36] Error in run 748: Run already exists in server. Run id(s): {8953522}
+[2018-04-11 20:59:36] Error in run 750: Run already exists in server. Run id(s): {8953526}
+[2018-04-11 20:59:36] Started run 756 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:36] Started run 757 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:36] Started run 758 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:36] Error in run 752: Run already exists in server. Run id(s): {8953529}
+[2018-04-11 20:59:36] Error in run 751: Run already exists in server. Run id(s): {8953528}
+[2018-04-11 20:59:36] Started run 759 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:36] Started run 760 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:39] Error in run 753: Run already exists in server. Run id(s): {8953532}
+[2018-04-11 20:59:39] Error in run 754: Run already exists in server. Run id(s): {8953533}
+[2018-04-11 20:59:39] Started run 761 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:39] Started run 762 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:39] Error in run 755: Run already exists in server. Run id(s): {8953536}
+[2018-04-11 20:59:39] Started run 763 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:40] Error in run 756: Run already exists in server. Run id(s): {8953538}
+[2018-04-11 20:59:40] Error in run 757: Run already exists in server. Run id(s): {8953541}
+[2018-04-11 20:59:40] Started run 764 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:40] Error in run 758: Run already exists in server. Run id(s): {8953542}
+[2018-04-11 20:59:40] Started run 766 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:40] Started run 765 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:41] Error in run 759: Run already exists in server. Run id(s): {8953544}
+[2018-04-11 20:59:41] Error in run 760: Run already exists in server. Run id(s): {8953548}
+[2018-04-11 20:59:41] Started run 767 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:41] Started run 768 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:44] Error in run 761: Run already exists in server. Run id(s): {8953549}
+[2018-04-11 20:59:44] Error in run 762: Run already exists in server. Run id(s): {8953551}
+[2018-04-11 20:59:44] Started run 769 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:44] Started run 770 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:44] Error in run 763: Run already exists in server. Run id(s): {8953553}
+[2018-04-11 20:59:44] Started run 771 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:45] Error in run 766: Run already exists in server. Run id(s): {8953561}
+[2018-04-11 20:59:45] Error in run 764: Run already exists in server. Run id(s): {8953557}
+[2018-04-11 20:59:45] Error in run 765: Run already exists in server. Run id(s): {8953559}
+[2018-04-11 20:59:45] Started run 772 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:45] Started run 773 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:45] Started run 774 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:46] Error in run 767: Run already exists in server. Run id(s): {8953563}
+[2018-04-11 20:59:46] Error in run 768: Run already exists in server. Run id(s): {8953565}
+[2018-04-11 20:59:46] Started run 775 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:46] Started run 776 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:48] Error in run 769: Run already exists in server. Run id(s): {8953566}
+[2018-04-11 20:59:48] Error in run 770: Run already exists in server. Run id(s): {8953567}
+[2018-04-11 20:59:48] Started run 777 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:48] Started run 778 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:48] Error in run 771: Run already exists in server. Run id(s): {8953569}
+[2018-04-11 20:59:48] Started run 779 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:50] Error in run 773: Run already exists in server. Run id(s): {8953573}
+[2018-04-11 20:59:50] Started run 780 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:50] Error in run 772: Run already exists in server. Run id(s): {8953572}
+[2018-04-11 20:59:50] Error in run 774: Run already exists in server. Run id(s): {8953575}
+[2018-04-11 20:59:50] Started run 781 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:50] Started run 782 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:51] Error in run 775: Run already exists in server. Run id(s): {8953578}
+[2018-04-11 20:59:51] Started run 783 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:51] Error in run 776: Run already exists in server. Run id(s): {8953579}
+[2018-04-11 20:59:51] Started run 784 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:53] Error in run 778: Run already exists in server. Run id(s): {8953583}
+[2018-04-11 20:59:53] Error in run 779: Run already exists in server. Run id(s): {8953585}
+[2018-04-11 20:59:53] Error in run 777: Run already exists in server. Run id(s): {8953581}
+[2018-04-11 20:59:53] Started run 785 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:53] Started run 786 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:53] Started run 787 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:55] Error in run 780: Run already exists in server. Run id(s): {8953588}
+[2018-04-11 20:59:55] Error in run 781: Run already exists in server. Run id(s): {8953589}
+[2018-04-11 20:59:55] Started run 788 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:55] Error in run 782: Run already exists in server. Run id(s): {8953590}
+[2018-04-11 20:59:55] Started run 790 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:55] Started run 789 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:55] Error in run 783: Run already exists in server. Run id(s): {8953592}
+[2018-04-11 20:59:55] Error in run 784: Run already exists in server. Run id(s): {8953595}
+[2018-04-11 20:59:55] Started run 791 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:55] Started run 792 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:57] Error in run 785: Run already exists in server. Run id(s): {8953596}
+[2018-04-11 20:59:57] Started run 793 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:58] Error in run 786: Run already exists in server. Run id(s): {8953599}
+[2018-04-11 20:59:58] Started run 794 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:58] Error in run 787: Run already exists in server. Run id(s): {8953602}
+[2018-04-11 20:59:58] Started run 795 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:59] Error in run 788: Run already exists in server. Run id(s): {8953603}
+[2018-04-11 20:59:59] Started run 796 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:59] Error in run 790: Run already exists in server. Run id(s): {8953610}
+[2018-04-11 20:59:59] Error in run 789: Run already exists in server. Run id(s): {8953607}
+[2018-04-11 20:59:59] Started run 797 on task 125922, dataset 'texture'.
+[2018-04-11 20:59:59] Started run 798 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:00] Error in run 792: Run already exists in server. Run id(s): {8953616}
+[2018-04-11 21:00:00] Started run 799 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:00] Error in run 791: Run already exists in server. Run id(s): {8953613}
+[2018-04-11 21:00:00] Started run 800 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:02] Error in run 793: Run already exists in server. Run id(s): {8953618}
+[2018-04-11 21:00:02] Started run 801 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:02] Error in run 794: Run already exists in server. Run id(s): {8953620}
+[2018-04-11 21:00:02] Error in run 795: Run already exists in server. Run id(s): {8953623}
+[2018-04-11 21:00:02] Started run 802 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:02] Started run 803 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:04] Error in run 796: Run already exists in server. Run id(s): {8953626}
+[2018-04-11 21:00:04] Started run 804 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:04] Error in run 797: Run already exists in server. Run id(s): {8953627}
+[2018-04-11 21:00:04] Error in run 798: Run already exists in server. Run id(s): {8953630}
+[2018-04-11 21:00:04] Started run 805 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:04] Started run 806 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:05] Error in run 800: Run already exists in server. Run id(s): {8953634}
+[2018-04-11 21:00:05] Started run 807 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:05] Error in run 799: Run already exists in server. Run id(s): {8953632}
+[2018-04-11 21:00:05] Started run 808 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:06] Error in run 801: Run already exists in server. Run id(s): {8953637}
+[2018-04-11 21:00:06] Started run 809 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:07] Error in run 803: Run already exists in server. Run id(s): {8953642}
+[2018-04-11 21:00:07] Error in run 802: Run already exists in server. Run id(s): {8953639}
+[2018-04-11 21:00:07] Started run 810 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:07] Started run 811 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:08] Error in run 804: Run already exists in server. Run id(s): {8953645}
+[2018-04-11 21:00:08] Started run 812 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:09] Error in run 805: Run already exists in server. Run id(s): {8953646}
+[2018-04-11 21:00:09] Started run 813 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:09] Error in run 806: Run already exists in server. Run id(s): {8953647}
+[2018-04-11 21:00:09] Started run 814 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:10] Error in run 807: Run already exists in server. Run id(s): {8953649}
+[2018-04-11 21:00:10] Error in run 808: Run already exists in server. Run id(s): {8953651}
+[2018-04-11 21:00:10] Started run 815 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:10] Started run 816 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:11] Error in run 809: Run already exists in server. Run id(s): {8953654}
+[2018-04-11 21:00:11] Started run 817 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:12] Error in run 811: Run already exists in server. Run id(s): {8953657}
+[2018-04-11 21:00:12] Error in run 810: Run already exists in server. Run id(s): {8953655}
+[2018-04-11 21:00:12] Started run 818 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:12] Started run 819 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:13] Error in run 812: Run already exists in server. Run id(s): {8953659}
+[2018-04-11 21:00:13] Started run 820 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:13] Error in run 813: Run already exists in server. Run id(s): {8953661}
+[2018-04-11 21:00:13] Started run 821 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:13] Error in run 814: Run already exists in server. Run id(s): {8953662}
+[2018-04-11 21:00:13] Started run 822 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:14] Error in run 815: Run already exists in server. Run id(s): {8953666}
+[2018-04-11 21:00:14] Started run 823 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:14] Error in run 816: Run already exists in server. Run id(s): {8953667}
+[2018-04-11 21:00:14] Started run 824 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:16] Error in run 817: Run already exists in server. Run id(s): {8953668}
+[2018-04-11 21:00:16] Started run 825 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:17] Error in run 819: Run already exists in server. Run id(s): {8953671}
+[2018-04-11 21:00:17] Error in run 818: Run already exists in server. Run id(s): {8953670}
+[2018-04-11 21:00:17] Started run 826 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:17] Started run 827 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:18] Error in run 820: Run already exists in server. Run id(s): {8953674}
+[2018-04-11 21:00:18] Started run 828 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:18] Error in run 821: Run already exists in server. Run id(s): {8953675}
+[2018-04-11 21:00:18] Started run 829 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:18] Error in run 822: Run already exists in server. Run id(s): {8953677}
+[2018-04-11 21:00:18] Started run 830 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:19] Error in run 823: Run already exists in server. Run id(s): {8953681}
+[2018-04-11 21:00:19] Error in run 824: Run already exists in server. Run id(s): {8953682}
+[2018-04-11 21:00:19] Started run 831 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:19] Started run 832 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:20] Error in run 825: Run already exists in server. Run id(s): {8953684}
+[2018-04-11 21:00:20] Started run 833 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:21] Error in run 826: Run already exists in server. Run id(s): {9019763, 8953686}
+[2018-04-11 21:00:21] Started run 834 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:21] Error in run 827: Run already exists in server. Run id(s): {8953688}
+[2018-04-11 21:00:21] Started run 835 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:22] Error in run 828: Run already exists in server. Run id(s): {8953690}
+[2018-04-11 21:00:22] Started run 836 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:22] Error in run 829: Run already exists in server. Run id(s): {8953691}
+[2018-04-11 21:00:22] Started run 837 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:23] Error in run 830: Run already exists in server. Run id(s): {8953693}
+[2018-04-11 21:00:23] Started run 838 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:23] Error in run 831: Run already exists in server. Run id(s): {8953694}
+[2018-04-11 21:00:23] Started run 839 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:23] Error in run 832: Run already exists in server. Run id(s): {8953696}
+[2018-04-11 21:00:23] Started run 840 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:25] Error in run 833: Run already exists in server. Run id(s): {8953698}
+[2018-04-11 21:00:25] Started run 841 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:26] Error in run 834: Run already exists in server. Run id(s): {8953699}
+[2018-04-11 21:00:26] Started run 842 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:26] Error in run 835: Run already exists in server. Run id(s): {8953700}
+[2018-04-11 21:00:26] Started run 843 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:27] Error in run 837: Run already exists in server. Run id(s): {8953704}
+[2018-04-11 21:00:27] Error in run 836: Run already exists in server. Run id(s): {8953702}
+[2018-04-11 21:00:27] Started run 844 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:27] Started run 845 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:27] Error in run 838: Run already exists in server. Run id(s): {8953705}
+[2018-04-11 21:00:27] Started run 846 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:28] Error in run 839: Run already exists in server. Run id(s): {8953707}
+[2018-04-11 21:00:28] Started run 847 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:28] Error in run 840: Run already exists in server. Run id(s): {8953709}
+[2018-04-11 21:00:28] Started run 848 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:29] Error in run 841: Run already exists in server. Run id(s): {8953711}
+[2018-04-11 21:00:29] Started run 849 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:30] Error in run 842: Run already exists in server. Run id(s): {8953713}
+[2018-04-11 21:00:30] Started run 850 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:31] Error in run 843: Run already exists in server. Run id(s): {8953715}
+[2018-04-11 21:00:31] Started run 851 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:32] Error in run 846: Run already exists in server. Run id(s): {8953720}
+[2018-04-11 21:00:32] Started run 852 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:32] Error in run 845: Run already exists in server. Run id(s): {8953719}
+[2018-04-11 21:00:32] Error in run 844: Run already exists in server. Run id(s): {8953717}
+[2018-04-11 21:00:32] Started run 853 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:32] Started run 854 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:32] Error in run 848: Run already exists in server. Run id(s): {8953724}
+[2018-04-11 21:00:32] Started run 855 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:32] Error in run 847: Run already exists in server. Run id(s): {8953722}
+[2018-04-11 21:00:32] Started run 856 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:34] Error in run 849: Run already exists in server. Run id(s): {8953725}
+[2018-04-11 21:00:34] Started run 857 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:35] Error in run 850: Run already exists in server. Run id(s): {8953727}
+[2018-04-11 21:00:35] Started run 858 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:35] Error in run 851: Run already exists in server. Run id(s): {8953729}
+[2018-04-11 21:00:35] Started run 859 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:37] Error in run 852: Run already exists in server. Run id(s): {8953731}
+[2018-04-11 21:00:37] Error in run 854: Run already exists in server. Run id(s): {8953733}
+[2018-04-11 21:00:37] Error in run 853: Run already exists in server. Run id(s): {8953732}
+[2018-04-11 21:00:37] Started run 860 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:37] Started run 861 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:37] Started run 862 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:37] Error in run 855: Run already exists in server. Run id(s): {8953735}
+[2018-04-11 21:00:37] Started run 863 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:37] Error in run 856: Run already exists in server. Run id(s): {8953738}
+[2018-04-11 21:00:37] Started run 864 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:39] Error in run 857: Run already exists in server. Run id(s): {8953740}
+[2018-04-11 21:00:39] Started run 865 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:40] Error in run 858: Run already exists in server. Run id(s): {8953744}
+[2018-04-11 21:00:40] Started run 866 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:40] Error in run 859: Run already exists in server. Run id(s): {8953746}
+[2018-04-11 21:00:40] Started run 867 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:41] Error in run 860: Run already exists in server. Run id(s): {8953748}
+[2018-04-11 21:00:41] Started run 868 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:41] Error in run 861: Run already exists in server. Run id(s): {8953750}
+[2018-04-11 21:00:41] Error in run 862: Run already exists in server. Run id(s): {8953752}
+[2018-04-11 21:00:41] Started run 869 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:41] Started run 870 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:42] Error in run 864: Run already exists in server. Run id(s): {8953756}
+[2018-04-11 21:00:42] Error in run 863: Run already exists in server. Run id(s): {8953754}
+[2018-04-11 21:00:42] Started run 871 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:42] Started run 872 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:44] Error in run 865: Run already exists in server. Run id(s): {8953758}
+[2018-04-11 21:00:44] Started run 873 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:44] Error in run 866: Run already exists in server. Run id(s): {8953759}
+[2018-04-11 21:00:44] Started run 874 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:44] Error in run 867: Run already exists in server. Run id(s): {8953761}
+[2018-04-11 21:00:44] Started run 875 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:46] Error in run 868: Run already exists in server. Run id(s): {8953763}
+[2018-04-11 21:00:46] Started run 876 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:46] Error in run 870: Run already exists in server. Run id(s): {8953767}
+[2018-04-11 21:00:46] Error in run 869: Run already exists in server. Run id(s): {8953764}
+[2018-04-11 21:00:46] Started run 877 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:46] Started run 878 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:47] Error in run 871: Run already exists in server. Run id(s): {8953768}
+[2018-04-11 21:00:47] Started run 879 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:47] Error in run 872: Run already exists in server. Run id(s): {8953770}
+[2018-04-11 21:00:47] Started run 880 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:48] Error in run 873: Run already exists in server. Run id(s): {8953773}
+[2018-04-11 21:00:48] Started run 881 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:49] Error in run 874: Run already exists in server. Run id(s): {8953777}
+[2018-04-11 21:00:49] Error in run 875: Run already exists in server. Run id(s): {8953779}
+[2018-04-11 21:00:49] Started run 882 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:49] Started run 883 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:50] Error in run 876: Run already exists in server. Run id(s): {8953781}
+[2018-04-11 21:00:50] Started run 884 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:51] Error in run 878: Run already exists in server. Run id(s): {8953784}
+[2018-04-11 21:00:51] Started run 885 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:51] Error in run 877: Run already exists in server. Run id(s): {8953783}
+[2018-04-11 21:00:51] Started run 886 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:51] Error in run 879: Run already exists in server. Run id(s): {8953785}
+[2018-04-11 21:00:51] Started run 887 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:51] Error in run 880: Run already exists in server. Run id(s): {8953788}
+[2018-04-11 21:00:51] Started run 888 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:53] Error in run 881: Run already exists in server. Run id(s): {8953791}
+[2018-04-11 21:00:53] Started run 889 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:54] Error in run 882: Run already exists in server. Run id(s): {8953793}
+[2018-04-11 21:00:54] Error in run 883: Run already exists in server. Run id(s): {8953794}
+[2018-04-11 21:00:54] Started run 890 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:54] Started run 891 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:55] Error in run 884: Run already exists in server. Run id(s): {8953797}
+[2018-04-11 21:00:55] Started run 892 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:55] Error in run 885: Run already exists in server. Run id(s): {8953800}
+[2018-04-11 21:00:55] Started run 893 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:55] Error in run 886: Run already exists in server. Run id(s): {8953801}
+[2018-04-11 21:00:55] Started run 894 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:56] Error in run 887: Run already exists in server. Run id(s): {8953802}
+[2018-04-11 21:00:56] Started run 895 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:56] Error in run 888: Run already exists in server. Run id(s): {8953805}
+[2018-04-11 21:00:56] Started run 896 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:57] Error in run 889: Run already exists in server. Run id(s): {8953808}
+[2018-04-11 21:00:57] Started run 897 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:59] Error in run 890: Run already exists in server. Run id(s): {8953812}
+[2018-04-11 21:00:59] Error in run 891: Run already exists in server. Run id(s): {8953813}
+[2018-04-11 21:00:59] Started run 898 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:59] Started run 899 on task 125922, dataset 'texture'.
+[2018-04-11 21:00:59] Error in run 892: Run already exists in server. Run id(s): {8953816}
+[2018-04-11 21:00:59] Started run 900 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:00] Error in run 893: Run already exists in server. Run id(s): {8953819}
+[2018-04-11 21:01:00] Started run 901 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:00] Error in run 894: Run already exists in server. Run id(s): {8953820}
+[2018-04-11 21:01:00] Started run 902 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:00] Error in run 895: Run already exists in server. Run id(s): {8953822}
+[2018-04-11 21:01:00] Started run 903 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:01] Error in run 896: Run already exists in server. Run id(s): {8953826}
+[2018-04-11 21:01:01] Started run 904 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:02] Error in run 897: Run already exists in server. Run id(s): {8953828}
+[2018-04-11 21:01:02] Started run 905 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:03] Error in run 899: Run already exists in server. Run id(s): {8953832}
+[2018-04-11 21:01:03] Started run 906 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:03] Error in run 898: Run already exists in server. Run id(s): {8953831}
+[2018-04-11 21:01:03] Started run 907 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:04] Error in run 900: Run already exists in server. Run id(s): {8953837}
+[2018-04-11 21:01:04] Started run 908 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:04] Error in run 901: Run already exists in server. Run id(s): {8953840}
+[2018-04-11 21:01:04] Started run 909 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:05] Error in run 902: Run already exists in server. Run id(s): {8953842}
+[2018-04-11 21:01:05] Started run 910 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:05] Error in run 903: Run already exists in server. Run id(s): {8953843}
+[2018-04-11 21:01:05] Started run 911 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:06] Error in run 904: Run already exists in server. Run id(s): {8953845}
+[2018-04-11 21:01:06] Started run 912 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:07] Error in run 905: Run already exists in server. Run id(s): {8953848}
+[2018-04-11 21:01:07] Started run 913 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:08] Error in run 906: Run already exists in server. Run id(s): {8953849}
+[2018-04-11 21:01:08] Started run 914 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:08] Error in run 907: Run already exists in server. Run id(s): {8953852}
+[2018-04-11 21:01:08] Started run 915 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:09] Error in run 908: Run already exists in server. Run id(s): {8953854}
+[2018-04-11 21:01:09] Error in run 909: Run already exists in server. Run id(s): {8953856}
+[2018-04-11 21:01:09] Started run 916 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:09] Started run 917 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:09] Error in run 910: Run already exists in server. Run id(s): {8953859}
+[2018-04-11 21:01:09] Started run 918 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:10] Error in run 911: Run already exists in server. Run id(s): {8953862}
+[2018-04-11 21:01:10] Started run 919 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:10] Error in run 912: Run already exists in server. Run id(s): {8953864}
+[2018-04-11 21:01:10] Started run 920 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:11] Error in run 913: Run already exists in server. Run id(s): {8953867}
+[2018-04-11 21:01:11] Started run 921 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:12] Error in run 914: Run already exists in server. Run id(s): {8953868}
+[2018-04-11 21:01:12] Started run 922 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:13] Error in run 915: Run already exists in server. Run id(s): {8953870}
+[2018-04-11 21:01:13] Started run 923 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:14] Error in run 917: Run already exists in server. Run id(s): {8953873}
+[2018-04-11 21:01:14] Error in run 916: Run already exists in server. Run id(s): {8953872}
+[2018-04-11 21:01:14] Started run 924 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:14] Started run 925 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:14] Error in run 918: Run already exists in server. Run id(s): {8953875}
+[2018-04-11 21:01:14] Started run 926 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:15] Error in run 919: Run already exists in server. Run id(s): {8953879}
+[2018-04-11 21:01:15] Started run 927 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:15] Error in run 920: Run already exists in server. Run id(s): {8953881}
+[2018-04-11 21:01:15] Started run 928 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:16] Error in run 921: Run already exists in server. Run id(s): {8953884}
+[2018-04-11 21:01:16] Started run 929 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:17] Error in run 922: Run already exists in server. Run id(s): {8953885}
+[2018-04-11 21:01:17] Started run 930 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:18] Error in run 923: Run already exists in server. Run id(s): {8953887}
+[2018-04-11 21:01:18] Started run 931 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:18] Error in run 924: Run already exists in server. Run id(s): {8953891}
+[2018-04-11 21:01:18] Error in run 925: Run already exists in server. Run id(s): {8953893}
+[2018-04-11 21:01:18] Started run 932 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:18] Started run 933 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:18] Error in run 926: Run already exists in server. Run id(s): {8953895}
+[2018-04-11 21:01:18] Started run 934 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:19] Error in run 927: Run already exists in server. Run id(s): {8953897}
+[2018-04-11 21:01:19] Started run 935 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:20] Error in run 928: Run already exists in server. Run id(s): {8953898}
+[2018-04-11 21:01:20] Started run 936 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:21] Error in run 929: Run already exists in server. Run id(s): {8953899}
+[2018-04-11 21:01:21] Started run 937 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:22] Error in run 930: Run already exists in server. Run id(s): {8953901}
+[2018-04-11 21:01:22] Started run 938 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:22] Error in run 931: Run already exists in server. Run id(s): {8953905}
+[2018-04-11 21:01:22] Started run 939 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:23] Error in run 934: Run already exists in server. Run id(s): {8953913}
+[2018-04-11 21:01:23] Started run 940 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:23] Error in run 932: Run already exists in server. Run id(s): {8953907}
+[2018-04-11 21:01:23] Error in run 933: Run already exists in server. Run id(s): {8953909}
+[2018-04-11 21:01:23] Started run 941 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:23] Started run 942 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:24] Error in run 935: Run already exists in server. Run id(s): {8953916}
+[2018-04-11 21:01:24] Started run 943 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:25] Error in run 936: Run already exists in server. Run id(s): {8953918}
+[2018-04-11 21:01:25] Started run 944 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:25] Error in run 937: Run already exists in server. Run id(s): {8953921}
+[2018-04-11 21:01:25] Started run 945 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:26] Error in run 938: Run already exists in server. Run id(s): {8953922}
+[2018-04-11 21:01:26] Started run 946 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:27] Error in run 939: Run already exists in server. Run id(s): {8953925}
+[2018-04-11 21:01:27] Started run 947 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:28] Error in run 941: Run already exists in server. Run id(s): {8953929}
+[2018-04-11 21:01:28] Error in run 942: Run already exists in server. Run id(s): {8953930}
+[2018-04-11 21:01:28] Error in run 940: Run already exists in server. Run id(s): {8953927}
+[2018-04-11 21:01:28] Started run 948 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:28] Started run 949 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:28] Started run 950 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:28] Error in run 943: Run already exists in server. Run id(s): {8953932}
+[2018-04-11 21:01:28] Started run 951 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:29] Error in run 944: Run already exists in server. Run id(s): {8953936}
+[2018-04-11 21:01:29] Started run 952 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:30] Error in run 945: Run already exists in server. Run id(s): {8953938}
+[2018-04-11 21:01:30] Started run 953 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:31] Error in run 946: Run already exists in server. Run id(s): {8953943}
+[2018-04-11 21:01:31] Started run 954 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:31] Error in run 947: Run already exists in server. Run id(s): {8953944}
+[2018-04-11 21:01:31] Started run 955 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:32] Error in run 948: Run already exists in server. Run id(s): {8953947}
+[2018-04-11 21:01:32] Started run 956 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:33] Error in run 950: Run already exists in server. Run id(s): {8953951}
+[2018-04-11 21:01:33] Started run 957 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:33] Error in run 949: Run already exists in server. Run id(s): {8953949}
+[2018-04-11 21:01:33] Started run 958 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:33] Error in run 951: Run already exists in server. Run id(s): {8953952}
+[2018-04-11 21:01:33] Started run 959 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:34] Error in run 952: Run already exists in server. Run id(s): {8953955}
+[2018-04-11 21:01:34] Started run 960 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:35] Error in run 953: Run already exists in server. Run id(s): {8953958}
+[2018-04-11 21:01:35] Started run 961 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:36] Error in run 954: Run already exists in server. Run id(s): {8953959}
+[2018-04-11 21:01:36] Started run 962 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:36] Error in run 955: Run already exists in server. Run id(s): {8953962}
+[2018-04-11 21:01:36] Started run 963 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:37] Error in run 956: Run already exists in server. Run id(s): {8953965}
+[2018-04-11 21:01:37] Started run 964 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:37] Error in run 957: Run already exists in server. Run id(s): {8953967}
+[2018-04-11 21:01:37] Error in run 958: Run already exists in server. Run id(s): {8953969}
+[2018-04-11 21:01:37] Started run 965 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:37] Error in run 959: Run already exists in server. Run id(s): {8953973}
+[2018-04-11 21:01:37] Started run 966 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:37] Started run 967 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:39] Error in run 960: Run already exists in server. Run id(s): {8953974}
+[2018-04-11 21:01:39] Started run 968 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:40] Error in run 961: Run already exists in server. Run id(s): {8953976}
+[2018-04-11 21:01:40] Started run 969 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:40] Error in run 962: Run already exists in server. Run id(s): {8953977}
+[2018-04-11 21:01:40] Started run 970 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:41] Error in run 963: Run already exists in server. Run id(s): {8953978}
+[2018-04-11 21:01:41] Started run 971 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:41] Error in run 964: Run already exists in server. Run id(s): {8953982}
+[2018-04-11 21:01:41] Started run 972 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:42] Error in run 965: Run already exists in server. Run id(s): {8953984}
+[2018-04-11 21:01:42] Started run 973 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:42] Error in run 967: Run already exists in server. Run id(s): {8953989}
+[2018-04-11 21:01:42] Started run 974 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:42] Error in run 966: Run already exists in server. Run id(s): {8953985}
+[2018-04-11 21:01:42] Started run 975 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:44] Error in run 968: Run already exists in server. Run id(s): {8953991}
+[2018-04-11 21:01:44] Started run 976 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:44] Error in run 969: Run already exists in server. Run id(s): {8953993}
+[2018-04-11 21:01:44] Started run 977 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:45] Error in run 970: Run already exists in server. Run id(s): {8953995}
+[2018-04-11 21:01:45] Started run 978 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:45] Error in run 971: Run already exists in server. Run id(s): {8953997}
+[2018-04-11 21:01:45] Started run 979 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:46] Error in run 972: Run already exists in server. Run id(s): {8954000}
+[2018-04-11 21:01:46] Started run 980 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:46] Error in run 973: Run already exists in server. Run id(s): {8954002}
+[2018-04-11 21:01:46] Started run 981 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:47] Error in run 974: Run already exists in server. Run id(s): {8954005}
+[2018-04-11 21:01:47] Error in run 975: Run already exists in server. Run id(s): {8954006}
+[2018-04-11 21:01:47] Started run 982 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:47] Started run 983 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:48] Error in run 976: Run already exists in server. Run id(s): {8954007}
+[2018-04-11 21:01:48] Started run 984 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:49] Error in run 977: Run already exists in server. Run id(s): {8954009}
+[2018-04-11 21:01:49] Started run 985 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:49] Error in run 978: Run already exists in server. Run id(s): {8954010}
+[2018-04-11 21:01:49] Started run 986 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:50] Error in run 979: Run already exists in server. Run id(s): {8954012}
+[2018-04-11 21:01:50] Started run 987 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:51] Error in run 980: Run already exists in server. Run id(s): {8954016}
+[2018-04-11 21:01:51] Started run 988 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:51] Error in run 981: Run already exists in server. Run id(s): {8954017}
+[2018-04-11 21:01:51] Started run 989 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:52] Error in run 983: Run already exists in server. Run id(s): {8954022}
+[2018-04-11 21:01:52] Error in run 982: Run already exists in server. Run id(s): {8954020}
+[2018-04-11 21:01:52] Started run 990 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:52] Started run 991 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:53] Error in run 984: Run already exists in server. Run id(s): {8954023}
+[2018-04-11 21:01:53] Started run 992 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:54] Error in run 985: Run already exists in server. Run id(s): {8954027}
+[2018-04-11 21:01:54] Started run 993 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:54] Error in run 986: Run already exists in server. Run id(s): {8954029}
+[2018-04-11 21:01:54] Started run 994 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:55] Error in run 987: Run already exists in server. Run id(s): {8954030}
+[2018-04-11 21:01:55] Started run 995 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:56] Error in run 989: Run already exists in server. Run id(s): {8954033}
+[2018-04-11 21:01:56] Started run 996 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:56] Error in run 988: Run already exists in server. Run id(s): {8954031}
+[2018-04-11 21:01:56] Started run 997 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:56] Error in run 990: Run already exists in server. Run id(s): {8954034}
+[2018-04-11 21:01:56] Error in run 991: Run already exists in server. Run id(s): {8954036}
+[2018-04-11 21:01:56] Started run 998 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:56] Started run 999 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:58] Error in run 992: Run already exists in server. Run id(s): {8954039}
+[2018-04-11 21:01:58] Started run 1000 on task 125922, dataset 'texture'.
+[2018-04-11 21:01:59] Error in run 994: Run already exists in server. Run id(s): {8954043}
+[2018-04-11 21:01:59] Error in run 993: Run already exists in server. Run id(s): {8954042}
+[2018-04-11 21:02:00] Error in run 995: Run already exists in server. Run id(s): {8954044}
+[2018-04-11 21:02:00] Error in run 996: Run already exists in server. Run id(s): {8954047}
+[2018-04-11 21:02:00] Error in run 997: Run already exists in server. Run id(s): {8954050}
+[2018-04-11 21:02:01] Error in run 998: Run already exists in server. Run id(s): {8954051}
+[2018-04-11 21:02:01] Error in run 999: Run already exists in server. Run id(s): {8954054}
+[2018-04-11 21:02:03] Error in run 1000: Run already exists in server. Run id(s): {8954060}

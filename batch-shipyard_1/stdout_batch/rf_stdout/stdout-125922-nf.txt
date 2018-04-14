@@ -1,0 +1,2065 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00062/certs"
+declare -x AZ_BATCH_JOB_ID="random_forest"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-4234576326_49-20180410t020756z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00062"
+declare -x AZ_BATCH_TASK_ID="task-00062"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00062/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/random_forest/job-1/task-00062/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/random_forest/job-1/task-00062/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/random_forest/job-1/task-00062/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+[2018-04-10 03:52:54] Results will not be logged locally.
+[2018-04-10 03:52:54] Retrieving tasks...
+[2018-04-10 03:52:54] Tasks will be retrieved based on provided task ids.
+[2018-04-10 03:52:54] The following tasks were retrieved: [125922].
+[2018-04-10 03:53:01] Downloaded task 125922.
+[2018-04-10 03:53:01] Prepared pipelines.
+[2018-04-10 03:53:01] Started run 1 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:01] Started run 3 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:01] Started run 2 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:01] Started run 4 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:01] Started run 5 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:01] Started run 6 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:01] Started run 7 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:01] Started run 8 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:06] Error in run 1: Run already exists in server. Run id(s): {9010581}
+[2018-04-10 03:53:06] Error in run 2: Run already exists in server. Run id(s): {9010698}
+[2018-04-10 03:53:06] Started run 9 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:06] Started run 10 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:06] Error in run 4: Run already exists in server. Run id(s): {9010755}
+[2018-04-10 03:53:06] Started run 11 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:06] Error in run 7: Run already exists in server. Run id(s): {9010478}
+[2018-04-10 03:53:06] Error in run 8: Run already exists in server. Run id(s): {9010508}
+[2018-04-10 03:53:06] Started run 12 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:06] Error in run 6: Run already exists in server. Run id(s): {9010346}
+[2018-04-10 03:53:06] Started run 13 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:06] Started run 14 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:11] Error in run 11: Run already exists in server. Run id(s): {9013032}
+[2018-04-10 03:53:11] Started run 15 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:11] Error in run 10: Run already exists in server. Run id(s): {9010542}
+[2018-04-10 03:53:11] Started run 16 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:11] Error in run 14: Run already exists in server. Run id(s): {9012882}
+[2018-04-10 03:53:11] Started run 17 on task 125922, dataset 'texture'.
+[2018-04-10 03:53:11] Error in run 13: Run already exists in server. Run id(s): {9010669}
+[2018-04-10 03:53:11] Started run 18 on task 125922, dataset 'texture'.
+[2018-04-10 03:59:00] [SCORE] run 15 on task 125922; Accuracy: 0.97.
+[2018-04-10 03:59:21] Uploaded run 15 with run id 9022124.
+[2018-04-10 03:59:21] Started run 19 on task 125922, dataset 'texture'.
+[2018-04-10 04:02:48] [SCORE] run 12 on task 125922; Accuracy: 0.92.
+[2018-04-10 04:03:05] Uploaded run 12 with run id 9022453.
+[2018-04-10 04:03:05] Started run 20 on task 125922, dataset 'texture'.
+[2018-04-10 04:05:33] [SCORE] run 17 on task 125922; Accuracy: 0.92.
+[2018-04-10 04:05:52] Uploaded run 17 with run id 9022695.
+[2018-04-10 04:05:52] Started run 21 on task 125922, dataset 'texture'.
+[2018-04-10 04:07:34] [SCORE] run 9 on task 125922; Accuracy: 0.96.
+[2018-04-10 04:07:50] Uploaded run 9 with run id 9022864.
+[2018-04-10 04:07:50] Started run 22 on task 125922, dataset 'texture'.
+[2018-04-10 04:08:07] [SCORE] run 19 on task 125922; Accuracy: 0.98.
+[2018-04-10 04:08:22] [SCORE] run 20 on task 125922; Accuracy: 0.98.
+[2018-04-10 04:08:30] Uploaded run 19 with run id 9022918.
+[2018-04-10 04:08:30] Started run 23 on task 125922, dataset 'texture'.
+[2018-04-10 04:08:38] Uploaded run 20 with run id 9022940.
+[2018-04-10 04:08:38] Started run 24 on task 125922, dataset 'texture'.
+[2018-04-10 04:09:17] [SCORE] run 22 on task 125922; Accuracy: 0.97.
+[2018-04-10 04:09:36] Uploaded run 22 with run id 9023019.
+[2018-04-10 04:09:36] Started run 25 on task 125922, dataset 'texture'.
+[2018-04-10 04:10:11] [SCORE] run 24 on task 125922; Accuracy: 0.95.
+[2018-04-10 04:10:32] Uploaded run 24 with run id 9023099.
+[2018-04-10 04:10:32] Started run 26 on task 125922, dataset 'texture'.
+[2018-04-10 04:11:15] [SCORE] run 18 on task 125922; Accuracy: 0.95.
+[2018-04-10 04:11:33] Uploaded run 18 with run id 9023191.
+[2018-04-10 04:11:33] Started run 27 on task 125922, dataset 'texture'.
+[2018-04-10 04:12:05] [SCORE] run 16 on task 125922; Accuracy: 0.97.
+[2018-04-10 04:12:23] Uploaded run 16 with run id 9023263.
+[2018-04-10 04:12:23] Started run 28 on task 125922, dataset 'texture'.
+[2018-04-10 04:14:43] [SCORE] run 21 on task 125922; Accuracy: 0.95.
+[2018-04-10 04:14:44] [SCORE] run 5 on task 125922; Accuracy: 0.96.
+[2018-04-10 04:14:45] Error in uploading run 21, trying again in 26 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:14:46] Error in uploading run 5, trying again in 55 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:15:33] Uploaded run 21 with run id 9023533.
+[2018-04-10 04:15:33] Started run 29 on task 125922, dataset 'texture'.
+[2018-04-10 04:16:01] Uploaded run 5 with run id 9023576.
+[2018-04-10 04:16:01] Started run 30 on task 125922, dataset 'texture'.
+[2018-04-10 04:16:55] [SCORE] run 23 on task 125922; Accuracy: 0.96.
+[2018-04-10 04:17:17] Uploaded run 23 with run id 9023677.
+[2018-04-10 04:17:17] Started run 31 on task 125922, dataset 'texture'.
+[2018-04-10 04:17:17] [SCORE] run 27 on task 125922; Accuracy: 0.97.
+[2018-04-10 04:17:38] Uploaded run 27 with run id 9023710.
+[2018-04-10 04:17:38] Started run 32 on task 125922, dataset 'texture'.
+[2018-04-10 04:17:54] [SCORE] run 25 on task 125922; Accuracy: 0.96.
+[2018-04-10 04:18:13] Uploaded run 25 with run id 9023761.
+[2018-04-10 04:18:13] Started run 33 on task 125922, dataset 'texture'.
+[2018-04-10 04:21:45] [SCORE] run 32 on task 125922; Accuracy: 0.96.
+[2018-04-10 04:22:01] Uploaded run 32 with run id 9024093.
+[2018-04-10 04:22:01] Started run 34 on task 125922, dataset 'texture'.
+[2018-04-10 04:22:18] [SCORE] run 30 on task 125922; Accuracy: 0.94.
+[2018-04-10 04:22:21] Error in uploading run 30, trying again in 19 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:23:03] Uploaded run 30 with run id 9024178.
+[2018-04-10 04:23:03] Started run 35 on task 125922, dataset 'texture'.
+[2018-04-10 04:23:10] [SCORE] run 3 on task 125922; Accuracy: 0.93.
+[2018-04-10 04:23:31] Uploaded run 3 with run id 9024226.
+[2018-04-10 04:23:31] Started run 36 on task 125922, dataset 'texture'.
+[2018-04-10 04:23:32] Error in run 36, trying again in 49 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:24:07] [SCORE] run 28 on task 125922; Accuracy: 0.94.
+[2018-04-10 04:24:21] Started run 36 on task 125922, dataset 'texture'.
+[2018-04-10 04:24:26] Uploaded run 28 with run id 9024311.
+[2018-04-10 04:24:26] Started run 37 on task 125922, dataset 'texture'.
+[2018-04-10 04:24:49] [SCORE] run 26 on task 125922; Accuracy: 0.95.
+[2018-04-10 04:25:12] Uploaded run 26 with run id 9024377.
+[2018-04-10 04:25:12] Started run 38 on task 125922, dataset 'texture'.
+[2018-04-10 04:25:14] Error in run 38, trying again in 26 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:25:40] Started run 38 on task 125922, dataset 'texture'.
+[2018-04-10 04:26:38] [SCORE] run 31 on task 125922; Accuracy: 0.97.
+[2018-04-10 04:26:55] Uploaded run 31 with run id 9024535.
+[2018-04-10 04:26:55] Started run 39 on task 125922, dataset 'texture'.
+[2018-04-10 04:33:38] [SCORE] run 39 on task 125922; Accuracy: 0.95.
+[2018-04-10 04:33:59] Uploaded run 39 with run id 9025173.
+[2018-04-10 04:33:59] Started run 40 on task 125922, dataset 'texture'.
+[2018-04-10 04:34:31] [SCORE] run 29 on task 125922; Accuracy: 0.95.
+[2018-04-10 04:34:50] Uploaded run 29 with run id 9025246.
+[2018-04-10 04:34:50] Started run 41 on task 125922, dataset 'texture'.
+[2018-04-10 04:34:51] Error in run 41, trying again in 28 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:35:19] Started run 41 on task 125922, dataset 'texture'.
+[2018-04-10 04:35:23] Error in run 41, trying again in 36 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:35:59] Started run 41 on task 125922, dataset 'texture'.
+[2018-04-10 04:39:20] [SCORE] run 36 on task 125922; Accuracy: 0.96.
+[2018-04-10 04:39:41] [SCORE] run 38 on task 125922; Accuracy: 0.96.
+[2018-04-10 04:39:43] Error in uploading run 38, trying again in 54 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:39:44] Uploaded run 36 with run id 9025680.
+[2018-04-10 04:39:44] Started run 42 on task 125922, dataset 'texture'.
+[2018-04-10 04:40:18] [SCORE] run 35 on task 125922; Accuracy: 0.95.
+[2018-04-10 04:40:20] Error in uploading run 35, trying again in 32 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:40:23] [SCORE] run 33 on task 125922; Accuracy: 0.96.
+[2018-04-10 04:40:41] Uploaded run 33 with run id 9025777.
+[2018-04-10 04:40:41] Started run 43 on task 125922, dataset 'texture'.
+[2018-04-10 04:40:57] Uploaded run 38 with run id 9025794.
+[2018-04-10 04:40:57] Started run 44 on task 125922, dataset 'texture'.
+[2018-04-10 04:41:10] Uploaded run 35 with run id 9025814.
+[2018-04-10 04:41:10] Started run 45 on task 125922, dataset 'texture'.
+[2018-04-10 04:42:31] [SCORE] run 41 on task 125922; Accuracy: 0.95.
+[2018-04-10 04:42:33] Error in uploading run 41, trying again in 5 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:42:58] Uploaded run 41 with run id 9025981.
+[2018-04-10 04:42:58] Started run 46 on task 125922, dataset 'texture'.
+[2018-04-10 04:45:27] [SCORE] run 43 on task 125922; Accuracy: 0.97.
+[2018-04-10 04:45:47] Uploaded run 43 with run id 9026228.
+[2018-04-10 04:45:47] Started run 47 on task 125922, dataset 'texture'.
+[2018-04-10 04:45:52] [SCORE] run 34 on task 125922; Accuracy: 0.97.
+[2018-04-10 04:46:11] Uploaded run 34 with run id 9026264.
+[2018-04-10 04:46:11] Started run 48 on task 125922, dataset 'texture'.
+[2018-04-10 04:48:32] [SCORE] run 42 on task 125922; Accuracy: 0.96.
+[2018-04-10 04:48:49] [SCORE] run 47 on task 125922; Accuracy: 0.95.
+[2018-04-10 04:48:54] Uploaded run 42 with run id 9026502.
+[2018-04-10 04:48:54] Started run 49 on task 125922, dataset 'texture'.
+[2018-04-10 04:48:57] [SCORE] run 40 on task 125922; Accuracy: 0.97.
+[2018-04-10 04:49:10] Uploaded run 47 with run id 9026535.
+[2018-04-10 04:49:10] Started run 50 on task 125922, dataset 'texture'.
+[2018-04-10 04:49:16] Uploaded run 40 with run id 9026546.
+[2018-04-10 04:49:16] Started run 51 on task 125922, dataset 'texture'.
+[2018-04-10 04:50:26] [SCORE] run 37 on task 125922; Accuracy: 0.93.
+[2018-04-10 04:50:42] Uploaded run 37 with run id 9026669.
+[2018-04-10 04:50:42] Started run 52 on task 125922, dataset 'texture'.
+[2018-04-10 04:53:08] [SCORE] run 50 on task 125922; Accuracy: 0.96.
+[2018-04-10 04:53:27] Uploaded run 50 with run id 9026907.
+[2018-04-10 04:53:27] Started run 53 on task 125922, dataset 'texture'.
+[2018-04-10 04:54:17] [SCORE] run 46 on task 125922; Accuracy: 0.97.
+[2018-04-10 04:54:34] Uploaded run 46 with run id 9027009.
+[2018-04-10 04:54:34] Started run 54 on task 125922, dataset 'texture'.
+[2018-04-10 04:54:36] [SCORE] run 53 on task 125922; Accuracy: 0.95.
+[2018-04-10 04:54:46] [SCORE] run 48 on task 125922; Accuracy: 0.97.
+[2018-04-10 04:54:52] Uploaded run 53 with run id 9027026.
+[2018-04-10 04:54:52] Started run 55 on task 125922, dataset 'texture'.
+[2018-04-10 04:55:04] Uploaded run 48 with run id 9027046.
+[2018-04-10 04:55:04] Started run 56 on task 125922, dataset 'texture'.
+[2018-04-10 04:55:04] [SCORE] run 52 on task 125922; Accuracy: 0.97.
+[2018-04-10 04:55:23] Uploaded run 52 with run id 9027070.
+[2018-04-10 04:55:23] Started run 57 on task 125922, dataset 'texture'.
+[2018-04-10 04:58:43] [SCORE] run 55 on task 125922; Accuracy: 0.96.
+[2018-04-10 04:58:59] Uploaded run 55 with run id 9027402.
+[2018-04-10 04:58:59] Started run 58 on task 125922, dataset 'texture'.
+[2018-04-10 04:59:53] [SCORE] run 51 on task 125922; Accuracy: 0.95.
+[2018-04-10 05:00:11] Uploaded run 51 with run id 9027505.
+[2018-04-10 05:00:11] Started run 59 on task 125922, dataset 'texture'.
+[2018-04-10 05:01:25] [SCORE] run 56 on task 125922; Accuracy: 0.93.
+[2018-04-10 05:01:46] Uploaded run 56 with run id 9027642.
+[2018-04-10 05:01:46] Started run 60 on task 125922, dataset 'texture'.
+[2018-04-10 05:03:29] [SCORE] run 59 on task 125922; Accuracy: 0.98.
+[2018-04-10 05:03:38] [SCORE] run 44 on task 125922; Accuracy: 0.94.
+[2018-04-10 05:03:46] Uploaded run 59 with run id 9027828.
+[2018-04-10 05:03:46] Started run 61 on task 125922, dataset 'texture'.
+[2018-04-10 05:03:57] Uploaded run 44 with run id 9027846.
+[2018-04-10 05:03:57] Started run 62 on task 125922, dataset 'texture'.
+[2018-04-10 05:04:43] [SCORE] run 45 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:04:44] [SCORE] run 54 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:05:03] Uploaded run 54 with run id 9027940.
+[2018-04-10 05:05:03] Started run 63 on task 125922, dataset 'texture'.
+[2018-04-10 05:05:04] Uploaded run 45 with run id 9027936.
+[2018-04-10 05:05:04] Started run 64 on task 125922, dataset 'texture'.
+[2018-04-10 05:05:20] [SCORE] run 57 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:05:38] Uploaded run 57 with run id 9027993.
+[2018-04-10 05:05:38] Started run 65 on task 125922, dataset 'texture'.
+[2018-04-10 05:07:24] [SCORE] run 62 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:07:45] Uploaded run 62 with run id 9028183.
+[2018-04-10 05:07:45] Started run 66 on task 125922, dataset 'texture'.
+[2018-04-10 05:10:41] [SCORE] run 58 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:10:55] [SCORE] run 61 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:10:59] [SCORE] run 49 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:11:03] Uploaded run 58 with run id 9028475.
+[2018-04-10 05:11:03] Started run 67 on task 125922, dataset 'texture'.
+[2018-04-10 05:11:10] Uploaded run 61 with run id 9028494.
+[2018-04-10 05:11:10] Started run 68 on task 125922, dataset 'texture'.
+[2018-04-10 05:11:16] Uploaded run 49 with run id 9028500.
+[2018-04-10 05:11:16] Started run 69 on task 125922, dataset 'texture'.
+[2018-04-10 05:11:25] [SCORE] run 65 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:11:44] Uploaded run 65 with run id 9028535.
+[2018-04-10 05:11:44] Started run 70 on task 125922, dataset 'texture'.
+[2018-04-10 05:13:08] [SCORE] run 66 on task 125922; Accuracy: 0.95.
+[2018-04-10 05:13:30] Uploaded run 66 with run id 9028697.
+[2018-04-10 05:13:30] Started run 71 on task 125922, dataset 'texture'.
+[2018-04-10 05:14:00] [SCORE] run 64 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:14:14] Uploaded run 64 with run id 9028773.
+[2018-04-10 05:14:14] Started run 72 on task 125922, dataset 'texture'.
+[2018-04-10 05:14:29] [SCORE] run 70 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:14:46] Uploaded run 70 with run id 9028814.
+[2018-04-10 05:14:46] Started run 73 on task 125922, dataset 'texture'.
+[2018-04-10 05:17:13] [SCORE] run 69 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:17:35] Uploaded run 69 with run id 9029066.
+[2018-04-10 05:17:35] Started run 74 on task 125922, dataset 'texture'.
+[2018-04-10 05:17:50] [SCORE] run 67 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:18:11] Uploaded run 67 with run id 9029120.
+[2018-04-10 05:18:11] Started run 75 on task 125922, dataset 'texture'.
+[2018-04-10 05:19:24] [SCORE] run 68 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:19:26] Error in uploading run 68, trying again in 14 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:19:58] Uploaded run 68 with run id 9029279.
+[2018-04-10 05:19:58] Started run 76 on task 125922, dataset 'texture'.
+[2018-04-10 05:20:01] Error in run 76, trying again in 12 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:20:13] Started run 76 on task 125922, dataset 'texture'.
+[2018-04-10 05:20:30] [SCORE] run 71 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:20:43] [SCORE] run 75 on task 125922; Accuracy: 0.98.
+[2018-04-10 05:20:52] Uploaded run 71 with run id 9029364.
+[2018-04-10 05:20:52] Started run 77 on task 125922, dataset 'texture'.
+[2018-04-10 05:21:03] Uploaded run 75 with run id 9029382.
+[2018-04-10 05:21:03] Started run 78 on task 125922, dataset 'texture'.
+[2018-04-10 05:21:24] [SCORE] run 60 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:21:44] Uploaded run 60 with run id 9029447.
+[2018-04-10 05:21:44] Started run 79 on task 125922, dataset 'texture'.
+[2018-04-10 05:23:25] [SCORE] run 63 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:23:47] Uploaded run 63 with run id 9029626.
+[2018-04-10 05:23:47] Started run 80 on task 125922, dataset 'texture'.
+[2018-04-10 05:23:59] [SCORE] run 74 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:24:23] Uploaded run 74 with run id 9029669.
+[2018-04-10 05:24:23] Started run 81 on task 125922, dataset 'texture'.
+[2018-04-10 05:24:43] [SCORE] run 77 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:24:56] Uploaded run 77 with run id 9029724.
+[2018-04-10 05:24:56] Started run 82 on task 125922, dataset 'texture'.
+[2018-04-10 05:28:29] [SCORE] run 78 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:28:47] Uploaded run 78 with run id 9030054.
+[2018-04-10 05:28:47] Started run 83 on task 125922, dataset 'texture'.
+[2018-04-10 05:28:50] Error in run 83, trying again in 10 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:29:00] Started run 83 on task 125922, dataset 'texture'.
+[2018-04-10 05:29:03] [SCORE] run 73 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:29:23] Uploaded run 73 with run id 9030111.
+[2018-04-10 05:29:23] Started run 84 on task 125922, dataset 'texture'.
+[2018-04-10 05:29:25] Error in run 84, trying again in 58 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:30:23] Started run 84 on task 125922, dataset 'texture'.
+[2018-04-10 05:31:50] [SCORE] run 84 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:32:03] [SCORE] run 79 on task 125922; Accuracy: 0.95.
+[2018-04-10 05:32:11] Uploaded run 84 with run id 9030361.
+[2018-04-10 05:32:11] Started run 85 on task 125922, dataset 'texture'.
+[2018-04-10 05:32:13] [SCORE] run 80 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:32:22] Uploaded run 79 with run id 9030379.
+[2018-04-10 05:32:22] Started run 86 on task 125922, dataset 'texture'.
+[2018-04-10 05:32:31] Uploaded run 80 with run id 9030389.
+[2018-04-10 05:32:31] Started run 87 on task 125922, dataset 'texture'.
+[2018-04-10 05:33:30] [SCORE] run 76 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:33:49] Uploaded run 76 with run id 9030506.
+[2018-04-10 05:33:49] Started run 88 on task 125922, dataset 'texture'.
+[2018-04-10 05:38:03] [SCORE] run 72 on task 125922; Accuracy: 0.93.
+[2018-04-10 05:38:22] Uploaded run 72 with run id 9030893.
+[2018-04-10 05:38:22] Started run 89 on task 125922, dataset 'texture'.
+[2018-04-10 05:38:33] [SCORE] run 83 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:38:52] Uploaded run 83 with run id 9030935.
+[2018-04-10 05:38:52] Started run 90 on task 125922, dataset 'texture'.
+[2018-04-10 05:38:58] [SCORE] run 85 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:39:17] Uploaded run 85 with run id 9030969.
+[2018-04-10 05:39:17] Started run 91 on task 125922, dataset 'texture'.
+[2018-04-10 05:39:31] [SCORE] run 81 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:39:37] [SCORE] run 90 on task 125922; Accuracy: 0.95.
+[2018-04-10 05:39:45] Uploaded run 81 with run id 9031014.
+[2018-04-10 05:39:45] Started run 92 on task 125922, dataset 'texture'.
+[2018-04-10 05:39:51] Uploaded run 90 with run id 9031022.
+[2018-04-10 05:39:51] Started run 93 on task 125922, dataset 'texture'.
+[2018-04-10 05:40:03] [SCORE] run 89 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:40:14] Uploaded run 89 with run id 9031055.
+[2018-04-10 05:40:14] Started run 94 on task 125922, dataset 'texture'.
+[2018-04-10 05:41:17] [SCORE] run 94 on task 125922; Accuracy: 0.94.
+[2018-04-10 05:41:34] Uploaded run 94 with run id 9031161.
+[2018-04-10 05:41:34] Started run 95 on task 125922, dataset 'texture'.
+[2018-04-10 05:43:10] [SCORE] run 88 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:43:30] Uploaded run 88 with run id 9031306.
+[2018-04-10 05:43:30] Started run 96 on task 125922, dataset 'texture'.
+[2018-04-10 05:43:55] [SCORE] run 86 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:44:12] Uploaded run 86 with run id 9031365.
+[2018-04-10 05:44:12] Started run 97 on task 125922, dataset 'texture'.
+[2018-04-10 05:44:46] [SCORE] run 96 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:44:52] [SCORE] run 95 on task 125922; Accuracy: 0.98.
+[2018-04-10 05:45:01] Uploaded run 96 with run id 9031428.
+[2018-04-10 05:45:01] Started run 98 on task 125922, dataset 'texture'.
+[2018-04-10 05:45:09] Uploaded run 95 with run id 9031439.
+[2018-04-10 05:45:09] Started run 99 on task 125922, dataset 'texture'.
+[2018-04-10 05:49:23] [SCORE] run 99 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:49:42] Uploaded run 99 with run id 9031791.
+[2018-04-10 05:49:42] Started run 100 on task 125922, dataset 'texture'.
+[2018-04-10 05:50:36] [SCORE] run 93 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:50:54] Uploaded run 93 with run id 9031892.
+[2018-04-10 05:50:54] Started run 101 on task 125922, dataset 'texture'.
+[2018-04-10 05:52:47] [SCORE] run 91 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:53:05] Uploaded run 91 with run id 9032074.
+[2018-04-10 05:53:05] Started run 102 on task 125922, dataset 'texture'.
+[2018-04-10 05:53:22] [SCORE] run 87 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:53:40] Uploaded run 87 with run id 9032125.
+[2018-04-10 05:53:40] Started run 103 on task 125922, dataset 'texture'.
+[2018-04-10 05:54:37] [SCORE] run 82 on task 125922; Accuracy: 0.95.
+[2018-04-10 05:54:39] [SCORE] run 100 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:54:56] Uploaded run 82 with run id 9032234.
+[2018-04-10 05:54:56] Started run 104 on task 125922, dataset 'texture'.
+[2018-04-10 05:54:57] Error in run 104, trying again in 37 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:54:58] Uploaded run 100 with run id 9032237.
+[2018-04-10 05:54:58] Started run 105 on task 125922, dataset 'texture'.
+[2018-04-10 05:54:59] Error in run 105, trying again in 14 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:55:13] Started run 105 on task 125922, dataset 'texture'.
+[2018-04-10 05:55:34] Started run 104 on task 125922, dataset 'texture'.
+[2018-04-10 05:57:29] [SCORE] run 98 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:57:48] Uploaded run 98 with run id 9032480.
+[2018-04-10 05:57:48] Started run 106 on task 125922, dataset 'texture'.
+[2018-04-10 05:58:36] [SCORE] run 97 on task 125922; Accuracy: 0.97.
+[2018-04-10 05:58:58] Uploaded run 97 with run id 9032578.
+[2018-04-10 05:58:58] Started run 107 on task 125922, dataset 'texture'.
+[2018-04-10 05:59:02] Error in run 107, trying again in 47 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:59:39] [SCORE] run 102 on task 125922; Accuracy: 0.96.
+[2018-04-10 05:59:49] Started run 107 on task 125922, dataset 'texture'.
+[2018-04-10 05:59:59] Uploaded run 102 with run id 9032665.
+[2018-04-10 05:59:59] Started run 108 on task 125922, dataset 'texture'.
+[2018-04-10 06:01:44] [SCORE] run 104 on task 125922; Accuracy: 0.93.
+[2018-04-10 06:02:03] Uploaded run 104 with run id 9032844.
+[2018-04-10 06:02:03] Started run 109 on task 125922, dataset 'texture'.
+[2018-04-10 06:02:32] [SCORE] run 103 on task 125922; Accuracy: 0.96.
+[2018-04-10 06:02:43] [SCORE] run 106 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:02:48] Uploaded run 103 with run id 9032910.
+[2018-04-10 06:02:48] Started run 110 on task 125922, dataset 'texture'.
+[2018-04-10 06:02:55] Uploaded run 106 with run id 9032919.
+[2018-04-10 06:02:55] Started run 111 on task 125922, dataset 'texture'.
+[2018-04-10 06:03:01] [SCORE] run 101 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:03:18] Uploaded run 101 with run id 9032944.
+[2018-04-10 06:03:18] Started run 112 on task 125922, dataset 'texture'.
+[2018-04-10 06:03:21] [SCORE] run 108 on task 125922; Accuracy: 0.98.
+[2018-04-10 06:03:38] Uploaded run 108 with run id 9032966.
+[2018-04-10 06:03:38] Started run 113 on task 125922, dataset 'texture'.
+[2018-04-10 06:03:56] [SCORE] run 105 on task 125922; Accuracy: 0.98.
+[2018-04-10 06:04:13] Uploaded run 105 with run id 9033017.
+[2018-04-10 06:04:13] Started run 114 on task 125922, dataset 'texture'.
+[2018-04-10 06:04:59] [SCORE] run 109 on task 125922; Accuracy: 0.98.
+[2018-04-10 06:05:18] Uploaded run 109 with run id 9033107.
+[2018-04-10 06:05:18] Started run 115 on task 125922, dataset 'texture'.
+[2018-04-10 06:06:48] [SCORE] run 114 on task 125922; Accuracy: 0.98.
+[2018-04-10 06:06:55] [SCORE] run 92 on task 125922; Accuracy: 0.95.
+[2018-04-10 06:07:01] [SCORE] run 110 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:07:01] Uploaded run 114 with run id 9033254.
+[2018-04-10 06:07:01] Started run 116 on task 125922, dataset 'texture'.
+[2018-04-10 06:07:15] Uploaded run 92 with run id 9033269.
+[2018-04-10 06:07:15] Started run 117 on task 125922, dataset 'texture'.
+[2018-04-10 06:07:20] Uploaded run 110 with run id 9033280.
+[2018-04-10 06:07:20] Started run 118 on task 125922, dataset 'texture'.
+[2018-04-10 06:08:19] [SCORE] run 111 on task 125922; Accuracy: 0.96.
+[2018-04-10 06:08:31] Uploaded run 111 with run id 9033378.
+[2018-04-10 06:08:31] Started run 119 on task 125922, dataset 'texture'.
+[2018-04-10 06:09:24] [SCORE] run 113 on task 125922; Accuracy: 0.94.
+[2018-04-10 06:09:43] Uploaded run 113 with run id 9033479.
+[2018-04-10 06:09:43] Started run 120 on task 125922, dataset 'texture'.
+[2018-04-10 06:10:32] [SCORE] run 120 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:10:43] [SCORE] run 112 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:10:55] Uploaded run 120 with run id 9033572.
+[2018-04-10 06:10:55] Started run 121 on task 125922, dataset 'texture'.
+[2018-04-10 06:11:02] Uploaded run 112 with run id 9033588.
+[2018-04-10 06:11:02] Started run 122 on task 125922, dataset 'texture'.
+[2018-04-10 06:11:58] [SCORE] run 117 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:12:00] Error in uploading run 117, trying again in 23 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 06:12:34] Uploaded run 117 with run id 9033724.
+[2018-04-10 06:12:34] Started run 123 on task 125922, dataset 'texture'.
+[2018-04-10 06:15:26] [SCORE] run 121 on task 125922; Accuracy: 0.96.
+[2018-04-10 06:15:49] [SCORE] run 115 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:15:50] Uploaded run 121 with run id 9033990.
+[2018-04-10 06:15:50] Started run 124 on task 125922, dataset 'texture'.
+[2018-04-10 06:16:14] Uploaded run 115 with run id 9034026.
+[2018-04-10 06:16:14] Started run 125 on task 125922, dataset 'texture'.
+[2018-04-10 06:16:46] [SCORE] run 123 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:16:58] Uploaded run 123 with run id 9034090.
+[2018-04-10 06:16:58] Started run 126 on task 125922, dataset 'texture'.
+[2018-04-10 06:20:28] [SCORE] run 107 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:20:47] Uploaded run 107 with run id 9034379.
+[2018-04-10 06:20:47] Started run 127 on task 125922, dataset 'texture'.
+[2018-04-10 06:21:49] [SCORE] run 127 on task 125922; Accuracy: 0.95.
+[2018-04-10 06:22:05] Uploaded run 127 with run id 9034497.
+[2018-04-10 06:22:05] Started run 128 on task 125922, dataset 'texture'.
+[2018-04-10 06:25:14] [SCORE] run 119 on task 125922; Accuracy: 0.96.
+[2018-04-10 06:25:25] Uploaded run 119 with run id 9034755.
+[2018-04-10 06:25:25] Started run 129 on task 125922, dataset 'texture'.
+[2018-04-10 06:26:54] [SCORE] run 129 on task 125922; Accuracy: 0.96.
+[2018-04-10 06:27:09] Uploaded run 129 with run id 9034860.
+[2018-04-10 06:27:09] Started run 130 on task 125922, dataset 'texture'.
+[2018-04-10 06:27:30] [SCORE] run 124 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:27:41] Uploaded run 124 with run id 9034899.
+[2018-04-10 06:27:41] Started run 131 on task 125922, dataset 'texture'.
+[2018-04-10 06:27:44] [SCORE] run 125 on task 125922; Accuracy: 0.95.
+[2018-04-10 06:27:59] Uploaded run 125 with run id 9034912.
+[2018-04-10 06:27:59] Started run 132 on task 125922, dataset 'texture'.
+[2018-04-10 06:28:37] [SCORE] run 128 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:28:50] Uploaded run 128 with run id 9034970.
+[2018-04-10 06:28:50] Started run 133 on task 125922, dataset 'texture'.
+[2018-04-10 06:29:42] [SCORE] run 122 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:29:42] [SCORE] run 116 on task 125922; Accuracy: 0.94.
+[2018-04-10 06:29:55] Uploaded run 122 with run id 9035035.
+[2018-04-10 06:29:55] Started run 134 on task 125922, dataset 'texture'.
+[2018-04-10 06:29:57] Uploaded run 116 with run id 9035038.
+[2018-04-10 06:29:57] Started run 135 on task 125922, dataset 'texture'.
+[2018-04-10 06:30:57] [SCORE] run 135 on task 125922; Accuracy: 0.94.
+[2018-04-10 06:31:11] Uploaded run 135 with run id 9035119.
+[2018-04-10 06:31:11] Started run 136 on task 125922, dataset 'texture'.
+[2018-04-10 06:31:20] [SCORE] run 133 on task 125922; Accuracy: 0.94.
+[2018-04-10 06:31:27] [SCORE] run 130 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:31:31] Uploaded run 133 with run id 9035141.
+[2018-04-10 06:31:31] Started run 137 on task 125922, dataset 'texture'.
+[2018-04-10 06:31:38] Uploaded run 130 with run id 9035144.
+[2018-04-10 06:31:38] Started run 138 on task 125922, dataset 'texture'.
+[2018-04-10 06:32:08] [SCORE] run 132 on task 125922; Accuracy: 0.96.
+[2018-04-10 06:32:21] Uploaded run 132 with run id 9035197.
+[2018-04-10 06:32:21] Started run 139 on task 125922, dataset 'texture'.
+[2018-04-10 06:32:23] [SCORE] run 118 on task 125922; Accuracy: 0.93.
+[2018-04-10 06:32:34] Uploaded run 118 with run id 9035212.
+[2018-04-10 06:32:34] Started run 140 on task 125922, dataset 'texture'.
+[2018-04-10 06:37:10] [SCORE] run 136 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:37:21] Uploaded run 136 with run id 9035463.
+[2018-04-10 06:37:21] Started run 141 on task 125922, dataset 'texture'.
+[2018-04-10 06:37:26] [SCORE] run 138 on task 125922; Accuracy: 0.98.
+[2018-04-10 06:37:38] Uploaded run 138 with run id 9035483.
+[2018-04-10 06:37:38] Started run 142 on task 125922, dataset 'texture'.
+[2018-04-10 06:38:57] [SCORE] run 131 on task 125922; Accuracy: 0.95.
+[2018-04-10 06:39:09] Uploaded run 131 with run id 9035553.
+[2018-04-10 06:39:09] Started run 143 on task 125922, dataset 'texture'.
+[2018-04-10 06:40:51] [SCORE] run 140 on task 125922; Accuracy: 0.96.
+[2018-04-10 06:41:04] Uploaded run 140 with run id 9035647.
+[2018-04-10 06:41:04] Started run 144 on task 125922, dataset 'texture'.
+[2018-04-10 06:41:14] [SCORE] run 142 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:41:25] Uploaded run 142 with run id 9035670.
+[2018-04-10 06:41:25] Started run 145 on task 125922, dataset 'texture'.
+[2018-04-10 06:43:17] [SCORE] run 126 on task 125922; Accuracy: 0.94.
+[2018-04-10 06:43:30] Uploaded run 126 with run id 9035752.
+[2018-04-10 06:43:30] Started run 146 on task 125922, dataset 'texture'.
+[2018-04-10 06:43:52] [SCORE] run 141 on task 125922; Accuracy: 0.95.
+[2018-04-10 06:44:05] Uploaded run 141 with run id 9035774.
+[2018-04-10 06:44:05] Started run 147 on task 125922, dataset 'texture'.
+[2018-04-10 06:44:07] [SCORE] run 145 on task 125922; Accuracy: 0.96.
+[2018-04-10 06:44:10] [SCORE] run 146 on task 125922; Accuracy: 0.95.
+[2018-04-10 06:44:19] Uploaded run 145 with run id 9035786.
+[2018-04-10 06:44:19] Started run 148 on task 125922, dataset 'texture'.
+[2018-04-10 06:44:21] Uploaded run 146 with run id 9035790.
+[2018-04-10 06:44:21] Started run 149 on task 125922, dataset 'texture'.
+[2018-04-10 06:45:09] [SCORE] run 148 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:45:15] [SCORE] run 137 on task 125922; Accuracy: 0.95.
+[2018-04-10 06:45:20] Uploaded run 148 with run id 9035826.
+[2018-04-10 06:45:20] Started run 150 on task 125922, dataset 'texture'.
+[2018-04-10 06:45:26] Uploaded run 137 with run id 9035830.
+[2018-04-10 06:45:26] Started run 151 on task 125922, dataset 'texture'.
+[2018-04-10 06:46:44] [SCORE] run 147 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:46:54] [SCORE] run 149 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:46:56] Uploaded run 147 with run id 9035886.
+[2018-04-10 06:46:56] Started run 152 on task 125922, dataset 'texture'.
+[2018-04-10 06:47:06] Uploaded run 149 with run id 9035894.
+[2018-04-10 06:47:06] Started run 153 on task 125922, dataset 'texture'.
+[2018-04-10 06:48:47] [SCORE] run 134 on task 125922; Accuracy: 0.94.
+[2018-04-10 06:49:02] Uploaded run 134 with run id 9035966.
+[2018-04-10 06:49:02] Started run 154 on task 125922, dataset 'texture'.
+[2018-04-10 06:50:26] [SCORE] run 152 on task 125922; Accuracy: 0.95.
+[2018-04-10 06:50:38] Uploaded run 152 with run id 9036031.
+[2018-04-10 06:50:38] Started run 155 on task 125922, dataset 'texture'.
+[2018-04-10 06:54:14] [SCORE] run 139 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:54:25] Uploaded run 139 with run id 9036172.
+[2018-04-10 06:54:25] Started run 156 on task 125922, dataset 'texture'.
+[2018-04-10 06:54:29] [SCORE] run 150 on task 125922; Accuracy: 0.96.
+[2018-04-10 06:54:40] Uploaded run 150 with run id 9036180.
+[2018-04-10 06:54:40] Started run 157 on task 125922, dataset 'texture'.
+[2018-04-10 06:55:35] [SCORE] run 151 on task 125922; Accuracy: 0.92.
+[2018-04-10 06:55:46] Uploaded run 151 with run id 9036227.
+[2018-04-10 06:55:46] Started run 158 on task 125922, dataset 'texture'.
+[2018-04-10 06:56:43] [SCORE] run 143 on task 125922; Accuracy: 0.95.
+[2018-04-10 06:56:55] Uploaded run 143 with run id 9036273.
+[2018-04-10 06:56:55] Started run 159 on task 125922, dataset 'texture'.
+[2018-04-10 06:57:22] [SCORE] run 156 on task 125922; Accuracy: 0.97.
+[2018-04-10 06:57:33] Uploaded run 156 with run id 9036301.
+[2018-04-10 06:57:33] Started run 160 on task 125922, dataset 'texture'.
+[2018-04-10 06:57:45] [SCORE] run 154 on task 125922; Accuracy: 0.94.
+[2018-04-10 06:57:58] Uploaded run 154 with run id 9036320.
+[2018-04-10 06:57:58] Started run 161 on task 125922, dataset 'texture'.
+[2018-04-10 06:58:21] [SCORE] run 158 on task 125922; Accuracy: 0.96.
+[2018-04-10 06:58:33] Uploaded run 158 with run id 9036342.
+[2018-04-10 06:58:33] Started run 162 on task 125922, dataset 'texture'.
+[2018-04-10 06:58:48] [SCORE] run 153 on task 125922; Accuracy: 0.95.
+[2018-04-10 06:58:49] [SCORE] run 157 on task 125922; Accuracy: 0.98.
+[2018-04-10 06:59:03] Uploaded run 153 with run id 9036359.
+[2018-04-10 06:59:03] Started run 163 on task 125922, dataset 'texture'.
+[2018-04-10 06:59:05] Uploaded run 157 with run id 9036360.
+[2018-04-10 06:59:05] Started run 164 on task 125922, dataset 'texture'.
+[2018-04-10 07:01:18] [SCORE] run 160 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:01:29] Uploaded run 160 with run id 9036444.
+[2018-04-10 07:01:29] Started run 165 on task 125922, dataset 'texture'.
+[2018-04-10 07:01:43] [SCORE] run 162 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:01:54] Uploaded run 162 with run id 9036461.
+[2018-04-10 07:01:54] Started run 166 on task 125922, dataset 'texture'.
+[2018-04-10 07:02:40] [SCORE] run 163 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:02:50] Uploaded run 163 with run id 9036499.
+[2018-04-10 07:02:50] Started run 167 on task 125922, dataset 'texture'.
+[2018-04-10 07:08:20] [SCORE] run 167 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:08:24] [SCORE] run 144 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:08:30] Uploaded run 167 with run id 9036683.
+[2018-04-10 07:08:30] Started run 168 on task 125922, dataset 'texture'.
+[2018-04-10 07:08:35] Uploaded run 144 with run id 9036684.
+[2018-04-10 07:08:35] Started run 169 on task 125922, dataset 'texture'.
+[2018-04-10 07:08:45] [SCORE] run 159 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:08:56] Uploaded run 159 with run id 9036693.
+[2018-04-10 07:08:56] Started run 170 on task 125922, dataset 'texture'.
+[2018-04-10 07:09:13] [SCORE] run 165 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:09:23] Uploaded run 165 with run id 9036702.
+[2018-04-10 07:09:23] Started run 171 on task 125922, dataset 'texture'.
+[2018-04-10 07:10:43] [SCORE] run 164 on task 125922; Accuracy: 0.91.
+[2018-04-10 07:10:54] Uploaded run 164 with run id 9036752.
+[2018-04-10 07:10:54] Started run 172 on task 125922, dataset 'texture'.
+[2018-04-10 07:12:55] [SCORE] run 170 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:13:00] [SCORE] run 172 on task 125922; Accuracy: 0.95.
+[2018-04-10 07:13:06] Uploaded run 170 with run id 9036821.
+[2018-04-10 07:13:06] Started run 173 on task 125922, dataset 'texture'.
+[2018-04-10 07:13:10] Uploaded run 172 with run id 9036825.
+[2018-04-10 07:13:10] Started run 174 on task 125922, dataset 'texture'.
+[2018-04-10 07:13:12] [SCORE] run 169 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:13:22] Uploaded run 169 with run id 9036826.
+[2018-04-10 07:13:22] Started run 175 on task 125922, dataset 'texture'.
+[2018-04-10 07:13:57] [SCORE] run 174 on task 125922; Accuracy: 0.95.
+[2018-04-10 07:14:08] Uploaded run 174 with run id 9036850.
+[2018-04-10 07:14:08] Started run 176 on task 125922, dataset 'texture'.
+[2018-04-10 07:14:35] [SCORE] run 166 on task 125922; Accuracy: 0.95.
+[2018-04-10 07:14:45] Uploaded run 166 with run id 9036869.
+[2018-04-10 07:14:45] Started run 177 on task 125922, dataset 'texture'.
+[2018-04-10 07:19:17] [SCORE] run 177 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:19:28] Uploaded run 177 with run id 9037015.
+[2018-04-10 07:19:28] Started run 178 on task 125922, dataset 'texture'.
+[2018-04-10 07:20:06] [SCORE] run 173 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:20:16] Uploaded run 173 with run id 9037035.
+[2018-04-10 07:20:16] Started run 179 on task 125922, dataset 'texture'.
+[2018-04-10 07:20:32] [SCORE] run 175 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:20:43] Uploaded run 175 with run id 9037054.
+[2018-04-10 07:20:43] Started run 180 on task 125922, dataset 'texture'.
+[2018-04-10 07:21:06] [SCORE] run 176 on task 125922; Accuracy: 0.94.
+[2018-04-10 07:21:16] Uploaded run 176 with run id 9037073.
+[2018-04-10 07:21:16] Started run 181 on task 125922, dataset 'texture'.
+[2018-04-10 07:21:24] [SCORE] run 155 on task 125922; Accuracy: 0.93.
+[2018-04-10 07:21:32] [SCORE] run 180 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:21:34] Uploaded run 155 with run id 9037080.
+[2018-04-10 07:21:34] Started run 182 on task 125922, dataset 'texture'.
+[2018-04-10 07:21:42] Uploaded run 180 with run id 9037085.
+[2018-04-10 07:21:42] Started run 183 on task 125922, dataset 'texture'.
+[2018-04-10 07:22:08] [SCORE] run 161 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:22:09] [SCORE] run 179 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:22:20] Uploaded run 161 with run id 9037101.
+[2018-04-10 07:22:20] Started run 184 on task 125922, dataset 'texture'.
+[2018-04-10 07:22:22] Uploaded run 179 with run id 9037102.
+[2018-04-10 07:22:22] Started run 185 on task 125922, dataset 'texture'.
+[2018-04-10 07:23:05] [SCORE] run 168 on task 125922; Accuracy: 0.93.
+[2018-04-10 07:23:07] Error in uploading run 168, trying again in 37 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 07:23:56] Uploaded run 168 with run id 9037153.
+[2018-04-10 07:23:56] Started run 186 on task 125922, dataset 'texture'.
+[2018-04-10 07:24:04] [SCORE] run 183 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:24:14] Uploaded run 183 with run id 9037161.
+[2018-04-10 07:24:14] Started run 187 on task 125922, dataset 'texture'.
+[2018-04-10 07:24:27] [SCORE] run 178 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:24:37] Uploaded run 178 with run id 9037172.
+[2018-04-10 07:24:37] Started run 188 on task 125922, dataset 'texture'.
+[2018-04-10 07:25:22] [SCORE] run 182 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:25:33] Uploaded run 182 with run id 9037196.
+[2018-04-10 07:25:33] Started run 189 on task 125922, dataset 'texture'.
+[2018-04-10 07:25:37] [SCORE] run 187 on task 125922; Accuracy: 0.95.
+[2018-04-10 07:25:48] Uploaded run 187 with run id 9037207.
+[2018-04-10 07:25:48] Started run 190 on task 125922, dataset 'texture'.
+[2018-04-10 07:27:16] [SCORE] run 190 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:27:26] Uploaded run 190 with run id 9037261.
+[2018-04-10 07:27:26] Started run 191 on task 125922, dataset 'texture'.
+[2018-04-10 07:29:51] [SCORE] run 184 on task 125922; Accuracy: 0.94.
+[2018-04-10 07:30:01] Uploaded run 184 with run id 9037340.
+[2018-04-10 07:30:01] Started run 192 on task 125922, dataset 'texture'.
+[2018-04-10 07:30:11] [SCORE] run 171 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:30:21] Uploaded run 171 with run id 9037349.
+[2018-04-10 07:30:21] Started run 193 on task 125922, dataset 'texture'.
+[2018-04-10 07:31:12] [SCORE] run 193 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:31:23] Uploaded run 193 with run id 9037381.
+[2018-04-10 07:31:23] Started run 194 on task 125922, dataset 'texture'.
+[2018-04-10 07:32:23] [SCORE] run 181 on task 125922; Accuracy: 0.90.
+[2018-04-10 07:32:34] Uploaded run 181 with run id 9037418.
+[2018-04-10 07:32:34] Started run 195 on task 125922, dataset 'texture'.
+[2018-04-10 07:33:26] [SCORE] run 192 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:33:37] Uploaded run 192 with run id 9037449.
+[2018-04-10 07:33:37] Started run 196 on task 125922, dataset 'texture'.
+[2018-04-10 07:34:56] [SCORE] run 186 on task 125922; Accuracy: 0.95.
+[2018-04-10 07:35:04] [SCORE] run 189 on task 125922; Accuracy: 0.95.
+[2018-04-10 07:35:06] Uploaded run 186 with run id 9037495.
+[2018-04-10 07:35:06] Started run 197 on task 125922, dataset 'texture'.
+[2018-04-10 07:35:15] Uploaded run 189 with run id 9037501.
+[2018-04-10 07:35:15] Started run 198 on task 125922, dataset 'texture'.
+[2018-04-10 07:36:24] [SCORE] run 191 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:36:35] Uploaded run 191 with run id 9037543.
+[2018-04-10 07:36:35] Started run 199 on task 125922, dataset 'texture'.
+[2018-04-10 07:37:18] [SCORE] run 196 on task 125922; Accuracy: 0.98.
+[2018-04-10 07:37:28] Uploaded run 196 with run id 9037587.
+[2018-04-10 07:37:28] Started run 200 on task 125922, dataset 'texture'.
+[2018-04-10 07:37:35] [SCORE] run 188 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:37:46] Uploaded run 188 with run id 9037594.
+[2018-04-10 07:37:46] Started run 201 on task 125922, dataset 'texture'.
+[2018-04-10 07:38:37] [SCORE] run 194 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:38:47] Uploaded run 194 with run id 9037625.
+[2018-04-10 07:38:47] Started run 202 on task 125922, dataset 'texture'.
+[2018-04-10 07:39:15] [SCORE] run 195 on task 125922; Accuracy: 0.94.
+[2018-04-10 07:39:26] Uploaded run 195 with run id 9037642.
+[2018-04-10 07:39:26] Started run 203 on task 125922, dataset 'texture'.
+[2018-04-10 07:39:33] [SCORE] run 197 on task 125922; Accuracy: 0.95.
+[2018-04-10 07:39:44] Uploaded run 197 with run id 9037650.
+[2018-04-10 07:39:44] Started run 204 on task 125922, dataset 'texture'.
+[2018-04-10 07:40:28] [SCORE] run 201 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:40:40] Uploaded run 201 with run id 9037677.
+[2018-04-10 07:40:40] Started run 205 on task 125922, dataset 'texture'.
+[2018-04-10 07:40:52] [SCORE] run 202 on task 125922; Accuracy: 0.95.
+[2018-04-10 07:40:59] [SCORE] run 203 on task 125922; Accuracy: 0.98.
+[2018-04-10 07:41:06] Uploaded run 202 with run id 9037696.
+[2018-04-10 07:41:06] Started run 206 on task 125922, dataset 'texture'.
+[2018-04-10 07:41:13] Uploaded run 203 with run id 9037705.
+[2018-04-10 07:41:13] Started run 207 on task 125922, dataset 'texture'.
+[2018-04-10 07:41:53] [SCORE] run 207 on task 125922; Accuracy: 0.95.
+[2018-04-10 07:41:54] [SCORE] run 205 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:42:04] Uploaded run 207 with run id 9037733.
+[2018-04-10 07:42:04] Started run 208 on task 125922, dataset 'texture'.
+[2018-04-10 07:42:05] Uploaded run 205 with run id 9037734.
+[2018-04-10 07:42:05] Started run 209 on task 125922, dataset 'texture'.
+[2018-04-10 07:42:28] [SCORE] run 198 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:42:38] Uploaded run 198 with run id 9037756.
+[2018-04-10 07:42:38] Started run 210 on task 125922, dataset 'texture'.
+[2018-04-10 07:42:40] [SCORE] run 185 on task 125922; Accuracy: 0.94.
+[2018-04-10 07:42:52] Uploaded run 185 with run id 9037765.
+[2018-04-10 07:42:52] Started run 211 on task 125922, dataset 'texture'.
+[2018-04-10 07:46:44] [SCORE] run 199 on task 125922; Accuracy: 0.92.
+[2018-04-10 07:46:54] Uploaded run 199 with run id 9037886.
+[2018-04-10 07:46:54] Started run 212 on task 125922, dataset 'texture'.
+[2018-04-10 07:48:19] [SCORE] run 209 on task 125922; Accuracy: 0.95.
+[2018-04-10 07:48:30] [SCORE] run 208 on task 125922; Accuracy: 0.94.
+[2018-04-10 07:48:30] Uploaded run 209 with run id 9037932.
+[2018-04-10 07:48:30] Started run 213 on task 125922, dataset 'texture'.
+[2018-04-10 07:48:31] [SCORE] run 211 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:48:40] Uploaded run 208 with run id 9037939.
+[2018-04-10 07:48:40] Started run 214 on task 125922, dataset 'texture'.
+[2018-04-10 07:48:41] Uploaded run 211 with run id 9037940.
+[2018-04-10 07:48:41] Started run 215 on task 125922, dataset 'texture'.
+[2018-04-10 07:51:10] [SCORE] run 210 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:51:10] [SCORE] run 206 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:51:21] Uploaded run 206 with run id 9038046.
+[2018-04-10 07:51:21] Started run 216 on task 125922, dataset 'texture'.
+[2018-04-10 07:51:21] Uploaded run 210 with run id 9038045.
+[2018-04-10 07:51:21] Started run 217 on task 125922, dataset 'texture'.
+[2018-04-10 07:53:27] [SCORE] run 200 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:53:30] [SCORE] run 217 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:53:37] Uploaded run 200 with run id 9038109.
+[2018-04-10 07:53:37] Started run 218 on task 125922, dataset 'texture'.
+[2018-04-10 07:53:41] Uploaded run 217 with run id 9038111.
+[2018-04-10 07:53:41] Started run 219 on task 125922, dataset 'texture'.
+[2018-04-10 07:54:40] [SCORE] run 213 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:54:47] [SCORE] run 215 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:54:51] Uploaded run 213 with run id 9038143.
+[2018-04-10 07:54:51] Started run 220 on task 125922, dataset 'texture'.
+[2018-04-10 07:54:57] Uploaded run 215 with run id 9038148.
+[2018-04-10 07:54:57] Started run 221 on task 125922, dataset 'texture'.
+[2018-04-10 07:55:18] [SCORE] run 216 on task 125922; Accuracy: 0.97.
+[2018-04-10 07:55:28] Uploaded run 216 with run id 9038161.
+[2018-04-10 07:55:28] Started run 222 on task 125922, dataset 'texture'.
+[2018-04-10 07:55:43] [SCORE] run 214 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:55:54] Uploaded run 214 with run id 9038173.
+[2018-04-10 07:55:54] Started run 223 on task 125922, dataset 'texture'.
+[2018-04-10 07:55:57] [SCORE] run 204 on task 125922; Accuracy: 0.95.
+[2018-04-10 07:56:07] Uploaded run 204 with run id 9038183.
+[2018-04-10 07:56:07] Started run 224 on task 125922, dataset 'texture'.
+[2018-04-10 07:56:29] [SCORE] run 218 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:56:34] [SCORE] run 223 on task 125922; Accuracy: 0.94.
+[2018-04-10 07:56:40] Uploaded run 218 with run id 9038200.
+[2018-04-10 07:56:40] Started run 225 on task 125922, dataset 'texture'.
+[2018-04-10 07:56:44] Uploaded run 223 with run id 9038205.
+[2018-04-10 07:56:44] Started run 226 on task 125922, dataset 'texture'.
+[2018-04-10 07:57:39] [SCORE] run 220 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:57:50] Uploaded run 220 with run id 9038250.
+[2018-04-10 07:57:50] Started run 227 on task 125922, dataset 'texture'.
+[2018-04-10 07:59:15] [SCORE] run 224 on task 125922; Accuracy: 0.96.
+[2018-04-10 07:59:26] Uploaded run 224 with run id 9038296.
+[2018-04-10 07:59:26] Started run 228 on task 125922, dataset 'texture'.
+[2018-04-10 08:02:24] [SCORE] run 227 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:02:34] Uploaded run 227 with run id 9038390.
+[2018-04-10 08:02:34] Started run 229 on task 125922, dataset 'texture'.
+[2018-04-10 08:03:22] [SCORE] run 221 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:03:32] Uploaded run 221 with run id 9038412.
+[2018-04-10 08:03:32] Started run 230 on task 125922, dataset 'texture'.
+[2018-04-10 08:05:24] [SCORE] run 228 on task 125922; Accuracy: 0.94.
+[2018-04-10 08:05:35] Uploaded run 228 with run id 9038470.
+[2018-04-10 08:05:35] Started run 231 on task 125922, dataset 'texture'.
+[2018-04-10 08:06:00] [SCORE] run 212 on task 125922; Accuracy: 0.95.
+[2018-04-10 08:06:01] [SCORE] run 229 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:06:11] Uploaded run 212 with run id 9038493.
+[2018-04-10 08:06:11] Started run 232 on task 125922, dataset 'texture'.
+[2018-04-10 08:06:12] Uploaded run 229 with run id 9038494.
+[2018-04-10 08:06:12] Started run 233 on task 125922, dataset 'texture'.
+[2018-04-10 08:06:30] [SCORE] run 230 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:06:41] Uploaded run 230 with run id 9038510.
+[2018-04-10 08:06:41] Started run 234 on task 125922, dataset 'texture'.
+[2018-04-10 08:12:12] [SCORE] run 233 on task 125922; Accuracy: 0.93.
+[2018-04-10 08:12:23] Uploaded run 233 with run id 9038681.
+[2018-04-10 08:12:23] Started run 235 on task 125922, dataset 'texture'.
+[2018-04-10 08:12:28] [SCORE] run 225 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:12:38] Uploaded run 225 with run id 9038690.
+[2018-04-10 08:12:38] Started run 236 on task 125922, dataset 'texture'.
+[2018-04-10 08:12:44] [SCORE] run 219 on task 125922; Accuracy: 0.94.
+[2018-04-10 08:12:49] [SCORE] run 222 on task 125922; Accuracy: 0.94.
+[2018-04-10 08:12:54] [SCORE] run 232 on task 125922; Accuracy: 0.98.
+[2018-04-10 08:12:54] Uploaded run 219 with run id 9038694.
+[2018-04-10 08:12:54] Started run 237 on task 125922, dataset 'texture'.
+[2018-04-10 08:12:59] Uploaded run 222 with run id 9038696.
+[2018-04-10 08:12:59] Started run 238 on task 125922, dataset 'texture'.
+[2018-04-10 08:13:04] Uploaded run 232 with run id 9038699.
+[2018-04-10 08:13:04] Started run 239 on task 125922, dataset 'texture'.
+[2018-04-10 08:13:04] [SCORE] run 226 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:13:15] Uploaded run 226 with run id 9038704.
+[2018-04-10 08:13:15] Started run 240 on task 125922, dataset 'texture'.
+[2018-04-10 08:14:25] [SCORE] run 231 on task 125922; Accuracy: 0.94.
+[2018-04-10 08:14:36] Uploaded run 231 with run id 9038748.
+[2018-04-10 08:14:36] Started run 241 on task 125922, dataset 'texture'.
+[2018-04-10 08:14:37] Error in run 241, trying again in 14 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 08:14:51] Started run 241 on task 125922, dataset 'texture'.
+[2018-04-10 08:15:26] [SCORE] run 237 on task 125922; Accuracy: 0.95.
+[2018-04-10 08:15:37] Uploaded run 237 with run id 9038790.
+[2018-04-10 08:15:37] Started run 242 on task 125922, dataset 'texture'.
+[2018-04-10 08:19:49] [SCORE] run 241 on task 125922; Accuracy: 0.95.
+[2018-04-10 08:19:56] [SCORE] run 234 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:20:00] Uploaded run 241 with run id 9038913.
+[2018-04-10 08:20:00] Started run 243 on task 125922, dataset 'texture'.
+[2018-04-10 08:20:06] Uploaded run 234 with run id 9038918.
+[2018-04-10 08:20:06] Started run 244 on task 125922, dataset 'texture'.
+[2018-04-10 08:20:42] [SCORE] run 240 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:20:53] Uploaded run 240 with run id 9038939.
+[2018-04-10 08:20:53] Started run 245 on task 125922, dataset 'texture'.
+[2018-04-10 08:20:59] [SCORE] run 235 on task 125922; Accuracy: 0.95.
+[2018-04-10 08:21:10] Uploaded run 235 with run id 9038952.
+[2018-04-10 08:21:10] Started run 246 on task 125922, dataset 'texture'.
+[2018-04-10 08:23:53] [SCORE] run 238 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:23:59] [SCORE] run 239 on task 125922; Accuracy: 0.93.
+[2018-04-10 08:24:02] [SCORE] run 243 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:24:04] Uploaded run 238 with run id 9039051.
+[2018-04-10 08:24:04] Started run 247 on task 125922, dataset 'texture'.
+[2018-04-10 08:24:10] Uploaded run 239 with run id 9039057.
+[2018-04-10 08:24:10] Started run 248 on task 125922, dataset 'texture'.
+[2018-04-10 08:24:12] Uploaded run 243 with run id 9039059.
+[2018-04-10 08:24:12] Started run 249 on task 125922, dataset 'texture'.
+[2018-04-10 08:24:35] [SCORE] run 246 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:24:46] Uploaded run 246 with run id 9039074.
+[2018-04-10 08:24:46] Started run 250 on task 125922, dataset 'texture'.
+[2018-04-10 08:25:13] [SCORE] run 249 on task 125922; Accuracy: 0.94.
+[2018-04-10 08:25:23] Uploaded run 249 with run id 9039091.
+[2018-04-10 08:25:23] Started run 251 on task 125922, dataset 'texture'.
+[2018-04-10 08:26:04] [SCORE] run 245 on task 125922; Accuracy: 0.95.
+[2018-04-10 08:26:15] Uploaded run 245 with run id 9039117.
+[2018-04-10 08:26:15] Started run 252 on task 125922, dataset 'texture'.
+[2018-04-10 08:28:09] [SCORE] run 248 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:28:20] Uploaded run 248 with run id 9039182.
+[2018-04-10 08:28:20] Started run 253 on task 125922, dataset 'texture'.
+[2018-04-10 08:29:35] [SCORE] run 247 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:29:38] [SCORE] run 251 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:29:47] Uploaded run 247 with run id 9039223.
+[2018-04-10 08:29:47] Started run 254 on task 125922, dataset 'texture'.
+[2018-04-10 08:29:48] Uploaded run 251 with run id 9039225.
+[2018-04-10 08:29:48] Started run 255 on task 125922, dataset 'texture'.
+[2018-04-10 08:34:47] [SCORE] run 242 on task 125922; Accuracy: 0.93.
+[2018-04-10 08:34:57] Uploaded run 242 with run id 9039366.
+[2018-04-10 08:34:57] Started run 256 on task 125922, dataset 'texture'.
+[2018-04-10 08:35:08] [SCORE] run 250 on task 125922; Accuracy: 0.98.
+[2018-04-10 08:35:11] [SCORE] run 236 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:35:19] Uploaded run 250 with run id 9039376.
+[2018-04-10 08:35:19] Started run 257 on task 125922, dataset 'texture'.
+[2018-04-10 08:35:23] Uploaded run 236 with run id 9039379.
+[2018-04-10 08:35:23] Started run 258 on task 125922, dataset 'texture'.
+[2018-04-10 08:35:57] [SCORE] run 253 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:36:09] Uploaded run 253 with run id 9039391.
+[2018-04-10 08:36:09] Started run 259 on task 125922, dataset 'texture'.
+[2018-04-10 08:36:29] [SCORE] run 255 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:36:41] Uploaded run 255 with run id 9039416.
+[2018-04-10 08:36:41] Started run 260 on task 125922, dataset 'texture'.
+[2018-04-10 08:38:36] [SCORE] run 254 on task 125922; Accuracy: 0.94.
+[2018-04-10 08:38:47] Uploaded run 254 with run id 9039477.
+[2018-04-10 08:38:47] Started run 261 on task 125922, dataset 'texture'.
+[2018-04-10 08:40:19] [SCORE] run 260 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:40:28] [SCORE] run 244 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:40:29] Uploaded run 260 with run id 9039526.
+[2018-04-10 08:40:29] Started run 262 on task 125922, dataset 'texture'.
+[2018-04-10 08:40:35] [SCORE] run 257 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:40:38] Uploaded run 244 with run id 9039532.
+[2018-04-10 08:40:38] Started run 263 on task 125922, dataset 'texture'.
+[2018-04-10 08:40:46] Uploaded run 257 with run id 9039537.
+[2018-04-10 08:40:46] Started run 264 on task 125922, dataset 'texture'.
+[2018-04-10 08:41:16] [SCORE] run 262 on task 125922; Accuracy: 0.95.
+[2018-04-10 08:41:26] Uploaded run 262 with run id 9039557.
+[2018-04-10 08:41:26] Started run 265 on task 125922, dataset 'texture'.
+[2018-04-10 08:42:20] [SCORE] run 264 on task 125922; Accuracy: 0.95.
+[2018-04-10 08:42:31] Uploaded run 264 with run id 9039587.
+[2018-04-10 08:42:31] Started run 266 on task 125922, dataset 'texture'.
+[2018-04-10 08:44:27] [SCORE] run 265 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:44:28] [SCORE] run 263 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:44:37] Uploaded run 265 with run id 9039643.
+[2018-04-10 08:44:37] Started run 267 on task 125922, dataset 'texture'.
+[2018-04-10 08:44:38] Uploaded run 263 with run id 9039644.
+[2018-04-10 08:44:38] Started run 268 on task 125922, dataset 'texture'.
+[2018-04-10 08:46:46] [SCORE] run 266 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:46:57] Uploaded run 266 with run id 9039700.
+[2018-04-10 08:46:57] Started run 269 on task 125922, dataset 'texture'.
+[2018-04-10 08:47:12] [SCORE] run 268 on task 125922; Accuracy: 0.98.
+[2018-04-10 08:47:22] Uploaded run 268 with run id 9039711.
+[2018-04-10 08:47:22] Started run 270 on task 125922, dataset 'texture'.
+[2018-04-10 08:48:06] [SCORE] run 256 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:48:17] Uploaded run 256 with run id 9039735.
+[2018-04-10 08:48:17] Started run 271 on task 125922, dataset 'texture'.
+[2018-04-10 08:48:42] [SCORE] run 252 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:48:53] Uploaded run 252 with run id 9039745.
+[2018-04-10 08:48:53] Started run 272 on task 125922, dataset 'texture'.
+[2018-04-10 08:48:57] [SCORE] run 261 on task 125922; Accuracy: 0.95.
+[2018-04-10 08:49:08] Uploaded run 261 with run id 9039753.
+[2018-04-10 08:49:08] Started run 273 on task 125922, dataset 'texture'.
+[2018-04-10 08:49:19] [SCORE] run 259 on task 125922; Accuracy: 0.98.
+[2018-04-10 08:49:30] Uploaded run 259 with run id 9039764.
+[2018-04-10 08:49:30] Started run 274 on task 125922, dataset 'texture'.
+[2018-04-10 08:50:13] [SCORE] run 270 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:50:17] [SCORE] run 258 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:50:24] Uploaded run 270 with run id 9039781.
+[2018-04-10 08:50:24] Started run 275 on task 125922, dataset 'texture'.
+[2018-04-10 08:50:28] Uploaded run 258 with run id 9039786.
+[2018-04-10 08:50:28] Started run 276 on task 125922, dataset 'texture'.
+[2018-04-10 08:54:20] [SCORE] run 269 on task 125922; Accuracy: 0.95.
+[2018-04-10 08:54:31] Uploaded run 269 with run id 9039894.
+[2018-04-10 08:54:31] Started run 277 on task 125922, dataset 'texture'.
+[2018-04-10 08:57:02] [SCORE] run 277 on task 125922; Accuracy: 0.98.
+[2018-04-10 08:57:14] Uploaded run 277 with run id 9039972.
+[2018-04-10 08:57:14] Started run 278 on task 125922, dataset 'texture'.
+[2018-04-10 08:57:27] [SCORE] run 271 on task 125922; Accuracy: 0.95.
+[2018-04-10 08:57:38] Uploaded run 271 with run id 9039983.
+[2018-04-10 08:57:38] Started run 279 on task 125922, dataset 'texture'.
+[2018-04-10 08:58:39] [SCORE] run 276 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:58:49] Uploaded run 276 with run id 9040016.
+[2018-04-10 08:58:49] Started run 280 on task 125922, dataset 'texture'.
+[2018-04-10 08:58:52] [SCORE] run 267 on task 125922; Accuracy: 0.97.
+[2018-04-10 08:59:02] Uploaded run 267 with run id 9040023.
+[2018-04-10 08:59:02] Started run 281 on task 125922, dataset 'texture'.
+[2018-04-10 08:59:25] [SCORE] run 272 on task 125922; Accuracy: 0.96.
+[2018-04-10 08:59:35] Uploaded run 272 with run id 9040040.
+[2018-04-10 08:59:35] Started run 282 on task 125922, dataset 'texture'.
+[2018-04-10 09:01:22] [SCORE] run 279 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:01:33] Uploaded run 279 with run id 9040093.
+[2018-04-10 09:01:33] Started run 283 on task 125922, dataset 'texture'.
+[2018-04-10 09:04:17] [SCORE] run 275 on task 125922; Accuracy: 0.94.
+[2018-04-10 09:04:27] Uploaded run 275 with run id 9040181.
+[2018-04-10 09:04:27] Started run 284 on task 125922, dataset 'texture'.
+[2018-04-10 09:04:52] [SCORE] run 281 on task 125922; Accuracy: 0.98.
+[2018-04-10 09:05:02] Uploaded run 281 with run id 9040197.
+[2018-04-10 09:05:02] Started run 285 on task 125922, dataset 'texture'.
+[2018-04-10 09:06:11] [SCORE] run 280 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:06:21] Uploaded run 280 with run id 9040230.
+[2018-04-10 09:06:21] Started run 286 on task 125922, dataset 'texture'.
+[2018-04-10 09:07:00] [SCORE] run 283 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:07:10] Uploaded run 283 with run id 9040251.
+[2018-04-10 09:07:10] Started run 287 on task 125922, dataset 'texture'.
+[2018-04-10 09:08:34] [SCORE] run 286 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:08:45] Uploaded run 286 with run id 9040292.
+[2018-04-10 09:08:45] Started run 288 on task 125922, dataset 'texture'.
+[2018-04-10 09:10:02] [SCORE] run 274 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:10:13] Uploaded run 274 with run id 9040336.
+[2018-04-10 09:10:13] Started run 289 on task 125922, dataset 'texture'.
+[2018-04-10 09:11:51] [SCORE] run 282 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:12:01] Uploaded run 282 with run id 9040389.
+[2018-04-10 09:12:01] Started run 290 on task 125922, dataset 'texture'.
+[2018-04-10 09:12:49] [SCORE] run 289 on task 125922; Accuracy: 0.98.
+[2018-04-10 09:13:00] Uploaded run 289 with run id 9040418.
+[2018-04-10 09:13:00] Started run 291 on task 125922, dataset 'texture'.
+[2018-04-10 09:13:08] [SCORE] run 278 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:13:19] Uploaded run 278 with run id 9040426.
+[2018-04-10 09:13:19] Started run 292 on task 125922, dataset 'texture'.
+[2018-04-10 09:13:22] [SCORE] run 285 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:13:32] Uploaded run 285 with run id 9040430.
+[2018-04-10 09:13:32] Started run 293 on task 125922, dataset 'texture'.
+[2018-04-10 09:15:56] [SCORE] run 287 on task 125922; Accuracy: 0.98.
+[2018-04-10 09:16:06] Uploaded run 287 with run id 9040498.
+[2018-04-10 09:16:06] Started run 294 on task 125922, dataset 'texture'.
+[2018-04-10 09:17:08] [SCORE] run 273 on task 125922; Accuracy: 0.94.
+[2018-04-10 09:17:18] Uploaded run 273 with run id 9040538.
+[2018-04-10 09:17:18] Started run 295 on task 125922, dataset 'texture'.
+[2018-04-10 09:17:42] [SCORE] run 284 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:17:52] Uploaded run 284 with run id 9040554.
+[2018-04-10 09:17:52] Started run 296 on task 125922, dataset 'texture'.
+[2018-04-10 09:18:36] [SCORE] run 293 on task 125922; Accuracy: 0.94.
+[2018-04-10 09:18:47] Uploaded run 293 with run id 9040573.
+[2018-04-10 09:18:47] Started run 297 on task 125922, dataset 'texture'.
+[2018-04-10 09:19:40] [SCORE] run 295 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:19:51] Uploaded run 295 with run id 9040595.
+[2018-04-10 09:19:51] Started run 298 on task 125922, dataset 'texture'.
+[2018-04-10 09:19:55] [SCORE] run 288 on task 125922; Accuracy: 0.95.
+[2018-04-10 09:20:01] [SCORE] run 294 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:20:06] Uploaded run 288 with run id 9040602.
+[2018-04-10 09:20:06] Started run 299 on task 125922, dataset 'texture'.
+[2018-04-10 09:20:12] Uploaded run 294 with run id 9040603.
+[2018-04-10 09:20:12] Started run 300 on task 125922, dataset 'texture'.
+[2018-04-10 09:23:55] [SCORE] run 296 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:24:06] Uploaded run 296 with run id 9040690.
+[2018-04-10 09:24:06] Started run 301 on task 125922, dataset 'texture'.
+[2018-04-10 09:24:33] [SCORE] run 292 on task 125922; Accuracy: 0.91.
+[2018-04-10 09:24:44] Uploaded run 292 with run id 9040698.
+[2018-04-10 09:24:44] Started run 302 on task 125922, dataset 'texture'.
+[2018-04-10 09:25:48] [SCORE] run 291 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:25:50] [SCORE] run 300 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:25:58] Uploaded run 291 with run id 9040734.
+[2018-04-10 09:25:58] Started run 303 on task 125922, dataset 'texture'.
+[2018-04-10 09:25:58] [SCORE] run 299 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:26:01] Uploaded run 300 with run id 9040735.
+[2018-04-10 09:26:01] Started run 304 on task 125922, dataset 'texture'.
+[2018-04-10 09:26:03] [SCORE] run 290 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:26:09] Uploaded run 299 with run id 9040740.
+[2018-04-10 09:26:09] Started run 305 on task 125922, dataset 'texture'.
+[2018-04-10 09:26:13] Uploaded run 290 with run id 9040742.
+[2018-04-10 09:26:13] Started run 306 on task 125922, dataset 'texture'.
+[2018-04-10 09:28:42] [SCORE] run 306 on task 125922; Accuracy: 0.95.
+[2018-04-10 09:28:52] Uploaded run 306 with run id 9040801.
+[2018-04-10 09:28:52] Started run 307 on task 125922, dataset 'texture'.
+[2018-04-10 09:34:40] [SCORE] run 304 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:34:51] Uploaded run 304 with run id 9040937.
+[2018-04-10 09:34:51] Started run 308 on task 125922, dataset 'texture'.
+[2018-04-10 09:37:41] [SCORE] run 297 on task 125922; Accuracy: 0.94.
+[2018-04-10 09:37:51] Uploaded run 297 with run id 9041009.
+[2018-04-10 09:37:51] Started run 309 on task 125922, dataset 'texture'.
+[2018-04-10 09:39:47] [SCORE] run 303 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:39:57] Uploaded run 303 with run id 9041056.
+[2018-04-10 09:39:57] Started run 310 on task 125922, dataset 'texture'.
+[2018-04-10 09:40:29] [SCORE] run 302 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:40:39] Uploaded run 302 with run id 9041073.
+[2018-04-10 09:40:39] Started run 311 on task 125922, dataset 'texture'.
+[2018-04-10 09:41:38] [SCORE] run 307 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:41:40] [SCORE] run 298 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:41:48] Uploaded run 307 with run id 9041102.
+[2018-04-10 09:41:48] Started run 312 on task 125922, dataset 'texture'.
+[2018-04-10 09:41:50] Uploaded run 298 with run id 9041103.
+[2018-04-10 09:41:50] Started run 313 on task 125922, dataset 'texture'.
+[2018-04-10 09:41:53] [SCORE] run 305 on task 125922; Accuracy: 0.94.
+[2018-04-10 09:42:04] Uploaded run 305 with run id 9041112.
+[2018-04-10 09:42:04] Started run 314 on task 125922, dataset 'texture'.
+[2018-04-10 09:42:11] [SCORE] run 310 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:42:21] Uploaded run 310 with run id 9041119.
+[2018-04-10 09:42:21] Started run 315 on task 125922, dataset 'texture'.
+[2018-04-10 09:43:48] [SCORE] run 315 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:44:00] Uploaded run 315 with run id 9041151.
+[2018-04-10 09:44:00] Started run 316 on task 125922, dataset 'texture'.
+[2018-04-10 09:44:13] [SCORE] run 309 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:44:23] Uploaded run 309 with run id 9041168.
+[2018-04-10 09:44:23] Started run 317 on task 125922, dataset 'texture'.
+[2018-04-10 09:45:52] [SCORE] run 314 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:46:04] Uploaded run 314 with run id 9041201.
+[2018-04-10 09:46:04] Started run 318 on task 125922, dataset 'texture'.
+[2018-04-10 09:48:20] [SCORE] run 316 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:48:30] Uploaded run 316 with run id 9041266.
+[2018-04-10 09:48:30] Started run 319 on task 125922, dataset 'texture'.
+[2018-04-10 09:48:53] [SCORE] run 301 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:49:03] Uploaded run 301 with run id 9041279.
+[2018-04-10 09:49:03] Started run 320 on task 125922, dataset 'texture'.
+[2018-04-10 09:49:58] [SCORE] run 312 on task 125922; Accuracy: 0.94.
+[2018-04-10 09:50:08] Uploaded run 312 with run id 9041300.
+[2018-04-10 09:50:08] Started run 321 on task 125922, dataset 'texture'.
+[2018-04-10 09:51:22] [SCORE] run 317 on task 125922; Accuracy: 0.95.
+[2018-04-10 09:51:32] Uploaded run 317 with run id 9041336.
+[2018-04-10 09:51:32] Started run 322 on task 125922, dataset 'texture'.
+[2018-04-10 09:52:19] [SCORE] run 308 on task 125922; Accuracy: 0.98.
+[2018-04-10 09:52:29] Uploaded run 308 with run id 9041360.
+[2018-04-10 09:52:29] Started run 323 on task 125922, dataset 'texture'.
+[2018-04-10 09:52:51] [SCORE] run 311 on task 125922; Accuracy: 0.92.
+[2018-04-10 09:53:01] Uploaded run 311 with run id 9041364.
+[2018-04-10 09:53:01] Started run 324 on task 125922, dataset 'texture'.
+[2018-04-10 09:53:58] [SCORE] run 318 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:54:09] Uploaded run 318 with run id 9041391.
+[2018-04-10 09:54:09] Started run 325 on task 125922, dataset 'texture'.
+[2018-04-10 09:55:10] [SCORE] run 320 on task 125922; Accuracy: 0.95.
+[2018-04-10 09:55:20] Uploaded run 320 with run id 9041424.
+[2018-04-10 09:55:20] Started run 326 on task 125922, dataset 'texture'.
+[2018-04-10 09:57:02] [SCORE] run 322 on task 125922; Accuracy: 0.95.
+[2018-04-10 09:57:12] Uploaded run 322 with run id 9041466.
+[2018-04-10 09:57:12] Started run 327 on task 125922, dataset 'texture'.
+[2018-04-10 09:58:48] [SCORE] run 321 on task 125922; Accuracy: 0.96.
+[2018-04-10 09:58:58] Uploaded run 321 with run id 9041500.
+[2018-04-10 09:58:58] Started run 328 on task 125922, dataset 'texture'.
+[2018-04-10 09:59:23] [SCORE] run 327 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:59:24] [SCORE] run 325 on task 125922; Accuracy: 0.97.
+[2018-04-10 09:59:27] Error in uploading run 325, trying again in 41 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 09:59:33] Uploaded run 327 with run id 9041506.
+[2018-04-10 09:59:33] Started run 329 on task 125922, dataset 'texture'.
+[2018-04-10 10:00:18] Uploaded run 325 with run id 9041528.
+[2018-04-10 10:00:18] Started run 330 on task 125922, dataset 'texture'.
+[2018-04-10 10:00:22] [SCORE] run 324 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:00:23] [SCORE] run 329 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:00:33] Uploaded run 324 with run id 9041531.
+[2018-04-10 10:00:33] Started run 331 on task 125922, dataset 'texture'.
+[2018-04-10 10:00:34] Uploaded run 329 with run id 9041532.
+[2018-04-10 10:00:34] Started run 332 on task 125922, dataset 'texture'.
+[2018-04-10 10:03:07] [SCORE] run 330 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:03:19] Uploaded run 330 with run id 9041593.
+[2018-04-10 10:03:19] Started run 333 on task 125922, dataset 'texture'.
+[2018-04-10 10:03:40] [SCORE] run 332 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:03:50] Uploaded run 332 with run id 9041603.
+[2018-04-10 10:03:50] Started run 334 on task 125922, dataset 'texture'.
+[2018-04-10 10:03:51] [SCORE] run 323 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:04:02] Uploaded run 323 with run id 9041610.
+[2018-04-10 10:04:02] Started run 335 on task 125922, dataset 'texture'.
+[2018-04-10 10:04:12] [SCORE] run 333 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:04:23] Uploaded run 333 with run id 9041623.
+[2018-04-10 10:04:23] Started run 336 on task 125922, dataset 'texture'.
+[2018-04-10 10:05:47] [SCORE] run 336 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:05:57] Uploaded run 336 with run id 9041658.
+[2018-04-10 10:05:57] Started run 337 on task 125922, dataset 'texture'.
+[2018-04-10 10:07:05] [SCORE] run 326 on task 125922; Accuracy: 0.94.
+[2018-04-10 10:07:15] Uploaded run 326 with run id 9041679.
+[2018-04-10 10:07:15] Started run 338 on task 125922, dataset 'texture'.
+[2018-04-10 10:08:45] [SCORE] run 338 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:08:56] Uploaded run 338 with run id 9041721.
+[2018-04-10 10:08:56] Started run 339 on task 125922, dataset 'texture'.
+[2018-04-10 10:08:57] [SCORE] run 319 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:09:07] Uploaded run 319 with run id 9041726.
+[2018-04-10 10:09:07] Started run 340 on task 125922, dataset 'texture'.
+[2018-04-10 10:09:09] [SCORE] run 313 on task 125922; Accuracy: 0.91.
+[2018-04-10 10:09:20] Uploaded run 313 with run id 9041729.
+[2018-04-10 10:09:20] Started run 341 on task 125922, dataset 'texture'.
+[2018-04-10 10:11:00] [SCORE] run 337 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:11:11] Uploaded run 337 with run id 9041772.
+[2018-04-10 10:11:11] Started run 342 on task 125922, dataset 'texture'.
+[2018-04-10 10:12:23] [SCORE] run 334 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:12:26] [SCORE] run 341 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:12:34] Uploaded run 334 with run id 9041801.
+[2018-04-10 10:12:34] Started run 343 on task 125922, dataset 'texture'.
+[2018-04-10 10:12:36] Uploaded run 341 with run id 9041803.
+[2018-04-10 10:12:36] Started run 344 on task 125922, dataset 'texture'.
+[2018-04-10 10:15:00] [SCORE] run 342 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:15:10] Uploaded run 342 with run id 9041851.
+[2018-04-10 10:15:10] Started run 345 on task 125922, dataset 'texture'.
+[2018-04-10 10:17:51] [SCORE] run 345 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:18:02] Uploaded run 345 with run id 9041921.
+[2018-04-10 10:18:02] Started run 346 on task 125922, dataset 'texture'.
+[2018-04-10 10:18:05] [SCORE] run 328 on task 125922; Accuracy: 0.94.
+[2018-04-10 10:18:16] Uploaded run 328 with run id 9041929.
+[2018-04-10 10:18:16] Started run 347 on task 125922, dataset 'texture'.
+[2018-04-10 10:22:26] [SCORE] run 343 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:22:37] Uploaded run 343 with run id 9042040.
+[2018-04-10 10:22:37] Started run 348 on task 125922, dataset 'texture'.
+[2018-04-10 10:23:48] [SCORE] run 344 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:23:58] Uploaded run 344 with run id 9042067.
+[2018-04-10 10:23:58] Started run 349 on task 125922, dataset 'texture'.
+[2018-04-10 10:24:30] [SCORE] run 335 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:24:41] Uploaded run 335 with run id 9042080.
+[2018-04-10 10:24:41] Started run 350 on task 125922, dataset 'texture'.
+[2018-04-10 10:24:58] [SCORE] run 347 on task 125922; Accuracy: 0.93.
+[2018-04-10 10:25:08] Uploaded run 347 with run id 9042091.
+[2018-04-10 10:25:08] Started run 351 on task 125922, dataset 'texture'.
+[2018-04-10 10:26:20] [SCORE] run 339 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:26:28] [SCORE] run 351 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:26:29] [SCORE] run 348 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:26:30] Uploaded run 339 with run id 9042121.
+[2018-04-10 10:26:30] Started run 352 on task 125922, dataset 'texture'.
+[2018-04-10 10:26:38] Uploaded run 351 with run id 9042124.
+[2018-04-10 10:26:38] Started run 353 on task 125922, dataset 'texture'.
+[2018-04-10 10:26:39] Uploaded run 348 with run id 9042125.
+[2018-04-10 10:26:39] Started run 354 on task 125922, dataset 'texture'.
+[2018-04-10 10:26:55] [SCORE] run 331 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:27:04] Uploaded run 331 with run id 9042136.
+[2018-04-10 10:27:04] Started run 355 on task 125922, dataset 'texture'.
+[2018-04-10 10:27:26] [SCORE] run 340 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:27:37] Uploaded run 340 with run id 9042144.
+[2018-04-10 10:27:37] Started run 356 on task 125922, dataset 'texture'.
+[2018-04-10 10:27:45] [SCORE] run 354 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:27:55] Uploaded run 354 with run id 9042149.
+[2018-04-10 10:27:55] Started run 357 on task 125922, dataset 'texture'.
+[2018-04-10 10:28:00] [SCORE] run 353 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:28:11] Uploaded run 353 with run id 9042157.
+[2018-04-10 10:28:11] Started run 358 on task 125922, dataset 'texture'.
+[2018-04-10 10:29:25] [SCORE] run 350 on task 125922; Accuracy: 0.98.
+[2018-04-10 10:29:35] Uploaded run 350 with run id 9042196.
+[2018-04-10 10:29:35] Started run 359 on task 125922, dataset 'texture'.
+[2018-04-10 10:30:37] [SCORE] run 357 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:30:47] Uploaded run 357 with run id 9042225.
+[2018-04-10 10:30:47] Started run 360 on task 125922, dataset 'texture'.
+[2018-04-10 10:31:01] [SCORE] run 352 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:31:11] Uploaded run 352 with run id 9042233.
+[2018-04-10 10:31:11] Started run 361 on task 125922, dataset 'texture'.
+[2018-04-10 10:32:05] [SCORE] run 355 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:32:15] Uploaded run 355 with run id 9042260.
+[2018-04-10 10:32:15] Started run 362 on task 125922, dataset 'texture'.
+[2018-04-10 10:33:22] [SCORE] run 362 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:33:33] Uploaded run 362 with run id 9042280.
+[2018-04-10 10:33:33] Started run 363 on task 125922, dataset 'texture'.
+[2018-04-10 10:33:55] [SCORE] run 359 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:34:05] Uploaded run 359 with run id 9042292.
+[2018-04-10 10:34:05] Started run 364 on task 125922, dataset 'texture'.
+[2018-04-10 10:34:59] [SCORE] run 346 on task 125922; Accuracy: 0.98.
+[2018-04-10 10:35:09] Uploaded run 346 with run id 9042309.
+[2018-04-10 10:35:09] Started run 365 on task 125922, dataset 'texture'.
+[2018-04-10 10:35:50] [SCORE] run 349 on task 125922; Accuracy: 0.90.
+[2018-04-10 10:36:01] Uploaded run 349 with run id 9042329.
+[2018-04-10 10:36:01] Started run 366 on task 125922, dataset 'texture'.
+[2018-04-10 10:37:25] [SCORE] run 361 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:37:28] [SCORE] run 358 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:37:36] Uploaded run 361 with run id 9042364.
+[2018-04-10 10:37:36] Started run 367 on task 125922, dataset 'texture'.
+[2018-04-10 10:37:38] Uploaded run 358 with run id 9042365.
+[2018-04-10 10:37:38] Started run 368 on task 125922, dataset 'texture'.
+[2018-04-10 10:39:42] [SCORE] run 363 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:39:52] Uploaded run 363 with run id 9042412.
+[2018-04-10 10:39:52] Started run 369 on task 125922, dataset 'texture'.
+[2018-04-10 10:41:08] [SCORE] run 365 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:41:18] Uploaded run 365 with run id 9042442.
+[2018-04-10 10:41:18] Started run 370 on task 125922, dataset 'texture'.
+[2018-04-10 10:41:19] [SCORE] run 364 on task 125922; Accuracy: 0.93.
+[2018-04-10 10:41:30] Uploaded run 364 with run id 9042446.
+[2018-04-10 10:41:30] Started run 371 on task 125922, dataset 'texture'.
+[2018-04-10 10:42:28] [SCORE] run 368 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:42:38] Uploaded run 368 with run id 9042475.
+[2018-04-10 10:42:38] Started run 372 on task 125922, dataset 'texture'.
+[2018-04-10 10:42:48] [SCORE] run 371 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:42:58] Uploaded run 371 with run id 9042480.
+[2018-04-10 10:42:58] Started run 373 on task 125922, dataset 'texture'.
+[2018-04-10 10:44:01] [SCORE] run 367 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:44:11] Uploaded run 367 with run id 9042499.
+[2018-04-10 10:44:11] Started run 374 on task 125922, dataset 'texture'.
+[2018-04-10 10:44:25] [SCORE] run 360 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:44:35] Uploaded run 360 with run id 9042507.
+[2018-04-10 10:44:35] Started run 375 on task 125922, dataset 'texture'.
+[2018-04-10 10:47:18] [SCORE] run 372 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:47:29] Uploaded run 372 with run id 9042572.
+[2018-04-10 10:47:29] Started run 376 on task 125922, dataset 'texture'.
+[2018-04-10 10:47:52] [SCORE] run 370 on task 125922; Accuracy: 0.95.
+[2018-04-10 10:48:03] Uploaded run 370 with run id 9042586.
+[2018-04-10 10:48:03] Started run 377 on task 125922, dataset 'texture'.
+[2018-04-10 10:49:21] [SCORE] run 377 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:49:32] Uploaded run 377 with run id 9042616.
+[2018-04-10 10:49:32] Started run 378 on task 125922, dataset 'texture'.
+[2018-04-10 10:50:29] [SCORE] run 356 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:50:39] Uploaded run 356 with run id 9042644.
+[2018-04-10 10:50:39] Started run 379 on task 125922, dataset 'texture'.
+[2018-04-10 10:50:46] [SCORE] run 376 on task 125922; Accuracy: 0.98.
+[2018-04-10 10:50:56] Uploaded run 376 with run id 9042648.
+[2018-04-10 10:50:56] Started run 380 on task 125922, dataset 'texture'.
+[2018-04-10 10:52:12] [SCORE] run 375 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:52:22] Uploaded run 375 with run id 9042671.
+[2018-04-10 10:52:22] Started run 381 on task 125922, dataset 'texture'.
+[2018-04-10 10:52:38] [SCORE] run 378 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:52:49] Uploaded run 378 with run id 9042680.
+[2018-04-10 10:52:49] Started run 382 on task 125922, dataset 'texture'.
+[2018-04-10 10:54:22] [SCORE] run 380 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:54:33] Uploaded run 380 with run id 9042721.
+[2018-04-10 10:54:33] Started run 383 on task 125922, dataset 'texture'.
+[2018-04-10 10:55:41] [SCORE] run 382 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:55:51] Uploaded run 382 with run id 9042748.
+[2018-04-10 10:55:51] Started run 384 on task 125922, dataset 'texture'.
+[2018-04-10 10:56:07] [SCORE] run 374 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:56:18] Uploaded run 374 with run id 9042757.
+[2018-04-10 10:56:18] Started run 385 on task 125922, dataset 'texture'.
+[2018-04-10 10:58:41] [SCORE] run 373 on task 125922; Accuracy: 0.97.
+[2018-04-10 10:58:51] Uploaded run 373 with run id 9042810.
+[2018-04-10 10:58:51] Started run 386 on task 125922, dataset 'texture'.
+[2018-04-10 10:59:15] [SCORE] run 383 on task 125922; Accuracy: 0.96.
+[2018-04-10 10:59:26] Uploaded run 383 with run id 9042824.
+[2018-04-10 10:59:26] Started run 387 on task 125922, dataset 'texture'.
+[2018-04-10 11:02:05] [SCORE] run 386 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:02:09] [SCORE] run 366 on task 125922; Accuracy: 0.95.
+[2018-04-10 11:02:15] [SCORE] run 384 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:02:15] Uploaded run 386 with run id 9042868.
+[2018-04-10 11:02:15] Started run 388 on task 125922, dataset 'texture'.
+[2018-04-10 11:02:19] Uploaded run 366 with run id 9042869.
+[2018-04-10 11:02:19] Started run 389 on task 125922, dataset 'texture'.
+[2018-04-10 11:02:25] Uploaded run 384 with run id 9042871.
+[2018-04-10 11:02:25] Started run 390 on task 125922, dataset 'texture'.
+[2018-04-10 11:03:15] [SCORE] run 381 on task 125922; Accuracy: 0.92.
+[2018-04-10 11:03:26] Uploaded run 381 with run id 9042899.
+[2018-04-10 11:03:26] Started run 391 on task 125922, dataset 'texture'.
+[2018-04-10 11:05:35] [SCORE] run 369 on task 125922; Accuracy: 0.92.
+[2018-04-10 11:05:45] Uploaded run 369 with run id 9042946.
+[2018-04-10 11:05:45] Started run 392 on task 125922, dataset 'texture'.
+[2018-04-10 11:07:21] [SCORE] run 388 on task 125922; Accuracy: 0.94.
+[2018-04-10 11:07:32] Uploaded run 388 with run id 9042981.
+[2018-04-10 11:07:32] Started run 393 on task 125922, dataset 'texture'.
+[2018-04-10 11:07:35] [SCORE] run 389 on task 125922; Accuracy: 0.95.
+[2018-04-10 11:07:46] Uploaded run 389 with run id 9042983.
+[2018-04-10 11:07:46] Started run 394 on task 125922, dataset 'texture'.
+[2018-04-10 11:08:44] [SCORE] run 390 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:08:53] Uploaded run 390 with run id 9043014.
+[2018-04-10 11:08:53] Started run 395 on task 125922, dataset 'texture'.
+[2018-04-10 11:09:12] [SCORE] run 387 on task 125922; Accuracy: 0.93.
+[2018-04-10 11:09:22] Uploaded run 387 with run id 9043021.
+[2018-04-10 11:09:22] Started run 396 on task 125922, dataset 'texture'.
+[2018-04-10 11:10:16] [SCORE] run 379 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:10:27] Uploaded run 379 with run id 9043048.
+[2018-04-10 11:10:27] Started run 397 on task 125922, dataset 'texture'.
+[2018-04-10 11:13:41] [SCORE] run 392 on task 125922; Accuracy: 0.95.
+[2018-04-10 11:13:46] [SCORE] run 385 on task 125922; Accuracy: 0.98.
+[2018-04-10 11:13:51] Uploaded run 392 with run id 9043120.
+[2018-04-10 11:13:51] Started run 398 on task 125922, dataset 'texture'.
+[2018-04-10 11:13:56] Uploaded run 385 with run id 9043122.
+[2018-04-10 11:13:56] Started run 399 on task 125922, dataset 'texture'.
+[2018-04-10 11:14:48] [SCORE] run 394 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:14:59] Uploaded run 394 with run id 9043138.
+[2018-04-10 11:14:59] Started run 400 on task 125922, dataset 'texture'.
+[2018-04-10 11:17:57] [SCORE] run 398 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:18:07] Uploaded run 398 with run id 9043202.
+[2018-04-10 11:18:07] Started run 401 on task 125922, dataset 'texture'.
+[2018-04-10 11:21:35] [SCORE] run 397 on task 125922; Accuracy: 0.98.
+[2018-04-10 11:21:45] Uploaded run 397 with run id 9043273.
+[2018-04-10 11:21:45] Started run 402 on task 125922, dataset 'texture'.
+[2018-04-10 11:21:50] [SCORE] run 400 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:22:01] Uploaded run 400 with run id 9043275.
+[2018-04-10 11:22:01] Started run 403 on task 125922, dataset 'texture'.
+[2018-04-10 11:24:12] [SCORE] run 395 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:24:22] Uploaded run 395 with run id 9043326.
+[2018-04-10 11:24:22] Started run 404 on task 125922, dataset 'texture'.
+[2018-04-10 11:24:26] [SCORE] run 396 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:24:36] Uploaded run 396 with run id 9043330.
+[2018-04-10 11:24:36] Started run 405 on task 125922, dataset 'texture'.
+[2018-04-10 11:26:03] [SCORE] run 391 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:26:13] Uploaded run 391 with run id 9043357.
+[2018-04-10 11:26:13] Started run 406 on task 125922, dataset 'texture'.
+[2018-04-10 11:26:50] [SCORE] run 405 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:27:00] Uploaded run 405 with run id 9043365.
+[2018-04-10 11:27:00] Started run 407 on task 125922, dataset 'texture'.
+[2018-04-10 11:28:03] [SCORE] run 404 on task 125922; Accuracy: 0.95.
+[2018-04-10 11:28:13] Uploaded run 404 with run id 9043384.
+[2018-04-10 11:28:13] Started run 408 on task 125922, dataset 'texture'.
+[2018-04-10 11:28:43] [SCORE] run 403 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:28:53] Uploaded run 403 with run id 9043393.
+[2018-04-10 11:28:53] Started run 409 on task 125922, dataset 'texture'.
+[2018-04-10 11:30:39] [SCORE] run 407 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:30:49] Uploaded run 407 with run id 9043425.
+[2018-04-10 11:30:49] Started run 410 on task 125922, dataset 'texture'.
+[2018-04-10 11:33:06] [SCORE] run 401 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:33:16] Uploaded run 401 with run id 9043472.
+[2018-04-10 11:33:16] Started run 411 on task 125922, dataset 'texture'.
+[2018-04-10 11:33:22] [SCORE] run 393 on task 125922; Accuracy: 0.92.
+[2018-04-10 11:33:32] Uploaded run 393 with run id 9043479.
+[2018-04-10 11:33:32] Started run 412 on task 125922, dataset 'texture'.
+[2018-04-10 11:34:30] [SCORE] run 399 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:34:40] Uploaded run 399 with run id 9043502.
+[2018-04-10 11:34:40] Started run 413 on task 125922, dataset 'texture'.
+[2018-04-10 11:35:02] [SCORE] run 406 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:35:12] Uploaded run 406 with run id 9043515.
+[2018-04-10 11:35:12] Started run 414 on task 125922, dataset 'texture'.
+[2018-04-10 11:37:05] [SCORE] run 402 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:37:15] Uploaded run 402 with run id 9043554.
+[2018-04-10 11:37:15] Started run 415 on task 125922, dataset 'texture'.
+[2018-04-10 11:37:52] [SCORE] run 414 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:38:02] Uploaded run 414 with run id 9043576.
+[2018-04-10 11:38:02] Started run 416 on task 125922, dataset 'texture'.
+[2018-04-10 11:41:11] [SCORE] run 412 on task 125922; Accuracy: 0.95.
+[2018-04-10 11:41:22] Uploaded run 412 with run id 9043639.
+[2018-04-10 11:41:22] Started run 417 on task 125922, dataset 'texture'.
+[2018-04-10 11:43:27] [SCORE] run 409 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:43:38] Uploaded run 409 with run id 9043676.
+[2018-04-10 11:43:38] Started run 418 on task 125922, dataset 'texture'.
+[2018-04-10 11:47:25] [SCORE] run 410 on task 125922; Accuracy: 0.98.
+[2018-04-10 11:47:37] Uploaded run 410 with run id 9043757.
+[2018-04-10 11:47:37] Started run 419 on task 125922, dataset 'texture'.
+[2018-04-10 11:47:43] [SCORE] run 415 on task 125922; Accuracy: 0.95.
+[2018-04-10 11:47:47] [SCORE] run 408 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:47:54] Uploaded run 415 with run id 9043766.
+[2018-04-10 11:47:54] Started run 420 on task 125922, dataset 'texture'.
+[2018-04-10 11:47:57] Uploaded run 408 with run id 9043769.
+[2018-04-10 11:47:57] Started run 421 on task 125922, dataset 'texture'.
+[2018-04-10 11:48:39] [SCORE] run 417 on task 125922; Accuracy: 0.93.
+[2018-04-10 11:48:49] Uploaded run 417 with run id 9043779.
+[2018-04-10 11:48:49] Started run 422 on task 125922, dataset 'texture'.
+[2018-04-10 11:49:01] [SCORE] run 416 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:49:12] Uploaded run 416 with run id 9043787.
+[2018-04-10 11:49:12] Started run 423 on task 125922, dataset 'texture'.
+[2018-04-10 11:49:43] [SCORE] run 422 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:49:53] Uploaded run 422 with run id 9043804.
+[2018-04-10 11:49:53] Started run 424 on task 125922, dataset 'texture'.
+[2018-04-10 11:50:02] [SCORE] run 423 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:50:12] Uploaded run 423 with run id 9043809.
+[2018-04-10 11:50:12] Started run 425 on task 125922, dataset 'texture'.
+[2018-04-10 11:51:42] [SCORE] run 424 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:51:43] [SCORE] run 418 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:51:52] Uploaded run 418 with run id 9043844.
+[2018-04-10 11:51:52] Uploaded run 424 with run id 9043843.
+[2018-04-10 11:51:52] Started run 426 on task 125922, dataset 'texture'.
+[2018-04-10 11:51:52] Started run 427 on task 125922, dataset 'texture'.
+[2018-04-10 11:52:47] [SCORE] run 427 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:52:57] Uploaded run 427 with run id 9043863.
+[2018-04-10 11:52:57] Started run 428 on task 125922, dataset 'texture'.
+[2018-04-10 11:53:00] [SCORE] run 425 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:53:01] [SCORE] run 421 on task 125922; Accuracy: 0.96.
+[2018-04-10 11:53:11] Uploaded run 425 with run id 9043871.
+[2018-04-10 11:53:11] Started run 429 on task 125922, dataset 'texture'.
+[2018-04-10 11:53:12] Uploaded run 421 with run id 9043873.
+[2018-04-10 11:53:12] Started run 430 on task 125922, dataset 'texture'.
+[2018-04-10 11:54:52] [SCORE] run 419 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:55:02] Uploaded run 419 with run id 9043909.
+[2018-04-10 11:55:02] Started run 431 on task 125922, dataset 'texture'.
+[2018-04-10 11:55:24] [SCORE] run 420 on task 125922; Accuracy: 0.97.
+[2018-04-10 11:55:34] Uploaded run 420 with run id 9043920.
+[2018-04-10 11:55:34] Started run 432 on task 125922, dataset 'texture'.
+[2018-04-10 11:55:43] [SCORE] run 411 on task 125922; Accuracy: 0.95.
+[2018-04-10 11:55:53] Uploaded run 411 with run id 9043924.
+[2018-04-10 11:55:53] Started run 433 on task 125922, dataset 'texture'.
+[2018-04-10 11:57:14] [SCORE] run 429 on task 125922; Accuracy: 0.98.
+[2018-04-10 11:57:24] Uploaded run 429 with run id 9043961.
+[2018-04-10 11:57:24] Started run 434 on task 125922, dataset 'texture'.
+[2018-04-10 12:00:12] [SCORE] run 426 on task 125922; Accuracy: 0.94.
+[2018-04-10 12:00:22] Uploaded run 426 with run id 9044020.
+[2018-04-10 12:00:22] Started run 435 on task 125922, dataset 'texture'.
+[2018-04-10 12:01:05] [SCORE] run 435 on task 125922; Accuracy: 0.94.
+[2018-04-10 12:01:16] Uploaded run 435 with run id 9044032.
+[2018-04-10 12:01:16] Started run 436 on task 125922, dataset 'texture'.
+[2018-04-10 12:04:39] [SCORE] run 434 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:04:50] Uploaded run 434 with run id 9044098.
+[2018-04-10 12:04:50] Started run 437 on task 125922, dataset 'texture'.
+[2018-04-10 12:05:11] [SCORE] run 436 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:05:21] Uploaded run 436 with run id 9044108.
+[2018-04-10 12:05:21] Started run 438 on task 125922, dataset 'texture'.
+[2018-04-10 12:05:24] [SCORE] run 413 on task 125922; Accuracy: 0.94.
+[2018-04-10 12:05:34] Uploaded run 413 with run id 9044113.
+[2018-04-10 12:05:34] Started run 439 on task 125922, dataset 'texture'.
+[2018-04-10 12:05:55] [SCORE] run 428 on task 125922; Accuracy: 0.94.
+[2018-04-10 12:06:05] Uploaded run 428 with run id 9044125.
+[2018-04-10 12:06:05] Started run 440 on task 125922, dataset 'texture'.
+[2018-04-10 12:06:54] [SCORE] run 433 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:07:04] Uploaded run 433 with run id 9044140.
+[2018-04-10 12:07:04] Started run 441 on task 125922, dataset 'texture'.
+[2018-04-10 12:07:30] [SCORE] run 431 on task 125922; Accuracy: 0.95.
+[2018-04-10 12:07:41] Uploaded run 431 with run id 9044151.
+[2018-04-10 12:07:41] Started run 442 on task 125922, dataset 'texture'.
+[2018-04-10 12:09:05] [SCORE] run 430 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:09:16] Uploaded run 430 with run id 9044186.
+[2018-04-10 12:09:16] Started run 443 on task 125922, dataset 'texture'.
+[2018-04-10 12:10:16] [SCORE] run 437 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:10:27] Uploaded run 437 with run id 9044214.
+[2018-04-10 12:10:27] Started run 444 on task 125922, dataset 'texture'.
+[2018-04-10 12:12:43] [SCORE] run 438 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:12:54] Uploaded run 438 with run id 9044259.
+[2018-04-10 12:12:54] Started run 445 on task 125922, dataset 'texture'.
+[2018-04-10 12:13:50] [SCORE] run 432 on task 125922; Accuracy: 0.95.
+[2018-04-10 12:13:51] [SCORE] run 439 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:14:00] Uploaded run 432 with run id 9044282.
+[2018-04-10 12:14:00] Started run 446 on task 125922, dataset 'texture'.
+[2018-04-10 12:14:02] Uploaded run 439 with run id 9044283.
+[2018-04-10 12:14:02] Started run 447 on task 125922, dataset 'texture'.
+[2018-04-10 12:14:27] [SCORE] run 445 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:14:37] Uploaded run 445 with run id 9044289.
+[2018-04-10 12:14:37] Started run 448 on task 125922, dataset 'texture'.
+[2018-04-10 12:15:37] [SCORE] run 443 on task 125922; Accuracy: 0.93.
+[2018-04-10 12:15:47] Uploaded run 443 with run id 9044314.
+[2018-04-10 12:15:47] Started run 449 on task 125922, dataset 'texture'.
+[2018-04-10 12:17:41] [SCORE] run 447 on task 125922; Accuracy: 0.94.
+[2018-04-10 12:17:43] Error in uploading run 447, trying again in 25 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 12:17:56] [SCORE] run 442 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:18:05] Uploaded run 442 with run id 9044362.
+[2018-04-10 12:18:05] Started run 450 on task 125922, dataset 'texture'.
+[2018-04-10 12:18:19] Uploaded run 447 with run id 9044365.
+[2018-04-10 12:18:19] Started run 451 on task 125922, dataset 'texture'.
+[2018-04-10 12:20:27] [SCORE] run 450 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:20:37] Uploaded run 450 with run id 9044404.
+[2018-04-10 12:20:37] Started run 452 on task 125922, dataset 'texture'.
+[2018-04-10 12:21:30] [SCORE] run 449 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:21:40] Uploaded run 449 with run id 9044422.
+[2018-04-10 12:21:40] Started run 453 on task 125922, dataset 'texture'.
+[2018-04-10 12:23:11] [SCORE] run 441 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:23:22] Uploaded run 441 with run id 9044451.
+[2018-04-10 12:23:22] Started run 454 on task 125922, dataset 'texture'.
+[2018-04-10 12:23:50] [SCORE] run 452 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:24:00] Uploaded run 452 with run id 9044460.
+[2018-04-10 12:24:00] Started run 455 on task 125922, dataset 'texture'.
+[2018-04-10 12:31:42] [SCORE] run 453 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:31:53] Uploaded run 453 with run id 9044597.
+[2018-04-10 12:31:53] Started run 456 on task 125922, dataset 'texture'.
+[2018-04-10 12:32:00] [SCORE] run 440 on task 125922; Accuracy: 0.94.
+[2018-04-10 12:32:10] Uploaded run 440 with run id 9044601.
+[2018-04-10 12:32:10] Started run 457 on task 125922, dataset 'texture'.
+[2018-04-10 12:32:25] [SCORE] run 451 on task 125922; Accuracy: 0.98.
+[2018-04-10 12:32:36] Uploaded run 451 with run id 9044607.
+[2018-04-10 12:32:36] Started run 458 on task 125922, dataset 'texture'.
+[2018-04-10 12:32:40] [SCORE] run 456 on task 125922; Accuracy: 0.95.
+[2018-04-10 12:32:51] Uploaded run 456 with run id 9044612.
+[2018-04-10 12:32:51] Started run 459 on task 125922, dataset 'texture'.
+[2018-04-10 12:32:59] [SCORE] run 446 on task 125922; Accuracy: 0.94.
+[2018-04-10 12:33:09] Uploaded run 446 with run id 9044619.
+[2018-04-10 12:33:09] Started run 460 on task 125922, dataset 'texture'.
+[2018-04-10 12:33:22] [SCORE] run 448 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:33:32] Uploaded run 448 with run id 9044629.
+[2018-04-10 12:33:32] Started run 461 on task 125922, dataset 'texture'.
+[2018-04-10 12:33:38] [SCORE] run 444 on task 125922; Accuracy: 0.95.
+[2018-04-10 12:33:48] Uploaded run 444 with run id 9044633.
+[2018-04-10 12:33:48] Started run 462 on task 125922, dataset 'texture'.
+[2018-04-10 12:34:35] [SCORE] run 460 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:34:42] [SCORE] run 455 on task 125922; Accuracy: 0.94.
+[2018-04-10 12:34:42] [SCORE] run 454 on task 125922; Accuracy: 0.98.
+[2018-04-10 12:34:45] Uploaded run 460 with run id 9044652.
+[2018-04-10 12:34:45] Started run 463 on task 125922, dataset 'texture'.
+[2018-04-10 12:34:52] Uploaded run 454 with run id 9044654.
+[2018-04-10 12:34:52] Started run 464 on task 125922, dataset 'texture'.
+[2018-04-10 12:34:52] Uploaded run 455 with run id 9044655.
+[2018-04-10 12:34:52] Started run 465 on task 125922, dataset 'texture'.
+[2018-04-10 12:35:44] [SCORE] run 458 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:35:55] Uploaded run 458 with run id 9044675.
+[2018-04-10 12:35:55] Started run 466 on task 125922, dataset 'texture'.
+[2018-04-10 12:37:54] [SCORE] run 457 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:38:04] Uploaded run 457 with run id 9044710.
+[2018-04-10 12:38:04] Started run 467 on task 125922, dataset 'texture'.
+[2018-04-10 12:39:20] [SCORE] run 465 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:39:30] Uploaded run 465 with run id 9044745.
+[2018-04-10 12:39:30] Started run 468 on task 125922, dataset 'texture'.
+[2018-04-10 12:40:07] [SCORE] run 461 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:40:18] Uploaded run 461 with run id 9044756.
+[2018-04-10 12:40:18] Started run 469 on task 125922, dataset 'texture'.
+[2018-04-10 12:40:29] [SCORE] run 462 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:40:40] Uploaded run 462 with run id 9044759.
+[2018-04-10 12:40:40] Started run 470 on task 125922, dataset 'texture'.
+[2018-04-10 12:40:41] [SCORE] run 463 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:40:52] Uploaded run 463 with run id 9044764.
+[2018-04-10 12:40:52] Started run 471 on task 125922, dataset 'texture'.
+[2018-04-10 12:41:14] [SCORE] run 459 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:41:25] Uploaded run 459 with run id 9044776.
+[2018-04-10 12:41:25] Started run 472 on task 125922, dataset 'texture'.
+[2018-04-10 12:42:50] [SCORE] run 468 on task 125922; Accuracy: 0.95.
+[2018-04-10 12:43:00] Uploaded run 468 with run id 9044804.
+[2018-04-10 12:43:00] Started run 473 on task 125922, dataset 'texture'.
+[2018-04-10 12:43:47] [SCORE] run 470 on task 125922; Accuracy: 0.94.
+[2018-04-10 12:43:57] Uploaded run 470 with run id 9044822.
+[2018-04-10 12:43:57] Started run 474 on task 125922, dataset 'texture'.
+[2018-04-10 12:44:56] [SCORE] run 473 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:45:07] Uploaded run 473 with run id 9044841.
+[2018-04-10 12:45:07] Started run 475 on task 125922, dataset 'texture'.
+[2018-04-10 12:45:25] [SCORE] run 471 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:45:35] Uploaded run 471 with run id 9044852.
+[2018-04-10 12:45:35] Started run 476 on task 125922, dataset 'texture'.
+[2018-04-10 12:46:12] [SCORE] run 472 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:46:22] Uploaded run 472 with run id 9044865.
+[2018-04-10 12:46:22] Started run 477 on task 125922, dataset 'texture'.
+[2018-04-10 12:47:24] [SCORE] run 475 on task 125922; Accuracy: 0.98.
+[2018-04-10 12:47:27] [SCORE] run 464 on task 125922; Accuracy: 0.98.
+[2018-04-10 12:47:34] Uploaded run 475 with run id 9044883.
+[2018-04-10 12:47:34] Started run 478 on task 125922, dataset 'texture'.
+[2018-04-10 12:47:36] Uploaded run 464 with run id 9044884.
+[2018-04-10 12:47:36] Started run 479 on task 125922, dataset 'texture'.
+[2018-04-10 12:50:47] [SCORE] run 467 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:50:56] Uploaded run 467 with run id 9044944.
+[2018-04-10 12:50:56] Started run 480 on task 125922, dataset 'texture'.
+[2018-04-10 12:52:55] [SCORE] run 478 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:53:05] Uploaded run 478 with run id 9044990.
+[2018-04-10 12:53:05] Started run 481 on task 125922, dataset 'texture'.
+[2018-04-10 12:54:27] [SCORE] run 477 on task 125922; Accuracy: 0.95.
+[2018-04-10 12:54:37] Uploaded run 477 with run id 9045011.
+[2018-04-10 12:54:37] Started run 482 on task 125922, dataset 'texture'.
+[2018-04-10 12:54:52] [SCORE] run 476 on task 125922; Accuracy: 0.95.
+[2018-04-10 12:55:03] Uploaded run 476 with run id 9045017.
+[2018-04-10 12:55:03] Started run 483 on task 125922, dataset 'texture'.
+[2018-04-10 12:55:44] [SCORE] run 482 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:55:49] [SCORE] run 469 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:55:54] Uploaded run 482 with run id 9045037.
+[2018-04-10 12:55:54] Started run 484 on task 125922, dataset 'texture'.
+[2018-04-10 12:56:00] Uploaded run 469 with run id 9045040.
+[2018-04-10 12:56:00] Started run 485 on task 125922, dataset 'texture'.
+[2018-04-10 12:57:15] [SCORE] run 466 on task 125922; Accuracy: 0.95.
+[2018-04-10 12:57:25] Uploaded run 466 with run id 9045077.
+[2018-04-10 12:57:25] Started run 486 on task 125922, dataset 'texture'.
+[2018-04-10 12:58:37] [SCORE] run 484 on task 125922; Accuracy: 0.97.
+[2018-04-10 12:58:47] Uploaded run 484 with run id 9045092.
+[2018-04-10 12:58:47] Started run 487 on task 125922, dataset 'texture'.
+[2018-04-10 12:59:23] [SCORE] run 485 on task 125922; Accuracy: 0.96.
+[2018-04-10 12:59:33] Uploaded run 485 with run id 9045112.
+[2018-04-10 12:59:33] Started run 488 on task 125922, dataset 'texture'.
+[2018-04-10 13:00:49] [SCORE] run 486 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:01:00] Uploaded run 486 with run id 9045144.
+[2018-04-10 13:01:00] Started run 489 on task 125922, dataset 'texture'.
+[2018-04-10 13:05:10] [SCORE] run 487 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:05:20] Uploaded run 487 with run id 9045226.
+[2018-04-10 13:05:20] Started run 490 on task 125922, dataset 'texture'.
+[2018-04-10 13:06:31] [SCORE] run 483 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:06:41] Uploaded run 483 with run id 9045250.
+[2018-04-10 13:06:41] Started run 491 on task 125922, dataset 'texture'.
+[2018-04-10 13:07:55] [SCORE] run 491 on task 125922; Accuracy: 0.95.
+[2018-04-10 13:08:06] Uploaded run 491 with run id 9045275.
+[2018-04-10 13:08:06] Started run 492 on task 125922, dataset 'texture'.
+[2018-04-10 13:09:41] [SCORE] run 481 on task 125922; Accuracy: 0.98.
+[2018-04-10 13:09:51] Uploaded run 481 with run id 9045303.
+[2018-04-10 13:09:51] Started run 493 on task 125922, dataset 'texture'.
+[2018-04-10 13:11:28] [SCORE] run 493 on task 125922; Accuracy: 0.95.
+[2018-04-10 13:11:39] Uploaded run 493 with run id 9045340.
+[2018-04-10 13:11:39] Started run 494 on task 125922, dataset 'texture'.
+[2018-04-10 13:12:28] [SCORE] run 474 on task 125922; Accuracy: 0.92.
+[2018-04-10 13:12:39] Uploaded run 474 with run id 9045356.
+[2018-04-10 13:12:39] Started run 495 on task 125922, dataset 'texture'.
+[2018-04-10 13:13:20] [SCORE] run 479 on task 125922; Accuracy: 0.92.
+[2018-04-10 13:13:29] [SCORE] run 492 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:13:29] Uploaded run 479 with run id 9045366.
+[2018-04-10 13:13:29] Started run 496 on task 125922, dataset 'texture'.
+[2018-04-10 13:13:40] Uploaded run 492 with run id 9045368.
+[2018-04-10 13:13:40] Started run 497 on task 125922, dataset 'texture'.
+[2018-04-10 13:16:09] [SCORE] run 497 on task 125922; Accuracy: 0.98.
+[2018-04-10 13:16:19] Uploaded run 497 with run id 9045415.
+[2018-04-10 13:16:19] Started run 498 on task 125922, dataset 'texture'.
+[2018-04-10 13:18:40] [SCORE] run 488 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:18:50] Uploaded run 488 with run id 9045455.
+[2018-04-10 13:18:50] Started run 499 on task 125922, dataset 'texture'.
+[2018-04-10 13:19:26] [SCORE] run 480 on task 125922; Accuracy: 0.91.
+[2018-04-10 13:19:28] Error in uploading run 480, trying again in 35 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 13:19:33] [SCORE] run 498 on task 125922; Accuracy: 0.95.
+[2018-04-10 13:19:43] Uploaded run 498 with run id 9045466.
+[2018-04-10 13:19:43] Started run 500 on task 125922, dataset 'texture'.
+[2018-04-10 13:20:13] Uploaded run 480 with run id 9045470.
+[2018-04-10 13:20:13] Started run 501 on task 125922, dataset 'texture'.
+[2018-04-10 13:21:12] [SCORE] run 489 on task 125922; Accuracy: 0.95.
+[2018-04-10 13:21:22] Uploaded run 489 with run id 9045483.
+[2018-04-10 13:21:22] Started run 502 on task 125922, dataset 'texture'.
+[2018-04-10 13:21:41] [SCORE] run 501 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:21:51] Uploaded run 501 with run id 9045488.
+[2018-04-10 13:21:51] Started run 503 on task 125922, dataset 'texture'.
+[2018-04-10 13:22:12] [SCORE] run 494 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:22:22] [SCORE] run 496 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:22:23] Uploaded run 494 with run id 9045490.
+[2018-04-10 13:22:23] Started run 504 on task 125922, dataset 'texture'.
+[2018-04-10 13:22:32] Uploaded run 496 with run id 9045494.
+[2018-04-10 13:22:32] Started run 505 on task 125922, dataset 'texture'.
+[2018-04-10 13:23:14] [SCORE] run 504 on task 125922; Accuracy: 0.95.
+[2018-04-10 13:23:24] Uploaded run 504 with run id 9045502.
+[2018-04-10 13:23:24] Started run 506 on task 125922, dataset 'texture'.
+[2018-04-10 13:23:49] [SCORE] run 505 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:23:59] Uploaded run 505 with run id 9045508.
+[2018-04-10 13:23:59] Started run 507 on task 125922, dataset 'texture'.
+[2018-04-10 13:24:28] [SCORE] run 490 on task 125922; Accuracy: 0.95.
+[2018-04-10 13:24:38] Uploaded run 490 with run id 9045521.
+[2018-04-10 13:24:38] Started run 508 on task 125922, dataset 'texture'.
+[2018-04-10 13:25:41] [SCORE] run 495 on task 125922; Accuracy: 0.92.
+[2018-04-10 13:25:42] [SCORE] run 506 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:25:51] Uploaded run 495 with run id 9045531.
+[2018-04-10 13:25:51] Started run 509 on task 125922, dataset 'texture'.
+[2018-04-10 13:25:52] Uploaded run 506 with run id 9045536.
+[2018-04-10 13:25:52] Started run 510 on task 125922, dataset 'texture'.
+[2018-04-10 13:26:37] [SCORE] run 503 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:26:38] [SCORE] run 499 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:26:47] Uploaded run 503 with run id 9045541.
+[2018-04-10 13:26:47] Started run 511 on task 125922, dataset 'texture'.
+[2018-04-10 13:26:48] Uploaded run 499 with run id 9045542.
+[2018-04-10 13:26:48] Started run 512 on task 125922, dataset 'texture'.
+[2018-04-10 13:27:34] [SCORE] run 500 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:27:43] [SCORE] run 512 on task 125922; Accuracy: 0.95.
+[2018-04-10 13:27:44] Uploaded run 500 with run id 9045555.
+[2018-04-10 13:27:44] Started run 513 on task 125922, dataset 'texture'.
+[2018-04-10 13:27:53] Uploaded run 512 with run id 9045558.
+[2018-04-10 13:27:53] Started run 514 on task 125922, dataset 'texture'.
+[2018-04-10 13:28:10] [SCORE] run 510 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:28:20] Uploaded run 510 with run id 9045562.
+[2018-04-10 13:28:20] Started run 515 on task 125922, dataset 'texture'.
+[2018-04-10 13:30:20] [SCORE] run 509 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:30:31] Uploaded run 509 with run id 9045581.
+[2018-04-10 13:30:31] Started run 516 on task 125922, dataset 'texture'.
+[2018-04-10 13:32:03] [SCORE] run 502 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:32:13] Uploaded run 502 with run id 9045595.
+[2018-04-10 13:32:13] Started run 517 on task 125922, dataset 'texture'.
+[2018-04-10 13:34:06] [SCORE] run 508 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:34:16] Uploaded run 508 with run id 9045612.
+[2018-04-10 13:34:16] Started run 518 on task 125922, dataset 'texture'.
+[2018-04-10 13:34:37] [SCORE] run 516 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:34:47] Uploaded run 516 with run id 9045620.
+[2018-04-10 13:34:47] Started run 519 on task 125922, dataset 'texture'.
+[2018-04-10 13:34:47] [SCORE] run 507 on task 125922; Accuracy: 0.93.
+[2018-04-10 13:34:57] Uploaded run 507 with run id 9045623.
+[2018-04-10 13:34:57] Started run 520 on task 125922, dataset 'texture'.
+[2018-04-10 13:35:55] [SCORE] run 513 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:36:04] Uploaded run 513 with run id 9045632.
+[2018-04-10 13:36:04] Started run 521 on task 125922, dataset 'texture'.
+[2018-04-10 13:37:31] [SCORE] run 511 on task 125922; Accuracy: 0.91.
+[2018-04-10 13:37:41] Uploaded run 511 with run id 9045647.
+[2018-04-10 13:37:41] Started run 522 on task 125922, dataset 'texture'.
+[2018-04-10 13:39:15] [SCORE] run 515 on task 125922; Accuracy: 0.95.
+[2018-04-10 13:39:25] Uploaded run 515 with run id 9045663.
+[2018-04-10 13:39:25] Started run 523 on task 125922, dataset 'texture'.
+[2018-04-10 13:40:51] [SCORE] run 514 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:41:01] Uploaded run 514 with run id 9045679.
+[2018-04-10 13:41:01] Started run 524 on task 125922, dataset 'texture'.
+[2018-04-10 13:41:23] [SCORE] run 518 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:41:33] Uploaded run 518 with run id 9045685.
+[2018-04-10 13:41:33] Started run 525 on task 125922, dataset 'texture'.
+[2018-04-10 13:42:23] [SCORE] run 522 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:42:33] Uploaded run 522 with run id 9045693.
+[2018-04-10 13:42:33] Started run 526 on task 125922, dataset 'texture'.
+[2018-04-10 13:44:13] [SCORE] run 517 on task 125922; Accuracy: 0.93.
+[2018-04-10 13:44:19] [SCORE] run 525 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:44:24] Uploaded run 517 with run id 9045714.
+[2018-04-10 13:44:24] Started run 527 on task 125922, dataset 'texture'.
+[2018-04-10 13:44:29] Uploaded run 525 with run id 9045716.
+[2018-04-10 13:44:29] Started run 528 on task 125922, dataset 'texture'.
+[2018-04-10 13:46:06] [SCORE] run 526 on task 125922; Accuracy: 0.96.
+[2018-04-10 13:46:16] Uploaded run 526 with run id 9045731.
+[2018-04-10 13:46:16] Started run 529 on task 125922, dataset 'texture'.
+[2018-04-10 13:46:23] [SCORE] run 519 on task 125922; Accuracy: 0.92.
+[2018-04-10 13:46:33] Uploaded run 519 with run id 9045734.
+[2018-04-10 13:46:33] Started run 530 on task 125922, dataset 'texture'.
+[2018-04-10 13:46:41] [SCORE] run 524 on task 125922; Accuracy: 0.95.
+[2018-04-10 13:46:51] Uploaded run 524 with run id 9045741.
+[2018-04-10 13:46:51] Started run 531 on task 125922, dataset 'texture'.
+[2018-04-10 13:48:56] [SCORE] run 528 on task 125922; Accuracy: 0.94.
+[2018-04-10 13:48:58] Error in uploading run 528, trying again in 26 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 13:49:00] [SCORE] run 530 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:49:09] Uploaded run 530 with run id 9045767.
+[2018-04-10 13:49:09] Started run 532 on task 125922, dataset 'texture'.
+[2018-04-10 13:49:25] [SCORE] run 520 on task 125922; Accuracy: 0.94.
+[2018-04-10 13:49:34] Uploaded run 528 with run id 9045770.
+[2018-04-10 13:49:34] Started run 533 on task 125922, dataset 'texture'.
+[2018-04-10 13:49:35] Uploaded run 520 with run id 9045772.
+[2018-04-10 13:49:35] Started run 534 on task 125922, dataset 'texture'.
+[2018-04-10 13:51:53] [SCORE] run 531 on task 125922; Accuracy: 0.94.
+[2018-04-10 13:52:06] Uploaded run 531 with run id 9045796.
+[2018-04-10 13:52:06] Started run 535 on task 125922, dataset 'texture'.
+[2018-04-10 13:54:52] [SCORE] run 533 on task 125922; Accuracy: 0.95.
+[2018-04-10 13:55:02] Uploaded run 533 with run id 9045823.
+[2018-04-10 13:55:02] Started run 536 on task 125922, dataset 'texture'.
+[2018-04-10 13:56:00] [SCORE] run 521 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:56:09] Uploaded run 521 with run id 9045829.
+[2018-04-10 13:56:09] Started run 537 on task 125922, dataset 'texture'.
+[2018-04-10 13:56:18] [SCORE] run 532 on task 125922; Accuracy: 0.95.
+[2018-04-10 13:56:28] Uploaded run 532 with run id 9045833.
+[2018-04-10 13:56:28] Started run 538 on task 125922, dataset 'texture'.
+[2018-04-10 13:56:30] [SCORE] run 536 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:56:40] Uploaded run 536 with run id 9045835.
+[2018-04-10 13:56:40] Started run 539 on task 125922, dataset 'texture'.
+[2018-04-10 13:57:30] [SCORE] run 523 on task 125922; Accuracy: 0.97.
+[2018-04-10 13:57:33] Error in uploading run 523, trying again in 39 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 13:58:22] Uploaded run 523 with run id 9045859.
+[2018-04-10 13:58:22] Started run 540 on task 125922, dataset 'texture'.
+[2018-04-10 14:00:01] [SCORE] run 537 on task 125922; Accuracy: 0.98.
+[2018-04-10 14:00:11] Uploaded run 537 with run id 9045873.
+[2018-04-10 14:00:11] Started run 541 on task 125922, dataset 'texture'.
+[2018-04-10 14:01:06] [SCORE] run 527 on task 125922; Accuracy: 0.98.
+[2018-04-10 14:01:16] Uploaded run 527 with run id 9045886.
+[2018-04-10 14:01:16] Started run 542 on task 125922, dataset 'texture'.
+[2018-04-10 14:01:37] [SCORE] run 539 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:01:47] Uploaded run 539 with run id 9045893.
+[2018-04-10 14:01:47] Started run 543 on task 125922, dataset 'texture'.
+[2018-04-10 14:02:04] [SCORE] run 534 on task 125922; Accuracy: 0.92.
+[2018-04-10 14:02:13] Uploaded run 534 with run id 9045897.
+[2018-04-10 14:02:13] Started run 544 on task 125922, dataset 'texture'.
+[2018-04-10 14:03:23] [SCORE] run 541 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:03:33] Uploaded run 541 with run id 9045911.
+[2018-04-10 14:03:33] Started run 545 on task 125922, dataset 'texture'.
+[2018-04-10 14:07:11] [SCORE] run 545 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:07:21] Uploaded run 545 with run id 9045957.
+[2018-04-10 14:07:22] Started run 546 on task 125922, dataset 'texture'.
+[2018-04-10 14:09:12] [SCORE] run 535 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:09:22] Uploaded run 535 with run id 9045979.
+[2018-04-10 14:09:22] Started run 547 on task 125922, dataset 'texture'.
+[2018-04-10 14:10:44] [SCORE] run 547 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:10:54] Uploaded run 547 with run id 9045998.
+[2018-04-10 14:10:54] Started run 548 on task 125922, dataset 'texture'.
+[2018-04-10 14:12:31] [SCORE] run 529 on task 125922; Accuracy: 0.92.
+[2018-04-10 14:12:40] Uploaded run 529 with run id 9046018.
+[2018-04-10 14:12:40] Started run 549 on task 125922, dataset 'texture'.
+[2018-04-10 14:13:12] [SCORE] run 538 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:13:23] Uploaded run 538 with run id 9046025.
+[2018-04-10 14:13:23] Started run 550 on task 125922, dataset 'texture'.
+[2018-04-10 14:15:22] [SCORE] run 542 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:15:32] Uploaded run 542 with run id 9046050.
+[2018-04-10 14:15:32] Started run 551 on task 125922, dataset 'texture'.
+[2018-04-10 14:18:05] [SCORE] run 543 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:18:16] Uploaded run 543 with run id 9046082.
+[2018-04-10 14:18:16] Started run 552 on task 125922, dataset 'texture'.
+[2018-04-10 14:18:28] [SCORE] run 550 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:18:38] Uploaded run 550 with run id 9046084.
+[2018-04-10 14:18:38] Started run 553 on task 125922, dataset 'texture'.
+[2018-04-10 14:19:29] [SCORE] run 540 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:19:39] Uploaded run 540 with run id 9046099.
+[2018-04-10 14:19:39] Started run 554 on task 125922, dataset 'texture'.
+[2018-04-10 14:20:10] [SCORE] run 552 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:20:21] Uploaded run 552 with run id 9046109.
+[2018-04-10 14:20:21] Started run 555 on task 125922, dataset 'texture'.
+[2018-04-10 14:24:48] [SCORE] run 554 on task 125922; Accuracy: 0.98.
+[2018-04-10 14:24:58] Uploaded run 554 with run id 9046140.
+[2018-04-10 14:24:58] Started run 556 on task 125922, dataset 'texture'.
+[2018-04-10 14:25:55] [SCORE] run 555 on task 125922; Accuracy: 0.94.
+[2018-04-10 14:26:05] Uploaded run 555 with run id 9046150.
+[2018-04-10 14:26:05] Started run 557 on task 125922, dataset 'texture'.
+[2018-04-10 14:27:42] [SCORE] run 553 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:27:52] Uploaded run 553 with run id 9046165.
+[2018-04-10 14:27:52] Started run 558 on task 125922, dataset 'texture'.
+[2018-04-10 14:30:46] [SCORE] run 551 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:30:55] Uploaded run 551 with run id 9046185.
+[2018-04-10 14:30:55] Started run 559 on task 125922, dataset 'texture'.
+[2018-04-10 14:33:58] [SCORE] run 548 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:34:03] [SCORE] run 544 on task 125922; Accuracy: 0.94.
+[2018-04-10 14:34:08] Uploaded run 548 with run id 9046216.
+[2018-04-10 14:34:08] Started run 560 on task 125922, dataset 'texture'.
+[2018-04-10 14:34:13] Uploaded run 544 with run id 9046219.
+[2018-04-10 14:34:13] Started run 561 on task 125922, dataset 'texture'.
+[2018-04-10 14:34:37] [SCORE] run 559 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:34:47] Uploaded run 559 with run id 9046223.
+[2018-04-10 14:34:47] Started run 562 on task 125922, dataset 'texture'.
+[2018-04-10 14:35:26] [SCORE] run 546 on task 125922; Accuracy: 0.91.
+[2018-04-10 14:35:36] Uploaded run 546 with run id 9046231.
+[2018-04-10 14:35:36] Started run 563 on task 125922, dataset 'texture'.
+[2018-04-10 14:35:51] [SCORE] run 558 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:35:59] [SCORE] run 561 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:36:01] Uploaded run 558 with run id 9046236.
+[2018-04-10 14:36:01] Started run 564 on task 125922, dataset 'texture'.
+[2018-04-10 14:36:10] Uploaded run 561 with run id 9046241.
+[2018-04-10 14:36:10] Started run 565 on task 125922, dataset 'texture'.
+[2018-04-10 14:36:18] [SCORE] run 562 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:36:28] Uploaded run 562 with run id 9046245.
+[2018-04-10 14:36:28] Started run 566 on task 125922, dataset 'texture'.
+[2018-04-10 14:36:54] [SCORE] run 557 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:37:04] Uploaded run 557 with run id 9046249.
+[2018-04-10 14:37:04] Started run 567 on task 125922, dataset 'texture'.
+[2018-04-10 14:37:47] [SCORE] run 563 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:37:58] Uploaded run 563 with run id 9046253.
+[2018-04-10 14:37:58] Started run 568 on task 125922, dataset 'texture'.
+[2018-04-10 14:38:34] [SCORE] run 566 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:38:44] Uploaded run 566 with run id 9046263.
+[2018-04-10 14:38:44] Started run 569 on task 125922, dataset 'texture'.
+[2018-04-10 14:39:28] [SCORE] run 549 on task 125922; Accuracy: 0.94.
+[2018-04-10 14:39:39] Uploaded run 549 with run id 9046266.
+[2018-04-10 14:39:39] Started run 570 on task 125922, dataset 'texture'.
+[2018-04-10 14:41:41] [SCORE] run 567 on task 125922; Accuracy: 0.94.
+[2018-04-10 14:41:51] Uploaded run 567 with run id 9046286.
+[2018-04-10 14:41:51] Started run 571 on task 125922, dataset 'texture'.
+[2018-04-10 14:43:44] [SCORE] run 569 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:43:54] Uploaded run 569 with run id 9046304.
+[2018-04-10 14:43:54] Started run 572 on task 125922, dataset 'texture'.
+[2018-04-10 14:45:08] [SCORE] run 556 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:45:18] Uploaded run 556 with run id 9046319.
+[2018-04-10 14:45:18] Started run 573 on task 125922, dataset 'texture'.
+[2018-04-10 14:45:57] [SCORE] run 564 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:46:07] Uploaded run 564 with run id 9046325.
+[2018-04-10 14:46:07] Started run 574 on task 125922, dataset 'texture'.
+[2018-04-10 14:49:33] [SCORE] run 574 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:49:44] Uploaded run 574 with run id 9046369.
+[2018-04-10 14:49:44] Started run 575 on task 125922, dataset 'texture'.
+[2018-04-10 14:49:51] [SCORE] run 560 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:50:02] Uploaded run 560 with run id 9046370.
+[2018-04-10 14:50:02] Started run 576 on task 125922, dataset 'texture'.
+[2018-04-10 14:50:13] [SCORE] run 573 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:50:23] Uploaded run 573 with run id 9046374.
+[2018-04-10 14:50:23] Started run 577 on task 125922, dataset 'texture'.
+[2018-04-10 14:50:34] [SCORE] run 575 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:50:45] Uploaded run 575 with run id 9046379.
+[2018-04-10 14:50:45] Started run 578 on task 125922, dataset 'texture'.
+[2018-04-10 14:51:06] [SCORE] run 577 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:51:17] Uploaded run 577 with run id 9046385.
+[2018-04-10 14:51:17] Started run 579 on task 125922, dataset 'texture'.
+[2018-04-10 14:51:59] [SCORE] run 578 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:52:01] [SCORE] run 579 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:52:09] Uploaded run 578 with run id 9046397.
+[2018-04-10 14:52:09] Started run 580 on task 125922, dataset 'texture'.
+[2018-04-10 14:52:12] Uploaded run 579 with run id 9046398.
+[2018-04-10 14:52:12] Started run 581 on task 125922, dataset 'texture'.
+[2018-04-10 14:55:28] [SCORE] run 580 on task 125922; Accuracy: 0.94.
+[2018-04-10 14:55:36] [SCORE] run 570 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:55:38] Uploaded run 580 with run id 9046426.
+[2018-04-10 14:55:38] Started run 582 on task 125922, dataset 'texture'.
+[2018-04-10 14:55:39] [SCORE] run 565 on task 125922; Accuracy: 0.96.
+[2018-04-10 14:55:46] Uploaded run 570 with run id 9046428.
+[2018-04-10 14:55:46] Started run 583 on task 125922, dataset 'texture'.
+[2018-04-10 14:55:49] Uploaded run 565 with run id 9046432.
+[2018-04-10 14:55:49] Started run 584 on task 125922, dataset 'texture'.
+[2018-04-10 14:57:59] [SCORE] run 576 on task 125922; Accuracy: 0.97.
+[2018-04-10 14:58:09] Uploaded run 576 with run id 9046453.
+[2018-04-10 14:58:09] Started run 585 on task 125922, dataset 'texture'.
+[2018-04-10 14:58:44] [SCORE] run 568 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:58:54] Uploaded run 568 with run id 9046460.
+[2018-04-10 14:58:54] Started run 586 on task 125922, dataset 'texture'.
+[2018-04-10 14:59:28] [SCORE] run 584 on task 125922; Accuracy: 0.95.
+[2018-04-10 14:59:38] Uploaded run 584 with run id 9046465.
+[2018-04-10 14:59:38] Started run 587 on task 125922, dataset 'texture'.
+[2018-04-10 15:02:16] [SCORE] run 582 on task 125922; Accuracy: 0.95.
+[2018-04-10 15:02:26] Uploaded run 582 with run id 9046487.
+[2018-04-10 15:02:26] Started run 588 on task 125922, dataset 'texture'.
+[2018-04-10 15:03:58] [SCORE] run 581 on task 125922; Accuracy: 0.94.
+[2018-04-10 15:04:09] Uploaded run 581 with run id 9046510.
+[2018-04-10 15:04:09] Started run 589 on task 125922, dataset 'texture'.
+[2018-04-10 15:04:48] [SCORE] run 583 on task 125922; Accuracy: 0.93.
+[2018-04-10 15:04:58] Uploaded run 583 with run id 9046519.
+[2018-04-10 15:04:58] Started run 590 on task 125922, dataset 'texture'.
+[2018-04-10 15:05:21] [SCORE] run 588 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:05:32] Uploaded run 588 with run id 9046522.
+[2018-04-10 15:05:32] Started run 591 on task 125922, dataset 'texture'.
+[2018-04-10 15:05:49] [SCORE] run 590 on task 125922; Accuracy: 0.95.
+[2018-04-10 15:05:59] Uploaded run 590 with run id 9046528.
+[2018-04-10 15:05:59] Started run 592 on task 125922, dataset 'texture'.
+[2018-04-10 15:07:38] [SCORE] run 587 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:07:48] Uploaded run 587 with run id 9046541.
+[2018-04-10 15:07:48] Started run 593 on task 125922, dataset 'texture'.
+[2018-04-10 15:08:15] [SCORE] run 592 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:08:26] Uploaded run 592 with run id 9046544.
+[2018-04-10 15:08:26] Started run 594 on task 125922, dataset 'texture'.
+[2018-04-10 15:10:01] [SCORE] run 585 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:10:11] Uploaded run 585 with run id 9046561.
+[2018-04-10 15:10:11] Started run 595 on task 125922, dataset 'texture'.
+[2018-04-10 15:11:05] [SCORE] run 586 on task 125922; Accuracy: 0.91.
+[2018-04-10 15:11:16] Uploaded run 586 with run id 9046569.
+[2018-04-10 15:11:16] Started run 596 on task 125922, dataset 'texture'.
+[2018-04-10 15:11:47] [SCORE] run 571 on task 125922; Accuracy: 0.95.
+[2018-04-10 15:11:57] [SCORE] run 595 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:11:57] Uploaded run 571 with run id 9046573.
+[2018-04-10 15:11:57] Started run 597 on task 125922, dataset 'texture'.
+[2018-04-10 15:12:07] Uploaded run 595 with run id 9046577.
+[2018-04-10 15:12:07] Started run 598 on task 125922, dataset 'texture'.
+[2018-04-10 15:14:03] [SCORE] run 572 on task 125922; Accuracy: 0.92.
+[2018-04-10 15:14:13] Uploaded run 572 with run id 9046587.
+[2018-04-10 15:14:13] Started run 599 on task 125922, dataset 'texture'.
+[2018-04-10 15:15:52] [SCORE] run 596 on task 125922; Accuracy: 0.95.
+[2018-04-10 15:15:58] [SCORE] run 599 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:16:03] Uploaded run 596 with run id 9046600.
+[2018-04-10 15:16:03] Started run 600 on task 125922, dataset 'texture'.
+[2018-04-10 15:16:09] Uploaded run 599 with run id 9046601.
+[2018-04-10 15:16:09] Started run 601 on task 125922, dataset 'texture'.
+[2018-04-10 15:16:40] [SCORE] run 594 on task 125922; Accuracy: 0.97.
+[2018-04-10 15:16:52] Uploaded run 594 with run id 9046612.
+[2018-04-10 15:16:52] Started run 602 on task 125922, dataset 'texture'.
+[2018-04-10 15:20:33] [SCORE] run 598 on task 125922; Accuracy: 0.95.
+[2018-04-10 15:20:43] Uploaded run 598 with run id 9046633.
+[2018-04-10 15:20:43] Started run 603 on task 125922, dataset 'texture'.
+[2018-04-10 15:23:24] [SCORE] run 601 on task 125922; Accuracy: 0.97.
+[2018-04-10 15:23:32] [SCORE] run 602 on task 125922; Accuracy: 0.98.
+[2018-04-10 15:23:34] Uploaded run 601 with run id 9046652.
+[2018-04-10 15:23:34] Started run 604 on task 125922, dataset 'texture'.
+[2018-04-10 15:23:42] Uploaded run 602 with run id 9046654.
+[2018-04-10 15:23:42] Started run 605 on task 125922, dataset 'texture'.
+[2018-04-10 15:25:58] [SCORE] run 597 on task 125922; Accuracy: 0.97.
+[2018-04-10 15:26:08] Uploaded run 597 with run id 9046672.
+[2018-04-10 15:26:08] Started run 606 on task 125922, dataset 'texture'.
+[2018-04-10 15:26:28] [SCORE] run 591 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:26:38] Uploaded run 591 with run id 9046673.
+[2018-04-10 15:26:38] Started run 607 on task 125922, dataset 'texture'.
+[2018-04-10 15:27:33] [SCORE] run 589 on task 125922; Accuracy: 0.94.
+[2018-04-10 15:27:44] Uploaded run 589 with run id 9046684.
+[2018-04-10 15:27:44] Started run 608 on task 125922, dataset 'texture'.
+[2018-04-10 15:29:42] [SCORE] run 605 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:29:53] Uploaded run 605 with run id 9046699.
+[2018-04-10 15:29:53] Started run 609 on task 125922, dataset 'texture'.
+[2018-04-10 15:31:56] [SCORE] run 608 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:32:07] Uploaded run 608 with run id 9046714.
+[2018-04-10 15:32:07] Started run 610 on task 125922, dataset 'texture'.
+[2018-04-10 15:33:42] [SCORE] run 606 on task 125922; Accuracy: 0.94.
+[2018-04-10 15:33:52] Uploaded run 606 with run id 9046722.
+[2018-04-10 15:33:52] Started run 611 on task 125922, dataset 'texture'.
+[2018-04-10 15:36:22] [SCORE] run 609 on task 125922; Accuracy: 0.97.
+[2018-04-10 15:36:33] Uploaded run 609 with run id 9046743.
+[2018-04-10 15:36:33] Started run 612 on task 125922, dataset 'texture'.
+[2018-04-10 15:37:21] [SCORE] run 604 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:37:27] [SCORE] run 603 on task 125922; Accuracy: 0.97.
+[2018-04-10 15:37:32] Uploaded run 604 with run id 9046755.
+[2018-04-10 15:37:32] Started run 613 on task 125922, dataset 'texture'.
+[2018-04-10 15:37:37] Uploaded run 603 with run id 9046758.
+[2018-04-10 15:37:37] Started run 614 on task 125922, dataset 'texture'.
+[2018-04-10 15:38:47] [SCORE] run 600 on task 125922; Accuracy: 0.97.
+[2018-04-10 15:38:58] Uploaded run 600 with run id 9046770.
+[2018-04-10 15:38:58] Started run 615 on task 125922, dataset 'texture'.
+[2018-04-10 15:39:06] [SCORE] run 593 on task 125922; Accuracy: 0.94.
+[2018-04-10 15:39:17] Uploaded run 593 with run id 9046774.
+[2018-04-10 15:39:17] Started run 616 on task 125922, dataset 'texture'.
+[2018-04-10 15:42:44] [SCORE] run 607 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:42:54] Uploaded run 607 with run id 9046802.
+[2018-04-10 15:42:54] Started run 617 on task 125922, dataset 'texture'.
+[2018-04-10 15:44:44] [SCORE] run 616 on task 125922; Accuracy: 0.94.
+[2018-04-10 15:44:55] Uploaded run 616 with run id 9046810.
+[2018-04-10 15:44:55] Started run 618 on task 125922, dataset 'texture'.
+[2018-04-10 15:46:03] [SCORE] run 615 on task 125922; Accuracy: 0.95.
+[2018-04-10 15:46:13] Uploaded run 615 with run id 9046820.
+[2018-04-10 15:46:13] Started run 619 on task 125922, dataset 'texture'.
+[2018-04-10 15:47:19] [SCORE] run 617 on task 125922; Accuracy: 0.94.
+[2018-04-10 15:47:30] Uploaded run 617 with run id 9046826.
+[2018-04-10 15:47:30] Started run 620 on task 125922, dataset 'texture'.
+[2018-04-10 15:49:03] [SCORE] run 619 on task 125922; Accuracy: 0.97.
+[2018-04-10 15:49:15] Uploaded run 619 with run id 9046841.
+[2018-04-10 15:49:15] Started run 621 on task 125922, dataset 'texture'.
+[2018-04-10 15:53:33] [SCORE] run 610 on task 125922; Accuracy: 0.96.
+[2018-04-10 15:53:43] Uploaded run 610 with run id 9046875.
+[2018-04-10 15:53:43] Started run 622 on task 125922, dataset 'texture'.
+[2018-04-10 15:54:54] [SCORE] run 612 on task 125922; Accuracy: 0.93.
+[2018-04-10 15:55:04] Uploaded run 612 with run id 9046889.
+[2018-04-10 15:55:04] Started run 623 on task 125922, dataset 'texture'.
+[2018-04-10 15:55:36] [SCORE] run 611 on task 125922; Accuracy: 0.94.
+[2018-04-10 15:55:47] Uploaded run 611 with run id 9046892.
+[2018-04-10 15:55:47] Started run 624 on task 125922, dataset 'texture'.
+[2018-04-10 15:56:51] [SCORE] run 621 on task 125922; Accuracy: 0.97.
+[2018-04-10 15:57:00] Uploaded run 621 with run id 9046901.
+[2018-04-10 15:57:00] Started run 625 on task 125922, dataset 'texture'.
+[2018-04-10 15:57:23] [SCORE] run 623 on task 125922; Accuracy: 0.98.
+[2018-04-10 15:57:34] Uploaded run 623 with run id 9046903.
+[2018-04-10 15:57:34] Started run 626 on task 125922, dataset 'texture'.
+[2018-04-10 15:58:50] [SCORE] run 614 on task 125922; Accuracy: 0.97.
+[2018-04-10 15:58:53] Error in uploading run 614, trying again in 56 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 15:59:51] Error in uploading run 614, trying again in 35 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 15:59:59] [SCORE] run 626 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:00:10] Uploaded run 626 with run id 9046919.
+[2018-04-10 16:00:10] Started run 627 on task 125922, dataset 'texture'.
+[2018-04-10 16:00:36] Uploaded run 614 with run id 9046924.
+[2018-04-10 16:00:36] Started run 628 on task 125922, dataset 'texture'.
+[2018-04-10 16:00:52] [SCORE] run 622 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:01:06] Uploaded run 622 with run id 9046928.
+[2018-04-10 16:01:06] Started run 629 on task 125922, dataset 'texture'.
+[2018-04-10 16:02:58] [SCORE] run 613 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:03:08] Uploaded run 613 with run id 9046943.
+[2018-04-10 16:03:08] Started run 630 on task 125922, dataset 'texture'.
+[2018-04-10 16:05:18] [SCORE] run 625 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:05:19] [SCORE] run 620 on task 125922; Accuracy: 0.94.
+[2018-04-10 16:05:28] Uploaded run 625 with run id 9046956.
+[2018-04-10 16:05:28] Started run 631 on task 125922, dataset 'texture'.
+[2018-04-10 16:05:29] Uploaded run 620 with run id 9046957.
+[2018-04-10 16:05:29] Started run 632 on task 125922, dataset 'texture'.
+[2018-04-10 16:06:36] [SCORE] run 630 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:06:46] Uploaded run 630 with run id 9046968.
+[2018-04-10 16:06:46] Started run 633 on task 125922, dataset 'texture'.
+[2018-04-10 16:07:42] [SCORE] run 624 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:07:52] Uploaded run 624 with run id 9046976.
+[2018-04-10 16:07:52] Started run 634 on task 125922, dataset 'texture'.
+[2018-04-10 16:09:47] [SCORE] run 632 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:09:58] Uploaded run 632 with run id 9046989.
+[2018-04-10 16:09:58] Started run 635 on task 125922, dataset 'texture'.
+[2018-04-10 16:10:24] [SCORE] run 633 on task 125922; Accuracy: 0.95.
+[2018-04-10 16:10:33] Uploaded run 633 with run id 9046996.
+[2018-04-10 16:10:33] Started run 636 on task 125922, dataset 'texture'.
+[2018-04-10 16:11:40] [SCORE] run 631 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:11:50] Uploaded run 631 with run id 9047004.
+[2018-04-10 16:11:50] Started run 637 on task 125922, dataset 'texture'.
+[2018-04-10 16:12:02] [SCORE] run 628 on task 125922; Accuracy: 0.90.
+[2018-04-10 16:12:07] [SCORE] run 618 on task 125922; Accuracy: 0.93.
+[2018-04-10 16:12:13] Uploaded run 628 with run id 9047008.
+[2018-04-10 16:12:13] Started run 638 on task 125922, dataset 'texture'.
+[2018-04-10 16:12:16] Uploaded run 618 with run id 9047009.
+[2018-04-10 16:12:16] Started run 639 on task 125922, dataset 'texture'.
+[2018-04-10 16:16:03] [SCORE] run 637 on task 125922; Accuracy: 0.95.
+[2018-04-10 16:16:13] Uploaded run 637 with run id 9047035.
+[2018-04-10 16:16:13] Started run 640 on task 125922, dataset 'texture'.
+[2018-04-10 16:16:31] [SCORE] run 627 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:16:41] Uploaded run 627 with run id 9047041.
+[2018-04-10 16:16:41] Started run 641 on task 125922, dataset 'texture'.
+[2018-04-10 16:18:38] [SCORE] run 638 on task 125922; Accuracy: 0.95.
+[2018-04-10 16:18:48] Uploaded run 638 with run id 9047056.
+[2018-04-10 16:18:48] Started run 642 on task 125922, dataset 'texture'.
+[2018-04-10 16:20:06] [SCORE] run 635 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:20:09] [SCORE] run 634 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:20:16] Uploaded run 635 with run id 9047067.
+[2018-04-10 16:20:16] Started run 643 on task 125922, dataset 'texture'.
+[2018-04-10 16:20:20] Uploaded run 634 with run id 9047068.
+[2018-04-10 16:20:20] Started run 644 on task 125922, dataset 'texture'.
+[2018-04-10 16:21:40] [SCORE] run 641 on task 125922; Accuracy: 0.94.
+[2018-04-10 16:21:50] Uploaded run 641 with run id 9047079.
+[2018-04-10 16:21:50] Started run 645 on task 125922, dataset 'texture'.
+[2018-04-10 16:23:01] [SCORE] run 639 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:23:11] Uploaded run 639 with run id 9047086.
+[2018-04-10 16:23:11] Started run 646 on task 125922, dataset 'texture'.
+[2018-04-10 16:24:47] [SCORE] run 645 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:24:58] Uploaded run 645 with run id 9047097.
+[2018-04-10 16:24:58] Started run 647 on task 125922, dataset 'texture'.
+[2018-04-10 16:25:08] [SCORE] run 643 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:25:11] [SCORE] run 640 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:25:19] Uploaded run 643 with run id 9047101.
+[2018-04-10 16:25:19] Started run 648 on task 125922, dataset 'texture'.
+[2018-04-10 16:25:21] Uploaded run 640 with run id 9047102.
+[2018-04-10 16:25:21] Started run 649 on task 125922, dataset 'texture'.
+[2018-04-10 16:26:03] [SCORE] run 644 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:26:14] Uploaded run 644 with run id 9047110.
+[2018-04-10 16:26:14] Started run 650 on task 125922, dataset 'texture'.
+[2018-04-10 16:29:37] [SCORE] run 636 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:29:47] Uploaded run 636 with run id 9047134.
+[2018-04-10 16:29:47] Started run 651 on task 125922, dataset 'texture'.
+[2018-04-10 16:30:09] [SCORE] run 648 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:30:20] Uploaded run 648 with run id 9047137.
+[2018-04-10 16:30:20] Started run 652 on task 125922, dataset 'texture'.
+[2018-04-10 16:30:57] [SCORE] run 646 on task 125922; Accuracy: 0.95.
+[2018-04-10 16:31:06] Uploaded run 646 with run id 9047144.
+[2018-04-10 16:31:06] Started run 653 on task 125922, dataset 'texture'.
+[2018-04-10 16:31:45] [SCORE] run 651 on task 125922; Accuracy: 0.98.
+[2018-04-10 16:31:50] [SCORE] run 629 on task 125922; Accuracy: 0.95.
+[2018-04-10 16:31:56] Uploaded run 651 with run id 9047150.
+[2018-04-10 16:31:56] Started run 654 on task 125922, dataset 'texture'.
+[2018-04-10 16:32:00] Uploaded run 629 with run id 9047153.
+[2018-04-10 16:32:00] Started run 655 on task 125922, dataset 'texture'.
+[2018-04-10 16:32:51] [SCORE] run 653 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:33:01] Uploaded run 653 with run id 9047159.
+[2018-04-10 16:33:01] Started run 656 on task 125922, dataset 'texture'.
+[2018-04-10 16:34:45] [SCORE] run 649 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:34:54] Uploaded run 649 with run id 9047171.
+[2018-04-10 16:34:55] Started run 657 on task 125922, dataset 'texture'.
+[2018-04-10 16:35:44] [SCORE] run 655 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:35:54] Uploaded run 655 with run id 9047180.
+[2018-04-10 16:35:54] Started run 658 on task 125922, dataset 'texture'.
+[2018-04-10 16:35:56] [SCORE] run 654 on task 125922; Accuracy: 0.97.
+[2018-04-10 16:36:06] Uploaded run 654 with run id 9047183.
+[2018-04-10 16:36:06] Started run 659 on task 125922, dataset 'texture'.
+[2018-04-10 16:38:49] [SCORE] run 652 on task 125922; Accuracy: 0.94.
+[2018-04-10 16:38:59] Uploaded run 652 with run id 9047202.
+[2018-04-10 16:38:59] Started run 660 on task 125922, dataset 'texture'.
+[2018-04-10 16:40:02] [SCORE] run 642 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:40:12] Uploaded run 642 with run id 9047208.
+[2018-04-10 16:40:12] Started run 661 on task 125922, dataset 'texture'.
+[2018-04-10 16:40:23] [SCORE] run 660 on task 125922; Accuracy: 0.96.
+[2018-04-10 16:40:34] Uploaded run 660 with run id 9047213.
+[2018-04-10 16:40:34] Started run 662 on task 125922, dataset 'texture'.

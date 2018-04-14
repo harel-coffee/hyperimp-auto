@@ -1,0 +1,277 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00057/certs"
+declare -x AZ_BATCH_JOB_ID="random_forest"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-4234576326_22-20180410t020756z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00057"
+declare -x AZ_BATCH_TASK_ID="task-00057"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00057/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/random_forest/job-1/task-00057/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/random_forest/job-1/task-00057/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/random_forest/job-1/task-00057/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+[2018-04-10 06:41:30] Results will not be logged locally.
+[2018-04-10 06:41:30] Retrieving tasks...
+[2018-04-10 06:41:30] Tasks will be retrieved based on provided task ids.
+[2018-04-10 06:41:30] The following tasks were retrieved: [14965].
+[2018-04-10 06:41:44] Downloaded task 14965.
+[2018-04-10 06:41:45] Prepared pipelines.
+[2018-04-10 06:41:45] Started run 1 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 06:41:45] Started run 2 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 06:41:45] Started run 3 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 06:41:45] Started run 4 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 06:41:45] Started run 5 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 06:41:45] Started run 6 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 06:41:45] Started run 7 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 06:41:45] Started run 8 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 06:50:19] [SCORE] run 7 on task 14965; Accuracy: 0.89.
+[2018-04-10 06:50:32] Uploaded run 7 with run id 9036029.
+[2018-04-10 06:50:32] Started run 9 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 06:54:25] [SCORE] run 6 on task 14965; Accuracy: 0.90.
+[2018-04-10 06:54:37] Uploaded run 6 with run id 9036179.
+[2018-04-10 06:54:37] Started run 10 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 06:56:51] [SCORE] run 3 on task 14965; Accuracy: 0.90.
+[2018-04-10 06:57:04] Uploaded run 3 with run id 9036281.
+[2018-04-10 06:57:04] Started run 11 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 07:09:44] [SCORE] run 4 on task 14965; Accuracy: 0.91.
+[2018-04-10 07:09:57] Uploaded run 4 with run id 9036717.
+[2018-04-10 07:09:57] Started run 12 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 07:10:55] [SCORE] run 8 on task 14965; Accuracy: 0.91.
+[2018-04-10 07:11:08] Uploaded run 8 with run id 9036761.
+[2018-04-10 07:11:08] Started run 13 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 07:30:39] [SCORE] run 10 on task 14965; Accuracy: 0.91.
+[2018-04-10 07:30:51] Uploaded run 10 with run id 9037363.
+[2018-04-10 07:30:51] Started run 14 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 07:33:19] [SCORE] run 9 on task 14965; Accuracy: 0.91.
+[2018-04-10 07:33:32] Uploaded run 9 with run id 9037447.
+[2018-04-10 07:33:32] Started run 15 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 07:36:33] [SCORE] run 12 on task 14965; Accuracy: 0.91.
+[2018-04-10 07:36:36] [SCORE] run 2 on task 14965; Accuracy: 0.90.
+[2018-04-10 07:36:45] Uploaded run 12 with run id 9037553.
+[2018-04-10 07:36:45] Started run 16 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 07:36:48] Uploaded run 2 with run id 9037558.
+[2018-04-10 07:36:48] Started run 17 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 07:41:45] Run 1 timed out.
+[2018-04-10 07:41:45] Started run 18 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 07:41:45] Run 5 timed out.
+[2018-04-10 07:41:45] Started run 19 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 07:44:04] [SCORE] run 13 on task 14965; Accuracy: 0.91.
+[2018-04-10 07:44:18] Uploaded run 13 with run id 9037809.
+[2018-04-10 07:44:18] Started run 20 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 07:52:09] [SCORE] run 14 on task 14965; Accuracy: 0.90.
+[2018-04-10 07:52:23] Uploaded run 14 with run id 9038074.
+[2018-04-10 07:52:23] Started run 21 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 07:57:04] Run 11 timed out.
+[2018-04-10 07:57:04] Started run 22 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 08:10:08] [SCORE] run 19 on task 14965; Accuracy: 0.90.
+[2018-04-10 08:10:14] Error in uploading run 19, trying again in 24 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 08:10:50] Uploaded run 19 with run id 9038633.
+[2018-04-10 08:10:50] Started run 23 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 08:13:06] [SCORE] run 22 on task 14965; Accuracy: 0.90.
+[2018-04-10 08:13:19] Uploaded run 22 with run id 9038707.
+[2018-04-10 08:13:19] Started run 24 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 08:25:49] [SCORE] run 17 on task 14965; Accuracy: 0.91.
+[2018-04-10 08:26:03] Uploaded run 17 with run id 9039109.
+[2018-04-10 08:26:03] Started run 25 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 08:30:11] [SCORE] run 25 on task 14965; Accuracy: 0.88.
+[2018-04-10 08:30:23] Uploaded run 25 with run id 9039248.
+[2018-04-10 08:30:23] Started run 26 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 08:32:58] [SCORE] run 23 on task 14965; Accuracy: 0.91.
+[2018-04-10 08:33:12] Uploaded run 23 with run id 9039321.
+[2018-04-10 08:33:12] Started run 27 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 08:33:32] Run 15 timed out.
+[2018-04-10 08:33:32] Started run 28 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 08:36:45] Run 16 timed out.
+[2018-04-10 08:36:45] Started run 29 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 08:41:45] Run 18 timed out.
+[2018-04-10 08:41:45] Started run 30 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 08:43:34] [SCORE] run 21 on task 14965; Accuracy: 0.91.
+[2018-04-10 08:43:48] Uploaded run 21 with run id 9039624.
+[2018-04-10 08:43:48] Started run 31 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 08:44:18] Run 20 timed out.
+[2018-04-10 08:44:18] Started run 32 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 08:55:31] [SCORE] run 27 on task 14965; Accuracy: 0.90.
+[2018-04-10 08:55:46] Uploaded run 27 with run id 9039925.
+[2018-04-10 08:55:46] Started run 33 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 09:13:19] Run 24 timed out.
+[2018-04-10 09:13:19] Started run 34 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 09:29:11] [SCORE] run 32 on task 14965; Accuracy: 0.91.
+[2018-04-10 09:29:26] Uploaded run 32 with run id 9040813.
+[2018-04-10 09:29:26] Started run 35 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 09:30:23] Run 26 timed out.
+[2018-04-10 09:30:23] Started run 36 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 09:33:32] Run 28 timed out.
+[2018-04-10 09:33:32] Started run 37 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 09:33:41] [SCORE] run 29 on task 14965; Accuracy: 0.91.
+[2018-04-10 09:33:56] Uploaded run 29 with run id 9040911.
+[2018-04-10 09:33:56] Started run 38 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 09:41:45] Run 30 timed out.
+[2018-04-10 09:41:45] Started run 39 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 09:43:48] Run 31 timed out.
+[2018-04-10 09:43:48] Started run 40 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 09:55:46] Run 33 timed out.
+[2018-04-10 09:55:46] Started run 41 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 09:58:15] [SCORE] run 40 on task 14965; Accuracy: 0.89.
+[2018-04-10 09:58:30] Uploaded run 40 with run id 9041490.
+[2018-04-10 09:58:30] Started run 42 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 10:10:17] [SCORE] run 38 on task 14965; Accuracy: 0.90.
+[2018-04-10 10:10:32] Uploaded run 38 with run id 9041758.
+[2018-04-10 10:10:32] Started run 43 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 10:13:19] Run 34 timed out.
+[2018-04-10 10:13:19] Started run 44 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 10:29:26] Run 35 timed out.
+[2018-04-10 10:29:26] Started run 45 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 10:30:23] Run 36 timed out.
+[2018-04-10 10:30:23] Started run 46 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 10:33:32] Run 37 timed out.
+[2018-04-10 10:33:32] Started run 47 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 10:34:40] [SCORE] run 41 on task 14965; Accuracy: 0.91.
+[2018-04-10 10:34:54] Uploaded run 41 with run id 9042305.
+[2018-04-10 10:34:54] Started run 48 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 10:41:45] Run 39 timed out.
+[2018-04-10 10:41:45] Started run 49 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 10:48:47] [SCORE] run 47 on task 14965; Accuracy: 0.90.
+[2018-04-10 10:49:02] Uploaded run 47 with run id 9042601.
+[2018-04-10 10:49:02] Started run 50 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 10:58:30] Run 42 timed out.
+[2018-04-10 10:58:30] Started run 51 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 11:03:46] [SCORE] run 45 on task 14965; Accuracy: 0.90.
+[2018-04-10 11:04:01] Uploaded run 45 with run id 9042914.
+[2018-04-10 11:04:01] Started run 52 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 11:10:32] Run 43 timed out.
+[2018-04-10 11:10:32] Started run 53 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 11:13:19] Run 44 timed out.
+[2018-04-10 11:13:19] Started run 54 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 11:22:55] [SCORE] run 50 on task 14965; Accuracy: 0.90.
+[2018-04-10 11:23:10] Uploaded run 50 with run id 9043299.
+[2018-04-10 11:23:10] Started run 55 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 11:30:23] Run 46 timed out.
+[2018-04-10 11:30:23] Started run 56 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 11:32:49] [SCORE] run 51 on task 14965; Accuracy: 0.90.
+[2018-04-10 11:33:03] Uploaded run 51 with run id 9043465.
+[2018-04-10 11:33:03] Started run 57 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 11:34:54] Run 48 timed out.
+[2018-04-10 11:34:54] Started run 58 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 11:41:45] Run 49 timed out.
+[2018-04-10 11:41:45] Started run 59 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 11:55:55] [SCORE] run 57 on task 14965; Accuracy: 0.90.
+[2018-04-10 11:56:10] Uploaded run 57 with run id 9043930.
+[2018-04-10 11:56:10] Started run 60 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 12:04:01] Run 52 timed out.
+[2018-04-10 12:04:01] Started run 61 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 12:08:07] [SCORE] run 58 on task 14965; Accuracy: 0.90.
+[2018-04-10 12:08:22] Uploaded run 58 with run id 9044170.
+[2018-04-10 12:08:22] Started run 62 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 12:10:32] Run 53 timed out.
+[2018-04-10 12:10:32] Started run 63 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 12:13:19] Run 54 timed out.
+[2018-04-10 12:13:19] Started run 64 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 12:23:10] Run 55 timed out.
+[2018-04-10 12:23:10] Started run 65 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 12:30:23] Run 56 timed out.
+[2018-04-10 12:30:23] Started run 66 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 12:41:45] Run 59 timed out.
+[2018-04-10 12:41:45] Started run 67 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 12:55:07] [SCORE] run 66 on task 14965; Accuracy: 0.90.
+[2018-04-10 12:55:21] Uploaded run 66 with run id 9045025.
+[2018-04-10 12:55:21] Started run 68 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 12:56:10] Run 60 timed out.
+[2018-04-10 12:56:10] Started run 69 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 13:00:47] [SCORE] run 61 on task 14965; Accuracy: 0.91.
+[2018-04-10 13:01:03] Uploaded run 61 with run id 9045148.
+[2018-04-10 13:01:03] Started run 70 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 13:04:57] [SCORE] run 64 on task 14965; Accuracy: 0.91.
+[2018-04-10 13:05:12] Uploaded run 64 with run id 9045222.
+[2018-04-10 13:05:12] Started run 71 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 13:08:22] Run 62 timed out.
+[2018-04-10 13:08:22] Started run 72 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 13:10:32] Run 63 timed out.
+[2018-04-10 13:10:32] Started run 73 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 13:23:10] Run 65 timed out.
+[2018-04-10 13:23:10] Started run 74 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 13:29:06] [SCORE] run 71 on task 14965; Accuracy: 0.90.
+[2018-04-10 13:29:18] [SCORE] run 68 on task 14965; Accuracy: 0.91.
+[2018-04-10 13:29:19] Uploaded run 71 with run id 9045569.
+[2018-04-10 13:29:19] Started run 75 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 13:29:29] Uploaded run 68 with run id 9045570.
+[2018-04-10 13:29:29] Started run 76 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 13:41:45] Run 67 timed out.
+[2018-04-10 13:41:45] Started run 77 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 13:49:17] [SCORE] run 74 on task 14965; Accuracy: 0.90.
+[2018-04-10 13:49:32] Uploaded run 74 with run id 9045768.
+[2018-04-10 13:49:32] Started run 78 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 13:56:10] Run 69 timed out.
+[2018-04-10 13:56:10] Started run 79 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 14:01:03] Run 70 timed out.
+[2018-04-10 14:01:03] Started run 80 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 14:08:22] Run 72 timed out.
+[2018-04-10 14:08:22] Started run 81 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 14:09:42] [SCORE] run 79 on task 14965; Accuracy: 0.89.
+[2018-04-10 14:09:56] Uploaded run 79 with run id 9045985.
+[2018-04-10 14:09:56] Started run 82 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 14:10:32] Run 73 timed out.
+[2018-04-10 14:10:32] Started run 83 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 14:13:50] [SCORE] run 76 on task 14965; Accuracy: 0.91.
+[2018-04-10 14:14:05] Uploaded run 76 with run id 9046035.
+[2018-04-10 14:14:05] Started run 84 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 14:25:20] [SCORE] run 78 on task 14965; Accuracy: 0.91.
+[2018-04-10 14:25:35] Uploaded run 78 with run id 9046143.
+[2018-04-10 14:25:35] Started run 85 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 14:29:19] Run 75 timed out.
+[2018-04-10 14:29:19] Started run 86 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 14:41:30] [SCORE] run 77 on task 14965; Accuracy: 0.91.
+[2018-04-10 14:41:43] Uploaded run 77 with run id 9046285.
+[2018-04-10 14:41:43] Started run 87 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 15:01:03] Run 80 timed out.
+[2018-04-10 15:01:03] Started run 88 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 15:08:22] Run 81 timed out.
+[2018-04-10 15:08:22] Started run 89 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 15:09:56] Run 82 timed out.
+[2018-04-10 15:09:56] Started run 90 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 15:10:32] Run 83 timed out.
+[2018-04-10 15:10:32] Started run 91 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 15:14:05] Run 84 timed out.
+[2018-04-10 15:14:05] Started run 92 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 15:19:50] [SCORE] run 90 on task 14965; Accuracy: 0.88.
+[2018-04-10 15:20:04] Uploaded run 90 with run id 9046627.
+[2018-04-10 15:20:04] Started run 93 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 15:25:11] [SCORE] run 88 on task 14965; Accuracy: 0.90.
+[2018-04-10 15:25:25] Uploaded run 88 with run id 9046666.
+[2018-04-10 15:25:25] Started run 94 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 15:25:35] Run 85 timed out.
+[2018-04-10 15:25:35] Started run 95 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 15:29:19] Run 86 timed out.
+[2018-04-10 15:29:19] Started run 96 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 15:41:43] Run 87 timed out.
+[2018-04-10 15:41:43] Started run 97 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 16:00:32] [SCORE] run 93 on task 14965; Accuracy: 0.90.
+[2018-04-10 16:00:47] Uploaded run 93 with run id 9046925.
+[2018-04-10 16:00:47] Started run 98 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 16:05:19] [SCORE] run 94 on task 14965; Accuracy: 0.90.
+[2018-04-10 16:05:34] Uploaded run 94 with run id 9046958.
+[2018-04-10 16:05:34] Started run 99 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 16:08:22] Run 89 timed out.
+[2018-04-10 16:08:22] Started run 100 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 16:10:32] Run 91 timed out.
+[2018-04-10 16:10:32] Started run 101 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 16:13:57] [SCORE] run 92 on task 14965; Accuracy: 0.91.
+[2018-04-10 16:14:12] Uploaded run 92 with run id 9047023.
+[2018-04-10 16:14:12] Started run 102 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 16:25:35] Run 95 timed out.
+[2018-04-10 16:25:35] Started run 103 on task 14965, dataset 'bank-marketing'.
+[2018-04-10 16:28:32] [SCORE] run 96 on task 14965; Accuracy: 0.91.
+[2018-04-10 16:28:47] Uploaded run 96 with run id 9047128.
+[2018-04-10 16:28:47] Started run 104 on task 14965, dataset 'bank-marketing'.

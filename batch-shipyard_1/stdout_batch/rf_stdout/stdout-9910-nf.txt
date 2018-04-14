@@ -1,0 +1,566 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00037/certs"
+declare -x AZ_BATCH_JOB_ID="random_forest"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-4234576326_29-20180410t020756z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00037"
+declare -x AZ_BATCH_TASK_ID="task-00037"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00037/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/random_forest/job-1/task-00037/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/random_forest/job-1/task-00037/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/random_forest/job-1/task-00037/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+[2018-04-10 03:49:23] Results will not be logged locally.
+[2018-04-10 03:49:23] Retrieving tasks...
+[2018-04-10 03:49:23] Tasks will be retrieved based on provided task ids.
+[2018-04-10 03:49:23] The following tasks were retrieved: [9910].
+[2018-04-10 03:49:26] Error in task 9910, trying again in 12 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:50:04] Downloaded task 9910.
+[2018-04-10 03:50:04] Prepared pipelines.
+[2018-04-10 03:50:04] Started run 1 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:04] Started run 2 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:04] Started run 3 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:04] Started run 4 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:04] Started run 5 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:04] Started run 6 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:04] Started run 7 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:04] Started run 8 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:10] Error in run 2: Run already exists in server. Run id(s): {9006758}
+[2018-04-10 03:50:10] Started run 9 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:10] Error in run 7, trying again in 11 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:50:10] Error in run 4: Run already exists in server. Run id(s): {9006708}
+[2018-04-10 03:50:10] Error in run 3: Run already exists in server. Run id(s): {9007334}
+[2018-04-10 03:50:10] Started run 10 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:10] Error in run 5: Run already exists in server. Run id(s): {9006646}
+[2018-04-10 03:50:10] Started run 11 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:11] Error in run 9, trying again in 43 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:50:11] Error in run 6: Run already exists in server. Run id(s): {9006945}
+[2018-04-10 03:50:10] Started run 12 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:11] Started run 13 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:11] Error in run 8: Run already exists in server. Run id(s): {9006751}
+[2018-04-10 03:50:11] Started run 14 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:15] Error in run 10: Run already exists in server. Run id(s): {9006744}
+[2018-04-10 03:50:15] Started run 15 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:15] Error in run 11: Run already exists in server. Run id(s): {9006791}
+[2018-04-10 03:50:15] Started run 16 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:16] Error in run 13: Run already exists in server. Run id(s): {9007090}
+[2018-04-10 03:50:16] Started run 17 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:16] Error in run 14: Run already exists in server. Run id(s): {9006941}
+[2018-04-10 03:50:16] Started run 18 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:20] Error in run 15: Run already exists in server. Run id(s): {9007609}
+[2018-04-10 03:50:20] Error in run 16: Run already exists in server. Run id(s): {9007780}
+[2018-04-10 03:50:20] Started run 19 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:20] Started run 20 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:21] Started run 7 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:25] Error in run 19: Run already exists in server. Run id(s): {9008177}
+[2018-04-10 03:50:25] Started run 21 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:25] Error in run 20: Run already exists in server. Run id(s): {9007814}
+[2018-04-10 03:50:25] Started run 22 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:26] Error in run 7: Run already exists in server. Run id(s): {9006929}
+[2018-04-10 03:50:26] Started run 23 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:31] Error in run 23: Run already exists in server. Run id(s): {9008094}
+[2018-04-10 03:50:31] Started run 24 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 03:50:54] Started run 9 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:23:14] [SCORE] run 22 on task 9910; Accuracy: 0.80.
+[2018-04-10 04:23:45] Uploaded run 22 with run id 9024246.
+[2018-04-10 04:23:45] Started run 25 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:39:49] [SCORE] run 12 on task 9910; Accuracy: 0.80.
+[2018-04-10 04:40:17] Uploaded run 12 with run id 9025737.
+[2018-04-10 04:40:17] Started run 26 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:40:19] Error in run 26, trying again in 15 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:40:34] Started run 26 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:40:39] Error in run 26: Run already exists in server. Run id(s): {9008888}
+[2018-04-10 04:40:39] Started run 27 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:41:30] [SCORE] run 21 on task 9910; Accuracy: 0.79.
+[2018-04-10 04:42:00] Uploaded run 21 with run id 9025888.
+[2018-04-10 04:42:00] Started run 28 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:45:03] [SCORE] run 17 on task 9910; Accuracy: 0.80.
+[2018-04-10 04:45:34] Uploaded run 17 with run id 9026204.
+[2018-04-10 04:45:34] Started run 29 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:45:38] Error in run 29: Run already exists in server. Run id(s): {9008840}
+[2018-04-10 04:45:38] Started run 30 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:45:43] Error in run 30: Run already exists in server. Run id(s): {9009151}
+[2018-04-10 04:45:43] Started run 31 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:50:05] Run 1 timed out.
+[2018-04-10 04:50:05] Started run 32 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:50:10] Error in run 32: Run already exists in server. Run id(s): {9009171}
+[2018-04-10 04:50:10] Started run 33 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:50:16] Run 18 timed out.
+[2018-04-10 04:50:16] Started run 34 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:50:21] Error in run 34: Run already exists in server. Run id(s): {9010051}
+[2018-04-10 04:50:21] Started run 35 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:50:31] Run 24 timed out.
+[2018-04-10 04:50:31] Started run 36 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:50:36] Error in run 36: Run already exists in server. Run id(s): {9009706}
+[2018-04-10 04:50:36] Started run 37 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 04:50:54] Run 9 timed out.
+[2018-04-10 04:50:54] Started run 38 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:23:45] Run 25 timed out.
+[2018-04-10 05:23:45] Started run 39 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:23:50] Error in run 39: Run already exists in server. Run id(s): {9009568}
+[2018-04-10 05:23:50] Started run 40 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:25:25] [SCORE] run 38 on task 9910; Accuracy: 0.81.
+[2018-04-10 05:25:55] Uploaded run 38 with run id 9029810.
+[2018-04-10 05:25:55] Started run 41 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:28:23] [SCORE] run 33 on task 9910; Accuracy: 0.79.
+[2018-04-10 05:28:43] [SCORE] run 27 on task 9910; Accuracy: 0.79.
+[2018-04-10 05:28:51] Uploaded run 33 with run id 9030062.
+[2018-04-10 05:28:51] Started run 42 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:29:02] [SCORE] run 37 on task 9910; Accuracy: 0.80.
+[2018-04-10 05:29:08] Uploaded run 27 with run id 9030095.
+[2018-04-10 05:29:08] Started run 43 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:29:33] Uploaded run 37 with run id 9030132.
+[2018-04-10 05:29:33] Started run 44 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:29:38] Error in run 44: Run already exists in server. Run id(s): {9010591}
+[2018-04-10 05:29:38] Started run 45 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:41:32] [SCORE] run 31 on task 9910; Accuracy: 0.80.
+[2018-04-10 05:41:55] Uploaded run 31 with run id 9031191.
+[2018-04-10 05:41:55] Started run 46 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:42:00] Run 28 timed out.
+[2018-04-10 05:42:00] Started run 47 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:44:35] [SCORE] run 45 on task 9910; Accuracy: 0.81.
+[2018-04-10 05:45:05] Uploaded run 45 with run id 9031434.
+[2018-04-10 05:45:05] Started run 48 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:50:21] Run 35 timed out.
+[2018-04-10 05:50:21] Started run 49 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 05:58:10] [SCORE] run 41 on task 9910; Accuracy: 0.78.
+[2018-04-10 05:58:45] Uploaded run 41 with run id 9032563.
+[2018-04-10 05:58:45] Started run 50 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:02:47] [SCORE] run 46 on task 9910; Accuracy: 0.80.
+[2018-04-10 06:03:23] Uploaded run 46 with run id 9032946.
+[2018-04-10 06:03:23] Started run 51 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:08:56] [SCORE] run 40 on task 9910; Accuracy: 0.80.
+[2018-04-10 06:09:18] Uploaded run 40 with run id 9033446.
+[2018-04-10 06:09:18] Started run 52 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:16:53] [SCORE] run 47 on task 9910; Accuracy: 0.80.
+[2018-04-10 06:17:18] Uploaded run 47 with run id 9034111.
+[2018-04-10 06:17:18] Started run 53 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:26:48] [SCORE] run 49 on task 9910; Accuracy: 0.80.
+[2018-04-10 06:27:13] Uploaded run 49 with run id 9034864.
+[2018-04-10 06:27:13] Started run 54 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:28:51] Run 42 timed out.
+[2018-04-10 06:28:51] Started run 55 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:29:09] Run 43 timed out.
+[2018-04-10 06:29:09] Started run 56 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:34:42] [SCORE] run 51 on task 9910; Accuracy: 0.79.
+[2018-04-10 06:35:08] Uploaded run 51 with run id 9035356.
+[2018-04-10 06:35:08] Started run 57 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:36:37] [SCORE] run 52 on task 9910; Accuracy: 0.80.
+[2018-04-10 06:36:50] [SCORE] run 48 on task 9910; Accuracy: 0.80.
+[2018-04-10 06:37:11] Uploaded run 48 with run id 9035457.
+[2018-04-10 06:37:11] Started run 58 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:37:20] Uploaded run 52 with run id 9035464.
+[2018-04-10 06:37:20] Started run 59 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:40:59] [SCORE] run 55 on task 9910; Accuracy: 0.80.
+[2018-04-10 06:41:28] Uploaded run 55 with run id 9035671.
+[2018-04-10 06:41:28] Started run 60 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:51:04] [SCORE] run 50 on task 9910; Accuracy: 0.79.
+[2018-04-10 06:51:28] Uploaded run 50 with run id 9036060.
+[2018-04-10 06:51:28] Started run 61 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 06:58:31] [SCORE] run 60 on task 9910; Accuracy: 0.80.
+[2018-04-10 06:59:02] Uploaded run 60 with run id 9036358.
+[2018-04-10 06:59:02] Started run 62 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:02:09] [SCORE] run 59 on task 9910; Accuracy: 0.79.
+[2018-04-10 07:02:35] Uploaded run 59 with run id 9036492.
+[2018-04-10 07:02:35] Started run 63 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:15:43] [SCORE] run 54 on task 9910; Accuracy: 0.80.
+[2018-04-10 07:16:09] Uploaded run 54 with run id 9036904.
+[2018-04-10 07:16:09] Started run 64 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:16:17] [SCORE] run 62 on task 9910; Accuracy: 0.81.
+[2018-04-10 07:16:41] Uploaded run 62 with run id 9036919.
+[2018-04-10 07:16:41] Started run 65 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:16:57] [SCORE] run 57 on task 9910; Accuracy: 0.79.
+[2018-04-10 07:17:17] Uploaded run 57 with run id 9036942.
+[2018-04-10 07:17:17] Started run 66 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:17:17] [SCORE] run 58 on task 9910; Accuracy: 0.79.
+[2018-04-10 07:17:18] Run 53 timed out.
+[2018-04-10 07:17:18] Started run 67 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:17:38] Uploaded run 58 with run id 9036958.
+[2018-04-10 07:17:38] Started run 68 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:29:09] Run 56 timed out.
+[2018-04-10 07:29:09] Started run 69 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:35:51] [SCORE] run 68 on task 9910; Accuracy: 0.80.
+[2018-04-10 07:36:20] Uploaded run 68 with run id 9037531.
+[2018-04-10 07:36:20] Started run 70 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:43:53] [SCORE] run 61 on task 9910; Accuracy: 0.81.
+[2018-04-10 07:44:13] Uploaded run 61 with run id 9037806.
+[2018-04-10 07:44:13] Started run 71 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:44:13] [SCORE] run 67 on task 9910; Accuracy: 0.79.
+[2018-04-10 07:44:33] Uploaded run 67 with run id 9037815.
+[2018-04-10 07:44:33] Started run 72 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:48:51] [SCORE] run 70 on task 9910; Accuracy: 0.80.
+[2018-04-10 07:49:10] Uploaded run 70 with run id 9037954.
+[2018-04-10 07:49:10] Started run 73 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 07:56:41] [SCORE] run 66 on task 9910; Accuracy: 0.79.
+[2018-04-10 07:57:02] Uploaded run 66 with run id 9038213.
+[2018-04-10 07:57:02] Started run 74 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 08:02:35] Run 63 timed out.
+[2018-04-10 08:02:35] Started run 75 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 08:14:54] [SCORE] run 75 on task 9910; Accuracy: 0.80.
+[2018-04-10 08:15:14] Uploaded run 75 with run id 9038777.
+[2018-04-10 08:15:14] Started run 76 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 08:16:10] Run 64 timed out.
+[2018-04-10 08:16:10] Started run 77 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 08:16:42] Run 65 timed out.
+[2018-04-10 08:16:42] Started run 78 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 08:22:27] [SCORE] run 74 on task 9910; Accuracy: 0.79.
+[2018-04-10 08:22:55] Uploaded run 74 with run id 9039006.
+[2018-04-10 08:22:55] Started run 79 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 08:29:10] Run 69 timed out.
+[2018-04-10 08:29:10] Started run 80 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 08:44:13] Run 71 timed out.
+[2018-04-10 08:44:13] Started run 81 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 08:44:34] Run 72 timed out.
+[2018-04-10 08:44:34] Started run 82 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 08:49:11] Run 73 timed out.
+[2018-04-10 08:49:11] Started run 83 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 08:50:36] [SCORE] run 77 on task 9910; Accuracy: 0.79.
+[2018-04-10 08:51:01] Uploaded run 77 with run id 9039803.
+[2018-04-10 08:51:01] Started run 84 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 08:57:21] [SCORE] run 80 on task 9910; Accuracy: 0.79.
+[2018-04-10 08:57:45] Uploaded run 80 with run id 9039986.
+[2018-04-10 08:57:45] Started run 85 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:03:08] [SCORE] run 78 on task 9910; Accuracy: 0.79.
+[2018-04-10 09:03:27] Uploaded run 78 with run id 9040149.
+[2018-04-10 09:03:27] Started run 86 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:03:28] [SCORE] run 84 on task 9910; Accuracy: 0.81.
+[2018-04-10 09:03:51] Uploaded run 84 with run id 9040158.
+[2018-04-10 09:03:51] Started run 87 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:05:27] [SCORE] run 83 on task 9910; Accuracy: 0.81.
+[2018-04-10 09:05:48] Uploaded run 83 with run id 9040219.
+[2018-04-10 09:05:48] Started run 88 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:09:11] [SCORE] run 79 on task 9910; Accuracy: 0.81.
+[2018-04-10 09:09:36] Uploaded run 79 with run id 9040321.
+[2018-04-10 09:09:36] Started run 89 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:10:54] [SCORE] run 76 on task 9910; Accuracy: 0.81.
+[2018-04-10 09:11:24] Uploaded run 76 with run id 9040374.
+[2018-04-10 09:11:24] Started run 90 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:25:59] [SCORE] run 89 on task 9910; Accuracy: 0.80.
+[2018-04-10 09:26:20] Uploaded run 89 with run id 9040745.
+[2018-04-10 09:26:20] Started run 91 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:35:50] [SCORE] run 82 on task 9910; Accuracy: 0.80.
+[2018-04-10 09:36:10] Uploaded run 82 with run id 9040968.
+[2018-04-10 09:36:10] Started run 92 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:36:10] [SCORE] run 91 on task 9910; Accuracy: 0.80.
+[2018-04-10 09:36:30] Uploaded run 91 with run id 9040976.
+[2018-04-10 09:36:30] Started run 93 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:36:52] [SCORE] run 86 on task 9910; Accuracy: 0.80.
+[2018-04-10 09:37:12] Uploaded run 86 with run id 9040992.
+[2018-04-10 09:37:12] Started run 94 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:40:16] [SCORE] run 85 on task 9910; Accuracy: 0.79.
+[2018-04-10 09:40:37] Uploaded run 85 with run id 9041071.
+[2018-04-10 09:40:37] Started run 95 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:44:13] Run 81 timed out.
+[2018-04-10 09:44:13] Started run 96 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 09:49:32] [SCORE] run 87 on task 9910; Accuracy: 0.79.
+[2018-04-10 09:49:50] Error in uploading run 87, trying again in 46 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 09:51:01] Uploaded run 87 with run id 9041325.
+[2018-04-10 09:51:01] Started run 97 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:05:49] Run 88 timed out.
+[2018-04-10 10:05:49] Started run 98 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:10:03] [SCORE] run 90 on task 9910; Accuracy: 0.80.
+[2018-04-10 10:10:24] Uploaded run 90 with run id 9041757.
+[2018-04-10 10:10:24] Started run 99 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:10:55] [SCORE] run 93 on task 9910; Accuracy: 0.79.
+[2018-04-10 10:11:19] Uploaded run 93 with run id 9041773.
+[2018-04-10 10:11:19] Started run 100 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:19:04] [SCORE] run 96 on task 9910; Accuracy: 0.79.
+[2018-04-10 10:19:27] Uploaded run 96 with run id 9041959.
+[2018-04-10 10:19:27] Started run 101 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:20:59] [SCORE] run 95 on task 9910; Accuracy: 0.81.
+[2018-04-10 10:21:21] Uploaded run 95 with run id 9042006.
+[2018-04-10 10:21:21] Started run 102 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:22:06] [SCORE] run 94 on task 9910; Accuracy: 0.80.
+[2018-04-10 10:22:29] Uploaded run 94 with run id 9042038.
+[2018-04-10 10:22:29] Started run 103 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:31:49] [SCORE] run 101 on task 9910; Accuracy: 0.80.
+[2018-04-10 10:32:12] Uploaded run 101 with run id 9042258.
+[2018-04-10 10:32:12] Started run 104 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:35:53] [SCORE] run 97 on task 9910; Accuracy: 0.80.
+[2018-04-10 10:36:10] Run 92 timed out.
+[2018-04-10 10:36:10] Started run 105 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:36:18] Uploaded run 97 with run id 9042344.
+[2018-04-10 10:36:18] Started run 106 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:41:41] [SCORE] run 100 on task 9910; Accuracy: 0.81.
+[2018-04-10 10:42:05] Uploaded run 100 with run id 9042465.
+[2018-04-10 10:42:05] Started run 107 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:45:58] [SCORE] run 106 on task 9910; Accuracy: 0.79.
+[2018-04-10 10:46:20] Uploaded run 106 with run id 9042548.
+[2018-04-10 10:46:20] Started run 108 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:48:18] [SCORE] run 99 on task 9910; Accuracy: 0.80.
+[2018-04-10 10:48:41] Uploaded run 99 with run id 9042596.
+[2018-04-10 10:48:41] Started run 109 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:49:32] [SCORE] run 98 on task 9910; Accuracy: 0.81.
+[2018-04-10 10:49:57] Uploaded run 98 with run id 9042628.
+[2018-04-10 10:49:57] Started run 110 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:54:09] [SCORE] run 107 on task 9910; Accuracy: 0.80.
+[2018-04-10 10:54:28] Uploaded run 107 with run id 9042719.
+[2018-04-10 10:54:28] Started run 111 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:57:01] [SCORE] run 111 on task 9910; Accuracy: 0.80.
+[2018-04-10 10:57:21] Uploaded run 111 with run id 9042784.
+[2018-04-10 10:57:21] Started run 112 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 10:59:17] [SCORE] run 105 on task 9910; Accuracy: 0.80.
+[2018-04-10 10:59:37] Uploaded run 105 with run id 9042830.
+[2018-04-10 10:59:37] Started run 113 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:02:31] [SCORE] run 112 on task 9910; Accuracy: 0.79.
+[2018-04-10 11:02:50] Uploaded run 112 with run id 9042885.
+[2018-04-10 11:02:50] Started run 114 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:03:48] [SCORE] run 110 on task 9910; Accuracy: 0.79.
+[2018-04-10 11:04:08] Uploaded run 110 with run id 9042918.
+[2018-04-10 11:04:08] Started run 115 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:10:16] [SCORE] run 102 on task 9910; Accuracy: 0.81.
+[2018-04-10 11:10:35] Uploaded run 102 with run id 9043052.
+[2018-04-10 11:10:35] Started run 116 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:13:04] [SCORE] run 104 on task 9910; Accuracy: 0.80.
+[2018-04-10 11:13:24] Uploaded run 104 with run id 9043113.
+[2018-04-10 11:13:24] Started run 117 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:13:44] [SCORE] run 108 on task 9910; Accuracy: 0.79.
+[2018-04-10 11:14:04] Uploaded run 108 with run id 9043124.
+[2018-04-10 11:14:04] Started run 118 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:17:54] [SCORE] run 103 on task 9910; Accuracy: 0.80.
+[2018-04-10 11:18:13] Uploaded run 103 with run id 9043204.
+[2018-04-10 11:18:13] Started run 119 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:23:17] [SCORE] run 109 on task 9910; Accuracy: 0.79.
+[2018-04-10 11:23:36] Uploaded run 109 with run id 9043309.
+[2018-04-10 11:23:36] Started run 120 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:37:16] [SCORE] run 116 on task 9910; Accuracy: 0.80.
+[2018-04-10 11:37:36] Uploaded run 116 with run id 9043563.
+[2018-04-10 11:37:36] Started run 121 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:41:15] [SCORE] run 114 on task 9910; Accuracy: 0.79.
+[2018-04-10 11:41:34] Uploaded run 114 with run id 9043648.
+[2018-04-10 11:41:34] Started run 122 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:43:28] [SCORE] run 115 on task 9910; Accuracy: 0.81.
+[2018-04-10 11:43:49] Uploaded run 115 with run id 9043681.
+[2018-04-10 11:43:49] Started run 123 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:44:00] [SCORE] run 113 on task 9910; Accuracy: 0.81.
+[2018-04-10 11:44:20] Uploaded run 113 with run id 9043690.
+[2018-04-10 11:44:20] Started run 124 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:45:49] [SCORE] run 124 on task 9910; Accuracy: 0.72.
+[2018-04-10 11:46:08] Uploaded run 124 with run id 9043727.
+[2018-04-10 11:46:08] Started run 125 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:46:44] [SCORE] run 119 on task 9910; Accuracy: 0.81.
+[2018-04-10 11:47:03] Uploaded run 119 with run id 9043744.
+[2018-04-10 11:47:03] Started run 126 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:56:18] [SCORE] run 120 on task 9910; Accuracy: 0.81.
+[2018-04-10 11:56:30] Error in uploading run 120, trying again in 23 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 11:57:12] Uploaded run 120 with run id 9043957.
+[2018-04-10 11:57:12] Started run 127 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 11:58:55] [SCORE] run 117 on task 9910; Accuracy: 0.81.
+[2018-04-10 11:59:14] Uploaded run 117 with run id 9044002.
+[2018-04-10 11:59:14] Started run 128 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:02:11] [SCORE] run 123 on task 9910; Accuracy: 0.79.
+[2018-04-10 12:02:30] Uploaded run 123 with run id 9044058.
+[2018-04-10 12:02:30] Started run 129 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:11:43] [SCORE] run 121 on task 9910; Accuracy: 0.80.
+[2018-04-10 12:12:03] Uploaded run 121 with run id 9044242.
+[2018-04-10 12:12:03] Started run 130 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:14:04] Run 118 timed out.
+[2018-04-10 12:14:04] Started run 131 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:20:03] [SCORE] run 128 on task 9910; Accuracy: 0.81.
+[2018-04-10 12:20:29] Uploaded run 128 with run id 9044400.
+[2018-04-10 12:20:29] Started run 132 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:27:12] [SCORE] run 125 on task 9910; Accuracy: 0.79.
+[2018-04-10 12:27:32] Uploaded run 125 with run id 9044520.
+[2018-04-10 12:27:32] Started run 133 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:34:39] [SCORE] run 131 on task 9910; Accuracy: 0.78.
+[2018-04-10 12:34:59] Uploaded run 131 with run id 9044656.
+[2018-04-10 12:34:59] Started run 134 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:41:34] Run 122 timed out.
+[2018-04-10 12:41:34] Started run 135 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:42:47] [SCORE] run 129 on task 9910; Accuracy: 0.79.
+[2018-04-10 12:43:13] Uploaded run 129 with run id 9044808.
+[2018-04-10 12:43:13] Started run 136 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:43:44] [SCORE] run 127 on task 9910; Accuracy: 0.80.
+[2018-04-10 12:44:10] Uploaded run 127 with run id 9044824.
+[2018-04-10 12:44:10] Started run 137 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:46:31] [SCORE] run 135 on task 9910; Accuracy: 0.81.
+[2018-04-10 12:46:53] Uploaded run 135 with run id 9044875.
+[2018-04-10 12:46:53] Started run 138 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:47:03] Run 126 timed out.
+[2018-04-10 12:47:03] Started run 139 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:47:28] [SCORE] run 137 on task 9910; Accuracy: 0.80.
+[2018-04-10 12:47:55] Uploaded run 137 with run id 9044890.
+[2018-04-10 12:47:55] Started run 140 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:51:51] [SCORE] run 130 on task 9910; Accuracy: 0.80.
+[2018-04-10 12:52:15] Uploaded run 130 with run id 9044971.
+[2018-04-10 12:52:15] Started run 141 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:52:21] [SCORE] run 136 on task 9910; Accuracy: 0.80.
+[2018-04-10 12:52:47] Uploaded run 136 with run id 9044983.
+[2018-04-10 12:52:47] Started run 142 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 12:59:57] [SCORE] run 134 on task 9910; Accuracy: 0.79.
+[2018-04-10 13:00:20] Uploaded run 134 with run id 9045130.
+[2018-04-10 13:00:20] Started run 143 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:01:54] [SCORE] run 139 on task 9910; Accuracy: 0.79.
+[2018-04-10 13:02:17] Uploaded run 139 with run id 9045173.
+[2018-04-10 13:02:17] Started run 144 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:03:00] [SCORE] run 143 on task 9910; Accuracy: 0.78.
+[2018-04-10 13:03:25] Uploaded run 143 with run id 9045188.
+[2018-04-10 13:03:25] Started run 145 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:08:33] [SCORE] run 142 on task 9910; Accuracy: 0.81.
+[2018-04-10 13:08:53] Uploaded run 142 with run id 9045286.
+[2018-04-10 13:08:53] Started run 146 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:09:07] [SCORE] run 140 on task 9910; Accuracy: 0.79.
+[2018-04-10 13:09:27] Uploaded run 140 with run id 9045298.
+[2018-04-10 13:09:27] Started run 147 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:10:21] [SCORE] run 138 on task 9910; Accuracy: 0.81.
+[2018-04-10 13:10:41] Uploaded run 138 with run id 9045319.
+[2018-04-10 13:10:41] Started run 148 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:12:32] [SCORE] run 132 on task 9910; Accuracy: 0.79.
+[2018-04-10 13:12:51] Uploaded run 132 with run id 9045359.
+[2018-04-10 13:12:51] Started run 149 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:25:57] [SCORE] run 147 on task 9910; Accuracy: 0.80.
+[2018-04-10 13:26:17] Uploaded run 147 with run id 9045537.
+[2018-04-10 13:26:17] Started run 150 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:26:51] [SCORE] run 133 on task 9910; Accuracy: 0.80.
+[2018-04-10 13:27:10] Uploaded run 133 with run id 9045549.
+[2018-04-10 13:27:10] Started run 151 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:30:37] [SCORE] run 145 on task 9910; Accuracy: 0.79.
+[2018-04-10 13:30:57] Uploaded run 145 with run id 9045582.
+[2018-04-10 13:30:57] Started run 152 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:36:22] [SCORE] run 144 on task 9910; Accuracy: 0.78.
+[2018-04-10 13:36:42] Uploaded run 144 with run id 9045635.
+[2018-04-10 13:36:42] Started run 153 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:36:52] [SCORE] run 152 on task 9910; Accuracy: 0.81.
+[2018-04-10 13:37:12] Uploaded run 152 with run id 9045639.
+[2018-04-10 13:37:12] Started run 154 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:41:01] [SCORE] run 148 on task 9910; Accuracy: 0.79.
+[2018-04-10 13:41:21] Uploaded run 148 with run id 9045682.
+[2018-04-10 13:41:21] Started run 155 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:42:40] [SCORE] run 149 on task 9910; Accuracy: 0.80.
+[2018-04-10 13:43:00] Uploaded run 149 with run id 9045697.
+[2018-04-10 13:43:00] Started run 156 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:52:15] Run 141 timed out.
+[2018-04-10 13:52:15] Started run 157 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:54:36] [SCORE] run 150 on task 9910; Accuracy: 0.79.
+[2018-04-10 13:54:58] Uploaded run 150 with run id 9045822.
+[2018-04-10 13:54:58] Started run 158 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 13:57:28] [SCORE] run 153 on task 9910; Accuracy: 0.81.
+[2018-04-10 13:57:53] Uploaded run 153 with run id 9045851.
+[2018-04-10 13:57:53] Started run 159 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:03:32] [SCORE] run 157 on task 9910; Accuracy: 0.79.
+[2018-04-10 14:03:51] Uploaded run 157 with run id 9045916.
+[2018-04-10 14:03:51] Started run 160 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:08:53] Run 146 timed out.
+[2018-04-10 14:08:53] Started run 161 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:14:18] [SCORE] run 159 on task 9910; Accuracy: 0.81.
+[2018-04-10 14:14:41] Uploaded run 159 with run id 9046040.
+[2018-04-10 14:14:41] Started run 162 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:15:05] [SCORE] run 154 on task 9910; Accuracy: 0.79.
+[2018-04-10 14:15:29] Uploaded run 154 with run id 9046049.
+[2018-04-10 14:15:29] Started run 163 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:19:17] [SCORE] run 155 on task 9910; Accuracy: 0.80.
+[2018-04-10 14:19:44] Uploaded run 155 with run id 9046100.
+[2018-04-10 14:19:44] Started run 164 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:20:47] [SCORE] run 156 on task 9910; Accuracy: 0.80.
+[2018-04-10 14:21:13] Uploaded run 156 with run id 9046115.
+[2018-04-10 14:21:13] Started run 165 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:21:25] [SCORE] run 158 on task 9910; Accuracy: 0.81.
+[2018-04-10 14:21:44] Uploaded run 158 with run id 9046122.
+[2018-04-10 14:21:44] Started run 166 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:25:55] [SCORE] run 164 on task 9910; Accuracy: 0.81.
+[2018-04-10 14:26:15] Uploaded run 164 with run id 9046154.
+[2018-04-10 14:26:15] Started run 167 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:26:42] [SCORE] run 166 on task 9910; Accuracy: 0.79.
+[2018-04-10 14:27:01] Uploaded run 166 with run id 9046159.
+[2018-04-10 14:27:01] Started run 168 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:27:11] Run 151 timed out.
+[2018-04-10 14:27:11] Started run 169 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:33:01] [SCORE] run 167 on task 9910; Accuracy: 0.79.
+[2018-04-10 14:33:25] Uploaded run 167 with run id 9046210.
+[2018-04-10 14:33:25] Started run 170 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:45:49] [SCORE] run 168 on task 9910; Accuracy: 0.80.
+[2018-04-10 14:46:08] Uploaded run 168 with run id 9046326.
+[2018-04-10 14:46:08] Started run 171 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:50:50] [SCORE] run 165 on task 9910; Accuracy: 0.78.
+[2018-04-10 14:51:11] Uploaded run 165 with run id 9046383.
+[2018-04-10 14:51:11] Started run 172 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:54:33] [SCORE] run 162 on task 9910; Accuracy: 0.80.
+[2018-04-10 14:54:52] Uploaded run 162 with run id 9046420.
+[2018-04-10 14:54:52] Started run 173 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:55:50] [SCORE] run 169 on task 9910; Accuracy: 0.80.
+[2018-04-10 14:56:10] Uploaded run 169 with run id 9046438.
+[2018-04-10 14:56:10] Started run 174 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 14:56:20] [SCORE] run 160 on task 9910; Accuracy: 0.80.
+[2018-04-10 14:56:39] Uploaded run 160 with run id 9046441.
+[2018-04-10 14:56:39] Started run 175 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:01:21] [SCORE] run 161 on task 9910; Accuracy: 0.80.
+[2018-04-10 15:01:41] Uploaded run 161 with run id 9046480.
+[2018-04-10 15:01:41] Started run 176 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:02:44] [SCORE] run 172 on task 9910; Accuracy: 0.80.
+[2018-04-10 15:03:03] Uploaded run 172 with run id 9046492.
+[2018-04-10 15:03:03] Started run 177 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:10:14] [SCORE] run 170 on task 9910; Accuracy: 0.80.
+[2018-04-10 15:10:33] Uploaded run 170 with run id 9046564.
+[2018-04-10 15:10:33] Started run 178 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:12:00] [SCORE] run 178 on task 9910; Accuracy: 0.70.
+[2018-04-10 15:12:20] Uploaded run 178 with run id 9046578.
+[2018-04-10 15:12:20] Started run 179 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:15:29] Run 163 timed out.
+[2018-04-10 15:15:29] Started run 180 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:21:08] [SCORE] run 175 on task 9910; Accuracy: 0.80.
+[2018-04-10 15:21:33] Uploaded run 175 with run id 9046639.
+[2018-04-10 15:21:33] Started run 181 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:25:12] [SCORE] run 179 on task 9910; Accuracy: 0.81.
+[2018-04-10 15:25:31] Uploaded run 179 with run id 9046668.
+[2018-04-10 15:25:31] Started run 182 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:26:45] [SCORE] run 173 on task 9910; Accuracy: 0.79.
+[2018-04-10 15:27:05] Uploaded run 173 with run id 9046677.
+[2018-04-10 15:27:05] Started run 183 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:37:49] [SCORE] run 177 on task 9910; Accuracy: 0.81.
+[2018-04-10 15:38:09] Uploaded run 177 with run id 9046762.
+[2018-04-10 15:38:09] Started run 184 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:40:52] [SCORE] run 174 on task 9910; Accuracy: 0.79.
+[2018-04-10 15:41:12] Uploaded run 174 with run id 9046789.
+[2018-04-10 15:41:12] Started run 185 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:41:56] [SCORE] run 176 on task 9910; Accuracy: 0.79.
+[2018-04-10 15:42:15] Uploaded run 176 with run id 9046797.
+[2018-04-10 15:42:15] Started run 186 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:46:08] Run 171 timed out.
+[2018-04-10 15:46:08] Started run 187 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:47:34] [SCORE] run 186 on task 9910; Accuracy: 0.79.
+[2018-04-10 15:47:54] Uploaded run 186 with run id 9046831.
+[2018-04-10 15:47:54] Started run 188 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:49:06] [SCORE] run 187 on task 9910; Accuracy: 0.79.
+[2018-04-10 15:49:26] Uploaded run 187 with run id 9046843.
+[2018-04-10 15:49:26] Started run 189 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:51:14] [SCORE] run 183 on task 9910; Accuracy: 0.79.
+[2018-04-10 15:51:33] Uploaded run 183 with run id 9046863.
+[2018-04-10 15:51:33] Started run 190 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 15:59:55] [SCORE] run 182 on task 9910; Accuracy: 0.79.
+[2018-04-10 16:00:15] Uploaded run 182 with run id 9046922.
+[2018-04-10 16:00:15] Started run 191 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 16:08:50] [SCORE] run 189 on task 9910; Accuracy: 0.80.
+[2018-04-10 16:09:10] Uploaded run 189 with run id 9046984.
+[2018-04-10 16:09:10] Started run 192 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 16:14:45] [SCORE] run 185 on task 9910; Accuracy: 0.80.
+[2018-04-10 16:15:04] Uploaded run 185 with run id 9047027.
+[2018-04-10 16:15:04] Started run 193 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 16:15:29] Run 180 timed out.
+[2018-04-10 16:15:29] Started run 194 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 16:16:33] [SCORE] run 190 on task 9910; Accuracy: 0.80.
+[2018-04-10 16:16:59] Uploaded run 190 with run id 9047042.
+[2018-04-10 16:16:59] Started run 195 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 16:17:55] [SCORE] run 192 on task 9910; Accuracy: 0.81.
+[2018-04-10 16:18:20] Uploaded run 192 with run id 9047051.
+[2018-04-10 16:18:20] Started run 196 on task 9910, dataset 'Bioresponse'.
+[2018-04-10 16:21:33] Run 181 timed out.
+[2018-04-10 16:21:33] Started run 197 on task 9910, dataset 'Bioresponse'.

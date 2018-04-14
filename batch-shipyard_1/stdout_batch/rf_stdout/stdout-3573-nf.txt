@@ -1,0 +1,259 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00028/certs"
+declare -x AZ_BATCH_JOB_ID="random_forest"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-4234576326_5-20180410t020756z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00028"
+declare -x AZ_BATCH_TASK_ID="task-00028"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00028/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/random_forest/job-1/task-00028/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/random_forest/job-1/task-00028/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/random_forest/job-1/task-00028/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+[2018-04-10 04:36:49] Results will not be logged locally.
+[2018-04-10 04:36:49] Retrieving tasks...
+[2018-04-10 04:36:49] Tasks will be retrieved based on provided task ids.
+[2018-04-10 04:36:49] The following tasks were retrieved: [3573].
+[2018-04-10 04:39:41] Downloaded task 3573.
+[2018-04-10 04:39:41] Prepared pipelines.
+[2018-04-10 04:39:41] Started run 1 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:39:41] Started run 2 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:39:41] Started run 3 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:39:41] Started run 4 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:39:41] Started run 5 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:39:41] Started run 6 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:39:41] Started run 7 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:39:42] Error in run 1, trying again in 49 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:39:41] Started run 8 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:39:42] Error in run 2, trying again in 18 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:39:42] Error in run 3, trying again in 37 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:39:43] Error in run 4, trying again in 28 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:39:43] Error in run 5, trying again in 54 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:39:43] Error in run 6, trying again in 38 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:39:43] Error in run 7, trying again in 10 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:39:43] Error in run 8, trying again in 35 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:39:53] Started run 7 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:40:00] Started run 2 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:40:11] Started run 4 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:40:18] Started run 8 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:40:19] Error in run 8, trying again in 19 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:40:19] Started run 3 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:40:20] Error in run 3, trying again in 51 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:40:21] Started run 6 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:40:22] Error in run 6, trying again in 34 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:40:31] Started run 1 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:40:37] Started run 5 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:40:38] Started run 8 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:40:56] Started run 6 on task 3573, dataset 'mnist_784'.
+[2018-04-10 04:41:11] Started run 3 on task 3573, dataset 'mnist_784'.
+[2018-04-10 05:39:53] Run 7 timed out.
+[2018-04-10 05:39:53] Started run 9 on task 3573, dataset 'mnist_784'.
+[2018-04-10 05:40:00] Run 2 timed out.
+[2018-04-10 05:40:00] Started run 10 on task 3573, dataset 'mnist_784'.
+[2018-04-10 05:40:11] Run 4 timed out.
+[2018-04-10 05:40:11] Started run 11 on task 3573, dataset 'mnist_784'.
+[2018-04-10 05:40:31] Run 1 timed out.
+[2018-04-10 05:40:31] Started run 12 on task 3573, dataset 'mnist_784'.
+[2018-04-10 05:40:37] Run 5 timed out.
+[2018-04-10 05:40:37] Started run 13 on task 3573, dataset 'mnist_784'.
+[2018-04-10 05:40:38] Run 8 timed out.
+[2018-04-10 05:40:38] Started run 14 on task 3573, dataset 'mnist_784'.
+[2018-04-10 05:40:56] Run 6 timed out.
+[2018-04-10 05:40:56] Started run 15 on task 3573, dataset 'mnist_784'.
+[2018-04-10 05:41:12] Run 3 timed out.
+[2018-04-10 05:41:12] Started run 16 on task 3573, dataset 'mnist_784'.
+[2018-04-10 06:39:53] Run 9 timed out.
+[2018-04-10 06:39:53] Started run 17 on task 3573, dataset 'mnist_784'.
+[2018-04-10 06:40:01] Run 10 timed out.
+[2018-04-10 06:40:01] Started run 18 on task 3573, dataset 'mnist_784'.
+[2018-04-10 06:40:11] Run 11 timed out.
+[2018-04-10 06:40:11] Started run 19 on task 3573, dataset 'mnist_784'.
+[2018-04-10 06:40:31] Run 12 timed out.
+[2018-04-10 06:40:31] Started run 20 on task 3573, dataset 'mnist_784'.
+[2018-04-10 06:40:37] Run 13 timed out.
+[2018-04-10 06:40:37] Started run 21 on task 3573, dataset 'mnist_784'.
+[2018-04-10 06:40:38] Run 14 timed out.
+[2018-04-10 06:40:38] Started run 22 on task 3573, dataset 'mnist_784'.
+[2018-04-10 06:40:56] Run 15 timed out.
+[2018-04-10 06:40:56] Started run 23 on task 3573, dataset 'mnist_784'.
+[2018-04-10 06:41:12] Run 16 timed out.
+[2018-04-10 06:41:12] Started run 24 on task 3573, dataset 'mnist_784'.
+[2018-04-10 07:39:53] Run 17 timed out.
+[2018-04-10 07:39:53] Started run 25 on task 3573, dataset 'mnist_784'.
+[2018-04-10 07:40:01] Run 18 timed out.
+[2018-04-10 07:40:01] Started run 26 on task 3573, dataset 'mnist_784'.
+[2018-04-10 07:40:11] Run 19 timed out.
+[2018-04-10 07:40:11] Started run 27 on task 3573, dataset 'mnist_784'.
+[2018-04-10 07:40:32] Run 20 timed out.
+[2018-04-10 07:40:32] Started run 28 on task 3573, dataset 'mnist_784'.
+[2018-04-10 07:40:37] Run 21 timed out.
+[2018-04-10 07:40:37] Started run 29 on task 3573, dataset 'mnist_784'.
+[2018-04-10 07:40:39] Run 22 timed out.
+[2018-04-10 07:40:39] Started run 30 on task 3573, dataset 'mnist_784'.
+[2018-04-10 07:40:56] Run 23 timed out.
+[2018-04-10 07:40:56] Started run 31 on task 3573, dataset 'mnist_784'.
+[2018-04-10 07:41:11] Error in run 31: 
+[2018-04-10 07:41:12] Run 24 timed out.
+[2018-04-10 07:41:11] Started run 32 on task 3573, dataset 'mnist_784'.
+[2018-04-10 07:41:12] Started run 33 on task 3573, dataset 'mnist_784'.
+[2018-04-10 07:41:17] Error in run 25: 
+[2018-04-10 07:41:17] Started run 34 on task 3573, dataset 'mnist_784'.
+[2018-04-10 07:41:20] Started run 35 on task 3573, dataset 'mnist_784'.
+[2018-04-10 08:40:01] Run 26 timed out.
+[2018-04-10 08:40:01] Started run 36 on task 3573, dataset 'mnist_784'.
+[2018-04-10 08:40:11] Run 27 timed out.
+[2018-04-10 08:40:11] Started run 37 on task 3573, dataset 'mnist_784'.
+[2018-04-10 08:40:32] Run 28 timed out.
+[2018-04-10 08:40:32] Started run 38 on task 3573, dataset 'mnist_784'.
+[2018-04-10 08:40:38] Run 29 timed out.
+[2018-04-10 08:40:38] Error in run 38: Run already exists in server. Run id(s): {8962605}
+[2018-04-10 08:40:38] Started run 39 on task 3573, dataset 'mnist_784'.
+[2018-04-10 08:40:38] Started run 40 on task 3573, dataset 'mnist_784'.
+[2018-04-10 08:40:39] Run 30 timed out.
+[2018-04-10 08:40:39] Started run 41 on task 3573, dataset 'mnist_784'.
+[2018-04-10 08:40:47] Started run 42 on task 3573, dataset 'mnist_784'.
+[2018-04-10 08:41:13] Run 33 timed out.
+[2018-04-10 08:41:13] Started run 43 on task 3573, dataset 'mnist_784'.
+[2018-04-10 08:41:18] Run 34 timed out.
+[2018-04-10 08:41:18] Started run 44 on task 3573, dataset 'mnist_784'.
+[2018-04-10 08:41:20] Run 35 timed out.
+[2018-04-10 08:41:20] Started run 45 on task 3573, dataset 'mnist_784'.
+[2018-04-10 08:41:34] Started run 46 on task 3573, dataset 'mnist_784'.
+[2018-04-10 09:40:02] Run 36 timed out.
+[2018-04-10 09:40:02] Started run 47 on task 3573, dataset 'mnist_784'.
+[2018-04-10 09:40:38] Run 39 timed out.
+[2018-04-10 09:40:38] Started run 48 on task 3573, dataset 'mnist_784'.
+[2018-04-10 09:40:38] Run 40 timed out.
+[2018-04-10 09:40:38] Started run 49 on task 3573, dataset 'mnist_784'.
+[2018-04-10 09:40:48] Run 42 timed out.
+[2018-04-10 09:40:48] Started run 50 on task 3573, dataset 'mnist_784'.
+[2018-04-10 09:41:13] Run 43 timed out.
+[2018-04-10 09:41:13] Started run 51 on task 3573, dataset 'mnist_784'.
+[2018-04-10 09:41:18] Run 44 timed out.
+[2018-04-10 09:41:18] Started run 52 on task 3573, dataset 'mnist_784'.
+[2018-04-10 09:41:20] Started run 53 on task 3573, dataset 'mnist_784'.
+[2018-04-10 09:41:21] Run 45 timed out.
+[2018-04-10 09:41:21] Started run 54 on task 3573, dataset 'mnist_784'.
+[2018-04-10 09:41:35] Run 46 timed out.
+[2018-04-10 09:41:35] Started run 55 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:40:02] Run 47 timed out.
+[2018-04-10 10:40:02] Started run 56 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:40:22] Error in run 56: 
+[2018-04-10 10:40:22] Started run 57 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:40:38] Run 48 timed out.
+[2018-04-10 10:40:38] Started run 58 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:40:42] Error in run 57: 
+[2018-04-10 10:40:42] Started run 59 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:40:46] Started run 60 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:40:48] Run 50 timed out.
+[2018-04-10 10:40:48] Started run 61 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:41:13] Run 51 timed out.
+[2018-04-10 10:41:13] Started run 62 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:41:19] Run 52 timed out.
+[2018-04-10 10:41:19] Started run 63 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:41:20] Run 53 timed out.
+[2018-04-10 10:41:20] Started run 64 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:41:21] Run 54 timed out.
+[2018-04-10 10:41:21] Started run 65 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:41:30] Error in run 64: 
+[2018-04-10 10:41:30] Started run 66 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:41:35] Run 55 timed out.
+[2018-04-10 10:41:35] Started run 67 on task 3573, dataset 'mnist_784'.
+[2018-04-10 10:41:37] Started run 68 on task 3573, dataset 'mnist_784'.
+[2018-04-10 11:40:39] Run 58 timed out.
+[2018-04-10 11:40:39] Started run 69 on task 3573, dataset 'mnist_784'.
+[2018-04-10 11:40:47] Run 60 timed out.
+[2018-04-10 11:40:47] Started run 70 on task 3573, dataset 'mnist_784'.
+[2018-04-10 11:40:49] Run 61 timed out.
+[2018-04-10 11:40:49] Started run 71 on task 3573, dataset 'mnist_784'.
+[2018-04-10 11:41:14] Run 62 timed out.
+[2018-04-10 11:41:14] Started run 72 on task 3573, dataset 'mnist_784'.
+[2018-04-10 11:41:21] Run 65 timed out.
+[2018-04-10 11:41:21] Started run 73 on task 3573, dataset 'mnist_784'.
+[2018-04-10 11:41:31] Run 66 timed out.
+[2018-04-10 11:41:31] Started run 74 on task 3573, dataset 'mnist_784'.
+[2018-04-10 11:41:36] Run 67 timed out.
+[2018-04-10 11:41:36] Started run 76 on task 3573, dataset 'mnist_784'.
+[2018-04-10 11:41:36] Started run 75 on task 3573, dataset 'mnist_784'.
+[2018-04-10 11:41:37] Run 68 timed out.
+[2018-04-10 11:41:37] Started run 77 on task 3573, dataset 'mnist_784'.
+[2018-04-10 12:40:39] Run 69 timed out.
+[2018-04-10 12:40:39] Started run 78 on task 3573, dataset 'mnist_784'.
+[2018-04-10 12:40:47] Run 70 timed out.
+[2018-04-10 12:40:47] Started run 79 on task 3573, dataset 'mnist_784'.
+[2018-04-10 12:40:49] Run 71 timed out.
+[2018-04-10 12:40:49] Started run 80 on task 3573, dataset 'mnist_784'.
+[2018-04-10 12:41:22] Run 73 timed out.
+[2018-04-10 12:41:22] Started run 81 on task 3573, dataset 'mnist_784'.
+[2018-04-10 12:41:29] Started run 82 on task 3573, dataset 'mnist_784'.
+[2018-04-10 12:41:31] Run 74 timed out.
+[2018-04-10 12:41:31] Started run 83 on task 3573, dataset 'mnist_784'.
+[2018-04-10 12:41:36] Run 76 timed out.
+[2018-04-10 12:41:37] Run 75 timed out.
+[2018-04-10 12:41:36] Started run 84 on task 3573, dataset 'mnist_784'.
+[2018-04-10 12:41:37] Started run 85 on task 3573, dataset 'mnist_784'.
+[2018-04-10 12:41:38] Run 77 timed out.
+[2018-04-10 12:41:38] Started run 86 on task 3573, dataset 'mnist_784'.
+[2018-04-10 13:38:27] [SCORE] run 83 on task 3573; Accuracy: 0.95.
+[2018-04-10 13:40:47] Run 79 timed out.
+[2018-04-10 13:40:47] Started run 87 on task 3573, dataset 'mnist_784'.
+[2018-04-10 13:40:50] Run 80 timed out.
+[2018-04-10 13:40:50] Started run 88 on task 3573, dataset 'mnist_784'.
+[2018-04-10 13:41:22] Run 81 timed out.
+[2018-04-10 13:41:22] Started run 89 on task 3573, dataset 'mnist_784'.
+[2018-04-10 13:41:29] Run 82 timed out.
+[2018-04-10 13:41:29] Started run 90 on task 3573, dataset 'mnist_784'.
+[2018-04-10 13:41:37] Run 84 timed out.
+[2018-04-10 13:41:37] Run 85 timed out.
+[2018-04-10 13:41:37] Started run 91 on task 3573, dataset 'mnist_784'.
+[2018-04-10 13:41:37] Started run 92 on task 3573, dataset 'mnist_784'.
+[2018-04-10 13:41:38] Run 86 timed out.
+[2018-04-10 13:41:38] Started run 93 on task 3573, dataset 'mnist_784'.
+[2018-04-10 13:43:50] Uploaded run 83 with run id 9045709.
+[2018-04-10 13:43:50] Started run 94 on task 3573, dataset 'mnist_784'.
+[2018-04-10 14:40:48] Run 87 timed out.
+[2018-04-10 14:40:48] Started run 95 on task 3573, dataset 'mnist_784'.
+[2018-04-10 14:41:23] Run 89 timed out.
+[2018-04-10 14:41:23] Started run 96 on task 3573, dataset 'mnist_784'.
+[2018-04-10 14:41:29] Run 90 timed out.
+[2018-04-10 14:41:29] Started run 97 on task 3573, dataset 'mnist_784'.
+[2018-04-10 14:41:37] Run 91 timed out.
+[2018-04-10 14:41:37] Run 92 timed out.
+[2018-04-10 14:41:39] Run 93 timed out.
+[2018-04-10 14:43:51] Run 94 timed out.
+[2018-04-10 15:40:48] Run 95 timed out.
+[2018-04-10 15:41:23] Run 96 timed out.
+[2018-04-10 15:41:30] Run 97 timed out.

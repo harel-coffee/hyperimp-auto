@@ -1,0 +1,2029 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00043/certs"
+declare -x AZ_BATCH_JOB_ID="random_forest"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-2112069986_3-20180411t200903z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00043"
+declare -x AZ_BATCH_TASK_ID="task-00043"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00043/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/random_forest/job-1/task-00043/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/random_forest/job-1/task-00043/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/random_forest/job-1/task-00043/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+[2018-04-11 20:52:19] Results will not be logged locally.
+[2018-04-11 20:52:19] Retrieving tasks...
+[2018-04-11 20:52:19] Tasks will be retrieved based on provided task ids.
+[2018-04-11 20:52:19] The following tasks were retrieved: [146822].
+[2018-04-11 20:52:25] Downloaded task 146822.
+[2018-04-11 20:52:25] Prepared pipelines.
+[2018-04-11 20:52:25] Started run 1 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:25] Started run 5 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:25] Started run 2 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:25] Started run 6 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:25] Started run 3 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:25] Started run 7 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:25] Started run 4 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:25] Started run 8 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:30] Error in run 1: Run already exists in server. Run id(s): {8996069}
+[2018-04-11 20:52:30] Started run 9 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:30] Error in run 6: Run already exists in server. Run id(s): {8996053}
+[2018-04-11 20:52:30] Started run 10 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:30] Error in run 2: Run already exists in server. Run id(s): {8996085}
+[2018-04-11 20:52:30] Started run 11 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:30] Error in run 5: Run already exists in server. Run id(s): {8996118}
+[2018-04-11 20:52:30] Error in run 3: Run already exists in server. Run id(s): {8996077}
+[2018-04-11 20:52:30] Error in run 7: Run already exists in server. Run id(s): {8996198}
+[2018-04-11 20:52:30] Started run 12 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:30] Started run 13 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:30] Started run 14 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:30] Error in run 4: Run already exists in server. Run id(s): {8996107}
+[2018-04-11 20:52:30] Started run 15 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:30] Error in run 8: Run already exists in server. Run id(s): {8996065}
+[2018-04-11 20:52:30] Started run 16 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:35] Error in run 14: Run already exists in server. Run id(s): {8996292}
+[2018-04-11 20:52:35] Error in run 11: Run already exists in server. Run id(s): {8996139}
+[2018-04-11 20:52:35] Error in run 10: Run already exists in server. Run id(s): {8996102}
+[2018-04-11 20:52:35] Started run 17 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:35] Error in run 13: Run already exists in server. Run id(s): {8996221}
+[2018-04-11 20:52:35] Error in run 12: Run already exists in server. Run id(s): {8996138}
+[2018-04-11 20:52:35] Error in run 9: Run already exists in server. Run id(s): {9011161, 8996100}
+[2018-04-11 20:52:35] Started run 20 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:35] Started run 19 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:35] Started run 21 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:35] Error in run 15: Run already exists in server. Run id(s): {8996277}
+[2018-04-11 20:52:35] Started run 23 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:35] Error in run 16: Run already exists in server. Run id(s): {8996166}
+[2018-04-11 20:52:35] Started run 24 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:35] Started run 22 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:35] Started run 18 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:39] Error in run 21: Run already exists in server. Run id(s): {8996217}
+[2018-04-11 20:52:39] Error in run 17: Run already exists in server. Run id(s): {8996329}
+[2018-04-11 20:52:39] Error in run 23: Run already exists in server. Run id(s): {8996307}
+[2018-04-11 20:52:39] Started run 25 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:39] Error in run 22: Run already exists in server. Run id(s): {8996310}
+[2018-04-11 20:52:39] Error in run 19: Run already exists in server. Run id(s): {8996179}
+[2018-04-11 20:52:39] Error in run 24: Run already exists in server. Run id(s): {8996409}
+[2018-04-11 20:52:39] Error in run 20: Run already exists in server. Run id(s): {8996214}
+[2018-04-11 20:52:39] Started run 28 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:39] Started run 27 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:39] Started run 29 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:39] Error in run 18: Run already exists in server. Run id(s): {8996181}
+[2018-04-11 20:52:39] Started run 32 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:39] Started run 26 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:39] Started run 30 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:39] Started run 31 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:44] Error in run 31: Run already exists in server. Run id(s): {8996442}
+[2018-04-11 20:52:44] Error in run 25: Run already exists in server. Run id(s): {8996318}
+[2018-04-11 20:52:44] Error in run 28: Run already exists in server. Run id(s): {8996443}
+[2018-04-11 20:52:44] Started run 33 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:44] Error in run 29: Run already exists in server. Run id(s): {8996397}
+[2018-04-11 20:52:44] Error in run 26: Run already exists in server. Run id(s): {8996262}
+[2018-04-11 20:52:44] Started run 36 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:44] Error in run 30: Run already exists in server. Run id(s): {8996371}
+[2018-04-11 20:52:44] Started run 34 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:44] Error in run 32: Run already exists in server. Run id(s): {8996380}
+[2018-04-11 20:52:44] Error in run 27: Run already exists in server. Run id(s): {8996293}
+[2018-04-11 20:52:44] Started run 38 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:44] Started run 40 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:44] Started run 39 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:44] Started run 35 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:44] Started run 37 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:49] Error in run 40: Run already exists in server. Run id(s): {8996450}
+[2018-04-11 20:52:49] Started run 41 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:49] Error in run 39: Run already exists in server. Run id(s): {8996466}
+[2018-04-11 20:52:49] Started run 42 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:49] Error in run 38: Run already exists in server. Run id(s): {8996538}
+[2018-04-11 20:52:49] Error in run 34: Run already exists in server. Run id(s): {8996390}
+[2018-04-11 20:52:49] Started run 43 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:49] Error in run 37: Run already exists in server. Run id(s): {8996502}
+[2018-04-11 20:52:49] Error in run 33: Run already exists in server. Run id(s): {8996414}
+[2018-04-11 20:52:49] Started run 45 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:49] Error in run 36: Run already exists in server. Run id(s): {8996458}
+[2018-04-11 20:52:49] Error in run 35: Run already exists in server. Run id(s): {8996545}
+[2018-04-11 20:52:49] Started run 47 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:49] Started run 48 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:49] Started run 44 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:49] Started run 46 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:53] Error in run 48: Run already exists in server. Run id(s): {8996576}
+[2018-04-11 20:52:53] Error in run 45: Run already exists in server. Run id(s): {8996511}
+[2018-04-11 20:52:53] Started run 49 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:53] Error in run 41: Run already exists in server. Run id(s): {8996528}
+[2018-04-11 20:52:53] Started run 51 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:53] Error in run 44: Run already exists in server. Run id(s): {8996505}
+[2018-04-11 20:52:53] Error in run 42: Run already exists in server. Run id(s): {8996485}
+[2018-04-11 20:52:53] Error in run 47: Run already exists in server. Run id(s): {8996555}
+[2018-04-11 20:52:53] Started run 50 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:53] Error in run 43: Run already exists in server. Run id(s): {8996504}
+[2018-04-11 20:52:53] Error in run 46: Run already exists in server. Run id(s): {8996565}
+[2018-04-11 20:52:53] Started run 55 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:53] Started run 56 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:53] Started run 52 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:53] Started run 53 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:53] Started run 54 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:58] Error in run 54: Run already exists in server. Run id(s): {8996784}
+[2018-04-11 20:52:58] Error in run 51: Run already exists in server. Run id(s): {8996569}
+[2018-04-11 20:52:58] Error in run 53: Run already exists in server. Run id(s): {8996737}
+[2018-04-11 20:52:58] Started run 57 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:58] Started run 59 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:58] Error in run 56: Run already exists in server. Run id(s): {8996657}
+[2018-04-11 20:52:58] Error in run 52: Run already exists in server. Run id(s): {8996575}
+[2018-04-11 20:52:58] Started run 60 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:58] Error in run 50: Run already exists in server. Run id(s): {8996658}
+[2018-04-11 20:52:58] Error in run 55: Run already exists in server. Run id(s): {8996685}
+[2018-04-11 20:52:58] Error in run 49: Run already exists in server. Run id(s): {8996591}
+[2018-04-11 20:52:58] Started run 62 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:58] Started run 61 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:58] Started run 63 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:58] Started run 58 on task 146822, dataset 'segment'.
+[2018-04-11 20:52:58] Started run 64 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:03] Error in run 57: Run already exists in server. Run id(s): {8996610}
+[2018-04-11 20:53:03] Started run 65 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:03] Error in run 62: Run already exists in server. Run id(s): {8996720}
+[2018-04-11 20:53:03] Started run 66 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:03] Error in run 64: Run already exists in server. Run id(s): {8996827}
+[2018-04-11 20:53:03] Started run 67 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:03] Error in run 58: Run already exists in server. Run id(s): {8996611}
+[2018-04-11 20:53:03] Error in run 60: Run already exists in server. Run id(s): {8996694}
+[2018-04-11 20:53:03] Started run 68 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:03] Error in run 63: Run already exists in server. Run id(s): {8996808}
+[2018-04-11 20:53:03] Error in run 59: Run already exists in server. Run id(s): {8996733}
+[2018-04-11 20:53:03] Error in run 61: Run already exists in server. Run id(s): {8996683}
+[2018-04-11 20:53:03] Started run 70 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:03] Started run 69 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:03] Started run 71 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:03] Started run 72 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:07] Error in run 65: Run already exists in server. Run id(s): {8996764}
+[2018-04-11 20:53:07] Started run 73 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:07] Error in run 66: Run already exists in server. Run id(s): {8996767}
+[2018-04-11 20:53:07] Started run 74 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:07] Error in run 67: Run already exists in server. Run id(s): {8996860}
+[2018-04-11 20:53:07] Started run 75 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:07] Error in run 72: Run already exists in server. Run id(s): {8996952}
+[2018-04-11 20:53:07] Started run 76 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:07] Error in run 68: Run already exists in server. Run id(s): {8996856}
+[2018-04-11 20:53:07] Error in run 71: Run already exists in server. Run id(s): {8996957}
+[2018-04-11 20:53:07] Started run 77 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:07] Started run 78 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:07] Error in run 70: Run already exists in server. Run id(s): {8996814}
+[2018-04-11 20:53:07] Error in run 69: Run already exists in server. Run id(s): {8996878}
+[2018-04-11 20:53:07] Started run 79 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:07] Started run 80 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:12] Error in run 73: Run already exists in server. Run id(s): {8996995}
+[2018-04-11 20:53:12] Started run 81 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:12] Error in run 74: Run already exists in server. Run id(s): {8996896}
+[2018-04-11 20:53:12] Started run 82 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:12] Error in run 75: Run already exists in server. Run id(s): {8996881}
+[2018-04-11 20:53:12] Started run 83 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:12] Error in run 76: Run already exists in server. Run id(s): {8996904}
+[2018-04-11 20:53:12] Started run 84 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:12] Error in run 78: Run already exists in server. Run id(s): {8996958}
+[2018-04-11 20:53:12] Error in run 80: Run already exists in server. Run id(s): {8996963}
+[2018-04-11 20:53:12] Error in run 79: Run already exists in server. Run id(s): {8996934}
+[2018-04-11 20:53:12] Error in run 77: Run already exists in server. Run id(s): {8996973}
+[2018-04-11 20:53:12] Started run 85 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:12] Started run 87 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:12] Started run 86 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:12] Started run 88 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:16] Error in run 81: Run already exists in server. Run id(s): {8996937}
+[2018-04-11 20:53:16] Started run 89 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:16] Error in run 82: Run already exists in server. Run id(s): {8996972}
+[2018-04-11 20:53:16] Started run 90 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:16] Error in run 83: Run already exists in server. Run id(s): {8997033}
+[2018-04-11 20:53:16] Started run 91 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:16] Error in run 84: Run already exists in server. Run id(s): {8997118}
+[2018-04-11 20:53:16] Started run 92 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:17] Error in run 87: Run already exists in server. Run id(s): {8997029}
+[2018-04-11 20:53:17] Error in run 85: Run already exists in server. Run id(s): {8997034}
+[2018-04-11 20:53:17] Started run 93 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:17] Error in run 88: Run already exists in server. Run id(s): {8997030}
+[2018-04-11 20:53:17] Started run 95 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:17] Error in run 86: Run already exists in server. Run id(s): {8997007}
+[2018-04-11 20:53:17] Started run 96 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:17] Started run 94 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:21] Error in run 89: Run already exists in server. Run id(s): {8997017}
+[2018-04-11 20:53:21] Started run 97 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:21] Error in run 90: Run already exists in server. Run id(s): {8997121}
+[2018-04-11 20:53:21] Started run 98 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:21] Error in run 91: Run already exists in server. Run id(s): {8997182}
+[2018-04-11 20:53:21] Started run 99 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:21] Error in run 92: Run already exists in server. Run id(s): {8997098}
+[2018-04-11 20:53:21] Started run 100 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:22] Error in run 95: Run already exists in server. Run id(s): {8997134}
+[2018-04-11 20:53:22] Error in run 96: Run already exists in server. Run id(s): {8997076}
+[2018-04-11 20:53:22] Started run 101 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:22] Error in run 93: Run already exists in server. Run id(s): {8997120}
+[2018-04-11 20:53:22] Error in run 94: Run already exists in server. Run id(s): {8997062}
+[2018-04-11 20:53:22] Started run 103 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:22] Started run 104 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:22] Started run 102 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:25] Error in run 99: Run already exists in server. Run id(s): {8997162}
+[2018-04-11 20:53:25] Started run 105 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:25] Error in run 97: Run already exists in server. Run id(s): {8997119}
+[2018-04-11 20:53:25] Started run 106 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:25] Error in run 98: Run already exists in server. Run id(s): {8997114}
+[2018-04-11 20:53:25] Started run 107 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:25] Error in run 100: Run already exists in server. Run id(s): {8997246}
+[2018-04-11 20:53:25] Started run 108 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:26] Error in run 102: Run already exists in server. Run id(s): {8997192}
+[2018-04-11 20:53:26] Started run 109 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:26] Error in run 104: Run already exists in server. Run id(s): {8997188}
+[2018-04-11 20:53:26] Error in run 101: Run already exists in server. Run id(s): {8997208}
+[2018-04-11 20:53:26] Error in run 103: Run already exists in server. Run id(s): {8997213}
+[2018-04-11 20:53:26] Started run 110 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:26] Started run 111 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:26] Started run 112 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:30] Error in run 105: Run already exists in server. Run id(s): {8997164}
+[2018-04-11 20:53:30] Started run 113 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:30] Error in run 108: Run already exists in server. Run id(s): {8997245}
+[2018-04-11 20:53:30] Started run 114 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:30] Error in run 106: Run already exists in server. Run id(s): {8997274}
+[2018-04-11 20:53:30] Started run 115 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:30] Error in run 107: Run already exists in server. Run id(s): {8997252}
+[2018-04-11 20:53:30] Started run 116 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:31] Error in run 109: Run already exists in server. Run id(s): {8997276}
+[2018-04-11 20:53:31] Started run 117 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:31] Error in run 111: Run already exists in server. Run id(s): {8997270}
+[2018-04-11 20:53:31] Started run 118 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:31] Error in run 112: Run already exists in server. Run id(s): {8997258}
+[2018-04-11 20:53:31] Started run 119 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:31] Error in run 110: Run already exists in server. Run id(s): {8997357}
+[2018-04-11 20:53:31] Started run 120 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:34] Error in run 113: Run already exists in server. Run id(s): {8997328}
+[2018-04-11 20:53:34] Started run 121 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:35] Error in run 115: Run already exists in server. Run id(s): {8997284}
+[2018-04-11 20:53:35] Started run 122 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:35] Error in run 116: Run already exists in server. Run id(s): {8997308}
+[2018-04-11 20:53:35] Error in run 114: Run already exists in server. Run id(s): {8997282}
+[2018-04-11 20:53:35] Started run 123 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:35] Started run 124 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:35] Error in run 117: Run already exists in server. Run id(s): {8997411}
+[2018-04-11 20:53:35] Started run 125 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:35] Error in run 118: Run already exists in server. Run id(s): {8997341}
+[2018-04-11 20:53:35] Started run 126 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:35] Error in run 119: Run already exists in server. Run id(s): {8997448}
+[2018-04-11 20:53:35] Started run 127 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:36] Error in run 120: Run already exists in server. Run id(s): {8997464}
+[2018-04-11 20:53:36] Started run 128 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:39] Error in run 121: Run already exists in server. Run id(s): {8997451}
+[2018-04-11 20:53:39] Started run 129 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:39] Error in run 122: Run already exists in server. Run id(s): {8997428}
+[2018-04-11 20:53:39] Started run 130 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:39] Error in run 124: Run already exists in server. Run id(s): {8997446}
+[2018-04-11 20:53:39] Error in run 123: Run already exists in server. Run id(s): {8997468}
+[2018-04-11 20:53:39] Started run 131 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:39] Started run 132 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:40] Error in run 125: Run already exists in server. Run id(s): {8997440}
+[2018-04-11 20:53:40] Started run 133 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:40] Error in run 126: Run already exists in server. Run id(s): {8997505}
+[2018-04-11 20:53:40] Started run 134 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:40] Error in run 127: Run already exists in server. Run id(s): {8997477}
+[2018-04-11 20:53:40] Started run 135 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:40] Error in run 128: Run already exists in server. Run id(s): {8997541}
+[2018-04-11 20:53:40] Started run 136 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:43] Error in run 129: Run already exists in server. Run id(s): {8997486}
+[2018-04-11 20:53:43] Started run 137 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:44] Error in run 130: Run already exists in server. Run id(s): {8997491}
+[2018-04-11 20:53:44] Started run 138 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:44] Error in run 131: Run already exists in server. Run id(s): {8997498}
+[2018-04-11 20:53:44] Started run 139 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:44] Error in run 132: Run already exists in server. Run id(s): {8997526}
+[2018-04-11 20:53:44] Error in run 133: Run already exists in server. Run id(s): {8997545}
+[2018-04-11 20:53:44] Started run 140 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:44] Started run 141 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:44] Error in run 134: Run already exists in server. Run id(s): {8997534}
+[2018-04-11 20:53:44] Started run 142 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:44] Error in run 135: Run already exists in server. Run id(s): {8997657}
+[2018-04-11 20:53:44] Started run 143 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:45] Error in run 136: Run already exists in server. Run id(s): {8997532}
+[2018-04-11 20:53:45] Started run 144 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:48] Error in run 137: Run already exists in server. Run id(s): {8997585}
+[2018-04-11 20:53:48] Error in run 138: Run already exists in server. Run id(s): {8997552}
+[2018-04-11 20:53:48] Started run 145 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:48] Started run 146 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:49] Error in run 139: Run already exists in server. Run id(s): {8997604}
+[2018-04-11 20:53:49] Started run 147 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:49] Error in run 141: Run already exists in server. Run id(s): {8997629}
+[2018-04-11 20:53:49] Started run 148 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:49] Error in run 140: Run already exists in server. Run id(s): {8997637}
+[2018-04-11 20:53:49] Started run 149 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:49] Error in run 142: Run already exists in server. Run id(s): {8997584}
+[2018-04-11 20:53:49] Started run 150 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:49] Error in run 143: Run already exists in server. Run id(s): {8997579}
+[2018-04-11 20:53:49] Started run 151 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:50] Error in run 144: Run already exists in server. Run id(s): {8997682}
+[2018-04-11 20:53:50] Started run 152 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:53] Error in run 146: Run already exists in server. Run id(s): {8997681}
+[2018-04-11 20:53:53] Error in run 145: Run already exists in server. Run id(s): {8997717}
+[2018-04-11 20:53:53] Started run 153 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:53] Started run 154 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:53] Error in run 147: Run already exists in server. Run id(s): {8997700}
+[2018-04-11 20:53:53] Started run 155 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:54] Error in run 150: Run already exists in server. Run id(s): {8997663}
+[2018-04-11 20:53:54] Error in run 148: Run already exists in server. Run id(s): {8997705}
+[2018-04-11 20:53:54] Started run 156 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:54] Started run 157 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:54] Error in run 149: Run already exists in server. Run id(s): {8997710}
+[2018-04-11 20:53:54] Error in run 151: Run already exists in server. Run id(s): {8997725}
+[2018-04-11 20:53:54] Started run 158 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:54] Started run 159 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:54] Error in run 152: Run already exists in server. Run id(s): {8997820}
+[2018-04-11 20:53:54] Started run 160 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:57] Error in run 154: Run already exists in server. Run id(s): {8997734}
+[2018-04-11 20:53:57] Error in run 153: Run already exists in server. Run id(s): {8997765}
+[2018-04-11 20:53:57] Started run 161 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:57] Started run 162 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:58] Error in run 155: Run already exists in server. Run id(s): {8997780}
+[2018-04-11 20:53:58] Started run 163 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:58] Error in run 156: Run already exists in server. Run id(s): {8997743}
+[2018-04-11 20:53:58] Started run 164 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:58] Error in run 159: Run already exists in server. Run id(s): {8997807}
+[2018-04-11 20:53:58] Error in run 157: Run already exists in server. Run id(s): {8997754}
+[2018-04-11 20:53:58] Started run 165 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:58] Error in run 158: Run already exists in server. Run id(s): {8997792}
+[2018-04-11 20:53:58] Started run 167 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:58] Started run 166 on task 146822, dataset 'segment'.
+[2018-04-11 20:53:59] Error in run 160: Run already exists in server. Run id(s): {8997831}
+[2018-04-11 20:53:59] Started run 168 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:02] Error in run 162: Run already exists in server. Run id(s): {8997793}
+[2018-04-11 20:54:02] Started run 169 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:02] Error in run 163: Run already exists in server. Run id(s): {8997809}
+[2018-04-11 20:54:02] Error in run 161: Run already exists in server. Run id(s): {8997794}
+[2018-04-11 20:54:02] Started run 170 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:02] Started run 171 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:03] Error in run 164: Run already exists in server. Run id(s): {8997824}
+[2018-04-11 20:54:03] Started run 172 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:03] Error in run 166: Run already exists in server. Run id(s): {8997905}
+[2018-04-11 20:54:03] Error in run 165: Run already exists in server. Run id(s): {8997866}
+[2018-04-11 20:54:03] Started run 173 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:03] Started run 174 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:03] Error in run 167: Run already exists in server. Run id(s): {8997829}
+[2018-04-11 20:54:03] Started run 175 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:04] Error in run 168: Run already exists in server. Run id(s): {8997850}
+[2018-04-11 20:54:04] Started run 176 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:06] Error in run 169: Run already exists in server. Run id(s): {8997839}
+[2018-04-11 20:54:06] Started run 177 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:07] Error in run 170: Run already exists in server. Run id(s): {8997870}
+[2018-04-11 20:54:07] Started run 178 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:07] Error in run 171: Run already exists in server. Run id(s): {8997891}
+[2018-04-11 20:54:07] Started run 179 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:07] Error in run 172: Run already exists in server. Run id(s): {8997896}
+[2018-04-11 20:54:07] Started run 180 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:07] Error in run 174: Run already exists in server. Run id(s): {8997931}
+[2018-04-11 20:54:07] Started run 181 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:07] Error in run 173: Run already exists in server. Run id(s): {8997873}
+[2018-04-11 20:54:07] Started run 182 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:07] Error in run 175: Run already exists in server. Run id(s): {8997912}
+[2018-04-11 20:54:07] Started run 183 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:08] Error in run 176: Run already exists in server. Run id(s): {8997903}
+[2018-04-11 20:54:08] Started run 184 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:11] Error in run 177: Run already exists in server. Run id(s): {8997911}
+[2018-04-11 20:54:11] Started run 185 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:11] Error in run 178: Run already exists in server. Run id(s): {8997972}
+[2018-04-11 20:54:11] Started run 186 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:11] Error in run 179: Run already exists in server. Run id(s): {8997945}
+[2018-04-11 20:54:11] Started run 187 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:12] Error in run 180: Run already exists in server. Run id(s): {8998009}
+[2018-04-11 20:54:12] Started run 188 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:12] Error in run 181: Run already exists in server. Run id(s): {8997966}
+[2018-04-11 20:54:12] Started run 189 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:12] Error in run 183: Run already exists in server. Run id(s): {8997961}
+[2018-04-11 20:54:12] Error in run 182: Run already exists in server. Run id(s): {8997985}
+[2018-04-11 20:54:12] Started run 190 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:12] Started run 191 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:13] Error in run 184: Run already exists in server. Run id(s): {8997997}
+[2018-04-11 20:54:13] Started run 192 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:16] Error in run 185: Run already exists in server. Run id(s): {8997988}
+[2018-04-11 20:54:16] Started run 193 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:16] Error in run 186: Run already exists in server. Run id(s): {8997978}
+[2018-04-11 20:54:16] Started run 194 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:16] Error in run 187: Run already exists in server. Run id(s): {8998103}
+[2018-04-11 20:54:16] Started run 195 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:16] Error in run 188: Run already exists in server. Run id(s): {8998028}
+[2018-04-11 20:54:16] Started run 196 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:17] Error in run 189: Run already exists in server. Run id(s): {8998081}
+[2018-04-11 20:54:17] Started run 197 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:17] Error in run 190: Run already exists in server. Run id(s): {8998022}
+[2018-04-11 20:54:17] Started run 198 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:17] Error in run 191: Run already exists in server. Run id(s): {8998034}
+[2018-04-11 20:54:17] Started run 199 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:17] Error in run 192: Run already exists in server. Run id(s): {8998114}
+[2018-04-11 20:54:17] Started run 200 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:20] Error in run 193: Run already exists in server. Run id(s): {8998050}
+[2018-04-11 20:54:20] Started run 201 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:20] Error in run 194: Run already exists in server. Run id(s): {8998090}
+[2018-04-11 20:54:20] Started run 202 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:20] Error in run 195: Run already exists in server. Run id(s): {8998085}
+[2018-04-11 20:54:20] Started run 203 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:21] Error in run 196: Run already exists in server. Run id(s): {8998113}
+[2018-04-11 20:54:21] Started run 204 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:21] Error in run 197: Run already exists in server. Run id(s): {8998087}
+[2018-04-11 20:54:21] Started run 205 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:21] Error in run 198: Run already exists in server. Run id(s): {8998173}
+[2018-04-11 20:54:21] Started run 206 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:21] Error in run 199: Run already exists in server. Run id(s): {8998110}
+[2018-04-11 20:54:21] Started run 207 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:22] Error in run 200: Run already exists in server. Run id(s): {8998170}
+[2018-04-11 20:54:22] Started run 208 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:25] Error in run 201: Run already exists in server. Run id(s): {8998131}
+[2018-04-11 20:54:25] Started run 209 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:25] Error in run 202: Run already exists in server. Run id(s): {8998193}
+[2018-04-11 20:54:25] Started run 210 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:25] Error in run 203: Run already exists in server. Run id(s): {8998171}
+[2018-04-11 20:54:25] Started run 211 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:26] Error in run 205: Run already exists in server. Run id(s): {8998142}
+[2018-04-11 20:54:26] Started run 212 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:26] Error in run 204: Run already exists in server. Run id(s): {8998233}
+[2018-04-11 20:54:26] Error in run 206: Run already exists in server. Run id(s): {8998145}
+[2018-04-11 20:54:26] Started run 213 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:26] Started run 214 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:26] Error in run 207: Run already exists in server. Run id(s): {8998326}
+[2018-04-11 20:54:26] Started run 215 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:26] Error in run 208: Run already exists in server. Run id(s): {8998198}
+[2018-04-11 20:54:26] Started run 216 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:30] Error in run 210: Run already exists in server. Run id(s): {8998202}
+[2018-04-11 20:54:30] Started run 217 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:30] Error in run 211: Run already exists in server. Run id(s): {8998280}
+[2018-04-11 20:54:30] Started run 218 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:30] Error in run 209: Run already exists in server. Run id(s): {8998181}
+[2018-04-11 20:54:30] Started run 219 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:30] Error in run 213: Run already exists in server. Run id(s): {8998224}
+[2018-04-11 20:54:30] Started run 220 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:30] Error in run 212: Run already exists in server. Run id(s): {8998239}
+[2018-04-11 20:54:30] Started run 221 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:30] Error in run 215: Run already exists in server. Run id(s): {8998259}
+[2018-04-11 20:54:30] Error in run 214: Run already exists in server. Run id(s): {8998310}
+[2018-04-11 20:54:30] Started run 222 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:30] Started run 223 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:31] Error in run 216: Run already exists in server. Run id(s): {8998245}
+[2018-04-11 20:54:31] Started run 224 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:34] Error in run 219: Run already exists in server. Run id(s): {8998343}
+[2018-04-11 20:54:34] Error in run 218: Run already exists in server. Run id(s): {8998296}
+[2018-04-11 20:54:34] Started run 225 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:34] Started run 226 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:34] Error in run 217: Run already exists in server. Run id(s): {8998300}
+[2018-04-11 20:54:34] Started run 227 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:35] Error in run 220: Run already exists in server. Run id(s): {8998303}
+[2018-04-11 20:54:35] Started run 228 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:35] Error in run 222: Run already exists in server. Run id(s): {8998314}
+[2018-04-11 20:54:35] Error in run 223: Run already exists in server. Run id(s): {8998352}
+[2018-04-11 20:54:35] Started run 229 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:35] Started run 230 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:35] Error in run 221: Run already exists in server. Run id(s): {8998328}
+[2018-04-11 20:54:35] Started run 231 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:36] Error in run 224: Run already exists in server. Run id(s): {8998346}
+[2018-04-11 20:54:36] Started run 232 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:39] Error in run 226: Run already exists in server. Run id(s): {8998351}
+[2018-04-11 20:54:39] Started run 233 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:39] Error in run 225: Run already exists in server. Run id(s): {8998332}
+[2018-04-11 20:54:39] Started run 234 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:39] Error in run 227: Run already exists in server. Run id(s): {8998401}
+[2018-04-11 20:54:39] Started run 235 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:39] Error in run 228: Run already exists in server. Run id(s): {8998433}
+[2018-04-11 20:54:39] Started run 236 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:40] Error in run 229: Run already exists in server. Run id(s): {8998362}
+[2018-04-11 20:54:40] Started run 237 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:40] Error in run 231: Run already exists in server. Run id(s): {8998410}
+[2018-04-11 20:54:40] Started run 238 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:40] Error in run 230: Run already exists in server. Run id(s): {8998429}
+[2018-04-11 20:54:40] Started run 239 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:40] Error in run 232: Run already exists in server. Run id(s): {8998436}
+[2018-04-11 20:54:40] Started run 240 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:43] Error in run 234: Run already exists in server. Run id(s): {8998407}
+[2018-04-11 20:54:43] Started run 241 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:43] Error in run 233: Run already exists in server. Run id(s): {8998398}
+[2018-04-11 20:54:43] Started run 242 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:43] Error in run 235: Run already exists in server. Run id(s): {8998444}
+[2018-04-11 20:54:43] Started run 243 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:44] Error in run 236: Run already exists in server. Run id(s): {8998602}
+[2018-04-11 20:54:44] Started run 244 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:44] Error in run 237: Run already exists in server. Run id(s): {8998450}
+[2018-04-11 20:54:44] Started run 245 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:44] Error in run 238: Run already exists in server. Run id(s): {8998447}
+[2018-04-11 20:54:44] Started run 246 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:44] Error in run 239: Run already exists in server. Run id(s): {8998512}
+[2018-04-11 20:54:44] Started run 247 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:45] Error in run 240: Run already exists in server. Run id(s): {8998478}
+[2018-04-11 20:54:45] Started run 248 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:48] Error in run 241: Run already exists in server. Run id(s): {8998457}
+[2018-04-11 20:54:48] Started run 249 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:48] Error in run 242: Run already exists in server. Run id(s): {8998494}
+[2018-04-11 20:54:48] Started run 250 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:48] Error in run 243: Run already exists in server. Run id(s): {8998521}
+[2018-04-11 20:54:48] Started run 251 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:48] Error in run 244: Run already exists in server. Run id(s): {8998489}
+[2018-04-11 20:54:48] Started run 252 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:49] Error in run 245: Run already exists in server. Run id(s): {8998515}
+[2018-04-11 20:54:49] Started run 253 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:49] Error in run 247: Run already exists in server. Run id(s): {8998529}
+[2018-04-11 20:54:49] Started run 254 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:49] Error in run 246: Run already exists in server. Run id(s): {8998525}
+[2018-04-11 20:54:49] Started run 255 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:49] Error in run 248: Run already exists in server. Run id(s): {8998561}
+[2018-04-11 20:54:49] Started run 256 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:52] Error in run 250: Run already exists in server. Run id(s): {8998543}
+[2018-04-11 20:54:52] Started run 257 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:52] Error in run 249: Run already exists in server. Run id(s): {8998729}
+[2018-04-11 20:54:52] Started run 258 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:53] Error in run 251: Run already exists in server. Run id(s): {8998573}
+[2018-04-11 20:54:53] Started run 259 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:53] Error in run 252: Run already exists in server. Run id(s): {8998626}
+[2018-04-11 20:54:53] Started run 260 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:53] Error in run 253: Run already exists in server. Run id(s): {8998580}
+[2018-04-11 20:54:53] Started run 261 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:53] Error in run 254: Run already exists in server. Run id(s): {8998570}
+[2018-04-11 20:54:53] Error in run 255: Run already exists in server. Run id(s): {8998722}
+[2018-04-11 20:54:53] Started run 262 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:53] Started run 263 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:54] Error in run 256: Run already exists in server. Run id(s): {8998608}
+[2018-04-11 20:54:54] Started run 264 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:57] Error in run 257: Run already exists in server. Run id(s): {8998780}
+[2018-04-11 20:54:57] Started run 265 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:57] Error in run 258: Run already exists in server. Run id(s): {8998634}
+[2018-04-11 20:54:57] Started run 266 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:57] Error in run 259: Run already exists in server. Run id(s): {8998676}
+[2018-04-11 20:54:57] Started run 267 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:57] Error in run 260: Run already exists in server. Run id(s): {8998663}
+[2018-04-11 20:54:57] Started run 268 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:58] Error in run 261: Run already exists in server. Run id(s): {8998661}
+[2018-04-11 20:54:58] Started run 269 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:58] Error in run 262: Run already exists in server. Run id(s): {8998718}
+[2018-04-11 20:54:58] Started run 270 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:58] Error in run 263: Run already exists in server. Run id(s): {8998670}
+[2018-04-11 20:54:58] Started run 271 on task 146822, dataset 'segment'.
+[2018-04-11 20:54:58] Error in run 264: Run already exists in server. Run id(s): {8998817}
+[2018-04-11 20:54:58] Started run 272 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:01] Error in run 265: Run already exists in server. Run id(s): {8998704}
+[2018-04-11 20:55:01] Started run 273 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:01] Error in run 266: Run already exists in server. Run id(s): {8998772}
+[2018-04-11 20:55:01] Started run 274 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:02] Error in run 267: Run already exists in server. Run id(s): {8998814}
+[2018-04-11 20:55:02] Started run 275 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:02] Error in run 268: Run already exists in server. Run id(s): {8998783}
+[2018-04-11 20:55:02] Started run 276 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:02] Error in run 271: Run already exists in server. Run id(s): {8998781}
+[2018-04-11 20:55:02] Error in run 269: Run already exists in server. Run id(s): {8998752}
+[2018-04-11 20:55:02] Started run 277 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:02] Error in run 270: Run already exists in server. Run id(s): {8998769}
+[2018-04-11 20:55:02] Started run 279 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:02] Started run 278 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:03] Error in run 272: Run already exists in server. Run id(s): {8998831}
+[2018-04-11 20:55:03] Started run 280 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:06] Error in run 273: Run already exists in server. Run id(s): {8998829}
+[2018-04-11 20:55:06] Started run 281 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:06] Error in run 274: Run already exists in server. Run id(s): {8998848}
+[2018-04-11 20:55:06] Started run 282 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:06] Error in run 275: Run already exists in server. Run id(s): {8998970}
+[2018-04-11 20:55:06] Started run 283 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:06] Error in run 276: Run already exists in server. Run id(s): {8998821}
+[2018-04-11 20:55:06] Started run 284 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:07] Error in run 279: Run already exists in server. Run id(s): {8998865}
+[2018-04-11 20:55:07] Started run 285 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:07] Error in run 277: Run already exists in server. Run id(s): {8998870}
+[2018-04-11 20:55:07] Error in run 278: Run already exists in server. Run id(s): {8998852}
+[2018-04-11 20:55:07] Started run 286 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:07] Started run 287 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:07] Error in run 280: Run already exists in server. Run id(s): {8998893}
+[2018-04-11 20:55:07] Started run 288 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:11] Error in run 281: Run already exists in server. Run id(s): {8998890}
+[2018-04-11 20:55:11] Started run 289 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:11] Error in run 282: Run already exists in server. Run id(s): {8998900}
+[2018-04-11 20:55:11] Started run 290 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:11] Error in run 284: Run already exists in server. Run id(s): {8998911}
+[2018-04-11 20:55:11] Error in run 283: Run already exists in server. Run id(s): {8998878}
+[2018-04-11 20:55:11] Started run 291 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:11] Started run 292 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:12] Error in run 285: Run already exists in server. Run id(s): {8998899}
+[2018-04-11 20:55:12] Started run 293 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:12] Error in run 286: Run already exists in server. Run id(s): {8998923}
+[2018-04-11 20:55:12] Started run 294 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:12] Error in run 288: Run already exists in server. Run id(s): {8999022}
+[2018-04-11 20:55:12] Started run 295 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:12] Error in run 287: Run already exists in server. Run id(s): {8998943}
+[2018-04-11 20:55:12] Started run 296 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:15] Error in run 289: Run already exists in server. Run id(s): {8998926}
+[2018-04-11 20:55:15] Started run 297 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:15] Error in run 290: Run already exists in server. Run id(s): {8998950}
+[2018-04-11 20:55:15] Started run 298 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:16] Error in run 292: Run already exists in server. Run id(s): {8998976}
+[2018-04-11 20:55:16] Started run 299 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:16] Error in run 291: Run already exists in server. Run id(s): {8998945}
+[2018-04-11 20:55:16] Started run 300 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:16] Error in run 293: Run already exists in server. Run id(s): {8999026}
+[2018-04-11 20:55:16] Started run 301 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:16] Error in run 294: Run already exists in server. Run id(s): {8998988}
+[2018-04-11 20:55:16] Started run 302 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:16] Error in run 296: Run already exists in server. Run id(s): {8998971}
+[2018-04-11 20:55:16] Started run 303 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:16] Error in run 295: Run already exists in server. Run id(s): {8999009}
+[2018-04-11 20:55:16] Started run 304 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:20] Error in run 297: Run already exists in server. Run id(s): {8999025}
+[2018-04-11 20:55:20] Started run 305 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:20] Error in run 298: Run already exists in server. Run id(s): {8999145}
+[2018-04-11 20:55:20] Started run 306 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:20] Error in run 299: Run already exists in server. Run id(s): {8999004}
+[2018-04-11 20:55:20] Started run 307 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:21] Error in run 300: Run already exists in server. Run id(s): {8999061}
+[2018-04-11 20:55:21] Started run 308 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:21] Error in run 301: Run already exists in server. Run id(s): {8999043}
+[2018-04-11 20:55:21] Started run 309 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:21] Error in run 302: Run already exists in server. Run id(s): {8999048}
+[2018-04-11 20:55:21] Started run 310 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:21] Error in run 304: Run already exists in server. Run id(s): {8999067}
+[2018-04-11 20:55:21] Started run 311 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:21] Error in run 303: Run already exists in server. Run id(s): {8999069}
+[2018-04-11 20:55:21] Started run 312 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:24] Error in run 306: Run already exists in server. Run id(s): {8999228}
+[2018-04-11 20:55:24] Started run 313 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:24] Error in run 305: Run already exists in server. Run id(s): {8999073}
+[2018-04-11 20:55:24] Started run 314 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:25] Error in run 308: Run already exists in server. Run id(s): {8999147}
+[2018-04-11 20:55:25] Started run 315 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:25] Error in run 307: Run already exists in server. Run id(s): {8999095}
+[2018-04-11 20:55:25] Started run 316 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:25] Error in run 309: Run already exists in server. Run id(s): {8999112}
+[2018-04-11 20:55:25] Started run 317 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:25] Error in run 310: Run already exists in server. Run id(s): {8999120}
+[2018-04-11 20:55:25] Started run 318 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:26] Error in run 311: Run already exists in server. Run id(s): {8999131}
+[2018-04-11 20:55:26] Started run 319 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:26] Error in run 312: Run already exists in server. Run id(s): {8999144}
+[2018-04-11 20:55:26] Started run 320 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:29] Error in run 314: Run already exists in server. Run id(s): {8999172}
+[2018-04-11 20:55:29] Started run 321 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:29] Error in run 313: Run already exists in server. Run id(s): {8999185}
+[2018-04-11 20:55:29] Started run 322 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:29] Error in run 315: Run already exists in server. Run id(s): {8999158}
+[2018-04-11 20:55:29] Started run 323 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:30] Error in run 318: Run already exists in server. Run id(s): {8999219}
+[2018-04-11 20:55:30] Error in run 316: Run already exists in server. Run id(s): {8999178}
+[2018-04-11 20:55:30] Error in run 317: Run already exists in server. Run id(s): {8999196}
+[2018-04-11 20:55:30] Started run 324 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:30] Started run 325 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:30] Started run 326 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:30] Error in run 319: Run already exists in server. Run id(s): {8999268}
+[2018-04-11 20:55:30] Started run 327 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:30] Error in run 320: Run already exists in server. Run id(s): {8999331}
+[2018-04-11 20:55:30] Started run 328 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:34] Error in run 321: Run already exists in server. Run id(s): {8999226}
+[2018-04-11 20:55:34] Started run 329 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:34] Error in run 322: Run already exists in server. Run id(s): {8999238}
+[2018-04-11 20:55:34] Started run 330 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:34] Error in run 323: Run already exists in server. Run id(s): {8999279}
+[2018-04-11 20:55:34] Started run 331 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:34] Error in run 325: Run already exists in server. Run id(s): {8999262}
+[2018-04-11 20:55:34] Error in run 324: Run already exists in server. Run id(s): {8999252}
+[2018-04-11 20:55:34] Started run 332 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:34] Started run 333 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:34] Error in run 326: Run already exists in server. Run id(s): {8999352}
+[2018-04-11 20:55:35] Started run 334 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:35] Error in run 327: Run already exists in server. Run id(s): {8999270}
+[2018-04-11 20:55:35] Started run 335 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:35] Error in run 328: Run already exists in server. Run id(s): {8999332}
+[2018-04-11 20:55:35] Started run 336 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:38] Error in run 330: Run already exists in server. Run id(s): {8999330}
+[2018-04-11 20:55:38] Error in run 329: Run already exists in server. Run id(s): {8999344}
+[2018-04-11 20:55:38] Started run 337 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:38] Started run 338 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:38] Error in run 331: Run already exists in server. Run id(s): {8999322}
+[2018-04-11 20:55:38] Started run 339 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:39] Error in run 333: Run already exists in server. Run id(s): {8999346}
+[2018-04-11 20:55:39] Started run 340 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:39] Error in run 332: Run already exists in server. Run id(s): {8999360}
+[2018-04-11 20:55:39] Error in run 334: Run already exists in server. Run id(s): {8999359}
+[2018-04-11 20:55:39] Started run 341 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:39] Started run 342 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:39] Error in run 335: Run already exists in server. Run id(s): {8999367}
+[2018-04-11 20:55:39] Started run 343 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:40] Error in run 336: Run already exists in server. Run id(s): {8999363}
+[2018-04-11 20:55:40] Started run 344 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:43] Error in run 337: Run already exists in server. Run id(s): {8999383}
+[2018-04-11 20:55:43] Started run 345 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:43] Error in run 338: Run already exists in server. Run id(s): {8999415}
+[2018-04-11 20:55:43] Started run 346 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:43] Error in run 339: Run already exists in server. Run id(s): {8999400}
+[2018-04-11 20:55:43] Started run 347 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:44] Error in run 341: Run already exists in server. Run id(s): {8999457}
+[2018-04-11 20:55:44] Error in run 342: Run already exists in server. Run id(s): {8999399}
+[2018-04-11 20:55:44] Error in run 340: Run already exists in server. Run id(s): {8999439}
+[2018-04-11 20:55:44] Started run 348 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:44] Started run 349 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:44] Started run 350 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:44] Error in run 343: Run already exists in server. Run id(s): {8999404}
+[2018-04-11 20:55:44] Started run 351 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:44] Error in run 344: Run already exists in server. Run id(s): {8999406}
+[2018-04-11 20:55:44] Started run 352 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:47] Error in run 345: Run already exists in server. Run id(s): {8999475}
+[2018-04-11 20:55:47] Started run 353 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:47] Error in run 346: Run already exists in server. Run id(s): {8999484}
+[2018-04-11 20:55:47] Started run 354 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:48] Error in run 347: Run already exists in server. Run id(s): {8999434}
+[2018-04-11 20:55:48] Started run 355 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:48] Error in run 350: Run already exists in server. Run id(s): {8999480}
+[2018-04-11 20:55:48] Error in run 348: Run already exists in server. Run id(s): {8999449}
+[2018-04-11 20:55:48] Started run 356 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:48] Started run 357 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:48] Error in run 349: Run already exists in server. Run id(s): {8999464}
+[2018-04-11 20:55:48] Started run 358 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:48] Error in run 351: Run already exists in server. Run id(s): {8999489}
+[2018-04-11 20:55:48] Started run 359 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:49] Error in run 352: Run already exists in server. Run id(s): {8999494}
+[2018-04-11 20:55:49] Started run 360 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:52] Error in run 353: Run already exists in server. Run id(s): {8999600}
+[2018-04-11 20:55:52] Started run 361 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:52] Error in run 354: Run already exists in server. Run id(s): {8999533}
+[2018-04-11 20:55:52] Started run 362 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:52] Error in run 355: Run already exists in server. Run id(s): {8999649}
+[2018-04-11 20:55:52] Started run 363 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:53] Error in run 358: Run already exists in server. Run id(s): {8999663}
+[2018-04-11 20:55:53] Started run 364 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:53] Error in run 356: Run already exists in server. Run id(s): {8999579}
+[2018-04-11 20:55:53] Error in run 357: Run already exists in server. Run id(s): {8999536}
+[2018-04-11 20:55:53] Started run 365 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:53] Started run 366 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:53] Error in run 359: Run already exists in server. Run id(s): {8999560}
+[2018-04-11 20:55:53] Started run 367 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:53] Error in run 360: Run already exists in server. Run id(s): {8999530}
+[2018-04-11 20:55:53] Started run 368 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:56] Error in run 361: Run already exists in server. Run id(s): {8999695}
+[2018-04-11 20:55:56] Started run 369 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:56] Error in run 362: Run already exists in server. Run id(s): {8999561}
+[2018-04-11 20:55:56] Started run 370 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:57] Error in run 363: Run already exists in server. Run id(s): {8999671}
+[2018-04-11 20:55:57] Started run 371 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:57] Error in run 366: Run already exists in server. Run id(s): {8999688}
+[2018-04-11 20:55:57] Started run 372 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:57] Error in run 364: Run already exists in server. Run id(s): {8999631}
+[2018-04-11 20:55:57] Started run 373 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:57] Error in run 365: Run already exists in server. Run id(s): {8999623}
+[2018-04-11 20:55:57] Started run 374 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:57] Error in run 367: Run already exists in server. Run id(s): {8999654}
+[2018-04-11 20:55:57] Started run 375 on task 146822, dataset 'segment'.
+[2018-04-11 20:55:58] Error in run 368: Run already exists in server. Run id(s): {8999689}
+[2018-04-11 20:55:58] Started run 376 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:01] Error in run 369: Run already exists in server. Run id(s): {8999650}
+[2018-04-11 20:56:01] Started run 377 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:01] Error in run 371: Run already exists in server. Run id(s): {8999713}
+[2018-04-11 20:56:01] Error in run 370: Run already exists in server. Run id(s): {8999709}
+[2018-04-11 20:56:01] Started run 378 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:01] Started run 379 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:02] Error in run 373: Run already exists in server. Run id(s): {8999686}
+[2018-04-11 20:56:02] Started run 380 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:02] Error in run 372: Run already exists in server. Run id(s): {8999687}
+[2018-04-11 20:56:02] Started run 381 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:02] Error in run 375: Run already exists in server. Run id(s): {8999730}
+[2018-04-11 20:56:02] Error in run 374: Run already exists in server. Run id(s): {8999734}
+[2018-04-11 20:56:02] Started run 382 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:02] Started run 383 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:02] Error in run 376: Run already exists in server. Run id(s): {8999735}
+[2018-04-11 20:56:02] Started run 384 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:05] Error in run 377: Run already exists in server. Run id(s): {8999732}
+[2018-04-11 20:56:05] Started run 385 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:06] Error in run 378: Run already exists in server. Run id(s): {8999773}
+[2018-04-11 20:56:06] Started run 386 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:06] Error in run 379: Run already exists in server. Run id(s): {8999723}
+[2018-04-11 20:56:06] Started run 387 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:06] Error in run 381: Run already exists in server. Run id(s): {8999766}
+[2018-04-11 20:56:06] Started run 388 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:06] Error in run 380: Run already exists in server. Run id(s): {8999731}
+[2018-04-11 20:56:06] Started run 389 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:06] Error in run 383: Run already exists in server. Run id(s): {8999859}
+[2018-04-11 20:56:06] Started run 390 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:06] Error in run 382: Run already exists in server. Run id(s): {8999812}
+[2018-04-11 20:56:06] Started run 391 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:07] Error in run 384: Run already exists in server. Run id(s): {8999811}
+[2018-04-11 20:56:07] Started run 392 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:10] Error in run 385: Run already exists in server. Run id(s): {8999770}
+[2018-04-11 20:56:10] Started run 393 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:10] Error in run 386: Run already exists in server. Run id(s): {8999785}
+[2018-04-11 20:56:10] Started run 394 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:10] Error in run 387: Run already exists in server. Run id(s): {8999851}
+[2018-04-11 20:56:10] Started run 395 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:11] Error in run 389: Run already exists in server. Run id(s): {8999900}
+[2018-04-11 20:56:11] Started run 396 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:11] Error in run 388: Run already exists in server. Run id(s): {8999828}
+[2018-04-11 20:56:11] Started run 397 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:11] Error in run 390: Run already exists in server. Run id(s): {8999833}
+[2018-04-11 20:56:11] Started run 398 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:11] Error in run 391: Run already exists in server. Run id(s): {8999899}
+[2018-04-11 20:56:11] Started run 399 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:11] Error in run 392: Run already exists in server. Run id(s): {8999857}
+[2018-04-11 20:56:11] Started run 400 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:14] Error in run 393: Run already exists in server. Run id(s): {8999855}
+[2018-04-11 20:56:14] Started run 401 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:15] Error in run 394: Run already exists in server. Run id(s): {8999873}
+[2018-04-11 20:56:15] Started run 402 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:15] Error in run 395: Run already exists in server. Run id(s): {8999883}
+[2018-04-11 20:56:15] Started run 403 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:15] Error in run 397: Run already exists in server. Run id(s): {8999893}
+[2018-04-11 20:56:15] Error in run 396: Run already exists in server. Run id(s): {8999874}
+[2018-04-11 20:56:15] Started run 404 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:15] Started run 405 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:15] Error in run 398: Run already exists in server. Run id(s): {8999888}
+[2018-04-11 20:56:15] Started run 406 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:15] Error in run 399: Run already exists in server. Run id(s): {8999875}
+[2018-04-11 20:56:15] Started run 407 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:16] Error in run 400: Run already exists in server. Run id(s): {8999910}
+[2018-04-11 20:56:16] Started run 408 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:19] Error in run 401: Run already exists in server. Run id(s): {8999925}
+[2018-04-11 20:56:19] Started run 409 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:19] Error in run 402: Run already exists in server. Run id(s): {8999921}
+[2018-04-11 20:56:19] Started run 410 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:19] Error in run 403: Run already exists in server. Run id(s): {8999913}
+[2018-04-11 20:56:19] Started run 411 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:20] Error in run 405: Run already exists in server. Run id(s): {8999932}
+[2018-04-11 20:56:20] Error in run 406: Run already exists in server. Run id(s): {8999936}
+[2018-04-11 20:56:20] Started run 412 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:20] Error in run 407: Run already exists in server. Run id(s): {8999947}
+[2018-04-11 20:56:20] Started run 413 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:20] Started run 414 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:20] Error in run 404: Run already exists in server. Run id(s): {8999930}
+[2018-04-11 20:56:20] Started run 415 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:21] Error in run 408: Run already exists in server. Run id(s): {8999980}
+[2018-04-11 20:56:21] Started run 416 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:23] Error in run 409: Run already exists in server. Run id(s): {8999958}
+[2018-04-11 20:56:23] Started run 417 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:24] Error in run 410: Run already exists in server. Run id(s): {8999973}
+[2018-04-11 20:56:24] Started run 418 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:24] Error in run 411: Run already exists in server. Run id(s): {8999965}
+[2018-04-11 20:56:24] Started run 419 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:25] Error in run 413: Run already exists in server. Run id(s): {8999975}
+[2018-04-11 20:56:25] Error in run 412: Run already exists in server. Run id(s): {8999952}
+[2018-04-11 20:56:25] Started run 420 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:25] Error in run 415: Run already exists in server. Run id(s): {8999988}
+[2018-04-11 20:56:25] Started run 422 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:25] Started run 421 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:25] Error in run 414: Run already exists in server. Run id(s): {8999966}
+[2018-04-11 20:56:25] Started run 423 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:25] Error in run 416: Run already exists in server. Run id(s): {9000022}
+[2018-04-11 20:56:25] Started run 424 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:28] Error in run 417: Run already exists in server. Run id(s): {9000021}
+[2018-04-11 20:56:28] Started run 425 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:29] Error in run 418: Run already exists in server. Run id(s): {9000000}
+[2018-04-11 20:56:29] Started run 426 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:29] Error in run 419: Run already exists in server. Run id(s): {8999998}
+[2018-04-11 20:56:29] Started run 427 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:29] Error in run 422: Run already exists in server. Run id(s): {9000004}
+[2018-04-11 20:56:29] Started run 428 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:29] Error in run 421: Run already exists in server. Run id(s): {9000007}
+[2018-04-11 20:56:29] Error in run 423: Run already exists in server. Run id(s): {9000031}
+[2018-04-11 20:56:29] Started run 429 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:29] Error in run 420: Run already exists in server. Run id(s): {8999999}
+[2018-04-11 20:56:29] Started run 430 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:29] Started run 431 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:30] Error in run 424: Run already exists in server. Run id(s): {9000030}
+[2018-04-11 20:56:30] Started run 432 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:33] Error in run 425: Run already exists in server. Run id(s): {9000015}
+[2018-04-11 20:56:33] Started run 433 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:33] Error in run 427: Run already exists in server. Run id(s): {9000068}
+[2018-04-11 20:56:33] Started run 434 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:33] Error in run 426: Run already exists in server. Run id(s): {9000059}
+[2018-04-11 20:56:33] Started run 435 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:34] Error in run 428: Run already exists in server. Run id(s): {9000033}
+[2018-04-11 20:56:34] Started run 436 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:34] Error in run 430: Run already exists in server. Run id(s): {9000058}
+[2018-04-11 20:56:34] Started run 437 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:34] Error in run 429: Run already exists in server. Run id(s): {9000097}
+[2018-04-11 20:56:34] Started run 438 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:34] Error in run 431: Run already exists in server. Run id(s): {9000043}
+[2018-04-11 20:56:34] Started run 439 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:35] Error in run 432: Run already exists in server. Run id(s): {9000065}
+[2018-04-11 20:56:35] Started run 440 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:37] Error in run 433: Run already exists in server. Run id(s): {9000106}
+[2018-04-11 20:56:37] Started run 441 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:38] Error in run 434: Run already exists in server. Run id(s): {9000101}
+[2018-04-11 20:56:38] Started run 442 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:38] Error in run 435: Run already exists in server. Run id(s): {9000153}
+[2018-04-11 20:56:38] Started run 443 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:38] Error in run 436: Run already exists in server. Run id(s): {9000076}
+[2018-04-11 20:56:38] Started run 444 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:38] Error in run 437: Run already exists in server. Run id(s): {9000091}
+[2018-04-11 20:56:38] Started run 445 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:38] Error in run 438: Run already exists in server. Run id(s): {9000105}
+[2018-04-11 20:56:38] Started run 446 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:39] Error in run 439: Run already exists in server. Run id(s): {9000084}
+[2018-04-11 20:56:39] Started run 447 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:39] Error in run 440: Run already exists in server. Run id(s): {9000094}
+[2018-04-11 20:56:39] Started run 448 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:41] Error in run 441: Run already exists in server. Run id(s): {9000109}
+[2018-04-11 20:56:41] Started run 449 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:42] Error in run 442: Run already exists in server. Run id(s): {9000199}
+[2018-04-11 20:56:42] Started run 450 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:42] Error in run 443: Run already exists in server. Run id(s): {9000196}
+[2018-04-11 20:56:42] Started run 451 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:43] Error in run 444: Run already exists in server. Run id(s): {9000143}
+[2018-04-11 20:56:43] Started run 452 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:43] Error in run 445: Run already exists in server. Run id(s): {9000121}
+[2018-04-11 20:56:43] Started run 453 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:43] Error in run 446: Run already exists in server. Run id(s): {9000123}
+[2018-04-11 20:56:43] Started run 454 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:43] Error in run 447: Run already exists in server. Run id(s): {9000146}
+[2018-04-11 20:56:43] Started run 455 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:44] Error in run 448: Run already exists in server. Run id(s): {9000212}
+[2018-04-11 20:56:44] Started run 456 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:46] Error in run 449: Run already exists in server. Run id(s): {9000176}
+[2018-04-11 20:56:46] Started run 457 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:47] Error in run 450: Run already exists in server. Run id(s): {9000149}
+[2018-04-11 20:56:47] Started run 458 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:47] Error in run 451: Run already exists in server. Run id(s): {9000186}
+[2018-04-11 20:56:47] Started run 459 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:47] Error in run 452: Run already exists in server. Run id(s): {9000168}
+[2018-04-11 20:56:47] Started run 460 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:47] Error in run 454: Run already exists in server. Run id(s): {9000181}
+[2018-04-11 20:56:47] Started run 461 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:47] Error in run 453: Run already exists in server. Run id(s): {9000167}
+[2018-04-11 20:56:47] Started run 462 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:48] Error in run 455: Run already exists in server. Run id(s): {9000244}
+[2018-04-11 20:56:48] Started run 463 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:48] Error in run 456: Run already exists in server. Run id(s): {9000234}
+[2018-04-11 20:56:48] Started run 464 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:50] Error in run 457: Run already exists in server. Run id(s): {9000204}
+[2018-04-11 20:56:50] Started run 465 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:51] Error in run 458: Run already exists in server. Run id(s): {9000240}
+[2018-04-11 20:56:51] Started run 466 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:51] Error in run 459: Run already exists in server. Run id(s): {9000226}
+[2018-04-11 20:56:51] Started run 467 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:52] Error in run 462: Run already exists in server. Run id(s): {9000224}
+[2018-04-11 20:56:52] Started run 468 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:52] Error in run 460: Run already exists in server. Run id(s): {9000248}
+[2018-04-11 20:56:52] Error in run 461: Run already exists in server. Run id(s): {9000219}
+[2018-04-11 20:56:52] Started run 469 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:52] Started run 470 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:52] Error in run 463: Run already exists in server. Run id(s): {9000241}
+[2018-04-11 20:56:52] Started run 471 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:53] Error in run 464: Run already exists in server. Run id(s): {9000290}
+[2018-04-11 20:56:53] Started run 472 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:55] Error in run 465: Run already exists in server. Run id(s): {9000242}
+[2018-04-11 20:56:55] Started run 473 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:56] Error in run 466: Run already exists in server. Run id(s): {9000297}
+[2018-04-11 20:56:56] Started run 474 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:56] Error in run 467: Run already exists in server. Run id(s): {9000328}
+[2018-04-11 20:56:56] Started run 475 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:56] Error in run 468: Run already exists in server. Run id(s): {9000274}
+[2018-04-11 20:56:56] Started run 476 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:57] Error in run 469: Run already exists in server. Run id(s): {9000259}
+[2018-04-11 20:56:57] Started run 477 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:57] Error in run 470: Run already exists in server. Run id(s): {9000266}
+[2018-04-11 20:56:57] Started run 478 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:57] Error in run 471: Run already exists in server. Run id(s): {9000284}
+[2018-04-11 20:56:57] Started run 479 on task 146822, dataset 'segment'.
+[2018-04-11 20:56:58] Error in run 472: Run already exists in server. Run id(s): {9000269}
+[2018-04-11 20:56:58] Started run 480 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:00] Error in run 473: Run already exists in server. Run id(s): {9000317}
+[2018-04-11 20:57:00] Started run 481 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:00] Error in run 474: Run already exists in server. Run id(s): {9000385}
+[2018-04-11 20:57:00] Started run 482 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:00] Error in run 475: Run already exists in server. Run id(s): {9000308}
+[2018-04-11 20:57:00] Started run 483 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:01] Error in run 476: Run already exists in server. Run id(s): {9000291}
+[2018-04-11 20:57:01] Started run 484 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:01] Error in run 477: Run already exists in server. Run id(s): {9000315}
+[2018-04-11 20:57:01] Started run 485 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:01] Error in run 478: Run already exists in server. Run id(s): {9000339}
+[2018-04-11 20:57:01] Started run 486 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:01] Error in run 479: Run already exists in server. Run id(s): {9000338}
+[2018-04-11 20:57:01] Started run 487 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:02] Error in run 480: Run already exists in server. Run id(s): {9000323}
+[2018-04-11 20:57:02] Started run 488 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:04] Error in run 481: Run already exists in server. Run id(s): {9000333}
+[2018-04-11 20:57:04] Started run 489 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:05] Error in run 482: Run already exists in server. Run id(s): {9000369}
+[2018-04-11 20:57:05] Started run 490 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:05] Error in run 483: Run already exists in server. Run id(s): {9000344}
+[2018-04-11 20:57:05] Started run 491 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:05] Error in run 484: Run already exists in server. Run id(s): {9000412}
+[2018-04-11 20:57:05] Started run 492 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:06] Error in run 486: Run already exists in server. Run id(s): {9000364}
+[2018-04-11 20:57:06] Error in run 485: Run already exists in server. Run id(s): {9000435}
+[2018-04-11 20:57:06] Started run 493 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:06] Started run 494 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:06] Error in run 487: Run already exists in server. Run id(s): {9000359}
+[2018-04-11 20:57:06] Started run 495 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:07] Error in run 488: Run already exists in server. Run id(s): {9000454}
+[2018-04-11 20:57:07] Started run 496 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:09] Error in run 489: Run already exists in server. Run id(s): {9000363}
+[2018-04-11 20:57:09] Started run 497 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:09] Error in run 490: Run already exists in server. Run id(s): {9000392}
+[2018-04-11 20:57:09] Started run 498 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:09] Error in run 491: Run already exists in server. Run id(s): {9000396}
+[2018-04-11 20:57:09] Started run 499 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:10] Error in run 492: Run already exists in server. Run id(s): {9000383}
+[2018-04-11 20:57:10] Started run 500 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:10] Error in run 493: Run already exists in server. Run id(s): {9000422}
+[2018-04-11 20:57:10] Error in run 494: Run already exists in server. Run id(s): {9000448}
+[2018-04-11 20:57:10] Started run 501 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:10] Started run 502 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:11] Error in run 495: Run already exists in server. Run id(s): {9000408}
+[2018-04-11 20:57:11] Started run 503 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:11] Error in run 496: Run already exists in server. Run id(s): {9000458}
+[2018-04-11 20:57:11] Started run 504 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:13] Error in run 497: Run already exists in server. Run id(s): {9000453}
+[2018-04-11 20:57:13] Started run 505 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:14] Error in run 498: Run already exists in server. Run id(s): {9000461}
+[2018-04-11 20:57:14] Started run 506 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:14] Error in run 499: Run already exists in server. Run id(s): {9000442}
+[2018-04-11 20:57:14] Started run 507 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:14] Error in run 500: Run already exists in server. Run id(s): {9000485}
+[2018-04-11 20:57:14] Started run 508 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:15] Error in run 502: Run already exists in server. Run id(s): {9000463}
+[2018-04-11 20:57:15] Started run 509 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:15] Error in run 501: Run already exists in server. Run id(s): {9000460}
+[2018-04-11 20:57:15] Started run 510 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:15] Error in run 503: Run already exists in server. Run id(s): {9000510}
+[2018-04-11 20:57:15] Started run 511 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:16] Error in run 504: Run already exists in server. Run id(s): {9000484}
+[2018-04-11 20:57:16] Started run 512 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:18] Error in run 505: Run already exists in server. Run id(s): {9000486}
+[2018-04-11 20:57:18] Started run 513 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:18] Error in run 506: Run already exists in server. Run id(s): {9000515}
+[2018-04-11 20:57:18] Started run 514 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:19] Error in run 507: Run already exists in server. Run id(s): {9000498}
+[2018-04-11 20:57:19] Started run 515 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:19] Error in run 508: Run already exists in server. Run id(s): {9000521}
+[2018-04-11 20:57:19] Started run 516 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:19] Error in run 510: Run already exists in server. Run id(s): {9000491}
+[2018-04-11 20:57:19] Started run 517 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:20] Error in run 509: Run already exists in server. Run id(s): {9000471}
+[2018-04-11 20:57:20] Started run 518 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:20] Error in run 511: Run already exists in server. Run id(s): {9000502}
+[2018-04-11 20:57:20] Started run 519 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:20] Error in run 512: Run already exists in server. Run id(s): {9000525}
+[2018-04-11 20:57:20] Started run 520 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:23] Error in run 513: Run already exists in server. Run id(s): {9000499}
+[2018-04-11 20:57:23] Error in run 514: Run already exists in server. Run id(s): {9000504}
+[2018-04-11 20:57:23] Started run 521 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:23] Started run 522 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:23] Error in run 515: Run already exists in server. Run id(s): {9000606}
+[2018-04-11 20:57:23] Started run 523 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:23] Error in run 516: Run already exists in server. Run id(s): {9000519}
+[2018-04-11 20:57:23] Started run 524 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:24] Error in run 517: Run already exists in server. Run id(s): {9000535}
+[2018-04-11 20:57:24] Started run 525 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:24] Error in run 519: Run already exists in server. Run id(s): {9000549}
+[2018-04-11 20:57:24] Started run 526 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:24] Error in run 518: Run already exists in server. Run id(s): {9000583}
+[2018-04-11 20:57:24] Started run 527 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:25] Error in run 520: Run already exists in server. Run id(s): {9000566}
+[2018-04-11 20:57:25] Started run 528 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:27] Error in run 521: Run already exists in server. Run id(s): {9000599}
+[2018-04-11 20:57:27] Started run 529 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:27] Error in run 522: Run already exists in server. Run id(s): {9000623}
+[2018-04-11 20:57:27] Started run 530 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:28] Error in run 524: Run already exists in server. Run id(s): {9000569}
+[2018-04-11 20:57:28] Error in run 523: Run already exists in server. Run id(s): {9000604}
+[2018-04-11 20:57:28] Started run 531 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:28] Started run 532 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:28] Error in run 525: Run already exists in server. Run id(s): {9000616}
+[2018-04-11 20:57:28] Started run 533 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:29] Error in run 526: Run already exists in server. Run id(s): {9000594}
+[2018-04-11 20:57:29] Started run 534 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:29] Error in run 527: Run already exists in server. Run id(s): {9000634}
+[2018-04-11 20:57:29] Started run 535 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:30] Error in run 528: Run already exists in server. Run id(s): {9000622}
+[2018-04-11 20:57:30] Started run 536 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:32] Error in run 529: Run already exists in server. Run id(s): {9000636}
+[2018-04-11 20:57:32] Started run 537 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:32] Error in run 530: Run already exists in server. Run id(s): {9000638}
+[2018-04-11 20:57:32] Started run 538 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:32] Error in run 532: Run already exists in server. Run id(s): {9000656}
+[2018-04-11 20:57:32] Error in run 531: Run already exists in server. Run id(s): {9000631}
+[2018-04-11 20:57:32] Started run 539 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:32] Started run 540 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:33] Error in run 533: Run already exists in server. Run id(s): {9000666}
+[2018-04-11 20:57:33] Started run 541 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:33] Error in run 535: Run already exists in server. Run id(s): {9000662}
+[2018-04-11 20:57:33] Started run 542 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:33] Error in run 534: Run already exists in server. Run id(s): {9000700}
+[2018-04-11 20:57:33] Started run 543 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:34] Error in run 536: Run already exists in server. Run id(s): {9000669}
+[2018-04-11 20:57:34] Started run 544 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:36] Error in run 537: Run already exists in server. Run id(s): {9000670}
+[2018-04-11 20:57:36] Started run 545 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:36] Error in run 538: Run already exists in server. Run id(s): {9000655}
+[2018-04-11 20:57:36] Started run 546 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:37] Error in run 539: Run already exists in server. Run id(s): {9000684}
+[2018-04-11 20:57:37] Error in run 540: Run already exists in server. Run id(s): {9000686}
+[2018-04-11 20:57:37] Started run 547 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:37] Started run 548 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:38] Error in run 541: Run already exists in server. Run id(s): {9000676}
+[2018-04-11 20:57:38] Started run 549 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:38] Error in run 542: Run already exists in server. Run id(s): {9000677}
+[2018-04-11 20:57:38] Started run 550 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:38] Error in run 543: Run already exists in server. Run id(s): {9000696}
+[2018-04-11 20:57:38] Started run 551 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:39] Error in run 544: Run already exists in server. Run id(s): {9000756}
+[2018-04-11 20:57:39] Started run 552 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:41] Error in run 545: Run already exists in server. Run id(s): {9000736}
+[2018-04-11 20:57:41] Started run 553 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:41] Error in run 546: Run already exists in server. Run id(s): {9000705}
+[2018-04-11 20:57:41] Started run 554 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:41] Error in run 547: Run already exists in server. Run id(s): {9000726}
+[2018-04-11 20:57:41] Started run 555 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:41] Error in run 548: Run already exists in server. Run id(s): {9000728}
+[2018-04-11 20:57:41] Started run 556 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:42] Error in run 550: Run already exists in server. Run id(s): {9000795}
+[2018-04-11 20:57:42] Started run 557 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:42] Error in run 551: Run already exists in server. Run id(s): {9000743}
+[2018-04-11 20:57:42] Started run 558 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:42] Error in run 549: Run already exists in server. Run id(s): {9000708}
+[2018-04-11 20:57:42] Started run 559 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:44] Error in run 552: Run already exists in server. Run id(s): {9000740}
+[2018-04-11 20:57:44] Started run 560 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:45] Error in run 554: Run already exists in server. Run id(s): {9000752}
+[2018-04-11 20:57:45] Started run 561 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:45] Error in run 553: Run already exists in server. Run id(s): {9000730}
+[2018-04-11 20:57:45] Started run 562 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:46] Error in run 555: Run already exists in server. Run id(s): {9000762}
+[2018-04-11 20:57:46] Started run 563 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:46] Error in run 556: Run already exists in server. Run id(s): {9000805}
+[2018-04-11 20:57:46] Started run 564 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:47] Error in run 558: Run already exists in server. Run id(s): {9000769}
+[2018-04-11 20:57:47] Started run 565 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:47] Error in run 557: Run already exists in server. Run id(s): {9000784}
+[2018-04-11 20:57:47] Started run 566 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:47] Error in run 559: Run already exists in server. Run id(s): {9000780}
+[2018-04-11 20:57:47] Started run 567 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:48] Error in run 560: Run already exists in server. Run id(s): {9000843}
+[2018-04-11 20:57:48] Started run 568 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:50] Error in run 561: Run already exists in server. Run id(s): {9000799}
+[2018-04-11 20:57:50] Started run 569 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:50] Error in run 562: Run already exists in server. Run id(s): {9000804}
+[2018-04-11 20:57:50] Started run 570 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:50] Error in run 563: Run already exists in server. Run id(s): {9000810}
+[2018-04-11 20:57:50] Started run 571 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:51] Error in run 564: Run already exists in server. Run id(s): {9000816}
+[2018-04-11 20:57:51] Started run 572 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:51] Error in run 565: Run already exists in server. Run id(s): {9000828}
+[2018-04-11 20:57:51] Error in run 566: Run already exists in server. Run id(s): {9000815}
+[2018-04-11 20:57:51] Started run 573 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:51] Error in run 567: Run already exists in server. Run id(s): {9000809}
+[2018-04-11 20:57:51] Started run 575 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:51] Started run 574 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:53] Error in run 568: Run already exists in server. Run id(s): {9000823}
+[2018-04-11 20:57:53] Started run 576 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:54] Error in run 569: Run already exists in server. Run id(s): {9000848}
+[2018-04-11 20:57:54] Started run 577 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:54] Error in run 570: Run already exists in server. Run id(s): {9000858}
+[2018-04-11 20:57:54] Started run 578 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:55] Error in run 571: Run already exists in server. Run id(s): {9000830}
+[2018-04-11 20:57:55] Started run 579 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:55] Error in run 572: Run already exists in server. Run id(s): {9000849}
+[2018-04-11 20:57:55] Started run 580 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:56] Error in run 573: Run already exists in server. Run id(s): {9000834}
+[2018-04-11 20:57:56] Started run 581 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:56] Error in run 575: Run already exists in server. Run id(s): {9000850}
+[2018-04-11 20:57:56] Started run 582 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:56] Error in run 574: Run already exists in server. Run id(s): {9000866}
+[2018-04-11 20:57:56] Started run 583 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:57] Error in run 576: Run already exists in server. Run id(s): {9000851}
+[2018-04-11 20:57:57] Started run 584 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:59] Error in run 577: Run already exists in server. Run id(s): {9000873}
+[2018-04-11 20:57:59] Started run 585 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:59] Error in run 578: Run already exists in server. Run id(s): {9000863}
+[2018-04-11 20:57:59] Started run 586 on task 146822, dataset 'segment'.
+[2018-04-11 20:57:59] Error in run 579: Run already exists in server. Run id(s): {9000892}
+[2018-04-11 20:57:59] Started run 587 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:00] Error in run 580: Run already exists in server. Run id(s): {9000903}
+[2018-04-11 20:58:00] Started run 588 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:00] Error in run 581: Run already exists in server. Run id(s): {9000945}
+[2018-04-11 20:58:00] Started run 589 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:00] Error in run 583: Run already exists in server. Run id(s): {9000902}
+[2018-04-11 20:58:00] Started run 590 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:00] Error in run 582: Run already exists in server. Run id(s): {9000916}
+[2018-04-11 20:58:00] Started run 591 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:02] Error in run 584: Run already exists in server. Run id(s): {9000886}
+[2018-04-11 20:58:02] Started run 592 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:03] Error in run 586: Run already exists in server. Run id(s): {9000900}
+[2018-04-11 20:58:03] Started run 593 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:03] Error in run 585: Run already exists in server. Run id(s): {9000976}
+[2018-04-11 20:58:03] Started run 594 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:04] Error in run 588: Run already exists in server. Run id(s): {9000909}
+[2018-04-11 20:58:04] Started run 595 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:04] Error in run 587: Run already exists in server. Run id(s): {9000920}
+[2018-04-11 20:58:04] Started run 596 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:05] Error in run 589: Run already exists in server. Run id(s): {9000983}
+[2018-04-11 20:58:05] Started run 597 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:05] Error in run 591: Run already exists in server. Run id(s): {9000936}
+[2018-04-11 20:58:05] Error in run 590: Run already exists in server. Run id(s): {9000931}
+[2018-04-11 20:58:05] Started run 598 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:05] Started run 599 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:06] Error in run 592: Run already exists in server. Run id(s): {9000978}
+[2018-04-11 20:58:06] Started run 600 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:08] Error in run 593: Run already exists in server. Run id(s): {9000943}
+[2018-04-11 20:58:08] Started run 601 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:08] Error in run 594: Run already exists in server. Run id(s): {9000957}
+[2018-04-11 20:58:08] Started run 602 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:09] Error in run 595: Run already exists in server. Run id(s): {9000961}
+[2018-04-11 20:58:09] Started run 603 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:09] Error in run 596: Run already exists in server. Run id(s): {9000975}
+[2018-04-11 20:58:09] Started run 604 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:09] Error in run 597: Run already exists in server. Run id(s): {9001032}
+[2018-04-11 20:58:09] Started run 605 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:10] Error in run 599: Run already exists in server. Run id(s): {9000995}
+[2018-04-11 20:58:10] Started run 606 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:10] Error in run 598: Run already exists in server. Run id(s): {9000980}
+[2018-04-11 20:58:10] Started run 607 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:11] Error in run 600: Run already exists in server. Run id(s): {9000979}
+[2018-04-11 20:58:11] Started run 608 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:12] Error in run 601: Run already exists in server. Run id(s): {9001013}
+[2018-04-11 20:58:12] Started run 609 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:13] Error in run 602: Run already exists in server. Run id(s): {9001019}
+[2018-04-11 20:58:13] Started run 610 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:13] Error in run 603: Run already exists in server. Run id(s): {9001007}
+[2018-04-11 20:58:13] Started run 611 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:13] Error in run 604: Run already exists in server. Run id(s): {9001005}
+[2018-04-11 20:58:13] Started run 612 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:14] Error in run 605: Run already exists in server. Run id(s): {9000998}
+[2018-04-11 20:58:14] Started run 613 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:14] Error in run 606: Run already exists in server. Run id(s): {9001022}
+[2018-04-11 20:58:14] Started run 614 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:14] Error in run 607: Run already exists in server. Run id(s): {9001033}
+[2018-04-11 20:58:14] Started run 615 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:15] Error in run 608: Run already exists in server. Run id(s): {9001037}
+[2018-04-11 20:58:15] Started run 616 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:17] Error in run 609: Run already exists in server. Run id(s): {9001103}
+[2018-04-11 20:58:17] Started run 617 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:17] Error in run 610: Run already exists in server. Run id(s): {9001027}
+[2018-04-11 20:58:17] Started run 618 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:18] Error in run 612: Run already exists in server. Run id(s): {9001053}
+[2018-04-11 20:58:18] Started run 619 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:18] Error in run 611: Run already exists in server. Run id(s): {9001035}
+[2018-04-11 20:58:18] Started run 620 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:18] Error in run 613: Run already exists in server. Run id(s): {9001096}
+[2018-04-11 20:58:18] Started run 621 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:19] Error in run 614: Run already exists in server. Run id(s): {9001054}
+[2018-04-11 20:58:19] Error in run 615: Run already exists in server. Run id(s): {9001063}
+[2018-04-11 20:58:19] Started run 622 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:19] Started run 623 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:20] Error in run 616: Run already exists in server. Run id(s): {9001070}
+[2018-04-11 20:58:20] Started run 624 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:21] Error in run 617: Run already exists in server. Run id(s): {9001069}
+[2018-04-11 20:58:21] Started run 625 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:22] Error in run 618: Run already exists in server. Run id(s): {9001058}
+[2018-04-11 20:58:22] Started run 626 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:22] Error in run 619: Run already exists in server. Run id(s): {9001084}
+[2018-04-11 20:58:22] Started run 627 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:22] Error in run 620: Run already exists in server. Run id(s): {9001124}
+[2018-04-11 20:58:22] Started run 628 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:23] Error in run 621: Run already exists in server. Run id(s): {9001074}
+[2018-04-11 20:58:23] Started run 629 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:24] Error in run 623: Run already exists in server. Run id(s): {9001101}
+[2018-04-11 20:58:24] Started run 630 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:24] Error in run 622: Run already exists in server. Run id(s): {9001148}
+[2018-04-11 20:58:24] Started run 631 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:24] Error in run 624: Run already exists in server. Run id(s): {9001112}
+[2018-04-11 20:58:24] Started run 632 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:26] Error in run 625: Run already exists in server. Run id(s): {9001156}
+[2018-04-11 20:58:26] Started run 633 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:26] Error in run 626: Run already exists in server. Run id(s): {9001131}
+[2018-04-11 20:58:26] Started run 634 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:27] Error in run 627: Run already exists in server. Run id(s): {9001137}
+[2018-04-11 20:58:27] Started run 635 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:27] Error in run 628: Run already exists in server. Run id(s): {9001129}
+[2018-04-11 20:58:27] Started run 636 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:28] Error in run 629: Run already exists in server. Run id(s): {9001145}
+[2018-04-11 20:58:28] Started run 637 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:28] Error in run 630: Run already exists in server. Run id(s): {9001146}
+[2018-04-11 20:58:28] Started run 638 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:28] Error in run 631: Run already exists in server. Run id(s): {9001173}
+[2018-04-11 20:58:28] Started run 639 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:29] Error in run 632: Run already exists in server. Run id(s): {9001170}
+[2018-04-11 20:58:29] Started run 640 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:31] Error in run 633: Run already exists in server. Run id(s): {9001182}
+[2018-04-11 20:58:31] Started run 641 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:31] Error in run 634: Run already exists in server. Run id(s): {9001153}
+[2018-04-11 20:58:31] Started run 642 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:31] Error in run 635: Run already exists in server. Run id(s): {9001168}
+[2018-04-11 20:58:31] Started run 643 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:32] Error in run 636: Run already exists in server. Run id(s): {9001166}
+[2018-04-11 20:58:32] Started run 644 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:32] Error in run 637: Run already exists in server. Run id(s): {9001163}
+[2018-04-11 20:58:32] Started run 645 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:33] Error in run 638: Run already exists in server. Run id(s): {9001180}
+[2018-04-11 20:58:33] Started run 646 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:33] Error in run 639: Run already exists in server. Run id(s): {9001179}
+[2018-04-11 20:58:33] Started run 647 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:34] Error in run 640: Run already exists in server. Run id(s): {9001188}
+[2018-04-11 20:58:34] Started run 648 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:35] Error in run 641: Run already exists in server. Run id(s): {9001177}
+[2018-04-11 20:58:35] Started run 649 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:35] Error in run 642: Run already exists in server. Run id(s): {9001187}
+[2018-04-11 20:58:35] Started run 650 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:36] Error in run 643: Run already exists in server. Run id(s): {9001225}
+[2018-04-11 20:58:36] Started run 651 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:36] Error in run 644: Run already exists in server. Run id(s): {9001207}
+[2018-04-11 20:58:36] Started run 652 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:37] Error in run 645: Run already exists in server. Run id(s): {9001205}
+[2018-04-11 20:58:37] Started run 653 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:37] Error in run 646: Run already exists in server. Run id(s): {9001196}
+[2018-04-11 20:58:37] Started run 654 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:37] Error in run 647: Run already exists in server. Run id(s): {9001189}
+[2018-04-11 20:58:37] Started run 655 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:38] Error in run 648: Run already exists in server. Run id(s): {9001201}
+[2018-04-11 20:58:38] Started run 656 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:40] Error in run 649: Run already exists in server. Run id(s): {9001216}
+[2018-04-11 20:58:40] Started run 657 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:40] Error in run 650: Run already exists in server. Run id(s): {9001206}
+[2018-04-11 20:58:40] Error in run 651: Run already exists in server. Run id(s): {9001236}
+[2018-04-11 20:58:40] Started run 658 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:40] Started run 659 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:41] Error in run 652: Run already exists in server. Run id(s): {9001212}
+[2018-04-11 20:58:41] Started run 660 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:41] Error in run 653: Run already exists in server. Run id(s): {9001232}
+[2018-04-11 20:58:41] Started run 661 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:42] Error in run 654: Run already exists in server. Run id(s): {9001227}
+[2018-04-11 20:58:42] Started run 662 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:42] Error in run 655: Run already exists in server. Run id(s): {9001221}
+[2018-04-11 20:58:42] Started run 663 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:43] Error in run 656: Run already exists in server. Run id(s): {9001237}
+[2018-04-11 20:58:43] Started run 664 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:44] Error in run 657: Run already exists in server. Run id(s): {9001222}
+[2018-04-11 20:58:44] Started run 665 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:45] Error in run 659: Run already exists in server. Run id(s): {9001271}
+[2018-04-11 20:58:45] Started run 666 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:45] Error in run 658: Run already exists in server. Run id(s): {9001233}
+[2018-04-11 20:58:45] Started run 667 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:45] Error in run 660: Run already exists in server. Run id(s): {9001248}
+[2018-04-11 20:58:45] Started run 668 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:46] Error in run 661: Run already exists in server. Run id(s): {9001247}
+[2018-04-11 20:58:46] Started run 669 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:46] Error in run 663: Run already exists in server. Run id(s): {9001242}
+[2018-04-11 20:58:46] Started run 670 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:46] Error in run 662: Run already exists in server. Run id(s): {9001240}
+[2018-04-11 20:58:46] Started run 671 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:47] Error in run 664: Run already exists in server. Run id(s): {9001250}
+[2018-04-11 20:58:47] Started run 672 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:49] Error in run 665: Run already exists in server. Run id(s): {9001261}
+[2018-04-11 20:58:49] Started run 673 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:49] Error in run 666: Run already exists in server. Run id(s): {9001286}
+[2018-04-11 20:58:49] Error in run 667: Run already exists in server. Run id(s): {9001253}
+[2018-04-11 20:58:49] Started run 674 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:49] Started run 675 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:50] Error in run 668: Run already exists in server. Run id(s): {9001284}
+[2018-04-11 20:58:50] Started run 676 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:50] Error in run 669: Run already exists in server. Run id(s): {9001272}
+[2018-04-11 20:58:50] Started run 677 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:51] Error in run 671: Run already exists in server. Run id(s): {9001269}
+[2018-04-11 20:58:51] Error in run 670: Run already exists in server. Run id(s): {9001262}
+[2018-04-11 20:58:51] Started run 678 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:51] Started run 679 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:52] Error in run 672: Run already exists in server. Run id(s): {9001274}
+[2018-04-11 20:58:52] Started run 680 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:53] Error in run 673: Run already exists in server. Run id(s): {9001275}
+[2018-04-11 20:58:53] Started run 681 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:54] Error in run 674: Run already exists in server. Run id(s): {9001287}
+[2018-04-11 20:58:54] Error in run 676: Run already exists in server. Run id(s): {9001294}
+[2018-04-11 20:58:54] Started run 682 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:54] Error in run 675: Run already exists in server. Run id(s): {9001285}
+[2018-04-11 20:58:54] Started run 684 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:54] Started run 683 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:55] Error in run 677: Run already exists in server. Run id(s): {9001326}
+[2018-04-11 20:58:55] Started run 685 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:56] Error in run 679: Run already exists in server. Run id(s): {9001298}
+[2018-04-11 20:58:56] Started run 686 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:56] Error in run 678: Run already exists in server. Run id(s): {9001319}
+[2018-04-11 20:58:56] Started run 687 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:56] Error in run 680: Run already exists in server. Run id(s): {9001309}
+[2018-04-11 20:58:56] Started run 688 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:58] Error in run 681: Run already exists in server. Run id(s): {9001310}
+[2018-04-11 20:58:58] Started run 689 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:59] Error in run 684: Run already exists in server. Run id(s): {9001351}
+[2018-04-11 20:58:59] Started run 690 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:59] Error in run 682: Run already exists in server. Run id(s): {9001300}
+[2018-04-11 20:58:59] Started run 691 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:59] Error in run 683: Run already exists in server. Run id(s): {9001311}
+[2018-04-11 20:58:59] Started run 692 on task 146822, dataset 'segment'.
+[2018-04-11 20:58:59] Error in run 685: Run already exists in server. Run id(s): {9001322}
+[2018-04-11 20:58:59] Started run 693 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:00] Error in run 686: Run already exists in server. Run id(s): {9001317}
+[2018-04-11 20:59:00] Started run 694 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:00] Error in run 687: Run already exists in server. Run id(s): {9001341}
+[2018-04-11 20:59:00] Started run 695 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:01] Error in run 688: Run already exists in server. Run id(s): {9001320}
+[2018-04-11 20:59:01] Started run 696 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:02] Error in run 689: Run already exists in server. Run id(s): {9001339}
+[2018-04-11 20:59:02] Started run 697 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:03] Error in run 690: Run already exists in server. Run id(s): {9001349}
+[2018-04-11 20:59:03] Started run 698 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:04] Error in run 692: Run already exists in server. Run id(s): {9001362}
+[2018-04-11 20:59:04] Error in run 691: Run already exists in server. Run id(s): {9001331}
+[2018-04-11 20:59:04] Started run 699 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:04] Started run 700 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:04] Error in run 693: Run already exists in server. Run id(s): {9001358}
+[2018-04-11 20:59:04] Started run 701 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:05] Error in run 694: Run already exists in server. Run id(s): {9001355}
+[2018-04-11 20:59:05] Started run 702 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:05] Error in run 695: Run already exists in server. Run id(s): {9001373}
+[2018-04-11 20:59:05] Started run 703 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:05] Error in run 696: Run already exists in server. Run id(s): {9001354}
+[2018-04-11 20:59:05] Started run 704 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:07] Error in run 697: Run already exists in server. Run id(s): {9001413}
+[2018-04-11 20:59:07] Started run 705 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:08] Error in run 698: Run already exists in server. Run id(s): {9001395}
+[2018-04-11 20:59:08] Started run 706 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:08] Error in run 699: Run already exists in server. Run id(s): {9001402}
+[2018-04-11 20:59:08] Started run 707 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:08] Error in run 700: Run already exists in server. Run id(s): {9001371}
+[2018-04-11 20:59:08] Started run 708 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:09] Error in run 701: Run already exists in server. Run id(s): {9001437}
+[2018-04-11 20:59:09] Started run 709 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:09] Error in run 702: Run already exists in server. Run id(s): {9001375}
+[2018-04-11 20:59:09] Started run 710 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:10] Error in run 703: Run already exists in server. Run id(s): {9001385}
+[2018-04-11 20:59:10] Started run 711 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:10] Error in run 704: Run already exists in server. Run id(s): {9001382}
+[2018-04-11 20:59:10] Started run 712 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:11] Error in run 705: Run already exists in server. Run id(s): {9001396}
+[2018-04-11 20:59:11] Started run 713 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:12] Error in run 706: Run already exists in server. Run id(s): {9001390}
+[2018-04-11 20:59:12] Started run 714 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:13] Error in run 707: Run already exists in server. Run id(s): {9001407}
+[2018-04-11 20:59:13] Started run 715 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:13] Error in run 709: Run already exists in server. Run id(s): {9001427}
+[2018-04-11 20:59:13] Started run 716 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:13] Error in run 708: Run already exists in server. Run id(s): {9001397}
+[2018-04-11 20:59:13] Started run 717 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:14] Error in run 710: Run already exists in server. Run id(s): {9001409}
+[2018-04-11 20:59:14] Started run 718 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:14] Error in run 711: Run already exists in server. Run id(s): {9001414}
+[2018-04-11 20:59:14] Started run 719 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:15] Error in run 712: Run already exists in server. Run id(s): {9001443}
+[2018-04-11 20:59:15] Started run 720 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:16] Error in run 713: Run already exists in server. Run id(s): {9001416}
+[2018-04-11 20:59:16] Started run 721 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:17] Error in run 714: Run already exists in server. Run id(s): {9001435}
+[2018-04-11 20:59:17] Started run 722 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:17] Error in run 715: Run already exists in server. Run id(s): {9001433}
+[2018-04-11 20:59:17] Started run 723 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:18] Error in run 716: Run already exists in server. Run id(s): {9001462}
+[2018-04-11 20:59:18] Error in run 717: Run already exists in server. Run id(s): {9001464}
+[2018-04-11 20:59:18] Started run 724 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:18] Started run 725 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:19] Error in run 718: Run already exists in server. Run id(s): {9001432}
+[2018-04-11 20:59:19] Started run 726 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:19] Error in run 719: Run already exists in server. Run id(s): {9001453}
+[2018-04-11 20:59:19] Started run 727 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:19] Error in run 720: Run already exists in server. Run id(s): {9001451}
+[2018-04-11 20:59:19] Started run 728 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:20] Error in run 721: Run already exists in server. Run id(s): {9001456}
+[2018-04-11 20:59:20] Started run 729 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:22] Error in run 722: Run already exists in server. Run id(s): {9001450}
+[2018-04-11 20:59:22] Started run 730 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:22] Error in run 723: Run already exists in server. Run id(s): {9001459}
+[2018-04-11 20:59:22] Started run 731 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:22] Error in run 724: Run already exists in server. Run id(s): {9001458}
+[2018-04-11 20:59:22] Started run 732 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:22] Error in run 725: Run already exists in server. Run id(s): {9001465}
+[2018-04-11 20:59:22] Started run 733 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:23] Error in run 726: Run already exists in server. Run id(s): {9001470}
+[2018-04-11 20:59:23] Started run 734 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:23] Error in run 727: Run already exists in server. Run id(s): {9001468}
+[2018-04-11 20:59:23] Started run 735 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:24] Error in run 728: Run already exists in server. Run id(s): {9001481}
+[2018-04-11 20:59:24] Started run 736 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:25] Error in run 729: Run already exists in server. Run id(s): {9001472}
+[2018-04-11 20:59:25] Started run 737 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:26] Error in run 730: Run already exists in server. Run id(s): {9001473}
+[2018-04-11 20:59:26] Started run 738 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:26] Error in run 731: Run already exists in server. Run id(s): {9001490}
+[2018-04-11 20:59:26] Started run 739 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:27] Error in run 732: Run already exists in server. Run id(s): {9001482}
+[2018-04-11 20:59:27] Started run 740 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:27] Error in run 733: Run already exists in server. Run id(s): {9001517}
+[2018-04-11 20:59:27] Started run 741 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:28] Error in run 734: Run already exists in server. Run id(s): {9001501}
+[2018-04-11 20:59:28] Started run 742 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:28] Error in run 735: Run already exists in server. Run id(s): {9001489}
+[2018-04-11 20:59:28] Started run 743 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:29] Error in run 736: Run already exists in server. Run id(s): {9001479}
+[2018-04-11 20:59:29] Started run 744 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:29] Error in run 737: Run already exists in server. Run id(s): {9001487}
+[2018-04-11 20:59:29] Started run 745 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:31] Error in run 738: Run already exists in server. Run id(s): {9001499}
+[2018-04-11 20:59:31] Started run 746 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:31] Error in run 739: Run already exists in server. Run id(s): {9001515}
+[2018-04-11 20:59:31] Started run 747 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:31] Error in run 740: Run already exists in server. Run id(s): {9001503}
+[2018-04-11 20:59:31] Started run 748 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:32] Error in run 741: Run already exists in server. Run id(s): {9001511}
+[2018-04-11 20:59:32] Started run 749 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:33] Error in run 743: Run already exists in server. Run id(s): {9001506}
+[2018-04-11 20:59:33] Error in run 742: Run already exists in server. Run id(s): {9001519}
+[2018-04-11 20:59:33] Started run 750 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:33] Started run 751 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:34] Error in run 744: Run already exists in server. Run id(s): {9001522}
+[2018-04-11 20:59:34] Error in run 745: Run already exists in server. Run id(s): {9001516}
+[2018-04-11 20:59:34] Started run 752 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:34] Started run 753 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:36] Error in run 747: Run already exists in server. Run id(s): {9001554}
+[2018-04-11 20:59:36] Started run 754 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:36] Error in run 746: Run already exists in server. Run id(s): {9001539}
+[2018-04-11 20:59:36] Started run 755 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:36] Error in run 749: Run already exists in server. Run id(s): {9001524}
+[2018-04-11 20:59:36] Started run 756 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:36] Error in run 748: Run already exists in server. Run id(s): {9001543}
+[2018-04-11 20:59:36] Started run 757 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:38] Error in run 750: Run already exists in server. Run id(s): {9001560}
+[2018-04-11 20:59:38] Error in run 751: Run already exists in server. Run id(s): {9001533}
+[2018-04-11 20:59:38] Started run 758 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:38] Started run 759 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:39] Error in run 752: Run already exists in server. Run id(s): {9001572}
+[2018-04-11 20:59:39] Started run 760 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:39] Error in run 753: Run already exists in server. Run id(s): {9001534}
+[2018-04-11 20:59:39] Started run 761 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:40] Error in run 754: Run already exists in server. Run id(s): {9001555}
+[2018-04-11 20:59:40] Started run 762 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:40] Error in run 755: Run already exists in server. Run id(s): {9001550}
+[2018-04-11 20:59:40] Started run 763 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:41] Error in run 756: Run already exists in server. Run id(s): {9001549}
+[2018-04-11 20:59:41] Started run 764 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:41] Error in run 757: Run already exists in server. Run id(s): {9001582}
+[2018-04-11 20:59:41] Started run 765 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:42] Error in run 758: Run already exists in server. Run id(s): {9001553}
+[2018-04-11 20:59:42] Started run 766 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:42] Error in run 759: Run already exists in server. Run id(s): {9001565}
+[2018-04-11 20:59:42] Started run 767 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:43] Error in run 760: Run already exists in server. Run id(s): {9001579}
+[2018-04-11 20:59:43] Error in run 761: Run already exists in server. Run id(s): {9001574}
+[2018-04-11 20:59:43] Started run 768 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:43] Started run 769 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:45] Error in run 762: Run already exists in server. Run id(s): {9001569}
+[2018-04-11 20:59:45] Error in run 763: Run already exists in server. Run id(s): {9001578}
+[2018-04-11 20:59:45] Started run 770 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:45] Started run 771 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:45] Error in run 764: Run already exists in server. Run id(s): {9001568}
+[2018-04-11 20:59:45] Started run 772 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:45] Error in run 765: Run already exists in server. Run id(s): {9001587}
+[2018-04-11 20:59:45] Started run 773 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:47] Error in run 766: Run already exists in server. Run id(s): {9001600}
+[2018-04-11 20:59:47] Started run 774 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:47] Error in run 767: Run already exists in server. Run id(s): {9001595}
+[2018-04-11 20:59:47] Started run 775 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:48] Error in run 769: Run already exists in server. Run id(s): {9001599}
+[2018-04-11 20:59:48] Started run 776 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:48] Error in run 768: Run already exists in server. Run id(s): {9001586}
+[2018-04-11 20:59:48] Started run 777 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:49] Error in run 770: Run already exists in server. Run id(s): {9001592}
+[2018-04-11 20:59:49] Started run 778 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:49] Error in run 771: Run already exists in server. Run id(s): {9001597}
+[2018-04-11 20:59:49] Started run 779 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:50] Error in run 772: Run already exists in server. Run id(s): {9001613}
+[2018-04-11 20:59:50] Started run 780 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:50] Error in run 773: Run already exists in server. Run id(s): {9001596}
+[2018-04-11 20:59:50] Started run 781 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:51] Error in run 775: Run already exists in server. Run id(s): {9001615}
+[2018-04-11 20:59:51] Started run 782 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:51] Error in run 774: Run already exists in server. Run id(s): {9001611}
+[2018-04-11 20:59:51] Started run 783 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:52] Error in run 777: Run already exists in server. Run id(s): {9001624}
+[2018-04-11 20:59:52] Started run 784 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:52] Error in run 776: Run already exists in server. Run id(s): {9001617}
+[2018-04-11 20:59:52] Started run 785 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:54] Error in run 778: Run already exists in server. Run id(s): {9001634}
+[2018-04-11 20:59:54] Started run 786 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:54] Error in run 779: Run already exists in server. Run id(s): {9001616}
+[2018-04-11 20:59:54] Started run 787 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:54] Error in run 780: Run already exists in server. Run id(s): {9001625}
+[2018-04-11 20:59:54] Started run 788 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:55] Error in run 781: Run already exists in server. Run id(s): {9001638}
+[2018-04-11 20:59:55] Started run 789 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:56] Error in run 782: Run already exists in server. Run id(s): {9001653}
+[2018-04-11 20:59:56] Started run 790 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:56] Error in run 783: Run already exists in server. Run id(s): {9001632}
+[2018-04-11 20:59:56] Started run 791 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:57] Error in run 784: Run already exists in server. Run id(s): {9001680}
+[2018-04-11 20:59:57] Started run 792 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:57] Error in run 785: Run already exists in server. Run id(s): {9001637}
+[2018-04-11 20:59:57] Started run 793 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:58] Error in run 787: Run already exists in server. Run id(s): {9001647}
+[2018-04-11 20:59:58] Started run 794 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:58] Error in run 786: Run already exists in server. Run id(s): {9001643}
+[2018-04-11 20:59:58] Started run 795 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:59] Error in run 788: Run already exists in server. Run id(s): {9001654}
+[2018-04-11 20:59:59] Started run 796 on task 146822, dataset 'segment'.
+[2018-04-11 20:59:59] Error in run 789: Run already exists in server. Run id(s): {9001657}
+[2018-04-11 20:59:59] Started run 797 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:00] Error in run 790: Run already exists in server. Run id(s): {9001664}
+[2018-04-11 21:00:00] Started run 798 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:00] Error in run 791: Run already exists in server. Run id(s): {9001663}
+[2018-04-11 21:00:00] Started run 799 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:01] Error in run 792: Run already exists in server. Run id(s): {9001684}
+[2018-04-11 21:00:01] Started run 800 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:02] Error in run 793: Run already exists in server. Run id(s): {9001669}
+[2018-04-11 21:00:02] Started run 801 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:03] Error in run 794: Run already exists in server. Run id(s): {9001672}
+[2018-04-11 21:00:03] Started run 802 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:03] Error in run 795: Run already exists in server. Run id(s): {9001679}
+[2018-04-11 21:00:03] Started run 803 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:03] Error in run 796: Run already exists in server. Run id(s): {9001673}
+[2018-04-11 21:00:03] Started run 804 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:04] Error in run 797: Run already exists in server. Run id(s): {9001688}
+[2018-04-11 21:00:04] Started run 805 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:05] Error in run 798: Run already exists in server. Run id(s): {9001677}
+[2018-04-11 21:00:05] Started run 806 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:05] Error in run 799: Run already exists in server. Run id(s): {9001702}
+[2018-04-11 21:00:05] Started run 807 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:06] Error in run 800: Run already exists in server. Run id(s): {9001695}
+[2018-04-11 21:00:06] Started run 808 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:06] Error in run 801: Run already exists in server. Run id(s): {9001689}
+[2018-04-11 21:00:06] Started run 809 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:07] Error in run 802: Run already exists in server. Run id(s): {9001701}
+[2018-04-11 21:00:07] Started run 810 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:07] Error in run 803: Run already exists in server. Run id(s): {9001690}
+[2018-04-11 21:00:07] Started run 811 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:08] Error in run 804: Run already exists in server. Run id(s): {9001717}
+[2018-04-11 21:00:08] Started run 812 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:08] Error in run 805: Run already exists in server. Run id(s): {9001700}
+[2018-04-11 21:00:08] Started run 813 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:09] Error in run 806: Run already exists in server. Run id(s): {9001724}
+[2018-04-11 21:00:09] Error in run 807: Run already exists in server. Run id(s): {9001708}
+[2018-04-11 21:00:09] Started run 814 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:09] Started run 815 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:10] Error in run 808: Run already exists in server. Run id(s): {9001715}
+[2018-04-11 21:00:10] Started run 816 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:11] Error in run 809: Run already exists in server. Run id(s): {9001714}
+[2018-04-11 21:00:11] Started run 817 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:12] Error in run 810: Run already exists in server. Run id(s): {9001755}
+[2018-04-11 21:00:12] Started run 818 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:12] Error in run 811: Run already exists in server. Run id(s): {9001727}
+[2018-04-11 21:00:12] Started run 819 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:12] Error in run 812: Run already exists in server. Run id(s): {9001740}
+[2018-04-11 21:00:12] Started run 820 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:13] Error in run 813: Run already exists in server. Run id(s): {9001745}
+[2018-04-11 21:00:13] Started run 821 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:14] Error in run 814: Run already exists in server. Run id(s): {9001734}
+[2018-04-11 21:00:14] Started run 822 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:14] Error in run 815: Run already exists in server. Run id(s): {9001752}
+[2018-04-11 21:00:14] Started run 823 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:15] Error in run 816: Run already exists in server. Run id(s): {9001759}
+[2018-04-11 21:00:15] Started run 824 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:16] Error in run 817: Run already exists in server. Run id(s): {9001746}
+[2018-04-11 21:00:16] Started run 825 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:16] Error in run 818: Run already exists in server. Run id(s): {9001744}
+[2018-04-11 21:00:16] Started run 826 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:16] Error in run 819: Run already exists in server. Run id(s): {9001750}
+[2018-04-11 21:00:16] Started run 827 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:17] Error in run 820: Run already exists in server. Run id(s): {9001749}
+[2018-04-11 21:00:17] Started run 828 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:17] Error in run 821: Run already exists in server. Run id(s): {9001771}
+[2018-04-11 21:00:17] Started run 829 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:19] Error in run 823: Run already exists in server. Run id(s): {9001785}
+[2018-04-11 21:00:19] Started run 830 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:19] Error in run 822: Run already exists in server. Run id(s): {9001774}
+[2018-04-11 21:00:19] Started run 831 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:20] Error in run 824: Run already exists in server. Run id(s): {9001764}
+[2018-04-11 21:00:20] Started run 832 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:20] Error in run 825: Run already exists in server. Run id(s): {9001773}
+[2018-04-11 21:00:20] Started run 833 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:21] Error in run 827: Run already exists in server. Run id(s): {9001768}
+[2018-04-11 21:00:21] Started run 834 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:21] Error in run 826: Run already exists in server. Run id(s): {9001767}
+[2018-04-11 21:00:21] Started run 835 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:21] Error in run 828: Run already exists in server. Run id(s): {9001791}
+[2018-04-11 21:00:21] Started run 836 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:22] Error in run 829: Run already exists in server. Run id(s): {9001784}
+[2018-04-11 21:00:22] Started run 837 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:23] Error in run 830: Run already exists in server. Run id(s): {9001775}
+[2018-04-11 21:00:23] Started run 838 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:23] Error in run 831: Run already exists in server. Run id(s): {9001783}
+[2018-04-11 21:00:23] Started run 839 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:24] Error in run 832: Run already exists in server. Run id(s): {9001795}
+[2018-04-11 21:00:24] Started run 840 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:25] Error in run 833: Run already exists in server. Run id(s): {9001780}
+[2018-04-11 21:00:25] Started run 841 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:25] Error in run 835: Run already exists in server. Run id(s): {9001810}
+[2018-04-11 21:00:25] Started run 842 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:25] Error in run 834: Run already exists in server. Run id(s): {9001781}
+[2018-04-11 21:00:25] Started run 843 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:26] Error in run 836: Run already exists in server. Run id(s): {9001813}
+[2018-04-11 21:00:26] Started run 844 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:26] Error in run 837: Run already exists in server. Run id(s): {9001797}
+[2018-04-11 21:00:26] Started run 845 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:28] Error in run 838: Run already exists in server. Run id(s): {9001812}
+[2018-04-11 21:00:28] Started run 846 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:28] Error in run 839: Run already exists in server. Run id(s): {9001799}
+[2018-04-11 21:00:28] Started run 847 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:29] Error in run 840: Run already exists in server. Run id(s): {9001830}
+[2018-04-11 21:00:29] Started run 848 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:29] Error in run 841: Run already exists in server. Run id(s): {9001806}
+[2018-04-11 21:00:29] Started run 849 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:30] Error in run 843: Run already exists in server. Run id(s): {9001827}
+[2018-04-11 21:00:30] Error in run 842: Run already exists in server. Run id(s): {9001805}
+[2018-04-11 21:00:30] Started run 850 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:30] Started run 851 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:30] Error in run 844: Run already exists in server. Run id(s): {9001822}
+[2018-04-11 21:00:30] Started run 852 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:31] Error in run 845: Run already exists in server. Run id(s): {9001853}
+[2018-04-11 21:00:31] Started run 853 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:32] Error in run 846: Run already exists in server. Run id(s): {9001828}
+[2018-04-11 21:00:32] Started run 854 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:33] Error in run 847: Run already exists in server. Run id(s): {9001831}
+[2018-04-11 21:00:33] Started run 855 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:34] Error in run 848: Run already exists in server. Run id(s): {9001835}
+[2018-04-11 21:00:34] Started run 856 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:34] Error in run 849: Run already exists in server. Run id(s): {9001879}
+[2018-04-11 21:00:34] Started run 857 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:34] Error in run 850: Run already exists in server. Run id(s): {9001841}
+[2018-04-11 21:00:34] Started run 858 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:34] Error in run 851: Run already exists in server. Run id(s): {9001838}
+[2018-04-11 21:00:34] Started run 859 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:35] Error in run 852: Run already exists in server. Run id(s): {9001847}
+[2018-04-11 21:00:35] Started run 860 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:35] Error in run 853: Run already exists in server. Run id(s): {9001868}
+[2018-04-11 21:00:35] Started run 861 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:37] Error in run 854: Run already exists in server. Run id(s): {9001899}
+[2018-04-11 21:00:37] Started run 862 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:38] Error in run 855: Run already exists in server. Run id(s): {9001859}
+[2018-04-11 21:00:38] Started run 863 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:38] Error in run 856: Run already exists in server. Run id(s): {9001873}
+[2018-04-11 21:00:38] Started run 864 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:38] Error in run 857: Run already exists in server. Run id(s): {9001863}
+[2018-04-11 21:00:38] Started run 865 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:39] Error in run 858: Run already exists in server. Run id(s): {9001867}
+[2018-04-11 21:00:39] Started run 866 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:39] Error in run 859: Run already exists in server. Run id(s): {9001871}
+[2018-04-11 21:00:39] Started run 867 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:39] Error in run 860: Run already exists in server. Run id(s): {9001896}
+[2018-04-11 21:00:39] Started run 868 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:40] Error in run 861: Run already exists in server. Run id(s): {9001893}
+[2018-04-11 21:00:40] Started run 869 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:42] Error in run 862: Run already exists in server. Run id(s): {9001943}
+[2018-04-11 21:00:42] Started run 870 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:42] Error in run 863: Run already exists in server. Run id(s): {9001900}
+[2018-04-11 21:00:42] Started run 871 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:43] Error in run 864: Run already exists in server. Run id(s): {9001911}
+[2018-04-11 21:00:43] Started run 872 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:43] Error in run 865: Run already exists in server. Run id(s): {9001892}
+[2018-04-11 21:00:43] Started run 873 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:43] Error in run 866: Run already exists in server. Run id(s): {9001903}
+[2018-04-11 21:00:43] Started run 874 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:44] Error in run 867: Run already exists in server. Run id(s): {9001907}
+[2018-04-11 21:00:44] Started run 875 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:44] Error in run 868: Run already exists in server. Run id(s): {9001905}
+[2018-04-11 21:00:44] Started run 876 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:44] Error in run 869: Run already exists in server. Run id(s): {9001909}
+[2018-04-11 21:00:44] Started run 877 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:46] Error in run 870: Run already exists in server. Run id(s): {9001919}
+[2018-04-11 21:00:46] Started run 878 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:47] Error in run 871: Run already exists in server. Run id(s): {9001926}
+[2018-04-11 21:00:47] Started run 879 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:47] Error in run 872: Run already exists in server. Run id(s): {9001918}
+[2018-04-11 21:00:47] Started run 880 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:48] Error in run 873: Run already exists in server. Run id(s): {9001929}
+[2018-04-11 21:00:48] Started run 881 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:48] Error in run 874: Run already exists in server. Run id(s): {9001952}
+[2018-04-11 21:00:48] Started run 882 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:48] Error in run 876: Run already exists in server. Run id(s): {9001974}
+[2018-04-11 21:00:48] Started run 883 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:48] Error in run 875: Run already exists in server. Run id(s): {9001925}
+[2018-04-11 21:00:48] Started run 884 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:49] Error in run 877: Run already exists in server. Run id(s): {9001932}
+[2018-04-11 21:00:49] Started run 885 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:50] Error in run 878: Run already exists in server. Run id(s): {9001936}
+[2018-04-11 21:00:50] Started run 886 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:51] Error in run 879: Run already exists in server. Run id(s): {9001990}
+[2018-04-11 21:00:51] Started run 887 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:52] Error in run 880: Run already exists in server. Run id(s): {9001958}
+[2018-04-11 21:00:52] Started run 888 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:52] Error in run 882: Run already exists in server. Run id(s): {9001940}
+[2018-04-11 21:00:52] Started run 889 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:53] Error in run 881: Run already exists in server. Run id(s): {9001954}
+[2018-04-11 21:00:53] Started run 890 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:53] Error in run 883: Run already exists in server. Run id(s): {9001942}
+[2018-04-11 21:00:53] Started run 891 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:53] Error in run 884: Run already exists in server. Run id(s): {9001965}
+[2018-04-11 21:00:53] Started run 892 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:53] Error in run 885: Run already exists in server. Run id(s): {9001963}
+[2018-04-11 21:00:53] Started run 893 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:55] Error in run 886: Run already exists in server. Run id(s): {9001969}
+[2018-04-11 21:00:55] Started run 894 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:56] Error in run 887: Run already exists in server. Run id(s): {9001982}
+[2018-04-11 21:00:56] Started run 895 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:56] Error in run 888: Run already exists in server. Run id(s): {9001972}
+[2018-04-11 21:00:56] Started run 896 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:57] Error in run 889: Run already exists in server. Run id(s): {9001999}
+[2018-04-11 21:00:57] Started run 897 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:57] Error in run 890: Run already exists in server. Run id(s): {9001975}
+[2018-04-11 21:00:57] Started run 898 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:57] Error in run 892: Run already exists in server. Run id(s): {9001986}
+[2018-04-11 21:00:57] Started run 899 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:57] Error in run 891: Run already exists in server. Run id(s): {9001979}
+[2018-04-11 21:00:57] Started run 900 on task 146822, dataset 'segment'.
+[2018-04-11 21:00:58] Error in run 893: Run already exists in server. Run id(s): {9001992}
+[2018-04-11 21:00:58] Started run 901 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:00] Error in run 894: Run already exists in server. Run id(s): {9002032}
+[2018-04-11 21:01:00] Started run 902 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:00] Error in run 895: Run already exists in server. Run id(s): {9002013}
+[2018-04-11 21:01:00] Started run 903 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:01] Error in run 896: Run already exists in server. Run id(s): {9002004}
+[2018-04-11 21:01:01] Started run 904 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:01] Error in run 897: Run already exists in server. Run id(s): {9002008}
+[2018-04-11 21:01:01] Started run 905 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:02] Error in run 898: Run already exists in server. Run id(s): {9002002}
+[2018-04-11 21:01:02] Started run 906 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:02] Error in run 900: Run already exists in server. Run id(s): {9002047}
+[2018-04-11 21:01:02] Error in run 899: Run already exists in server. Run id(s): {9002024}
+[2018-04-11 21:01:02] Started run 907 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:02] Started run 908 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:03] Error in run 901: Run already exists in server. Run id(s): {9002012}
+[2018-04-11 21:01:03] Started run 909 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:04] Error in run 902: Run already exists in server. Run id(s): {9002026}
+[2018-04-11 21:01:04] Started run 910 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:05] Error in run 903: Run already exists in server. Run id(s): {9002018}
+[2018-04-11 21:01:05] Started run 911 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:05] Error in run 904: Run already exists in server. Run id(s): {9002055}
+[2018-04-11 21:01:05] Started run 912 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:06] Error in run 905: Run already exists in server. Run id(s): {9002060}
+[2018-04-11 21:01:06] Started run 913 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:06] Error in run 906: Run already exists in server. Run id(s): {9002034}
+[2018-04-11 21:01:06] Started run 914 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:07] Error in run 907: Run already exists in server. Run id(s): {9002027}
+[2018-04-11 21:01:07] Started run 915 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:07] Error in run 908: Run already exists in server. Run id(s): {9002037}
+[2018-04-11 21:01:07] Started run 916 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:07] Error in run 909: Run already exists in server. Run id(s): {9002058}
+[2018-04-11 21:01:07] Started run 917 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:09] Error in run 910: Run already exists in server. Run id(s): {9002053}
+[2018-04-11 21:01:09] Started run 918 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:10] Error in run 911: Run already exists in server. Run id(s): {9002052}
+[2018-04-11 21:01:10] Started run 919 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:10] Error in run 912: Run already exists in server. Run id(s): {9002094}
+[2018-04-11 21:01:10] Started run 920 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:10] Error in run 913: Run already exists in server. Run id(s): {9002051}
+[2018-04-11 21:01:10] Started run 921 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:11] Error in run 914: Run already exists in server. Run id(s): {9002063}
+[2018-04-11 21:01:11] Started run 922 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:11] Error in run 916: Run already exists in server. Run id(s): {9002070}
+[2018-04-11 21:01:11] Error in run 915: Run already exists in server. Run id(s): {9002071}
+[2018-04-11 21:01:11] Started run 923 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:11] Started run 924 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:12] Error in run 917: Run already exists in server. Run id(s): {9002081}
+[2018-04-11 21:01:12] Started run 925 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:14] Error in run 918: Run already exists in server. Run id(s): {9002082}
+[2018-04-11 21:01:14] Started run 926 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:14] Error in run 919: Run already exists in server. Run id(s): {9002117}
+[2018-04-11 21:01:14] Started run 927 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:14] Error in run 920: Run already exists in server. Run id(s): {9002074}
+[2018-04-11 21:01:14] Started run 928 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:15] Error in run 921: Run already exists in server. Run id(s): {9002072}
+[2018-04-11 21:01:15] Started run 929 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:15] Error in run 922: Run already exists in server. Run id(s): {9002078}
+[2018-04-11 21:01:15] Started run 930 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:16] Error in run 923: Run already exists in server. Run id(s): {9002083}
+[2018-04-11 21:01:16] Started run 931 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:16] Error in run 924: Run already exists in server. Run id(s): {9002100}
+[2018-04-11 21:01:16] Started run 932 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:16] Error in run 925: Run already exists in server. Run id(s): {9002109}
+[2018-04-11 21:01:16] Started run 933 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:18] Error in run 926: Run already exists in server. Run id(s): {9025220, 9002102}
+[2018-04-11 21:01:18] Started run 934 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:19] Error in run 927: Run already exists in server. Run id(s): {9002096}
+[2018-04-11 21:01:19] Started run 935 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:19] Error in run 928: Run already exists in server. Run id(s): {9002098}
+[2018-04-11 21:01:19] Started run 936 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:20] Error in run 929: Run already exists in server. Run id(s): {9002101}
+[2018-04-11 21:01:20] Started run 937 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:20] Error in run 930: Run already exists in server. Run id(s): {9002140}
+[2018-04-11 21:01:20] Started run 938 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:20] Error in run 931: Run already exists in server. Run id(s): {9002126}
+[2018-04-11 21:01:20] Started run 939 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:20] Error in run 932: Run already exists in server. Run id(s): {9002129}
+[2018-04-11 21:01:20] Started run 940 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:21] Error in run 933: Run already exists in server. Run id(s): {9002121}
+[2018-04-11 21:01:21] Started run 941 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:23] Error in run 934: Run already exists in server. Run id(s): {9002115}
+[2018-04-11 21:01:23] Started run 942 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:23] Error in run 935: Run already exists in server. Run id(s): {9002120}
+[2018-04-11 21:01:23] Started run 943 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:24] Error in run 936: Run already exists in server. Run id(s): {9002130}
+[2018-04-11 21:01:24] Started run 944 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:24] Error in run 937: Run already exists in server. Run id(s): {9002173}
+[2018-04-11 21:01:24] Started run 945 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:24] Error in run 938: Run already exists in server. Run id(s): {9002139}
+[2018-04-11 21:01:24] Started run 946 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:25] Error in run 939: Run already exists in server. Run id(s): {9002134}
+[2018-04-11 21:01:25] Started run 947 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:25] Error in run 940: Run already exists in server. Run id(s): {9002161}
+[2018-04-11 21:01:25] Started run 948 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:25] Error in run 941: Run already exists in server. Run id(s): {9002160}
+[2018-04-11 21:01:25] Started run 949 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:27] Error in run 942: Run already exists in server. Run id(s): {9002162}
+[2018-04-11 21:01:27] Started run 950 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:28] Error in run 943: Run already exists in server. Run id(s): {9002157}
+[2018-04-11 21:01:28] Started run 951 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:28] Error in run 944: Run already exists in server. Run id(s): {9002153}
+[2018-04-11 21:01:28] Started run 952 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:29] Error in run 945: Run already exists in server. Run id(s): {9002170}
+[2018-04-11 21:01:29] Started run 953 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:29] Error in run 946: Run already exists in server. Run id(s): {9002167}
+[2018-04-11 21:01:29] Started run 954 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:29] Error in run 947: Run already exists in server. Run id(s): {9002188}
+[2018-04-11 21:01:29] Started run 955 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:29] Error in run 948: Run already exists in server. Run id(s): {9002178}
+[2018-04-11 21:01:29] Started run 956 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:30] Error in run 949: Run already exists in server. Run id(s): {9002187}
+[2018-04-11 21:01:30] Started run 957 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:32] Error in run 950: Run already exists in server. Run id(s): {9002172}
+[2018-04-11 21:01:32] Started run 958 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:32] Error in run 951: Run already exists in server. Run id(s): {9002201}
+[2018-04-11 21:01:32] Started run 959 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:33] Error in run 952: Run already exists in server. Run id(s): {9002177}
+[2018-04-11 21:01:33] Started run 960 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:33] Error in run 954: Run already exists in server. Run id(s): {9002191}
+[2018-04-11 21:01:33] Started run 961 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:33] Error in run 953: Run already exists in server. Run id(s): {9002181}
+[2018-04-11 21:01:33] Started run 962 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:34] Error in run 955: Run already exists in server. Run id(s): {9002205}
+[2018-04-11 21:01:34] Started run 963 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:34] Error in run 956: Run already exists in server. Run id(s): {9002199}
+[2018-04-11 21:01:34] Started run 964 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:35] Error in run 957: Run already exists in server. Run id(s): {9002245}
+[2018-04-11 21:01:35] Started run 965 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:36] Error in run 958: Run already exists in server. Run id(s): {9002192}
+[2018-04-11 21:01:36] Started run 966 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:37] Error in run 959: Run already exists in server. Run id(s): {9002216}
+[2018-04-11 21:01:37] Started run 967 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:37] Error in run 960: Run already exists in server. Run id(s): {9002209}
+[2018-04-11 21:01:37] Started run 968 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:38] Error in run 961: Run already exists in server. Run id(s): {9002208}
+[2018-04-11 21:01:38] Started run 969 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:38] Error in run 962: Run already exists in server. Run id(s): {9002218}
+[2018-04-11 21:01:38] Started run 970 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:38] Error in run 963: Run already exists in server. Run id(s): {9002274}
+[2018-04-11 21:01:38] Started run 971 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:39] Error in run 964: Run already exists in server. Run id(s): {9002225}
+[2018-04-11 21:01:39] Started run 972 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:39] Error in run 965: Run already exists in server. Run id(s): {9002239}
+[2018-04-11 21:01:39] Started run 973 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:41] Error in run 966: Run already exists in server. Run id(s): {9002243}
+[2018-04-11 21:01:41] Started run 974 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:42] Error in run 967: Run already exists in server. Run id(s): {9002228}
+[2018-04-11 21:01:42] Started run 975 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:42] Error in run 968: Run already exists in server. Run id(s): {9002227}
+[2018-04-11 21:01:42] Started run 976 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:42] Error in run 969: Run already exists in server. Run id(s): {9002232}
+[2018-04-11 21:01:42] Started run 977 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:43] Error in run 970: Run already exists in server. Run id(s): {9002266}
+[2018-04-11 21:01:43] Started run 978 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:43] Error in run 971: Run already exists in server. Run id(s): {9002241}
+[2018-04-11 21:01:43] Started run 979 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:43] Error in run 972: Run already exists in server. Run id(s): {9002242}
+[2018-04-11 21:01:43] Started run 980 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:44] Error in run 973: Run already exists in server. Run id(s): {9002248}
+[2018-04-11 21:01:44] Started run 981 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:46] Error in run 974: Run already exists in server. Run id(s): {9002257}
+[2018-04-11 21:01:46] Started run 982 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:46] Error in run 976: Run already exists in server. Run id(s): {9002265}
+[2018-04-11 21:01:46] Started run 983 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:47] Error in run 975: Run already exists in server. Run id(s): {9002287}
+[2018-04-11 21:01:47] Started run 984 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:47] Error in run 977: Run already exists in server. Run id(s): {9002261}
+[2018-04-11 21:01:47] Started run 985 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:47] Error in run 978: Run already exists in server. Run id(s): {9002284}
+[2018-04-11 21:01:47] Started run 986 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:47] Error in run 979: Run already exists in server. Run id(s): {9002267}
+[2018-04-11 21:01:47] Started run 987 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:48] Error in run 980: Run already exists in server. Run id(s): {9002268}
+[2018-04-11 21:01:48] Started run 988 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:48] Error in run 981: Run already exists in server. Run id(s): {9002311}
+[2018-04-11 21:01:48] Started run 989 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:50] Error in run 982: Run already exists in server. Run id(s): {9002289}
+[2018-04-11 21:01:50] Started run 990 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:51] Error in run 983: Run already exists in server. Run id(s): {9002278}
+[2018-04-11 21:01:51] Started run 991 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:51] Error in run 984: Run already exists in server. Run id(s): {9002281}
+[2018-04-11 21:01:51] Started run 992 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:51] Error in run 985: Run already exists in server. Run id(s): {9002326}
+[2018-04-11 21:01:51] Started run 993 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:52] Error in run 986: Run already exists in server. Run id(s): {9002285}
+[2018-04-11 21:01:52] Started run 994 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:52] Error in run 988: Run already exists in server. Run id(s): {9002299}
+[2018-04-11 21:01:52] Started run 995 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:52] Error in run 987: Run already exists in server. Run id(s): {9002296}
+[2018-04-11 21:01:52] Started run 996 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:53] Error in run 989: Run already exists in server. Run id(s): {9002297}
+[2018-04-11 21:01:53] Started run 997 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:55] Error in run 990: Run already exists in server. Run id(s): {9002302}
+[2018-04-11 21:01:55] Started run 998 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:55] Error in run 991: Run already exists in server. Run id(s): {9002308}
+[2018-04-11 21:01:55] Started run 999 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:56] Error in run 992: Run already exists in server. Run id(s): {9002301}
+[2018-04-11 21:01:56] Started run 1000 on task 146822, dataset 'segment'.
+[2018-04-11 21:01:56] Error in run 993: Run already exists in server. Run id(s): {9002312}
+[2018-04-11 21:01:56] Error in run 994: Run already exists in server. Run id(s): {9002316}
+[2018-04-11 21:01:57] Error in run 996: Run already exists in server. Run id(s): {9002321}
+[2018-04-11 21:01:57] Error in run 995: Run already exists in server. Run id(s): {9002317}
+[2018-04-11 21:01:58] Error in run 997: Run already exists in server. Run id(s): {9002329}
+[2018-04-11 21:01:59] Error in run 998: Run already exists in server. Run id(s): {9002320}
+[2018-04-11 21:02:00] Error in run 999: Run already exists in server. Run id(s): {9002341}
+[2018-04-11 21:02:00] Error in run 1000: Run already exists in server. Run id(s): {9002335}

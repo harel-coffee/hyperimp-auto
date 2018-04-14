@@ -1,0 +1,2029 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/svm/job-1/task-00046/certs"
+declare -x AZ_BATCH_JOB_ID="svm"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/svm/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/svm/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-2112069986_2-20180411t200903z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/svm/job-1/task-00046"
+declare -x AZ_BATCH_TASK_ID="task-00046"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/svm/job-1/task-00046/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/svm/job-1/task-00046/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/svm/job-1/task-00046/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/svm/job-1/task-00046/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+[2018-04-11 20:42:05] Results will not be logged locally.
+[2018-04-11 20:42:05] Retrieving tasks...
+[2018-04-11 20:42:05] Tasks will be retrieved based on provided task ids.
+[2018-04-11 20:42:05] The following tasks were retrieved: [146824].
+[2018-04-11 20:42:13] Downloaded task 146824.
+[2018-04-11 20:42:14] Prepared pipelines.
+[2018-04-11 20:42:14] Started run 1 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:14] Started run 3 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:14] Started run 6 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:14] Started run 2 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:14] Started run 4 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:14] Started run 5 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:14] Started run 7 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:14] Started run 8 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:18] Error in run 1: Run already exists in server. Run id(s): {9020188}
+[2018-04-11 20:42:18] Error in run 2: Run already exists in server. Run id(s): {8955915}
+[2018-04-11 20:42:18] Error in run 6: Run already exists in server. Run id(s): {9020175}
+[2018-04-11 20:42:18] Error in run 3: Run already exists in server. Run id(s): {9020362}
+[2018-04-11 20:42:18] Started run 9 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:18] Started run 12 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:18] Started run 10 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:18] Started run 11 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:19] Error in run 4: Run already exists in server. Run id(s): {8955888}
+[2018-04-11 20:42:19] Started run 13 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:19] Error in run 5: Run already exists in server. Run id(s): {9020178}
+[2018-04-11 20:42:19] Error in run 7: Run already exists in server. Run id(s): {9020184}
+[2018-04-11 20:42:19] Started run 14 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:19] Started run 15 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:19] Error in run 8: Run already exists in server. Run id(s): {9020190}
+[2018-04-11 20:42:19] Started run 16 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:23] Error in run 12: Run already exists in server. Run id(s): {9020251}
+[2018-04-11 20:42:23] Error in run 11: Run already exists in server. Run id(s): {9020236}
+[2018-04-11 20:42:23] Error in run 10: Run already exists in server. Run id(s): {9020436}
+[2018-04-11 20:42:23] Error in run 9: Run already exists in server. Run id(s): {9020265}
+[2018-04-11 20:42:23] Started run 17 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:23] Started run 18 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:23] Started run 19 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:23] Started run 20 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:23] Error in run 13: Run already exists in server. Run id(s): {9020220}
+[2018-04-11 20:42:23] Started run 21 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:23] Error in run 14: Run already exists in server. Run id(s): {9020232}
+[2018-04-11 20:42:23] Error in run 15: Run already exists in server. Run id(s): {9020259}
+[2018-04-11 20:42:23] Started run 22 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:23] Error in run 16: Run already exists in server. Run id(s): {8955962}
+[2018-04-11 20:42:23] Started run 24 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:23] Started run 23 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:28] Error in run 18: Run already exists in server. Run id(s): {9020286}
+[2018-04-11 20:42:28] Error in run 20: Run already exists in server. Run id(s): {9020323}
+[2018-04-11 20:42:28] Error in run 21: Run already exists in server. Run id(s): {9020368}
+[2018-04-11 20:42:28] Error in run 19: Run already exists in server. Run id(s): {9020315}
+[2018-04-11 20:42:28] Error in run 17: Run already exists in server. Run id(s): {9020370}
+[2018-04-11 20:42:28] Error in run 22: Run already exists in server. Run id(s): {9020342}
+[2018-04-11 20:42:28] Error in run 24: Run already exists in server. Run id(s): {9020372}
+[2018-04-11 20:42:28] Started run 25 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:28] Error in run 23: Run already exists in server. Run id(s): {9020366}
+[2018-04-11 20:42:28] Started run 31 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:28] Started run 29 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:28] Started run 30 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:28] Started run 28 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:28] Started run 26 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:28] Started run 32 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:28] Started run 27 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:33] Error in run 32: Run already exists in server. Run id(s): {8955968, 9020563}
+[2018-04-11 20:42:33] Error in run 29: Run already exists in server. Run id(s): {8955951}
+[2018-04-11 20:42:33] Error in run 25: Run already exists in server. Run id(s): {9020397}
+[2018-04-11 20:42:33] Error in run 28: Run already exists in server. Run id(s): {9020434}
+[2018-04-11 20:42:33] Error in run 26: Run already exists in server. Run id(s): {9020413}
+[2018-04-11 20:42:33] Error in run 31: Run already exists in server. Run id(s): {8955948}
+[2018-04-11 20:42:33] Error in run 30: Run already exists in server. Run id(s): {8955955}
+[2018-04-11 20:42:33] Started run 33 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:33] Started run 34 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:33] Error in run 27: Run already exists in server. Run id(s): {9020448}
+[2018-04-11 20:42:33] Started run 35 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:33] Started run 40 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:33] Started run 36 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:33] Started run 37 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:33] Started run 38 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:33] Started run 39 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:37] Error in run 37: Run already exists in server. Run id(s): {8955981}
+[2018-04-11 20:42:37] Error in run 33: Run already exists in server. Run id(s): {8955973}
+[2018-04-11 20:42:37] Error in run 36: Run already exists in server. Run id(s): {8955979}
+[2018-04-11 20:42:37] Error in run 35: Run already exists in server. Run id(s): {8955975}
+[2018-04-11 20:42:37] Error in run 34: Run already exists in server. Run id(s): {8955971}
+[2018-04-11 20:42:37] Error in run 40: Run already exists in server. Run id(s): {8956014}
+[2018-04-11 20:42:37] Started run 41 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:37] Started run 46 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:37] Started run 42 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:37] Started run 43 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:37] Started run 44 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:38] Error in run 39: Run already exists in server. Run id(s): {8955986}
+[2018-04-11 20:42:38] Error in run 38: Run already exists in server. Run id(s): {8955994}
+[2018-04-11 20:42:38] Started run 47 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:38] Started run 48 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:37] Started run 45 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:42] Error in run 43: Run already exists in server. Run id(s): {8956035}
+[2018-04-11 20:42:42] Error in run 42: Run already exists in server. Run id(s): {9020503}
+[2018-04-11 20:42:42] Error in run 46: Run already exists in server. Run id(s): {9020486}
+[2018-04-11 20:42:42] Error in run 44: Run already exists in server. Run id(s): {9020481}
+[2018-04-11 20:42:42] Started run 49 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:42] Error in run 41: Run already exists in server. Run id(s): {8956023}
+[2018-04-11 20:42:42] Started run 50 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:42] Error in run 47: Run already exists in server. Run id(s): {9020509}
+[2018-04-11 20:42:42] Started run 52 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:42] Error in run 48: Run already exists in server. Run id(s): {9020516}
+[2018-04-11 20:42:42] Started run 54 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:42] Started run 55 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:42] Error in run 45: Run already exists in server. Run id(s): {9020511}
+[2018-04-11 20:42:42] Started run 51 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:42] Started run 56 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:42] Started run 53 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:47] Error in run 49: Run already exists in server. Run id(s): {9020501}
+[2018-04-11 20:42:47] Error in run 50: Run already exists in server. Run id(s): {8956062}
+[2018-04-11 20:42:47] Error in run 52: Run already exists in server. Run id(s): {8956076}
+[2018-04-11 20:42:47] Error in run 55: Run already exists in server. Run id(s): {8956114}
+[2018-04-11 20:42:47] Error in run 54: Run already exists in server. Run id(s): {8956101}
+[2018-04-11 20:42:47] Error in run 51: Run already exists in server. Run id(s): {8956065}
+[2018-04-11 20:42:47] Started run 57 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:47] Started run 58 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:47] Started run 59 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:47] Error in run 56: Run already exists in server. Run id(s): {8956140}
+[2018-04-11 20:42:47] Started run 60 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:47] Started run 63 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:47] Started run 61 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:47] Error in run 53: Run already exists in server. Run id(s): {8956081}
+[2018-04-11 20:42:47] Started run 64 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:47] Started run 62 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:52] Error in run 57: Run already exists in server. Run id(s): {8956121}
+[2018-04-11 20:42:52] Error in run 58: Run already exists in server. Run id(s): {9020577}
+[2018-04-11 20:42:52] Error in run 63: Run already exists in server. Run id(s): {8956171}
+[2018-04-11 20:42:52] Error in run 59: Run already exists in server. Run id(s): {9020585}
+[2018-04-11 20:42:52] Error in run 60: Run already exists in server. Run id(s): {9020560}
+[2018-04-11 20:42:52] Started run 65 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:52] Started run 69 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:52] Error in run 61: Run already exists in server. Run id(s): {9020594}
+[2018-04-11 20:42:52] Started run 67 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:52] Error in run 64: Run already exists in server. Run id(s): {8956173}
+[2018-04-11 20:42:52] Error in run 62: Run already exists in server. Run id(s): {9020590}
+[2018-04-11 20:42:52] Started run 70 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:52] Started run 72 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:52] Started run 68 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:52] Started run 71 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:52] Started run 66 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:56] Error in run 72: Run already exists in server. Run id(s): {8956304}
+[2018-04-11 20:42:56] Error in run 68: Run already exists in server. Run id(s): {8956238}
+[2018-04-11 20:42:56] Error in run 67: Run already exists in server. Run id(s): {8956189}
+[2018-04-11 20:42:56] Error in run 69: Run already exists in server. Run id(s): {8956241}
+[2018-04-11 20:42:56] Error in run 70: Run already exists in server. Run id(s): {8956247}
+[2018-04-11 20:42:56] Error in run 65: Run already exists in server. Run id(s): {8956163}
+[2018-04-11 20:42:56] Started run 73 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:56] Error in run 71: Run already exists in server. Run id(s): {8956257}
+[2018-04-11 20:42:56] Started run 76 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:56] Started run 79 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:56] Started run 74 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:56] Error in run 66: Run already exists in server. Run id(s): {8956184, 9020633}
+[2018-04-11 20:42:56] Started run 75 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:56] Started run 80 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:56] Started run 77 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:42:56] Started run 78 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:01] Error in run 74: Run already exists in server. Run id(s): {8956296}
+[2018-04-11 20:43:01] Error in run 75: Run already exists in server. Run id(s): {8956287}
+[2018-04-11 20:43:01] Error in run 73: Run already exists in server. Run id(s): {8956298}
+[2018-04-11 20:43:01] Error in run 79: Run already exists in server. Run id(s): {8956354}
+[2018-04-11 20:43:01] Error in run 76: Run already exists in server. Run id(s): {8956334}
+[2018-04-11 20:43:01] Error in run 80: Run already exists in server. Run id(s): {8956398}
+[2018-04-11 20:43:01] Started run 81 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:01] Started run 82 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:01] Error in run 77: Run already exists in server. Run id(s): {8956362}
+[2018-04-11 20:43:01] Started run 83 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:01] Started run 84 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:01] Started run 87 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:01] Error in run 78: Run already exists in server. Run id(s): {8956368}
+[2018-04-11 20:43:01] Started run 86 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:01] Started run 88 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:01] Started run 85 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:06] Error in run 83: Run already exists in server. Run id(s): {8956417}
+[2018-04-11 20:43:06] Started run 89 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:06] Error in run 82: Run already exists in server. Run id(s): {8956412}
+[2018-04-11 20:43:06] Error in run 86: Run already exists in server. Run id(s): {8956475}
+[2018-04-11 20:43:06] Error in run 84: Run already exists in server. Run id(s): {8956437}
+[2018-04-11 20:43:06] Error in run 85: Run already exists in server. Run id(s): {8956451}
+[2018-04-11 20:43:06] Error in run 87: Run already exists in server. Run id(s): {8956491}
+[2018-04-11 20:43:06] Error in run 88: Run already exists in server. Run id(s): {9020660}
+[2018-04-11 20:43:06] Error in run 81: Run already exists in server. Run id(s): {8956388}
+[2018-04-11 20:43:06] Started run 90 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:06] Started run 96 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:06] Started run 91 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:06] Started run 92 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:06] Started run 93 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:06] Started run 94 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:06] Started run 95 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:10] Error in run 89: Run already exists in server. Run id(s): {8956495}
+[2018-04-11 20:43:10] Started run 97 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:10] Error in run 91: Run already exists in server. Run id(s): {8956520}
+[2018-04-11 20:43:10] Error in run 93: Run already exists in server. Run id(s): {8956544}
+[2018-04-11 20:43:10] Started run 98 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:10] Error in run 92: Run already exists in server. Run id(s): {8956534}
+[2018-04-11 20:43:10] Error in run 90: Run already exists in server. Run id(s): {9020681}
+[2018-04-11 20:43:10] Error in run 96: Run already exists in server. Run id(s): {8956585}
+[2018-04-11 20:43:10] Started run 100 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:11] Error in run 94: Run already exists in server. Run id(s): {8956550}
+[2018-04-11 20:43:10] Started run 101 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:11] Error in run 95: Run already exists in server. Run id(s): {8956578}
+[2018-04-11 20:43:11] Started run 103 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:11] Started run 104 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:10] Started run 99 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:10] Started run 102 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:15] Error in run 97: Run already exists in server. Run id(s): {9020723}
+[2018-04-11 20:43:15] Started run 105 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:15] Error in run 101: Run already exists in server. Run id(s): {9020694}
+[2018-04-11 20:43:15] Error in run 103: Run already exists in server. Run id(s): {8956608}
+[2018-04-11 20:43:15] Started run 106 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:15] Error in run 100: Run already exists in server. Run id(s): {9020759}
+[2018-04-11 20:43:15] Error in run 104: Run already exists in server. Run id(s): {8956640}
+[2018-04-11 20:43:15] Error in run 99: Run already exists in server. Run id(s): {9020750}
+[2018-04-11 20:43:15] Error in run 98: Run already exists in server. Run id(s): {9020697}
+[2018-04-11 20:43:15] Error in run 102: Run already exists in server. Run id(s): {8956600}
+[2018-04-11 20:43:15] Started run 108 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:15] Started run 109 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:15] Started run 110 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:15] Started run 111 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:15] Started run 112 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:15] Started run 107 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:19] Error in run 105: Run already exists in server. Run id(s): {8956620}
+[2018-04-11 20:43:19] Started run 113 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:20] Error in run 108: Run already exists in server. Run id(s): {8956658}
+[2018-04-11 20:43:20] Error in run 106: Run already exists in server. Run id(s): {8956654}
+[2018-04-11 20:43:20] Error in run 111: Run already exists in server. Run id(s): {9020742}
+[2018-04-11 20:43:20] Error in run 109: Run already exists in server. Run id(s): {9020737}
+[2018-04-11 20:43:20] Error in run 110: Run already exists in server. Run id(s): {8956691}
+[2018-04-11 20:43:20] Started run 114 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:20] Error in run 112: Run already exists in server. Run id(s): {9020772}
+[2018-04-11 20:43:20] Started run 115 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:20] Started run 119 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:20] Error in run 107: Run already exists in server. Run id(s): {8956636}
+[2018-04-11 20:43:20] Started run 116 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:20] Started run 120 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:20] Started run 117 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:20] Started run 118 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:24] Error in run 113: Run already exists in server. Run id(s): {9020793}
+[2018-04-11 20:43:24] Started run 121 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:25] Error in run 114: Run already exists in server. Run id(s): {9020785}
+[2018-04-11 20:43:25] Error in run 115: Run already exists in server. Run id(s): {9020790}
+[2018-04-11 20:43:25] Error in run 117: Run already exists in server. Run id(s): {9020811}
+[2018-04-11 20:43:25] Error in run 119: Run already exists in server. Run id(s): {9020815}
+[2018-04-11 20:43:25] Error in run 120: Run already exists in server. Run id(s): {9020846}
+[2018-04-11 20:43:25] Error in run 116: Run already exists in server. Run id(s): {9020884}
+[2018-04-11 20:43:25] Error in run 118: Run already exists in server. Run id(s): {9020819}
+[2018-04-11 20:43:25] Started run 122 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:25] Started run 126 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:25] Started run 127 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:25] Started run 128 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:25] Started run 123 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:25] Started run 124 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:25] Started run 125 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:29] Error in run 121: Run already exists in server. Run id(s): {9020836}
+[2018-04-11 20:43:29] Started run 129 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:29] Error in run 122: Run already exists in server. Run id(s): {9020863}
+[2018-04-11 20:43:29] Error in run 127: Run already exists in server. Run id(s): {8956713}
+[2018-04-11 20:43:29] Error in run 128: Run already exists in server. Run id(s): {8956736}
+[2018-04-11 20:43:29] Error in run 126: Run already exists in server. Run id(s): {9020892}
+[2018-04-11 20:43:29] Started run 130 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:29] Error in run 123: Run already exists in server. Run id(s): {9020866}
+[2018-04-11 20:43:29] Started run 131 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:29] Started run 133 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:30] Error in run 124: Run already exists in server. Run id(s): {8956733}
+[2018-04-11 20:43:29] Started run 132 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:30] Started run 135 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:29] Started run 134 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:30] Error in run 125: Run already exists in server. Run id(s): {9020889}
+[2018-04-11 20:43:30] Started run 136 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:33] Error in run 129: Run already exists in server. Run id(s): {8956751}
+[2018-04-11 20:43:33] Started run 137 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:34] Error in run 131: Run already exists in server. Run id(s): {8956775}
+[2018-04-11 20:43:34] Started run 138 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:34] Error in run 135: Run already exists in server. Run id(s): {8956787}
+[2018-04-11 20:43:34] Error in run 130: Run already exists in server. Run id(s): {8956768}
+[2018-04-11 20:43:34] Error in run 134: Run already exists in server. Run id(s): {8956778}
+[2018-04-11 20:43:34] Error in run 133: Run already exists in server. Run id(s): {8956770}
+[2018-04-11 20:43:34] Error in run 132: Run already exists in server. Run id(s): {8956772}
+[2018-04-11 20:43:34] Started run 139 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:34] Error in run 136: Run already exists in server. Run id(s): {8956781}
+[2018-04-11 20:43:34] Started run 140 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:34] Started run 141 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:34] Started run 142 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:34] Started run 144 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:34] Started run 143 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:38] Error in run 137: Run already exists in server. Run id(s): {8956794}
+[2018-04-11 20:43:38] Started run 145 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:39] Error in run 138: Run already exists in server. Run id(s): {8956805}
+[2018-04-11 20:43:39] Started run 146 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:39] Error in run 139: Run already exists in server. Run id(s): {8956827}
+[2018-04-11 20:43:39] Error in run 144: Run already exists in server. Run id(s): {8956887}
+[2018-04-11 20:43:39] Error in run 142: Run already exists in server. Run id(s): {8956840}
+[2018-04-11 20:43:39] Started run 147 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:39] Error in run 140: Run already exists in server. Run id(s): {8956843}
+[2018-04-11 20:43:39] Error in run 141: Run already exists in server. Run id(s): {8956829}
+[2018-04-11 20:43:39] Started run 150 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:39] Error in run 143: Run already exists in server. Run id(s): {8956870}
+[2018-04-11 20:43:39] Started run 151 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:39] Started run 152 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:39] Started run 148 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:39] Started run 149 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:43] Error in run 145: Run already exists in server. Run id(s): {8956885}
+[2018-04-11 20:43:43] Started run 153 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:43] Error in run 146: Run already exists in server. Run id(s): {8956873}
+[2018-04-11 20:43:43] Started run 154 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:44] Error in run 151: Run already exists in server. Run id(s): {8956950}
+[2018-04-11 20:43:44] Error in run 149: Run already exists in server. Run id(s): {8956938}
+[2018-04-11 20:43:44] Error in run 148: Run already exists in server. Run id(s): {8956904}
+[2018-04-11 20:43:44] Error in run 150: Run already exists in server. Run id(s): {8956933}
+[2018-04-11 20:43:44] Error in run 152: Run already exists in server. Run id(s): {8956957}
+[2018-04-11 20:43:44] Error in run 147: Run already exists in server. Run id(s): {8956901}
+[2018-04-11 20:43:44] Started run 155 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:44] Started run 156 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:44] Started run 157 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:44] Started run 158 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:44] Started run 159 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:44] Started run 160 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:48] Error in run 153: Run already exists in server. Run id(s): {8956965}
+[2018-04-11 20:43:48] Error in run 154: Run already exists in server. Run id(s): {8956997}
+[2018-04-11 20:43:48] Started run 161 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:48] Started run 162 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:48] Error in run 157: Run already exists in server. Run id(s): {8957002}
+[2018-04-11 20:43:48] Error in run 158: Run already exists in server. Run id(s): {8957041}
+[2018-04-11 20:43:48] Error in run 159: Run already exists in server. Run id(s): {8957046}
+[2018-04-11 20:43:48] Error in run 155: Run already exists in server. Run id(s): {8957005}
+[2018-04-11 20:43:48] Error in run 156: Run already exists in server. Run id(s): {8956989}
+[2018-04-11 20:43:48] Started run 163 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:48] Started run 164 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:48] Error in run 160: Run already exists in server. Run id(s): {8957055}
+[2018-04-11 20:43:48] Started run 165 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:48] Started run 168 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:48] Started run 166 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:48] Started run 167 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:52] Error in run 161: Run already exists in server. Run id(s): {8957060}
+[2018-04-11 20:43:52] Error in run 162: Run already exists in server. Run id(s): {8957088}
+[2018-04-11 20:43:52] Started run 169 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:52] Started run 170 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:53] Error in run 166: Run already exists in server. Run id(s): {8957136}
+[2018-04-11 20:43:53] Error in run 163: Run already exists in server. Run id(s): {8957092}
+[2018-04-11 20:43:53] Error in run 165: Run already exists in server. Run id(s): {8957083}
+[2018-04-11 20:43:53] Error in run 164: Run already exists in server. Run id(s): {8957104}
+[2018-04-11 20:43:53] Started run 171 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:53] Error in run 167: Run already exists in server. Run id(s): {8957113}
+[2018-04-11 20:43:53] Error in run 168: Run already exists in server. Run id(s): {8957145}
+[2018-04-11 20:43:53] Started run 175 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:53] Started run 174 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:53] Started run 176 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:53] Started run 173 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:53] Started run 172 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:57] Error in run 169: Run already exists in server. Run id(s): {8957158}
+[2018-04-11 20:43:57] Error in run 170: Run already exists in server. Run id(s): {8957155}
+[2018-04-11 20:43:57] Started run 177 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:57] Started run 178 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:58] Error in run 171: Run already exists in server. Run id(s): {8957172}
+[2018-04-11 20:43:58] Error in run 174: Run already exists in server. Run id(s): {8957209}
+[2018-04-11 20:43:58] Error in run 173: Run already exists in server. Run id(s): {8957182}
+[2018-04-11 20:43:58] Error in run 172: Run already exists in server. Run id(s): {8957204}
+[2018-04-11 20:43:58] Error in run 175: Run already exists in server. Run id(s): {8957229}
+[2018-04-11 20:43:58] Error in run 176: Run already exists in server. Run id(s): {8957219}
+[2018-04-11 20:43:58] Started run 179 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:58] Started run 184 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:58] Started run 180 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:58] Started run 181 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:58] Started run 182 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:43:58] Started run 183 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:02] Error in run 178: Run already exists in server. Run id(s): {8957261}
+[2018-04-11 20:44:02] Error in run 177: Run already exists in server. Run id(s): {8957255}
+[2018-04-11 20:44:02] Started run 185 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:02] Started run 186 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:03] Error in run 182: Run already exists in server. Run id(s): {8957294}
+[2018-04-11 20:44:03] Error in run 180: Run already exists in server. Run id(s): {8957278}
+[2018-04-11 20:44:03] Error in run 183: Run already exists in server. Run id(s): {8957318}
+[2018-04-11 20:44:03] Error in run 179: Run already exists in server. Run id(s): {8957271}
+[2018-04-11 20:44:03] Error in run 181: Run already exists in server. Run id(s): {8957310}
+[2018-04-11 20:44:03] Error in run 184: Run already exists in server. Run id(s): {8957333}
+[2018-04-11 20:44:03] Started run 187 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:03] Started run 188 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:03] Started run 190 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:03] Started run 189 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:03] Started run 191 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:03] Started run 192 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:07] Error in run 185: Run already exists in server. Run id(s): {8957327}
+[2018-04-11 20:44:07] Error in run 186: Run already exists in server. Run id(s): {8957350}
+[2018-04-11 20:44:07] Started run 193 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:07] Started run 194 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:07] Error in run 188: Run already exists in server. Run id(s): {8957359}
+[2018-04-11 20:44:07] Error in run 189: Run already exists in server. Run id(s): {8957378}
+[2018-04-11 20:44:07] Error in run 190: Run already exists in server. Run id(s): {8957393}
+[2018-04-11 20:44:07] Started run 195 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:07] Error in run 187: Run already exists in server. Run id(s): {8957346}
+[2018-04-11 20:44:07] Started run 197 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:07] Started run 198 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:07] Error in run 191: Run already exists in server. Run id(s): {8957406}
+[2018-04-11 20:44:07] Started run 196 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:07] Started run 199 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:07] Error in run 192: Run already exists in server. Run id(s): {8957417}
+[2018-04-11 20:44:08] Started run 200 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:11] Error in run 193: Run already exists in server. Run id(s): {8957432}
+[2018-04-11 20:44:11] Error in run 194: Run already exists in server. Run id(s): {8957436}
+[2018-04-11 20:44:11] Started run 201 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:11] Started run 202 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:12] Error in run 198: Run already exists in server. Run id(s): {8957476}
+[2018-04-11 20:44:12] Error in run 196: Run already exists in server. Run id(s): {8957465}
+[2018-04-11 20:44:12] Error in run 195: Run already exists in server. Run id(s): {8957461}
+[2018-04-11 20:44:12] Error in run 197: Run already exists in server. Run id(s): {8957474}
+[2018-04-11 20:44:12] Error in run 199: Run already exists in server. Run id(s): {8957508}
+[2018-04-11 20:44:12] Error in run 200: Run already exists in server. Run id(s): {8957512}
+[2018-04-11 20:44:12] Started run 203 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:12] Started run 206 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:12] Started run 204 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:12] Started run 205 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:12] Started run 208 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:12] Started run 207 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:16] Error in run 201: Run already exists in server. Run id(s): {8957525}
+[2018-04-11 20:44:16] Started run 209 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:16] Error in run 202: Run already exists in server. Run id(s): {8957532}
+[2018-04-11 20:44:16] Started run 210 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:17] Error in run 206: Run already exists in server. Run id(s): {8957555}
+[2018-04-11 20:44:17] Error in run 204: Run already exists in server. Run id(s): {8957560}
+[2018-04-11 20:44:17] Error in run 203: Run already exists in server. Run id(s): {8957565}
+[2018-04-11 20:44:17] Started run 211 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:17] Started run 212 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:17] Started run 213 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:17] Error in run 205: Run already exists in server. Run id(s): {8957571}
+[2018-04-11 20:44:17] Started run 214 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:17] Error in run 208: Run already exists in server. Run id(s): {8957595}
+[2018-04-11 20:44:17] Started run 215 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:17] Error in run 207: Run already exists in server. Run id(s): {8957612}
+[2018-04-11 20:44:17] Started run 216 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:21] Error in run 209: Run already exists in server. Run id(s): {8957616}
+[2018-04-11 20:44:21] Error in run 210: Run already exists in server. Run id(s): {8957625}
+[2018-04-11 20:44:21] Started run 217 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:21] Started run 218 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:22] Error in run 211: Run already exists in server. Run id(s): {8957646}
+[2018-04-11 20:44:22] Error in run 214: Run already exists in server. Run id(s): {8957675}
+[2018-04-11 20:44:22] Error in run 212: Run already exists in server. Run id(s): {8957658}
+[2018-04-11 20:44:22] Started run 219 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:22] Error in run 213: Run already exists in server. Run id(s): {8957663}
+[2018-04-11 20:44:22] Error in run 215: Run already exists in server. Run id(s): {8957696}
+[2018-04-11 20:44:22] Error in run 216: Run already exists in server. Run id(s): {8957709}
+[2018-04-11 20:44:22] Started run 220 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:22] Started run 224 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:22] Started run 222 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:22] Started run 223 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:22] Started run 221 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:25] Error in run 217: Run already exists in server. Run id(s): {8957711}
+[2018-04-11 20:44:25] Error in run 218: Run already exists in server. Run id(s): {8957723}
+[2018-04-11 20:44:25] Started run 225 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:25] Started run 226 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:26] Error in run 220: Run already exists in server. Run id(s): {8957739}
+[2018-04-11 20:44:26] Error in run 219: Run already exists in server. Run id(s): {8957747}
+[2018-04-11 20:44:26] Error in run 223: Run already exists in server. Run id(s): {8957794}
+[2018-04-11 20:44:26] Error in run 224: Run already exists in server. Run id(s): {8957799}
+[2018-04-11 20:44:26] Error in run 222: Run already exists in server. Run id(s): {8957775}
+[2018-04-11 20:44:26] Started run 227 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:26] Error in run 221: Run already exists in server. Run id(s): {8957758}
+[2018-04-11 20:44:26] Started run 229 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:26] Started run 232 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:26] Started run 228 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:26] Started run 230 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:26] Started run 231 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:30] Error in run 226: Run already exists in server. Run id(s): {8957829}
+[2018-04-11 20:44:30] Error in run 225: Run already exists in server. Run id(s): {8957812}
+[2018-04-11 20:44:30] Started run 233 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:30] Started run 234 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:31] Error in run 227: Run already exists in server. Run id(s): {8957840}
+[2018-04-11 20:44:31] Error in run 231: Run already exists in server. Run id(s): {8957882}
+[2018-04-11 20:44:31] Error in run 232: Run already exists in server. Run id(s): {8957888}
+[2018-04-11 20:44:31] Error in run 229: Run already exists in server. Run id(s): {8957852}
+[2018-04-11 20:44:31] Error in run 228: Run already exists in server. Run id(s): {8957841}
+[2018-04-11 20:44:31] Error in run 230: Run already exists in server. Run id(s): {8957870}
+[2018-04-11 20:44:31] Started run 235 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:31] Started run 239 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:31] Started run 240 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:31] Started run 236 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:31] Started run 237 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:31] Started run 238 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:35] Error in run 234: Run already exists in server. Run id(s): {8957919}
+[2018-04-11 20:44:35] Error in run 233: Run already exists in server. Run id(s): {8957901}
+[2018-04-11 20:44:35] Started run 241 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:35] Started run 242 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:36] Error in run 236: Run already exists in server. Run id(s): {8957926}
+[2018-04-11 20:44:36] Error in run 240: Run already exists in server. Run id(s): {8957966}
+[2018-04-11 20:44:36] Error in run 235: Run already exists in server. Run id(s): {8957936}
+[2018-04-11 20:44:36] Error in run 237: Run already exists in server. Run id(s): {8957935}
+[2018-04-11 20:44:36] Error in run 239: Run already exists in server. Run id(s): {8957977}
+[2018-04-11 20:44:36] Started run 243 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:36] Error in run 238: Run already exists in server. Run id(s): {8957952}
+[2018-04-11 20:44:36] Started run 244 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:36] Started run 248 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:36] Started run 245 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:36] Started run 246 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:36] Started run 247 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:40] Error in run 242: Run already exists in server. Run id(s): {8957990}
+[2018-04-11 20:44:40] Error in run 241: Run already exists in server. Run id(s): {8957969}
+[2018-04-11 20:44:40] Started run 249 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:40] Started run 250 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:40] Error in run 248: Run already exists in server. Run id(s): {8958052}
+[2018-04-11 20:44:40] Error in run 243: Run already exists in server. Run id(s): {8958005}
+[2018-04-11 20:44:40] Error in run 246: Run already exists in server. Run id(s): {8958027}
+[2018-04-11 20:44:40] Error in run 245: Run already exists in server. Run id(s): {8958019}
+[2018-04-11 20:44:41] Error in run 247: Run already exists in server. Run id(s): {8958028}
+[2018-04-11 20:44:41] Error in run 244: Run already exists in server. Run id(s): {8958016}
+[2018-04-11 20:44:40] Started run 251 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:41] Started run 255 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:40] Started run 253 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:40] Started run 252 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:41] Started run 256 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:40] Started run 254 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:44] Error in run 250: Run already exists in server. Run id(s): {8958051}
+[2018-04-11 20:44:44] Error in run 249: Run already exists in server. Run id(s): {8958048}
+[2018-04-11 20:44:44] Started run 257 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:44] Started run 258 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:45] Error in run 256: Run already exists in server. Run id(s): {8958082}
+[2018-04-11 20:44:45] Error in run 253: Run already exists in server. Run id(s): {8958074}
+[2018-04-11 20:44:45] Error in run 252: Run already exists in server. Run id(s): {8958067}
+[2018-04-11 20:44:45] Error in run 251: Run already exists in server. Run id(s): {8958063}
+[2018-04-11 20:44:45] Error in run 254: Run already exists in server. Run id(s): {8958075}
+[2018-04-11 20:44:45] Error in run 255: Run already exists in server. Run id(s): {8958081}
+[2018-04-11 20:44:45] Started run 259 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:45] Started run 263 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:45] Started run 260 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:45] Started run 261 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:45] Started run 262 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:45] Started run 264 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:49] Error in run 258: Run already exists in server. Run id(s): {8958084}
+[2018-04-11 20:44:49] Error in run 257: Run already exists in server. Run id(s): {8958083}
+[2018-04-11 20:44:49] Started run 265 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:49] Started run 266 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:50] Error in run 259: Run already exists in server. Run id(s): {8958092}
+[2018-04-11 20:44:50] Error in run 264: Run already exists in server. Run id(s): {8958105}
+[2018-04-11 20:44:50] Error in run 261: Run already exists in server. Run id(s): {8958091}
+[2018-04-11 20:44:50] Error in run 263: Run already exists in server. Run id(s): {8958100}
+[2018-04-11 20:44:50] Error in run 262: Run already exists in server. Run id(s): {8958098}
+[2018-04-11 20:44:50] Error in run 260: Run already exists in server. Run id(s): {8958093}
+[2018-04-11 20:44:50] Started run 267 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:50] Started run 268 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:50] Started run 270 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:50] Started run 269 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:50] Started run 271 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:50] Started run 272 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:54] Error in run 265: Run already exists in server. Run id(s): {8958106}
+[2018-04-11 20:44:54] Error in run 266: Run already exists in server. Run id(s): {8958104}
+[2018-04-11 20:44:54] Started run 273 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:54] Started run 274 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:55] Error in run 268: Run already exists in server. Run id(s): {8958115}
+[2018-04-11 20:44:55] Error in run 271: Run already exists in server. Run id(s): {8958120}
+[2018-04-11 20:44:55] Error in run 267: Run already exists in server. Run id(s): {8958109}
+[2018-04-11 20:44:55] Error in run 270: Run already exists in server. Run id(s): {8958112}
+[2018-04-11 20:44:55] Error in run 269: Run already exists in server. Run id(s): {8958117}
+[2018-04-11 20:44:55] Started run 275 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:55] Started run 276 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:55] Error in run 272: Run already exists in server. Run id(s): {8958126}
+[2018-04-11 20:44:55] Started run 277 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:55] Started run 280 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:55] Started run 278 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:55] Started run 279 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:59] Error in run 273: Run already exists in server. Run id(s): {8958125}
+[2018-04-11 20:44:59] Error in run 274: Run already exists in server. Run id(s): {8958124}
+[2018-04-11 20:44:59] Started run 281 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:59] Started run 282 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:59] Error in run 276: Run already exists in server. Run id(s): {8958138}
+[2018-04-11 20:44:59] Error in run 279: Run already exists in server. Run id(s): {8958143}
+[2018-04-11 20:44:59] Error in run 277: Run already exists in server. Run id(s): {8958131}
+[2018-04-11 20:44:59] Error in run 280: Run already exists in server. Run id(s): {8958144}
+[2018-04-11 20:44:59] Error in run 278: Run already exists in server. Run id(s): {8958135}
+[2018-04-11 20:44:59] Error in run 275: Run already exists in server. Run id(s): {8958132}
+[2018-04-11 20:44:59] Started run 283 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:59] Started run 288 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:59] Started run 284 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:59] Started run 285 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:59] Started run 286 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:44:59] Started run 287 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:03] Error in run 281: Run already exists in server. Run id(s): {8958145}
+[2018-04-11 20:45:03] Error in run 282: Run already exists in server. Run id(s): {8958148}
+[2018-04-11 20:45:03] Started run 289 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:03] Started run 290 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:04] Error in run 285: Run already exists in server. Run id(s): {8958157}
+[2018-04-11 20:45:04] Error in run 284: Run already exists in server. Run id(s): {8958156}
+[2018-04-11 20:45:04] Error in run 288: Run already exists in server. Run id(s): {8958166}
+[2018-04-11 20:45:04] Error in run 283: Run already exists in server. Run id(s): {8958153}
+[2018-04-11 20:45:04] Started run 291 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:04] Started run 294 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:04] Started run 292 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:04] Error in run 286: Run already exists in server. Run id(s): {8958158}
+[2018-04-11 20:45:04] Started run 295 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:04] Error in run 287: Run already exists in server. Run id(s): {8958165}
+[2018-04-11 20:45:04] Started run 293 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:04] Started run 296 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:08] Error in run 290: Run already exists in server. Run id(s): {8958163}
+[2018-04-11 20:45:08] Started run 297 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:08] Error in run 289: Run already exists in server. Run id(s): {8958170}
+[2018-04-11 20:45:08] Started run 298 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:09] Error in run 293: Run already exists in server. Run id(s): {8958176}
+[2018-04-11 20:45:09] Error in run 292: Run already exists in server. Run id(s): {8958177}
+[2018-04-11 20:45:09] Error in run 295: Run already exists in server. Run id(s): {8958183}
+[2018-04-11 20:45:09] Error in run 291: Run already exists in server. Run id(s): {8958171}
+[2018-04-11 20:45:09] Error in run 294: Run already exists in server. Run id(s): {8958179}
+[2018-04-11 20:45:09] Error in run 296: Run already exists in server. Run id(s): {8958187}
+[2018-04-11 20:45:09] Started run 299 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:09] Started run 300 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:09] Started run 301 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:09] Started run 302 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:09] Started run 304 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:09] Started run 303 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:13] Error in run 297: Run already exists in server. Run id(s): {8958184}
+[2018-04-11 20:45:13] Started run 305 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:13] Error in run 298: Run already exists in server. Run id(s): {8958192}
+[2018-04-11 20:45:13] Started run 306 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:14] Error in run 299: Run already exists in server. Run id(s): {8958190}
+[2018-04-11 20:45:14] Error in run 301: Run already exists in server. Run id(s): {8958194}
+[2018-04-11 20:45:14] Started run 307 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:14] Error in run 304: Run already exists in server. Run id(s): {8958205}
+[2018-04-11 20:45:14] Error in run 300: Run already exists in server. Run id(s): {8958197}
+[2018-04-11 20:45:14] Error in run 302: Run already exists in server. Run id(s): {8958202}
+[2018-04-11 20:45:14] Started run 309 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:14] Started run 310 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:14] Started run 311 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:14] Error in run 303: Run already exists in server. Run id(s): {8958203}
+[2018-04-11 20:45:14] Started run 312 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:14] Started run 308 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:17] Error in run 305: Run already exists in server. Run id(s): {8958207}
+[2018-04-11 20:45:17] Started run 313 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:18] Error in run 306: Run already exists in server. Run id(s): {8958211}
+[2018-04-11 20:45:18] Started run 314 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:18] Error in run 310: Run already exists in server. Run id(s): {8958223}
+[2018-04-11 20:45:18] Error in run 311: Run already exists in server. Run id(s): {8958219}
+[2018-04-11 20:45:18] Error in run 308: Run already exists in server. Run id(s): {8958217}
+[2018-04-11 20:45:18] Error in run 309: Run already exists in server. Run id(s): {8958218}
+[2018-04-11 20:45:18] Started run 315 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:18] Started run 318 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:18] Started run 317 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:18] Error in run 307: Run already exists in server. Run id(s): {8958212}
+[2018-04-11 20:45:18] Error in run 312: Run already exists in server. Run id(s): {8958225}
+[2018-04-11 20:45:18] Started run 319 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:18] Started run 316 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:18] Started run 320 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:22] Error in run 313: Run already exists in server. Run id(s): {8958230}
+[2018-04-11 20:45:22] Started run 321 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:22] Error in run 314: Run already exists in server. Run id(s): {8958231}
+[2018-04-11 20:45:22] Started run 322 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:23] Error in run 315: Run already exists in server. Run id(s): {8958233}
+[2018-04-11 20:45:23] Error in run 318: Run already exists in server. Run id(s): {8958239}
+[2018-04-11 20:45:23] Started run 323 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:23] Error in run 316: Run already exists in server. Run id(s): {8958238}
+[2018-04-11 20:45:23] Error in run 317: Run already exists in server. Run id(s): {8958235}
+[2018-04-11 20:45:23] Error in run 319: Run already exists in server. Run id(s): {8958244}
+[2018-04-11 20:45:23] Started run 324 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:23] Started run 325 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:23] Started run 326 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:23] Error in run 320: Run already exists in server. Run id(s): {8958247}
+[2018-04-11 20:45:23] Started run 327 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:23] Started run 328 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:26] Error in run 321: Run already exists in server. Run id(s): {8958249}
+[2018-04-11 20:45:26] Started run 329 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:27] Error in run 322: Run already exists in server. Run id(s): {8958251}
+[2018-04-11 20:45:27] Started run 330 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:28] Error in run 324: Run already exists in server. Run id(s): {8958258}
+[2018-04-11 20:45:28] Error in run 327: Run already exists in server. Run id(s): {8958263}
+[2018-04-11 20:45:28] Error in run 326: Run already exists in server. Run id(s): {8958261}
+[2018-04-11 20:45:28] Error in run 323: Run already exists in server. Run id(s): {8958253}
+[2018-04-11 20:45:28] Error in run 325: Run already exists in server. Run id(s): {8958259}
+[2018-04-11 20:45:28] Started run 331 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:28] Started run 332 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:28] Error in run 328: Run already exists in server. Run id(s): {8958269}
+[2018-04-11 20:45:28] Started run 333 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:28] Started run 336 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:28] Started run 334 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:28] Started run 335 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:31] Error in run 329: Run already exists in server. Run id(s): {8958266}
+[2018-04-11 20:45:31] Started run 337 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:32] Error in run 330: Run already exists in server. Run id(s): {8958273}
+[2018-04-11 20:45:32] Started run 338 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:33] Error in run 333: Run already exists in server. Run id(s): {8958276}
+[2018-04-11 20:45:33] Error in run 331: Run already exists in server. Run id(s): {8958274}
+[2018-04-11 20:45:33] Started run 339 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:33] Started run 340 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:33] Error in run 334: Run already exists in server. Run id(s): {8958285}
+[2018-04-11 20:45:33] Error in run 336: Run already exists in server. Run id(s): {8958287}
+[2018-04-11 20:45:33] Started run 341 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:33] Error in run 332: Run already exists in server. Run id(s): {8958278}
+[2018-04-11 20:45:33] Error in run 335: Run already exists in server. Run id(s): {8958281}
+[2018-04-11 20:45:33] Started run 342 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:33] Started run 343 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:33] Started run 344 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:35] Error in run 337: Run already exists in server. Run id(s): {8958288}
+[2018-04-11 20:45:35] Started run 345 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:37] Error in run 338: Run already exists in server. Run id(s): {8958292}
+[2018-04-11 20:45:37] Started run 346 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:37] Error in run 340: Run already exists in server. Run id(s): {8958300}
+[2018-04-11 20:45:37] Error in run 339: Run already exists in server. Run id(s): {8958295}
+[2018-04-11 20:45:37] Error in run 342: Run already exists in server. Run id(s): {8958297}
+[2018-04-11 20:45:37] Error in run 341: Run already exists in server. Run id(s): {8958301}
+[2018-04-11 20:45:37] Error in run 344: Run already exists in server. Run id(s): {8958307}
+[2018-04-11 20:45:37] Error in run 343: Run already exists in server. Run id(s): {8958302}
+[2018-04-11 20:45:37] Started run 347 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:37] Started run 352 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:37] Started run 348 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:37] Started run 349 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:37] Started run 350 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:37] Started run 351 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:40] Error in run 345: Run already exists in server. Run id(s): {8958308}
+[2018-04-11 20:45:40] Started run 353 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:41] Error in run 346: Run already exists in server. Run id(s): {8958313}
+[2018-04-11 20:45:41] Started run 354 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:42] Error in run 352: Run already exists in server. Run id(s): {8958328}
+[2018-04-11 20:45:42] Error in run 348: Run already exists in server. Run id(s): {8958315}
+[2018-04-11 20:45:42] Started run 355 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:42] Started run 356 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:42] Error in run 349: Run already exists in server. Run id(s): {8958321}
+[2018-04-11 20:45:42] Error in run 347: Run already exists in server. Run id(s): {8958314}
+[2018-04-11 20:45:42] Error in run 350: Run already exists in server. Run id(s): {8958322}
+[2018-04-11 20:45:42] Error in run 351: Run already exists in server. Run id(s): {8958320}
+[2018-04-11 20:45:42] Started run 357 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:42] Started run 360 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:42] Started run 358 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:42] Started run 359 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:44] Error in run 353: Run already exists in server. Run id(s): {8958327}
+[2018-04-11 20:45:44] Started run 361 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:46] Error in run 354: Run already exists in server. Run id(s): {8958334}
+[2018-04-11 20:45:46] Started run 362 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:47] Error in run 356: Run already exists in server. Run id(s): {8958331}
+[2018-04-11 20:45:47] Error in run 358: Run already exists in server. Run id(s): {8958343}
+[2018-04-11 20:45:47] Error in run 355: Run already exists in server. Run id(s): {8958335}
+[2018-04-11 20:45:47] Error in run 359: Run already exists in server. Run id(s): {8958339}
+[2018-04-11 20:45:47] Error in run 360: Run already exists in server. Run id(s): {8958342}
+[2018-04-11 20:45:47] Error in run 357: Run already exists in server. Run id(s): {8958341}
+[2018-04-11 20:45:47] Started run 363 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:47] Started run 367 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:47] Started run 364 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:47] Started run 365 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:47] Started run 366 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:47] Started run 368 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:49] Error in run 361: Run already exists in server. Run id(s): {8958349}
+[2018-04-11 20:45:49] Started run 369 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:51] Error in run 362: Run already exists in server. Run id(s): {8958352}
+[2018-04-11 20:45:51] Started run 370 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:51] Error in run 367: Run already exists in server. Run id(s): {8958358}
+[2018-04-11 20:45:51] Error in run 363: Run already exists in server. Run id(s): {8958348}
+[2018-04-11 20:45:51] Error in run 364: Run already exists in server. Run id(s): {8958350}
+[2018-04-11 20:45:52] Error in run 365: Run already exists in server. Run id(s): {8958355}
+[2018-04-11 20:45:51] Started run 371 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:52] Error in run 366: Run already exists in server. Run id(s): {8958363}
+[2018-04-11 20:45:51] Started run 372 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:52] Error in run 368: Run already exists in server. Run id(s): {8958364}
+[2018-04-11 20:45:51] Started run 373 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:52] Started run 376 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:52] Started run 375 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:52] Started run 374 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:54] Error in run 369: Run already exists in server. Run id(s): {8958362}
+[2018-04-11 20:45:54] Started run 377 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:56] Error in run 370: Run already exists in server. Run id(s): {8958368, 9021405}
+[2018-04-11 20:45:56] Started run 378 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:56] Error in run 374: Run already exists in server. Run id(s): {8958377}
+[2018-04-11 20:45:56] Error in run 371: Run already exists in server. Run id(s): {8958370}
+[2018-04-11 20:45:56] Error in run 372: Run already exists in server. Run id(s): {8958371}
+[2018-04-11 20:45:56] Error in run 373: Run already exists in server. Run id(s): {8958376}
+[2018-04-11 20:45:56] Error in run 375: Run already exists in server. Run id(s): {8958378}
+[2018-04-11 20:45:56] Error in run 376: Run already exists in server. Run id(s): {8958381}
+[2018-04-11 20:45:56] Started run 379 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:56] Started run 384 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:56] Started run 382 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:56] Started run 380 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:56] Started run 381 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:56] Started run 383 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:45:59] Error in run 377: Run already exists in server. Run id(s): {8958386}
+[2018-04-11 20:45:59] Started run 385 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:00] Error in run 378: Run already exists in server. Run id(s): {8958384}
+[2018-04-11 20:46:00] Started run 386 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:01] Error in run 380: Run already exists in server. Run id(s): {8958392}
+[2018-04-11 20:46:01] Started run 387 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:01] Error in run 382: Run already exists in server. Run id(s): {8958393}
+[2018-04-11 20:46:01] Error in run 384: Run already exists in server. Run id(s): {8958403}
+[2018-04-11 20:46:01] Error in run 379: Run already exists in server. Run id(s): {8958390}
+[2018-04-11 20:46:01] Started run 388 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:01] Error in run 381: Run already exists in server. Run id(s): {8958397}
+[2018-04-11 20:46:01] Error in run 383: Run already exists in server. Run id(s): {8958398}
+[2018-04-11 20:46:01] Started run 390 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:01] Started run 389 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:01] Started run 391 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:01] Started run 392 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:03] Error in run 385: Run already exists in server. Run id(s): {8958405}
+[2018-04-11 20:46:03] Started run 393 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:05] Error in run 386: Run already exists in server. Run id(s): {8958408}
+[2018-04-11 20:46:05] Started run 394 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:06] Error in run 387: Run already exists in server. Run id(s): {8958404}
+[2018-04-11 20:46:06] Error in run 392: Run already exists in server. Run id(s): {8958424}
+[2018-04-11 20:46:06] Error in run 390: Run already exists in server. Run id(s): {8958418}
+[2018-04-11 20:46:06] Error in run 391: Run already exists in server. Run id(s): {8958416}
+[2018-04-11 20:46:06] Error in run 388: Run already exists in server. Run id(s): {8958415}
+[2018-04-11 20:46:06] Error in run 389: Run already exists in server. Run id(s): {8958417}
+[2018-04-11 20:46:06] Started run 395 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:06] Started run 396 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:06] Started run 397 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:06] Started run 398 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:06] Started run 399 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:06] Started run 400 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:08] Error in run 393: Run already exists in server. Run id(s): {8958426}
+[2018-04-11 20:46:08] Started run 401 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:10] Error in run 394: Run already exists in server. Run id(s): {8958429}
+[2018-04-11 20:46:10] Started run 402 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:10] Error in run 395: Run already exists in server. Run id(s): {8958430}
+[2018-04-11 20:46:11] Error in run 396: Run already exists in server. Run id(s): {8958437}
+[2018-04-11 20:46:10] Started run 403 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:11] Error in run 397: Run already exists in server. Run id(s): {8958435}
+[2018-04-11 20:46:11] Error in run 398: Run already exists in server. Run id(s): {8958436}
+[2018-04-11 20:46:11] Started run 405 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:11] Started run 404 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:11] Started run 406 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:11] Error in run 399: Run already exists in server. Run id(s): {8958439}
+[2018-04-11 20:46:11] Started run 407 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:11] Error in run 400: Run already exists in server. Run id(s): {8958444}
+[2018-04-11 20:46:11] Started run 408 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:13] Error in run 401: Run already exists in server. Run id(s): {8958447}
+[2018-04-11 20:46:13] Started run 409 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:14] Error in run 402: Run already exists in server. Run id(s): {8958449}
+[2018-04-11 20:46:14] Started run 410 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:15] Error in run 407: Run already exists in server. Run id(s): {8958460}
+[2018-04-11 20:46:15] Error in run 403: Run already exists in server. Run id(s): {8958450}
+[2018-04-11 20:46:15] Error in run 406: Run already exists in server. Run id(s): {8958463}
+[2018-04-11 20:46:15] Error in run 404: Run already exists in server. Run id(s): {8958457}
+[2018-04-11 20:46:15] Error in run 405: Run already exists in server. Run id(s): {8958454}
+[2018-04-11 20:46:15] Started run 411 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:15] Started run 412 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:15] Error in run 408: Run already exists in server. Run id(s): {8958464}
+[2018-04-11 20:46:15] Started run 416 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:15] Started run 413 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:15] Started run 414 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:15] Started run 415 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:18] Error in run 409: Run already exists in server. Run id(s): {8958470}
+[2018-04-11 20:46:18] Started run 417 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:19] Error in run 410: Run already exists in server. Run id(s): {8958467}
+[2018-04-11 20:46:19] Started run 418 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:20] Error in run 416: Run already exists in server. Run id(s): {8958484}
+[2018-04-11 20:46:20] Error in run 412: Run already exists in server. Run id(s): {8958476}
+[2018-04-11 20:46:20] Error in run 413: Run already exists in server. Run id(s): {8958478}
+[2018-04-11 20:46:20] Error in run 411: Run already exists in server. Run id(s): {8958473}
+[2018-04-11 20:46:20] Error in run 414: Run already exists in server. Run id(s): {8958477}
+[2018-04-11 20:46:20] Started run 419 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:20] Error in run 415: Run already exists in server. Run id(s): {8958480}
+[2018-04-11 20:46:20] Started run 424 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:20] Started run 420 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:20] Started run 421 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:20] Started run 422 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:20] Started run 423 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:22] Error in run 417: Run already exists in server. Run id(s): {8958489}
+[2018-04-11 20:46:22] Started run 425 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:24] Error in run 418: Run already exists in server. Run id(s): {8958492}
+[2018-04-11 20:46:24] Started run 426 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:25] Error in run 424: Run already exists in server. Run id(s): {8958504}
+[2018-04-11 20:46:25] Error in run 420: Run already exists in server. Run id(s): {8958491}
+[2018-04-11 20:46:25] Error in run 419: Run already exists in server. Run id(s): {8958490}
+[2018-04-11 20:46:25] Error in run 421: Run already exists in server. Run id(s): {8958499}
+[2018-04-11 20:46:25] Error in run 422: Run already exists in server. Run id(s): {8958497}
+[2018-04-11 20:46:25] Started run 427 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:25] Started run 428 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:25] Started run 429 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:25] Started run 430 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:25] Error in run 423: Run already exists in server. Run id(s): {8958502}
+[2018-04-11 20:46:25] Started run 431 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:25] Started run 432 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:27] Error in run 425: Run already exists in server. Run id(s): {8958505}
+[2018-04-11 20:46:27] Started run 433 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:29] Error in run 426: Run already exists in server. Run id(s): {8958507}
+[2018-04-11 20:46:29] Started run 434 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:29] Error in run 427: Run already exists in server. Run id(s): {8958512}
+[2018-04-11 20:46:29] Started run 435 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:29] Error in run 430: Run already exists in server. Run id(s): {8958514}
+[2018-04-11 20:46:29] Error in run 429: Run already exists in server. Run id(s): {8958518}
+[2018-04-11 20:46:29] Started run 436 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:29] Error in run 428: Run already exists in server. Run id(s): {8958516}
+[2018-04-11 20:46:29] Error in run 431: Run already exists in server. Run id(s): {8958524}
+[2018-04-11 20:46:29] Started run 437 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:29] Started run 438 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:29] Started run 439 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:30] Error in run 432: Run already exists in server. Run id(s): {8958523}
+[2018-04-11 20:46:30] Started run 440 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:32] Error in run 433: Run already exists in server. Run id(s): {8958525}
+[2018-04-11 20:46:32] Started run 441 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:33] Error in run 434: Run already exists in server. Run id(s): {8958529}
+[2018-04-11 20:46:33] Started run 442 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:34] Error in run 435: Run already exists in server. Run id(s): {8958533}
+[2018-04-11 20:46:34] Started run 443 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:34] Error in run 440: Run already exists in server. Run id(s): {8958542}
+[2018-04-11 20:46:34] Error in run 437: Run already exists in server. Run id(s): {8958537}
+[2018-04-11 20:46:34] Error in run 439: Run already exists in server. Run id(s): {8958544}
+[2018-04-11 20:46:34] Error in run 438: Run already exists in server. Run id(s): {8958540}
+[2018-04-11 20:46:34] Error in run 436: Run already exists in server. Run id(s): {8958531}
+[2018-04-11 20:46:34] Started run 444 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:34] Started run 446 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:34] Started run 447 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:34] Started run 448 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:34] Started run 445 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:37] Error in run 441: Run already exists in server. Run id(s): {8958549}
+[2018-04-11 20:46:37] Started run 449 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:38] Error in run 442: Run already exists in server. Run id(s): {8958550}
+[2018-04-11 20:46:38] Started run 450 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:38] Error in run 443: Run already exists in server. Run id(s): {8958552}
+[2018-04-11 20:46:38] Started run 451 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:39] Error in run 446: Run already exists in server. Run id(s): {8958562}
+[2018-04-11 20:46:39] Error in run 448: Run already exists in server. Run id(s): {8958567}
+[2018-04-11 20:46:39] Error in run 444: Run already exists in server. Run id(s): {8958555}
+[2018-04-11 20:46:39] Error in run 447: Run already exists in server. Run id(s): {8958565}
+[2018-04-11 20:46:39] Started run 452 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:39] Error in run 445: Run already exists in server. Run id(s): {8958558}
+[2018-04-11 20:46:39] Started run 453 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:39] Started run 454 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:39] Started run 456 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:39] Started run 455 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:41] Error in run 449: Run already exists in server. Run id(s): {8958564}
+[2018-04-11 20:46:41] Started run 457 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:43] Error in run 450: Run already exists in server. Run id(s): {8958576}
+[2018-04-11 20:46:43] Error in run 451: Run already exists in server. Run id(s): {8958571}
+[2018-04-11 20:46:43] Started run 458 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:43] Started run 459 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:44] Error in run 452: Run already exists in server. Run id(s): {8958575}
+[2018-04-11 20:46:44] Error in run 456: Run already exists in server. Run id(s): {8958583}
+[2018-04-11 20:46:44] Error in run 453: Run already exists in server. Run id(s): {8958578}
+[2018-04-11 20:46:44] Error in run 454: Run already exists in server. Run id(s): {8958581}
+[2018-04-11 20:46:44] Error in run 455: Run already exists in server. Run id(s): {8958586}
+[2018-04-11 20:46:44] Started run 460 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:44] Started run 461 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:44] Started run 462 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:44] Started run 463 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:44] Started run 464 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:46] Error in run 457: Run already exists in server. Run id(s): {8958590}
+[2018-04-11 20:46:46] Started run 465 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:48] Error in run 459: Run already exists in server. Run id(s): {8958594}
+[2018-04-11 20:46:48] Error in run 458: Run already exists in server. Run id(s): {8958591}
+[2018-04-11 20:46:48] Started run 466 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:48] Started run 467 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:48] Error in run 460: Run already exists in server. Run id(s): {8958592}
+[2018-04-11 20:46:48] Started run 468 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:48] Error in run 461: Run already exists in server. Run id(s): {8958600}
+[2018-04-11 20:46:48] Error in run 462: Run already exists in server. Run id(s): {8958603}
+[2018-04-11 20:46:48] Error in run 463: Run already exists in server. Run id(s): {8958604}
+[2018-04-11 20:46:48] Error in run 464: Run already exists in server. Run id(s): {8958605}
+[2018-04-11 20:46:48] Started run 469 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:48] Started run 472 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:48] Started run 471 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:48] Started run 470 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:51] Error in run 465: Run already exists in server. Run id(s): {8958611}
+[2018-04-11 20:46:51] Started run 473 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:52] Error in run 466: Run already exists in server. Run id(s): {8958609}
+[2018-04-11 20:46:52] Error in run 467: Run already exists in server. Run id(s): {8958616}
+[2018-04-11 20:46:52] Started run 474 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:52] Started run 475 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:53] Error in run 471: Run already exists in server. Run id(s): {8958628}
+[2018-04-11 20:46:53] Error in run 468: Run already exists in server. Run id(s): {8958619}
+[2018-04-11 20:46:53] Error in run 469: Run already exists in server. Run id(s): {8958617}
+[2018-04-11 20:46:53] Error in run 470: Run already exists in server. Run id(s): {8958622}
+[2018-04-11 20:46:53] Error in run 472: Run already exists in server. Run id(s): {8958624}
+[2018-04-11 20:46:53] Started run 476 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:53] Started run 477 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:53] Started run 480 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:53] Started run 478 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:53] Started run 479 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:56] Error in run 473: Run already exists in server. Run id(s): {8958626}
+[2018-04-11 20:46:56] Started run 481 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:57] Error in run 475: Run already exists in server. Run id(s): {8958633}
+[2018-04-11 20:46:57] Error in run 474: Run already exists in server. Run id(s): {8958634}
+[2018-04-11 20:46:57] Started run 482 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:57] Started run 483 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:58] Error in run 476: Run already exists in server. Run id(s): {8958638}
+[2018-04-11 20:46:58] Error in run 480: Run already exists in server. Run id(s): {8958647}
+[2018-04-11 20:46:58] Started run 484 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:58] Error in run 478: Run already exists in server. Run id(s): {8958644}
+[2018-04-11 20:46:58] Error in run 479: Run already exists in server. Run id(s): {8958645}
+[2018-04-11 20:46:58] Error in run 477: Run already exists in server. Run id(s): {8958639}
+[2018-04-11 20:46:58] Started run 486 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:58] Started run 488 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:58] Started run 485 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:46:58] Started run 487 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:00] Error in run 481: Run already exists in server. Run id(s): {8958652}
+[2018-04-11 20:47:00] Started run 489 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:02] Error in run 483: Run already exists in server. Run id(s): {8958654}
+[2018-04-11 20:47:02] Error in run 482: Run already exists in server. Run id(s): {8958650}
+[2018-04-11 20:47:02] Started run 490 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:02] Started run 491 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:03] Error in run 484: Run already exists in server. Run id(s): {8958655}
+[2018-04-11 20:47:03] Error in run 488: Run already exists in server. Run id(s): {8958663}
+[2018-04-11 20:47:03] Error in run 485: Run already exists in server. Run id(s): {8958660}
+[2018-04-11 20:47:03] Error in run 487: Run already exists in server. Run id(s): {8958666}
+[2018-04-11 20:47:03] Error in run 486: Run already exists in server. Run id(s): {8958661}
+[2018-04-11 20:47:03] Started run 492 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:03] Started run 493 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:03] Started run 494 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:03] Started run 495 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:03] Started run 496 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:05] Error in run 489: Run already exists in server. Run id(s): {8958673}
+[2018-04-11 20:47:05] Started run 497 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:07] Error in run 491: Run already exists in server. Run id(s): {8958669}
+[2018-04-11 20:47:07] Error in run 490: Run already exists in server. Run id(s): {8958674}
+[2018-04-11 20:47:07] Started run 498 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:07] Started run 499 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:07] Error in run 493: Run already exists in server. Run id(s): {8958681}
+[2018-04-11 20:47:07] Error in run 494: Run already exists in server. Run id(s): {8958685}
+[2018-04-11 20:47:07] Error in run 495: Run already exists in server. Run id(s): {8958680}
+[2018-04-11 20:47:07] Error in run 492: Run already exists in server. Run id(s): {8958677}
+[2018-04-11 20:47:07] Error in run 496: Run already exists in server. Run id(s): {8958686}
+[2018-04-11 20:47:07] Started run 500 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:07] Started run 503 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:07] Started run 501 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:07] Started run 502 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:07] Started run 504 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:10] Error in run 497: Run already exists in server. Run id(s): {8958688}
+[2018-04-11 20:47:10] Started run 505 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:11] Error in run 499: Run already exists in server. Run id(s): {8958695}
+[2018-04-11 20:47:11] Error in run 498: Run already exists in server. Run id(s): {8958693}
+[2018-04-11 20:47:11] Started run 506 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:11] Started run 507 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:12] Error in run 503: Run already exists in server. Run id(s): {8958707}
+[2018-04-11 20:47:12] Error in run 501: Run already exists in server. Run id(s): {8958699}
+[2018-04-11 20:47:12] Error in run 500: Run already exists in server. Run id(s): {8958694}
+[2018-04-11 20:47:12] Error in run 504: Run already exists in server. Run id(s): {8958705}
+[2018-04-11 20:47:12] Error in run 502: Run already exists in server. Run id(s): {8958703}
+[2018-04-11 20:47:12] Started run 508 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:12] Started run 510 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:12] Started run 512 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:12] Started run 511 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:12] Started run 509 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:15] Error in run 505: Run already exists in server. Run id(s): {8958708}
+[2018-04-11 20:47:15] Started run 513 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:16] Error in run 506: Run already exists in server. Run id(s): {8958715}
+[2018-04-11 20:47:16] Error in run 507: Run already exists in server. Run id(s): {8958714}
+[2018-04-11 20:47:16] Started run 514 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:16] Started run 515 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:17] Error in run 511: Run already exists in server. Run id(s): {8958720}
+[2018-04-11 20:47:17] Error in run 512: Run already exists in server. Run id(s): {8958722}
+[2018-04-11 20:47:17] Error in run 508: Run already exists in server. Run id(s): {8958713}
+[2018-04-11 20:47:17] Started run 516 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:17] Error in run 510: Run already exists in server. Run id(s): {8958725}
+[2018-04-11 20:47:17] Error in run 509: Run already exists in server. Run id(s): {8958721}
+[2018-04-11 20:47:17] Started run 517 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:17] Started run 519 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:17] Started run 520 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:17] Started run 518 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:19] Error in run 513: Run already exists in server. Run id(s): {8958733}
+[2018-04-11 20:47:19] Started run 521 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:21] Error in run 514: Run already exists in server. Run id(s): {8958734}
+[2018-04-11 20:47:21] Error in run 515: Run already exists in server. Run id(s): {8958730}
+[2018-04-11 20:47:21] Started run 522 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:21] Started run 523 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:22] Error in run 518: Run already exists in server. Run id(s): {8958742}
+[2018-04-11 20:47:22] Error in run 520: Run already exists in server. Run id(s): {8958748}
+[2018-04-11 20:47:22] Error in run 519: Run already exists in server. Run id(s): {8958741}
+[2018-04-11 20:47:22] Error in run 516: Run already exists in server. Run id(s): {8958736}
+[2018-04-11 20:47:22] Error in run 517: Run already exists in server. Run id(s): {8958739}
+[2018-04-11 20:47:22] Started run 524 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:22] Started run 528 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:22] Started run 527 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:22] Started run 525 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:22] Started run 526 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:24] Error in run 521: Run already exists in server. Run id(s): {8958747}
+[2018-04-11 20:47:24] Started run 529 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:25] Error in run 522: Run already exists in server. Run id(s): {8958750}
+[2018-04-11 20:47:25] Error in run 523: Run already exists in server. Run id(s): {8958752}
+[2018-04-11 20:47:25] Started run 530 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:25] Started run 531 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:26] Error in run 528: Run already exists in server. Run id(s): {8958760}
+[2018-04-11 20:47:26] Error in run 525: Run already exists in server. Run id(s): {8958761}
+[2018-04-11 20:47:26] Error in run 524: Run already exists in server. Run id(s): {8958754}
+[2018-04-11 20:47:26] Error in run 527: Run already exists in server. Run id(s): {8958764}
+[2018-04-11 20:47:26] Error in run 526: Run already exists in server. Run id(s): {8958763}
+[2018-04-11 20:47:26] Started run 532 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:26] Started run 533 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:26] Started run 534 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:26] Started run 536 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:26] Started run 535 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:29] Error in run 529: Run already exists in server. Run id(s): {8958771}
+[2018-04-11 20:47:29] Started run 537 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:30] Error in run 531: Run already exists in server. Run id(s): {8958775}
+[2018-04-11 20:47:30] Error in run 530: Run already exists in server. Run id(s): {8958772}
+[2018-04-11 20:47:30] Started run 538 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:30] Started run 539 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:31] Error in run 535: Run already exists in server. Run id(s): {8958781}
+[2018-04-11 20:47:31] Error in run 533: Run already exists in server. Run id(s): {8958783}
+[2018-04-11 20:47:31] Error in run 534: Run already exists in server. Run id(s): {8958785}
+[2018-04-11 20:47:31] Error in run 536: Run already exists in server. Run id(s): {8958782}
+[2018-04-11 20:47:31] Error in run 532: Run already exists in server. Run id(s): {8958776}
+[2018-04-11 20:47:31] Started run 540 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:31] Started run 541 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:31] Started run 542 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:31] Started run 543 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:31] Started run 544 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:33] Error in run 537: Run already exists in server. Run id(s): {8958793}
+[2018-04-11 20:47:33] Started run 545 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:35] Error in run 539: Run already exists in server. Run id(s): {8958790}
+[2018-04-11 20:47:35] Error in run 538: Run already exists in server. Run id(s): {8958796}
+[2018-04-11 20:47:35] Started run 546 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:35] Started run 547 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:36] Error in run 542: Run already exists in server. Run id(s): {8958802}
+[2018-04-11 20:47:36] Error in run 540: Run already exists in server. Run id(s): {8958791}
+[2018-04-11 20:47:36] Error in run 541: Run already exists in server. Run id(s): {8958801}
+[2018-04-11 20:47:36] Error in run 543: Run already exists in server. Run id(s): {8958803}
+[2018-04-11 20:47:36] Error in run 544: Run already exists in server. Run id(s): {8958805}
+[2018-04-11 20:47:36] Started run 548 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:36] Started run 550 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:36] Started run 551 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:36] Started run 552 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:36] Started run 549 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:38] Error in run 545: Run already exists in server. Run id(s): {8958814}
+[2018-04-11 20:47:38] Started run 553 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:40] Error in run 546: Run already exists in server. Run id(s): {8958815}
+[2018-04-11 20:47:40] Error in run 547: Run already exists in server. Run id(s): {8958812}
+[2018-04-11 20:47:40] Started run 554 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:40] Started run 555 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:41] Error in run 548: Run already exists in server. Run id(s): {8958816}
+[2018-04-11 20:47:41] Error in run 550: Run already exists in server. Run id(s): {8958821}
+[2018-04-11 20:47:41] Error in run 552: Run already exists in server. Run id(s): {8958828}
+[2018-04-11 20:47:41] Error in run 549: Run already exists in server. Run id(s): {8958822}
+[2018-04-11 20:47:41] Error in run 551: Run already exists in server. Run id(s): {8958826}
+[2018-04-11 20:47:41] Started run 556 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:41] Started run 557 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:41] Started run 558 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:41] Started run 559 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:41] Started run 560 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:42] Error in run 553: Run already exists in server. Run id(s): {8958832}
+[2018-04-11 20:47:42] Started run 561 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:44] Error in run 554: Run already exists in server. Run id(s): {8958829}
+[2018-04-11 20:47:44] Error in run 555: Run already exists in server. Run id(s): {8958836}
+[2018-04-11 20:47:44] Started run 562 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:44] Started run 563 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:45] Error in run 558: Run already exists in server. Run id(s): {8958842}
+[2018-04-11 20:47:45] Error in run 556: Run already exists in server. Run id(s): {8958838}
+[2018-04-11 20:47:45] Error in run 557: Run already exists in server. Run id(s): {8958841}
+[2018-04-11 20:47:45] Error in run 560: Run already exists in server. Run id(s): {8958848}
+[2018-04-11 20:47:45] Started run 564 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:45] Error in run 559: Run already exists in server. Run id(s): {8958847}
+[2018-04-11 20:47:45] Started run 567 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:45] Started run 568 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:45] Started run 565 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:45] Started run 566 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:47] Error in run 561: Run already exists in server. Run id(s): {8958852}
+[2018-04-11 20:47:47] Started run 569 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:49] Error in run 563: Run already exists in server. Run id(s): {8958861}
+[2018-04-11 20:47:49] Error in run 562: Run already exists in server. Run id(s): {8958854}
+[2018-04-11 20:47:49] Started run 570 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:49] Started run 571 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:50] Error in run 564: Run already exists in server. Run id(s): {8958855}
+[2018-04-11 20:47:50] Error in run 567: Run already exists in server. Run id(s): {8958862}
+[2018-04-11 20:47:50] Error in run 568: Run already exists in server. Run id(s): {8958871}
+[2018-04-11 20:47:50] Started run 572 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:50] Error in run 566: Run already exists in server. Run id(s): {8958866}
+[2018-04-11 20:47:50] Error in run 565: Run already exists in server. Run id(s): {8958864}
+[2018-04-11 20:47:50] Started run 574 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:50] Started run 575 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:50] Started run 576 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:50] Started run 573 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:52] Error in run 569: Run already exists in server. Run id(s): {8958874}
+[2018-04-11 20:47:52] Started run 577 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:54] Error in run 571: Run already exists in server. Run id(s): {8958875}
+[2018-04-11 20:47:54] Error in run 570: Run already exists in server. Run id(s): {8958876}
+[2018-04-11 20:47:54] Started run 578 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:54] Started run 579 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:55] Error in run 574: Run already exists in server. Run id(s): {8958884}
+[2018-04-11 20:47:55] Error in run 572: Run already exists in server. Run id(s): {8958885}
+[2018-04-11 20:47:55] Error in run 576: Run already exists in server. Run id(s): {8958892}
+[2018-04-11 20:47:55] Error in run 575: Run already exists in server. Run id(s): {8958882}
+[2018-04-11 20:47:55] Started run 580 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:55] Error in run 573: Run already exists in server. Run id(s): {8958881}
+[2018-04-11 20:47:55] Started run 581 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:55] Started run 582 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:55] Started run 584 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:55] Started run 583 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:56] Error in run 577: Run already exists in server. Run id(s): {8958889}
+[2018-04-11 20:47:56] Started run 585 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:59] Error in run 579: Run already exists in server. Run id(s): {8958896}
+[2018-04-11 20:47:59] Error in run 578: Run already exists in server. Run id(s): {8958895}
+[2018-04-11 20:47:59] Started run 586 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:59] Started run 587 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:59] Error in run 584: Run already exists in server. Run id(s): {8958911}
+[2018-04-11 20:47:59] Error in run 581: Run already exists in server. Run id(s): {8958903}
+[2018-04-11 20:48:00] Error in run 582: Run already exists in server. Run id(s): {8958907}
+[2018-04-11 20:48:00] Error in run 583: Run already exists in server. Run id(s): {8958908}
+[2018-04-11 20:48:00] Error in run 580: Run already exists in server. Run id(s): {8958901}
+[2018-04-11 20:47:59] Started run 588 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:47:59] Started run 589 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:00] Started run 590 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:00] Started run 591 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:00] Started run 592 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:01] Error in run 585: Run already exists in server. Run id(s): {8958914}
+[2018-04-11 20:48:01] Started run 593 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:03] Error in run 586: Run already exists in server. Run id(s): {8958918}
+[2018-04-11 20:48:03] Error in run 587: Run already exists in server. Run id(s): {8958920}
+[2018-04-11 20:48:03] Started run 594 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:03] Started run 595 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:04] Error in run 589: Run already exists in server. Run id(s): {8958927}
+[2018-04-11 20:48:04] Error in run 590: Run already exists in server. Run id(s): {8958929}
+[2018-04-11 20:48:04] Error in run 588: Run already exists in server. Run id(s): {8958921}
+[2018-04-11 20:48:04] Started run 596 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:04] Error in run 591: Run already exists in server. Run id(s): {8958930}
+[2018-04-11 20:48:04] Started run 597 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:04] Started run 599 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:04] Error in run 592: Run already exists in server. Run id(s): {8958925}
+[2018-04-11 20:48:04] Started run 598 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:04] Started run 600 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:06] Error in run 593: Run already exists in server. Run id(s): {8958934}
+[2018-04-11 20:48:06] Started run 601 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:08] Error in run 595: Run already exists in server. Run id(s): {8958936}
+[2018-04-11 20:48:08] Error in run 594: Run already exists in server. Run id(s): {8958938}
+[2018-04-11 20:48:08] Started run 602 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:08] Started run 603 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:09] Error in run 597: Run already exists in server. Run id(s): {8958939}
+[2018-04-11 20:48:09] Error in run 596: Run already exists in server. Run id(s): {8958942}
+[2018-04-11 20:48:09] Error in run 600: Run already exists in server. Run id(s): {8958950}
+[2018-04-11 20:48:09] Started run 604 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:09] Error in run 599: Run already exists in server. Run id(s): {8958949}
+[2018-04-11 20:48:09] Started run 605 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:09] Error in run 598: Run already exists in server. Run id(s): {8958945}
+[2018-04-11 20:48:09] Started run 607 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:09] Started run 608 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:09] Started run 606 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:11] Error in run 601: Run already exists in server. Run id(s): {8958955}
+[2018-04-11 20:48:11] Started run 609 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:13] Error in run 602: Run already exists in server. Run id(s): {8958954}
+[2018-04-11 20:48:13] Error in run 603: Run already exists in server. Run id(s): {8958957}
+[2018-04-11 20:48:13] Started run 610 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:13] Started run 611 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:14] Error in run 604: Run already exists in server. Run id(s): {8958962}
+[2018-04-11 20:48:14] Error in run 608: Run already exists in server. Run id(s): {8958972}
+[2018-04-11 20:48:14] Error in run 605: Run already exists in server. Run id(s): {8958966}
+[2018-04-11 20:48:14] Error in run 607: Run already exists in server. Run id(s): {8958965}
+[2018-04-11 20:48:14] Error in run 606: Run already exists in server. Run id(s): {8958967}
+[2018-04-11 20:48:14] Started run 612 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:14] Started run 616 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:14] Started run 613 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:14] Started run 614 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:14] Started run 615 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:15] Error in run 609: Run already exists in server. Run id(s): {8958975}
+[2018-04-11 20:48:15] Started run 617 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:18] Error in run 611: Run already exists in server. Run id(s): {8958977}
+[2018-04-11 20:48:18] Error in run 610: Run already exists in server. Run id(s): {8958976}
+[2018-04-11 20:48:18] Started run 618 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:18] Started run 619 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:18] Error in run 616: Run already exists in server. Run id(s): {8958994}
+[2018-04-11 20:48:18] Started run 620 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:18] Error in run 615: Run already exists in server. Run id(s): {8958988}
+[2018-04-11 20:48:18] Error in run 613: Run already exists in server. Run id(s): {8958985}
+[2018-04-11 20:48:18] Error in run 614: Run already exists in server. Run id(s): {8958987}
+[2018-04-11 20:48:18] Error in run 612: Run already exists in server. Run id(s): {8958982}
+[2018-04-11 20:48:18] Started run 621 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:18] Started run 622 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:18] Started run 623 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:18] Started run 624 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:20] Error in run 617: Run already exists in server. Run id(s): {8958992}
+[2018-04-11 20:48:20] Started run 625 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:22] Error in run 619: Run already exists in server. Run id(s): {8959000}
+[2018-04-11 20:48:22] Error in run 618: Run already exists in server. Run id(s): {8958998}
+[2018-04-11 20:48:22] Started run 626 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:22] Started run 627 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:23] Error in run 620: Run already exists in server. Run id(s): {8959005}
+[2018-04-11 20:48:23] Started run 628 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:23] Error in run 623: Run already exists in server. Run id(s): {8959011}
+[2018-04-11 20:48:23] Error in run 624: Run already exists in server. Run id(s): {8959007}
+[2018-04-11 20:48:23] Error in run 622: Run already exists in server. Run id(s): {8959012}
+[2018-04-11 20:48:23] Error in run 621: Run already exists in server. Run id(s): {8959001}
+[2018-04-11 20:48:23] Started run 629 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:23] Started run 630 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:23] Started run 632 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:23] Started run 631 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:25] Error in run 625: Run already exists in server. Run id(s): {8959014}
+[2018-04-11 20:48:25] Started run 633 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:27] Error in run 627: Run already exists in server. Run id(s): {8959022}
+[2018-04-11 20:48:27] Error in run 626: Run already exists in server. Run id(s): {8959017}
+[2018-04-11 20:48:27] Started run 634 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:27] Started run 635 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:27] Error in run 628: Run already exists in server. Run id(s): {8959020}
+[2018-04-11 20:48:27] Started run 636 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:28] Error in run 632: Run already exists in server. Run id(s): {8959033}
+[2018-04-11 20:48:28] Error in run 629: Run already exists in server. Run id(s): {8959024}
+[2018-04-11 20:48:28] Error in run 630: Run already exists in server. Run id(s): {8959028}
+[2018-04-11 20:48:28] Error in run 631: Run already exists in server. Run id(s): {8959031}
+[2018-04-11 20:48:28] Started run 637 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:28] Started run 638 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:28] Started run 640 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:28] Started run 639 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:29] Error in run 633: Run already exists in server. Run id(s): {8959035}
+[2018-04-11 20:48:29] Started run 641 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:32] Error in run 634: Run already exists in server. Run id(s): {8959039}
+[2018-04-11 20:48:32] Error in run 636: Run already exists in server. Run id(s): {8959046}
+[2018-04-11 20:48:32] Error in run 635: Run already exists in server. Run id(s): {8959044}
+[2018-04-11 20:48:32] Started run 642 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:32] Started run 643 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:32] Started run 644 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:33] Error in run 640: Run already exists in server. Run id(s): {8959054}
+[2018-04-11 20:48:33] Started run 645 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:33] Error in run 637: Run already exists in server. Run id(s): {8959042}
+[2018-04-11 20:48:33] Error in run 638: Run already exists in server. Run id(s): {8959047}
+[2018-04-11 20:48:33] Error in run 639: Run already exists in server. Run id(s): {8959052}
+[2018-04-11 20:48:33] Started run 646 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:33] Started run 647 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:33] Started run 648 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:34] Error in run 641: Run already exists in server. Run id(s): {8959053}
+[2018-04-11 20:48:34] Started run 649 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:37] Error in run 642: Run already exists in server. Run id(s): {8959059}
+[2018-04-11 20:48:37] Error in run 644: Run already exists in server. Run id(s): {8959060}
+[2018-04-11 20:48:37] Error in run 643: Run already exists in server. Run id(s): {8959066}
+[2018-04-11 20:48:37] Started run 650 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:37] Started run 651 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:37] Started run 652 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:37] Error in run 646: Run already exists in server. Run id(s): {8959065}
+[2018-04-11 20:48:37] Error in run 648: Run already exists in server. Run id(s): {8959072}
+[2018-04-11 20:48:37] Error in run 645: Run already exists in server. Run id(s): {8959067}
+[2018-04-11 20:48:37] Error in run 647: Run already exists in server. Run id(s): {8959069}
+[2018-04-11 20:48:37] Started run 653 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:37] Started run 654 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:37] Started run 656 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:37] Started run 655 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:39] Error in run 649: Run already exists in server. Run id(s): {8959078}
+[2018-04-11 20:48:39] Started run 657 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:41] Error in run 650: Run already exists in server. Run id(s): {8959074}
+[2018-04-11 20:48:41] Error in run 651: Run already exists in server. Run id(s): {8959080}
+[2018-04-11 20:48:41] Error in run 652: Run already exists in server. Run id(s): {8959084}
+[2018-04-11 20:48:41] Started run 658 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:41] Started run 659 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:41] Started run 660 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:42] Error in run 654: Run already exists in server. Run id(s): {8959088}
+[2018-04-11 20:48:42] Error in run 656: Run already exists in server. Run id(s): {8959093}
+[2018-04-11 20:48:42] Error in run 653: Run already exists in server. Run id(s): {8959086}
+[2018-04-11 20:48:42] Error in run 655: Run already exists in server. Run id(s): {8959087}
+[2018-04-11 20:48:42] Started run 661 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:42] Started run 662 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:42] Started run 663 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:42] Started run 664 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:44] Error in run 657: Run already exists in server. Run id(s): {8959097}
+[2018-04-11 20:48:44] Started run 665 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:46] Error in run 658: Run already exists in server. Run id(s): {8959099}
+[2018-04-11 20:48:46] Started run 666 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:46] Error in run 659: Run already exists in server. Run id(s): {8959100}
+[2018-04-11 20:48:46] Error in run 660: Run already exists in server. Run id(s): {8959106}
+[2018-04-11 20:48:46] Started run 667 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:46] Started run 668 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:47] Error in run 664: Run already exists in server. Run id(s): {8959114}
+[2018-04-11 20:48:47] Error in run 662: Run already exists in server. Run id(s): {8959110}
+[2018-04-11 20:48:47] Error in run 663: Run already exists in server. Run id(s): {8959111}
+[2018-04-11 20:48:47] Error in run 661: Run already exists in server. Run id(s): {8959104}
+[2018-04-11 20:48:47] Started run 669 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:47] Started run 670 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:47] Started run 671 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:47] Started run 672 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:48] Error in run 665: Run already exists in server. Run id(s): {8959113}
+[2018-04-11 20:48:48] Started run 673 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:50] Error in run 666: Run already exists in server. Run id(s): {8959117}
+[2018-04-11 20:48:50] Started run 674 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:51] Error in run 668: Run already exists in server. Run id(s): {8959125}
+[2018-04-11 20:48:51] Error in run 667: Run already exists in server. Run id(s): {8959122}
+[2018-04-11 20:48:51] Started run 675 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:51] Started run 676 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:51] Error in run 672: Run already exists in server. Run id(s): {8959137}
+[2018-04-11 20:48:51] Error in run 671: Run already exists in server. Run id(s): {8959134}
+[2018-04-11 20:48:51] Error in run 669: Run already exists in server. Run id(s): {8959124}
+[2018-04-11 20:48:52] Error in run 670: Run already exists in server. Run id(s): {8959127}
+[2018-04-11 20:48:51] Started run 677 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:51] Started run 678 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:52] Started run 680 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:51] Started run 679 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:53] Error in run 673: Run already exists in server. Run id(s): {8959136}
+[2018-04-11 20:48:53] Started run 681 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:55] Error in run 674: Run already exists in server. Run id(s): {8959132}
+[2018-04-11 20:48:55] Started run 682 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:56] Error in run 675: Run already exists in server. Run id(s): {8959140}
+[2018-04-11 20:48:56] Error in run 676: Run already exists in server. Run id(s): {8959145}
+[2018-04-11 20:48:56] Started run 683 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:56] Started run 684 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:56] Error in run 680: Run already exists in server. Run id(s): {8959155}
+[2018-04-11 20:48:56] Error in run 677: Run already exists in server. Run id(s): {8959147}
+[2018-04-11 20:48:56] Error in run 678: Run already exists in server. Run id(s): {8959148}
+[2018-04-11 20:48:56] Error in run 679: Run already exists in server. Run id(s): {8959150}
+[2018-04-11 20:48:56] Started run 685 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:56] Started run 686 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:56] Started run 687 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:56] Started run 688 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:58] Error in run 681: Run already exists in server. Run id(s): {8959158}
+[2018-04-11 20:48:58] Started run 689 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:48:59] Error in run 682: Run already exists in server. Run id(s): {8959159}
+[2018-04-11 20:48:59] Started run 690 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:00] Error in run 684: Run already exists in server. Run id(s): {8959165}
+[2018-04-11 20:49:00] Error in run 683: Run already exists in server. Run id(s): {8959162}
+[2018-04-11 20:49:00] Started run 691 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:00] Started run 692 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:01] Error in run 687: Run already exists in server. Run id(s): {8959170}
+[2018-04-11 20:49:01] Error in run 686: Run already exists in server. Run id(s): {8959169}
+[2018-04-11 20:49:01] Error in run 688: Run already exists in server. Run id(s): {8959172}
+[2018-04-11 20:49:01] Error in run 685: Run already exists in server. Run id(s): {8959168}
+[2018-04-11 20:49:01] Started run 693 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:01] Started run 694 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:01] Started run 695 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:01] Started run 696 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:03] Error in run 689: Run already exists in server. Run id(s): {8959171}
+[2018-04-11 20:49:03] Started run 697 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:04] Error in run 690: Run already exists in server. Run id(s): {8959175}
+[2018-04-11 20:49:04] Started run 698 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:05] Error in run 691: Run already exists in server. Run id(s): {8959178}
+[2018-04-11 20:49:05] Error in run 692: Run already exists in server. Run id(s): {8959179}
+[2018-04-11 20:49:05] Started run 699 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:05] Started run 700 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:06] Error in run 693: Run already exists in server. Run id(s): {8959180}
+[2018-04-11 20:49:06] Error in run 695: Run already exists in server. Run id(s): {8959186}
+[2018-04-11 20:49:06] Error in run 696: Run already exists in server. Run id(s): {8959188}
+[2018-04-11 20:49:06] Error in run 694: Run already exists in server. Run id(s): {8959181}
+[2018-04-11 20:49:06] Started run 701 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:06] Started run 702 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:06] Started run 703 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:06] Started run 704 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:07] Error in run 697: Run already exists in server. Run id(s): {8959187}
+[2018-04-11 20:49:07] Started run 705 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:09] Error in run 698: Run already exists in server. Run id(s): {8959189}
+[2018-04-11 20:49:09] Started run 706 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:10] Error in run 699: Run already exists in server. Run id(s): {8959195}
+[2018-04-11 20:49:10] Started run 707 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:10] Error in run 700: Run already exists in server. Run id(s): {8959190}
+[2018-04-11 20:49:10] Started run 708 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:10] Error in run 704: Run already exists in server. Run id(s): {8959203}
+[2018-04-11 20:49:10] Error in run 701: Run already exists in server. Run id(s): {8959196}
+[2018-04-11 20:49:10] Started run 709 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:10] Error in run 702: Run already exists in server. Run id(s): {8959197}
+[2018-04-11 20:49:10] Started run 710 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:10] Started run 711 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:11] Error in run 703: Run already exists in server. Run id(s): {8959200}
+[2018-04-11 20:49:11] Started run 712 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:12] Error in run 705: Run already exists in server. Run id(s): {8959205}
+[2018-04-11 20:49:12] Started run 713 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:14] Error in run 706: Run already exists in server. Run id(s): {8959204}
+[2018-04-11 20:49:14] Started run 714 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:15] Error in run 708: Run already exists in server. Run id(s): {8959211}
+[2018-04-11 20:49:15] Error in run 707: Run already exists in server. Run id(s): {8959210}
+[2018-04-11 20:49:15] Started run 715 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:15] Started run 716 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:15] Error in run 709: Run already exists in server. Run id(s): {8959212}
+[2018-04-11 20:49:15] Error in run 711: Run already exists in server. Run id(s): {8959214}
+[2018-04-11 20:49:15] Error in run 710: Run already exists in server. Run id(s): {8959216}
+[2018-04-11 20:49:15] Error in run 712: Run already exists in server. Run id(s): {8959217}
+[2018-04-11 20:49:15] Started run 717 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:15] Started run 720 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:15] Started run 718 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:15] Started run 719 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:17] Error in run 713: Run already exists in server. Run id(s): {8959220}
+[2018-04-11 20:49:17] Started run 721 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:18] Error in run 714: Run already exists in server. Run id(s): {8959224}
+[2018-04-11 20:49:18] Started run 722 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:19] Error in run 716: Run already exists in server. Run id(s): {8959227}
+[2018-04-11 20:49:19] Error in run 715: Run already exists in server. Run id(s): {8959222}
+[2018-04-11 20:49:19] Started run 723 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:19] Started run 724 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:20] Error in run 717: Run already exists in server. Run id(s): {8959228}
+[2018-04-11 20:49:20] Error in run 718: Run already exists in server. Run id(s): {8959231}
+[2018-04-11 20:49:20] Error in run 720: Run already exists in server. Run id(s): {8959236}
+[2018-04-11 20:49:20] Started run 725 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:20] Started run 726 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:20] Error in run 719: Run already exists in server. Run id(s): {8959233}
+[2018-04-11 20:49:20] Started run 728 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:20] Started run 727 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:22] Error in run 721: Run already exists in server. Run id(s): {8959235}
+[2018-04-11 20:49:22] Started run 729 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:23] Error in run 722: Run already exists in server. Run id(s): {8959241}
+[2018-04-11 20:49:23] Started run 730 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:24] Error in run 723: Run already exists in server. Run id(s): {8959242}
+[2018-04-11 20:49:24] Error in run 724: Run already exists in server. Run id(s): {8959243}
+[2018-04-11 20:49:24] Started run 731 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:24] Started run 732 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:25] Error in run 725: Run already exists in server. Run id(s): {8959244}
+[2018-04-11 20:49:25] Error in run 726: Run already exists in server. Run id(s): {8959249}
+[2018-04-11 20:49:25] Error in run 728: Run already exists in server. Run id(s): {8959251}
+[2018-04-11 20:49:25] Error in run 727: Run already exists in server. Run id(s): {8959250}
+[2018-04-11 20:49:25] Started run 733 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:25] Started run 734 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:25] Started run 736 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:25] Started run 735 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:26] Error in run 729: Run already exists in server. Run id(s): {8959252}
+[2018-04-11 20:49:26] Started run 737 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:28] Error in run 730: Run already exists in server. Run id(s): {8959258}
+[2018-04-11 20:49:28] Started run 738 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:29] Error in run 732: Run already exists in server. Run id(s): {8959259}
+[2018-04-11 20:49:29] Error in run 731: Run already exists in server. Run id(s): {8959254}
+[2018-04-11 20:49:29] Started run 739 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:29] Started run 740 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:29] Error in run 736: Run already exists in server. Run id(s): {8959267}
+[2018-04-11 20:49:29] Error in run 735: Run already exists in server. Run id(s): {8959265}
+[2018-04-11 20:49:29] Error in run 733: Run already exists in server. Run id(s): {8959260}
+[2018-04-11 20:49:29] Error in run 734: Run already exists in server. Run id(s): {8959263}
+[2018-04-11 20:49:29] Started run 741 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:29] Started run 742 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:29] Started run 743 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:29] Started run 744 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:31] Error in run 737: Run already exists in server. Run id(s): {8959268}
+[2018-04-11 20:49:31] Started run 745 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:33] Error in run 738: Run already exists in server. Run id(s): {8959269}
+[2018-04-11 20:49:33] Started run 746 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:33] Error in run 739: Run already exists in server. Run id(s): {8959274}
+[2018-04-11 20:49:33] Error in run 740: Run already exists in server. Run id(s): {8959275}
+[2018-04-11 20:49:33] Started run 747 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:33] Started run 748 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:34] Error in run 742: Run already exists in server. Run id(s): {8959277}
+[2018-04-11 20:49:34] Error in run 744: Run already exists in server. Run id(s): {8959284}
+[2018-04-11 20:49:34] Error in run 741: Run already exists in server. Run id(s): {8959276}
+[2018-04-11 20:49:34] Error in run 743: Run already exists in server. Run id(s): {8959282}
+[2018-04-11 20:49:34] Started run 750 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:34] Started run 752 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:34] Started run 751 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:34] Started run 749 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:36] Error in run 745: Run already exists in server. Run id(s): {8959285}
+[2018-04-11 20:49:36] Started run 753 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:37] Error in run 746: Run already exists in server. Run id(s): {8959287}
+[2018-04-11 20:49:37] Started run 754 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:38] Error in run 748: Run already exists in server. Run id(s): {8959293}
+[2018-04-11 20:49:38] Error in run 747: Run already exists in server. Run id(s): {8959291}
+[2018-04-11 20:49:38] Started run 755 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:38] Started run 756 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:39] Error in run 752: Run already exists in server. Run id(s): {8959301}
+[2018-04-11 20:49:39] Error in run 750: Run already exists in server. Run id(s): {8959295}
+[2018-04-11 20:49:39] Error in run 751: Run already exists in server. Run id(s): {8959298}
+[2018-04-11 20:49:39] Error in run 749: Run already exists in server. Run id(s): {8959292, 9022174}
+[2018-04-11 20:49:39] Started run 757 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:39] Started run 760 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:39] Started run 758 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:39] Started run 759 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:41] Error in run 753: Run already exists in server. Run id(s): {8959300}
+[2018-04-11 20:49:41] Started run 761 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:42] Error in run 754: Run already exists in server. Run id(s): {8959306}
+[2018-04-11 20:49:42] Started run 762 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:43] Error in run 756: Run already exists in server. Run id(s): {8959302}
+[2018-04-11 20:49:43] Error in run 755: Run already exists in server. Run id(s): {8959308}
+[2018-04-11 20:49:43] Started run 763 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:43] Started run 764 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:44] Error in run 758: Run already exists in server. Run id(s): {8959310}
+[2018-04-11 20:49:44] Error in run 757: Run already exists in server. Run id(s): {8959309}
+[2018-04-11 20:49:44] Error in run 759: Run already exists in server. Run id(s): {8959315}
+[2018-04-11 20:49:44] Error in run 760: Run already exists in server. Run id(s): {8959316}
+[2018-04-11 20:49:44] Started run 765 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:44] Started run 767 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:44] Started run 766 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:44] Started run 768 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:45] Error in run 761: Run already exists in server. Run id(s): {8959318}
+[2018-04-11 20:49:45] Started run 769 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:47] Error in run 762: Run already exists in server. Run id(s): {8959317}
+[2018-04-11 20:49:47] Started run 770 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:48] Error in run 763: Run already exists in server. Run id(s): {8959319}
+[2018-04-11 20:49:48] Error in run 764: Run already exists in server. Run id(s): {8959326}
+[2018-04-11 20:49:48] Started run 771 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:48] Started run 772 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:48] Error in run 765: Run already exists in server. Run id(s): {8959324}
+[2018-04-11 20:49:48] Error in run 768: Run already exists in server. Run id(s): {8959331}
+[2018-04-11 20:49:48] Error in run 766: Run already exists in server. Run id(s): {8959322}
+[2018-04-11 20:49:48] Error in run 767: Run already exists in server. Run id(s): {8959327}
+[2018-04-11 20:49:48] Started run 773 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:48] Started run 774 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:48] Started run 775 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:48] Started run 776 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:50] Error in run 769: Run already exists in server. Run id(s): {8959333}
+[2018-04-11 20:49:50] Started run 777 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:51] Error in run 770: Run already exists in server. Run id(s): {8959334}
+[2018-04-11 20:49:51] Started run 778 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:52] Error in run 771: Run already exists in server. Run id(s): {8959335}
+[2018-04-11 20:49:52] Error in run 772: Run already exists in server. Run id(s): {8959341}
+[2018-04-11 20:49:52] Started run 779 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:52] Started run 780 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:53] Error in run 773: Run already exists in server. Run id(s): {8959342}
+[2018-04-11 20:49:53] Error in run 776: Run already exists in server. Run id(s): {8959348}
+[2018-04-11 20:49:53] Error in run 775: Run already exists in server. Run id(s): {8959345}
+[2018-04-11 20:49:53] Error in run 774: Run already exists in server. Run id(s): {8959343}
+[2018-04-11 20:49:53] Started run 781 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:53] Started run 782 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:53] Started run 783 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:53] Started run 784 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:55] Error in run 777: Run already exists in server. Run id(s): {8959346}
+[2018-04-11 20:49:55] Started run 785 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:56] Error in run 778: Run already exists in server. Run id(s): {8959351}
+[2018-04-11 20:49:56] Started run 786 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:57] Error in run 780: Run already exists in server. Run id(s): {8959352}
+[2018-04-11 20:49:57] Error in run 779: Run already exists in server. Run id(s): {8959355}
+[2018-04-11 20:49:57] Started run 787 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:57] Started run 788 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:58] Error in run 783: Run already exists in server. Run id(s): {8959361}
+[2018-04-11 20:49:58] Error in run 781: Run already exists in server. Run id(s): {8959353}
+[2018-04-11 20:49:58] Error in run 782: Run already exists in server. Run id(s): {8959360}
+[2018-04-11 20:49:58] Error in run 784: Run already exists in server. Run id(s): {8959359}
+[2018-04-11 20:49:58] Started run 789 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:58] Started run 792 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:58] Started run 790 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:58] Started run 791 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:49:59] Error in run 785: Run already exists in server. Run id(s): {8959363}
+[2018-04-11 20:49:59] Started run 793 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:01] Error in run 786: Run already exists in server. Run id(s): {8959368}
+[2018-04-11 20:50:01] Started run 794 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:02] Error in run 788: Run already exists in server. Run id(s): {8959367}
+[2018-04-11 20:50:02] Error in run 787: Run already exists in server. Run id(s): {8959369}
+[2018-04-11 20:50:02] Started run 795 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:02] Started run 796 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:03] Error in run 789: Run already exists in server. Run id(s): {8959372}
+[2018-04-11 20:50:03] Error in run 790: Run already exists in server. Run id(s): {8959375}
+[2018-04-11 20:50:03] Error in run 791: Run already exists in server. Run id(s): {8959376}
+[2018-04-11 20:50:03] Error in run 792: Run already exists in server. Run id(s): {8959378}
+[2018-04-11 20:50:03] Started run 797 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:03] Started run 799 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:03] Started run 800 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:03] Started run 798 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:04] Error in run 793: Run already exists in server. Run id(s): {8959377}
+[2018-04-11 20:50:04] Started run 801 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:06] Error in run 794: Run already exists in server. Run id(s): {8959384}
+[2018-04-11 20:50:06] Started run 802 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:06] Error in run 796: Run already exists in server. Run id(s): {8959386}
+[2018-04-11 20:50:06] Error in run 795: Run already exists in server. Run id(s): {8959385}
+[2018-04-11 20:50:06] Started run 803 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:06] Started run 804 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:07] Error in run 797: Run already exists in server. Run id(s): {8959383}
+[2018-04-11 20:50:07] Error in run 800: Run already exists in server. Run id(s): {8959391}
+[2018-04-11 20:50:07] Error in run 799: Run already exists in server. Run id(s): {8959393}
+[2018-04-11 20:50:07] Error in run 798: Run already exists in server. Run id(s): {8959392}
+[2018-04-11 20:50:07] Started run 805 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:07] Started run 806 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:07] Started run 807 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:07] Started run 808 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:09] Error in run 801: Run already exists in server. Run id(s): {8959395}
+[2018-04-11 20:50:09] Started run 809 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:10] Error in run 802: Run already exists in server. Run id(s): {8959401}
+[2018-04-11 20:50:10] Started run 810 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:11] Error in run 803: Run already exists in server. Run id(s): {8959398}
+[2018-04-11 20:50:11] Started run 811 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:11] Error in run 804: Run already exists in server. Run id(s): {8959400}
+[2018-04-11 20:50:11] Started run 812 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:12] Error in run 807: Run already exists in server. Run id(s): {8959408}
+[2018-04-11 20:50:12] Error in run 806: Run already exists in server. Run id(s): {8959402}
+[2018-04-11 20:50:12] Error in run 808: Run already exists in server. Run id(s): {8959406}
+[2018-04-11 20:50:12] Error in run 805: Run already exists in server. Run id(s): {8959404}
+[2018-04-11 20:50:12] Started run 813 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:12] Started run 814 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:12] Started run 815 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:12] Started run 816 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:14] Error in run 809: Run already exists in server. Run id(s): {8959411}
+[2018-04-11 20:50:14] Started run 817 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:15] Error in run 810: Run already exists in server. Run id(s): {8959414}
+[2018-04-11 20:50:15] Started run 818 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:16] Error in run 811: Run already exists in server. Run id(s): {8959416}
+[2018-04-11 20:50:16] Started run 819 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:16] Error in run 812: Run already exists in server. Run id(s): {8959412}
+[2018-04-11 20:50:16] Started run 820 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:17] Error in run 814: Run already exists in server. Run id(s): {8959422}
+[2018-04-11 20:50:17] Error in run 816: Run already exists in server. Run id(s): {8959424}
+[2018-04-11 20:50:17] Error in run 815: Run already exists in server. Run id(s): {8959426}
+[2018-04-11 20:50:17] Error in run 813: Run already exists in server. Run id(s): {8959420}
+[2018-04-11 20:50:17] Started run 821 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:17] Started run 822 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:17] Started run 823 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:17] Started run 824 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:18] Error in run 817: Run already exists in server. Run id(s): {8959428}
+[2018-04-11 20:50:18] Started run 825 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:20] Error in run 818: Run already exists in server. Run id(s): {8959430}
+[2018-04-11 20:50:20] Started run 826 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:20] Error in run 819: Run already exists in server. Run id(s): {8959432}
+[2018-04-11 20:50:20] Started run 827 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:21] Error in run 820: Run already exists in server. Run id(s): {8959434}
+[2018-04-11 20:50:21] Started run 828 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:22] Error in run 822: Run already exists in server. Run id(s): {8959435}
+[2018-04-11 20:50:22] Error in run 824: Run already exists in server. Run id(s): {8959442}
+[2018-04-11 20:50:22] Error in run 823: Run already exists in server. Run id(s): {8959437}
+[2018-04-11 20:50:22] Error in run 821: Run already exists in server. Run id(s): {8959438}
+[2018-04-11 20:50:22] Started run 829 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:22] Started run 830 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:22] Started run 831 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:22] Started run 832 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:23] Error in run 825: Run already exists in server. Run id(s): {8959444}
+[2018-04-11 20:50:23] Started run 833 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:25] Error in run 826: Run already exists in server. Run id(s): {8959446}
+[2018-04-11 20:50:25] Error in run 827: Run already exists in server. Run id(s): {8959443}
+[2018-04-11 20:50:25] Started run 834 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:25] Started run 835 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:25] Error in run 828: Run already exists in server. Run id(s): {8959447}
+[2018-04-11 20:50:25] Started run 836 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:26] Error in run 832: Run already exists in server. Run id(s): {8959455}
+[2018-04-11 20:50:26] Error in run 831: Run already exists in server. Run id(s): {8959454}
+[2018-04-11 20:50:26] Error in run 829: Run already exists in server. Run id(s): {8959451}
+[2018-04-11 20:50:26] Error in run 830: Run already exists in server. Run id(s): {8959453}
+[2018-04-11 20:50:26] Started run 837 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:26] Started run 839 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:26] Started run 840 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:26] Started run 838 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:28] Error in run 833: Run already exists in server. Run id(s): {8959461}
+[2018-04-11 20:50:28] Started run 841 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:29] Error in run 835: Run already exists in server. Run id(s): {8959460}
+[2018-04-11 20:50:29] Started run 842 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:29] Error in run 834: Run already exists in server. Run id(s): {8959459}
+[2018-04-11 20:50:29] Started run 843 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:30] Error in run 836: Run already exists in server. Run id(s): {8959463}
+[2018-04-11 20:50:30] Started run 844 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:31] Error in run 838: Run already exists in server. Run id(s): {8959469}
+[2018-04-11 20:50:31] Error in run 837: Run already exists in server. Run id(s): {8959464}
+[2018-04-11 20:50:31] Error in run 839: Run already exists in server. Run id(s): {8959467}
+[2018-04-11 20:50:31] Error in run 840: Run already exists in server. Run id(s): {8959472}
+[2018-04-11 20:50:31] Started run 845 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:31] Started run 847 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:31] Started run 846 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:31] Started run 848 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:33] Error in run 841: Run already exists in server. Run id(s): {8959471}
+[2018-04-11 20:50:33] Started run 849 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:34] Error in run 843: Run already exists in server. Run id(s): {8959477}
+[2018-04-11 20:50:34] Error in run 842: Run already exists in server. Run id(s): {8959478}
+[2018-04-11 20:50:34] Started run 850 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:34] Started run 851 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:35] Error in run 844: Run already exists in server. Run id(s): {8959476}
+[2018-04-11 20:50:35] Started run 852 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:36] Error in run 847: Run already exists in server. Run id(s): {8959484}
+[2018-04-11 20:50:36] Error in run 845: Run already exists in server. Run id(s): {8959480}
+[2018-04-11 20:50:36] Error in run 846: Run already exists in server. Run id(s): {8959485}
+[2018-04-11 20:50:36] Error in run 848: Run already exists in server. Run id(s): {8959486}
+[2018-04-11 20:50:36] Started run 853 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:36] Started run 854 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:36] Started run 856 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:36] Started run 855 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:37] Error in run 849: Run already exists in server. Run id(s): {8959488}
+[2018-04-11 20:50:37] Started run 857 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:39] Error in run 851: Run already exists in server. Run id(s): {8959489}
+[2018-04-11 20:50:39] Error in run 850: Run already exists in server. Run id(s): {8959494}
+[2018-04-11 20:50:39] Started run 858 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:39] Started run 859 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:40] Error in run 852: Run already exists in server. Run id(s): {8959490}
+[2018-04-11 20:50:40] Started run 860 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:40] Error in run 853: Run already exists in server. Run id(s): {8959495}
+[2018-04-11 20:50:41] Error in run 856: Run already exists in server. Run id(s): {8959502}
+[2018-04-11 20:50:41] Error in run 854: Run already exists in server. Run id(s): {8959497}
+[2018-04-11 20:50:40] Started run 861 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:41] Error in run 855: Run already exists in server. Run id(s): {8959499}
+[2018-04-11 20:50:41] Started run 864 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:41] Started run 862 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:41] Started run 863 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:42] Error in run 857: Run already exists in server. Run id(s): {8959503}
+[2018-04-11 20:50:42] Started run 865 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:44] Error in run 858: Run already exists in server. Run id(s): {8959506}
+[2018-04-11 20:50:44] Error in run 859: Run already exists in server. Run id(s): {8959508}
+[2018-04-11 20:50:44] Started run 866 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:44] Started run 867 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:44] Error in run 860: Run already exists in server. Run id(s): {8959510}
+[2018-04-11 20:50:44] Started run 868 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:45] Error in run 862: Run already exists in server. Run id(s): {8959513}
+[2018-04-11 20:50:45] Error in run 861: Run already exists in server. Run id(s): {8959512}
+[2018-04-11 20:50:45] Error in run 864: Run already exists in server. Run id(s): {8959517}
+[2018-04-11 20:50:45] Error in run 863: Run already exists in server. Run id(s): {8959515}
+[2018-04-11 20:50:45] Started run 869 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:45] Started run 870 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:45] Started run 871 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:45] Started run 872 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:47] Error in run 865: Run already exists in server. Run id(s): {8959518}
+[2018-04-11 20:50:47] Started run 873 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:48] Error in run 866: Run already exists in server. Run id(s): {8959521}
+[2018-04-11 20:50:48] Error in run 867: Run already exists in server. Run id(s): {8959522}
+[2018-04-11 20:50:48] Started run 874 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:48] Started run 875 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:49] Error in run 868: Run already exists in server. Run id(s): {8959526}
+[2018-04-11 20:50:49] Started run 876 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:50] Error in run 870: Run already exists in server. Run id(s): {8959529}
+[2018-04-11 20:50:50] Started run 877 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:50] Error in run 872: Run already exists in server. Run id(s): {8959531}
+[2018-04-11 20:50:50] Error in run 871: Run already exists in server. Run id(s): {8959530}
+[2018-04-11 20:50:50] Error in run 869: Run already exists in server. Run id(s): {8959527}
+[2018-04-11 20:50:50] Started run 878 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:50] Started run 880 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:50] Started run 879 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:51] Error in run 873: Run already exists in server. Run id(s): {8959535}
+[2018-04-11 20:50:51] Started run 881 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:53] Error in run 874: Run already exists in server. Run id(s): {8959537}
+[2018-04-11 20:50:53] Error in run 875: Run already exists in server. Run id(s): {8959538}
+[2018-04-11 20:50:53] Started run 882 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:53] Started run 883 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:54] Error in run 876: Run already exists in server. Run id(s): {8959539}
+[2018-04-11 20:50:54] Started run 884 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:54] Error in run 877: Run already exists in server. Run id(s): {8959542}
+[2018-04-11 20:50:54] Started run 885 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:55] Error in run 879: Run already exists in server. Run id(s): {8959547}
+[2018-04-11 20:50:55] Error in run 878: Run already exists in server. Run id(s): {8959546}
+[2018-04-11 20:50:55] Error in run 880: Run already exists in server. Run id(s): {8959545}
+[2018-04-11 20:50:55] Started run 886 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:55] Started run 887 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:55] Started run 888 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:56] Error in run 881: Run already exists in server. Run id(s): {8959549}
+[2018-04-11 20:50:56] Started run 889 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:58] Error in run 882: Run already exists in server. Run id(s): {8959553}
+[2018-04-11 20:50:58] Error in run 883: Run already exists in server. Run id(s): {8959554}
+[2018-04-11 20:50:58] Started run 890 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:58] Started run 891 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:59] Error in run 884: Run already exists in server. Run id(s): {8959555}
+[2018-04-11 20:50:59] Started run 892 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:59] Error in run 885: Run already exists in server. Run id(s): {8959558}
+[2018-04-11 20:50:59] Started run 893 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:59] Error in run 887: Run already exists in server. Run id(s): {8959562}
+[2018-04-11 20:50:59] Error in run 888: Run already exists in server. Run id(s): {8959564}
+[2018-04-11 20:50:59] Error in run 886: Run already exists in server. Run id(s): {8959561}
+[2018-04-11 20:50:59] Started run 894 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:59] Started run 895 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:50:59] Started run 896 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:01] Error in run 889: Run already exists in server. Run id(s): {8959566}
+[2018-04-11 20:51:01] Started run 897 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:03] Error in run 890: Run already exists in server. Run id(s): {8959569}
+[2018-04-11 20:51:03] Error in run 891: Run already exists in server. Run id(s): {8959572}
+[2018-04-11 20:51:03] Started run 898 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:03] Started run 899 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:03] Error in run 892: Run already exists in server. Run id(s): {8959570}
+[2018-04-11 20:51:03] Error in run 893: Run already exists in server. Run id(s): {8959575}
+[2018-04-11 20:51:03] Started run 900 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:03] Started run 901 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:04] Error in run 895: Run already exists in server. Run id(s): {8959577}
+[2018-04-11 20:51:04] Error in run 894: Run already exists in server. Run id(s): {8959573}
+[2018-04-11 20:51:04] Error in run 896: Run already exists in server. Run id(s): {8959579}
+[2018-04-11 20:51:04] Started run 902 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:04] Started run 903 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:04] Started run 904 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:06] Error in run 897: Run already exists in server. Run id(s): {8959581}
+[2018-04-11 20:51:06] Started run 905 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:07] Error in run 899: Run already exists in server. Run id(s): {8959586}
+[2018-04-11 20:51:07] Error in run 898: Run already exists in server. Run id(s): {8959584}
+[2018-04-11 20:51:07] Started run 906 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:07] Started run 907 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:08] Error in run 901: Run already exists in server. Run id(s): {8959589}
+[2018-04-11 20:51:08] Error in run 900: Run already exists in server. Run id(s): {8959587}
+[2018-04-11 20:51:08] Started run 908 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:08] Started run 909 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:09] Error in run 903: Run already exists in server. Run id(s): {8959594}
+[2018-04-11 20:51:09] Error in run 902: Run already exists in server. Run id(s): {8959593}
+[2018-04-11 20:51:09] Error in run 904: Run already exists in server. Run id(s): {8959596}
+[2018-04-11 20:51:09] Started run 910 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:09] Started run 911 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:09] Started run 912 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:10] Error in run 905: Run already exists in server. Run id(s): {8959597}
+[2018-04-11 20:51:10] Started run 913 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:12] Error in run 907: Run already exists in server. Run id(s): {8959602}
+[2018-04-11 20:51:12] Error in run 906: Run already exists in server. Run id(s): {8959601}
+[2018-04-11 20:51:12] Started run 914 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:12] Started run 915 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:13] Error in run 909: Run already exists in server. Run id(s): {8959603}
+[2018-04-11 20:51:13] Error in run 908: Run already exists in server. Run id(s): {8959605}
+[2018-04-11 20:51:13] Started run 916 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:13] Started run 917 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:14] Error in run 911: Run already exists in server. Run id(s): {8959611}
+[2018-04-11 20:51:14] Error in run 910: Run already exists in server. Run id(s): {8959610}
+[2018-04-11 20:51:14] Error in run 912: Run already exists in server. Run id(s): {8959607}
+[2018-04-11 20:51:14] Started run 919 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:14] Started run 920 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:14] Started run 918 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:15] Error in run 913: Run already exists in server. Run id(s): {8959613}
+[2018-04-11 20:51:15] Started run 921 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:17] Error in run 915: Run already exists in server. Run id(s): {8959619}
+[2018-04-11 20:51:17] Started run 922 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:17] Error in run 914: Run already exists in server. Run id(s): {8959614}
+[2018-04-11 20:51:17] Started run 923 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:18] Error in run 916: Run already exists in server. Run id(s): {8959615}
+[2018-04-11 20:51:18] Error in run 917: Run already exists in server. Run id(s): {8959620}
+[2018-04-11 20:51:18] Started run 924 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:18] Started run 925 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:18] Error in run 920: Run already exists in server. Run id(s): {8959628}
+[2018-04-11 20:51:18] Error in run 918: Run already exists in server. Run id(s): {8959622}
+[2018-04-11 20:51:18] Started run 926 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:18] Error in run 919: Run already exists in server. Run id(s): {8959623}
+[2018-04-11 20:51:18] Started run 928 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:18] Started run 927 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:20] Error in run 921: Run already exists in server. Run id(s): {8959627}
+[2018-04-11 20:51:20] Started run 929 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:22] Error in run 922: Run already exists in server. Run id(s): {8959630}
+[2018-04-11 20:51:22] Error in run 923: Run already exists in server. Run id(s): {8959631}
+[2018-04-11 20:51:22] Started run 930 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:22] Started run 931 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:22] Error in run 925: Run already exists in server. Run id(s): {8959636}
+[2018-04-11 20:51:22] Error in run 924: Run already exists in server. Run id(s): {8959633}
+[2018-04-11 20:51:22] Started run 932 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:22] Started run 933 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:23] Error in run 927: Run already exists in server. Run id(s): {8959639}
+[2018-04-11 20:51:23] Error in run 926: Run already exists in server. Run id(s): {8959637}
+[2018-04-11 20:51:23] Error in run 928: Run already exists in server. Run id(s): {8959641}
+[2018-04-11 20:51:23] Started run 934 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:23] Started run 935 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:23] Started run 936 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:25] Error in run 929: Run already exists in server. Run id(s): {8959643}
+[2018-04-11 20:51:25] Started run 937 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:26] Error in run 930: Run already exists in server. Run id(s): {8959645}
+[2018-04-11 20:51:26] Started run 938 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:26] Error in run 931: Run already exists in server. Run id(s): {8959649}
+[2018-04-11 20:51:26] Started run 939 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:27] Error in run 933: Run already exists in server. Run id(s): {8959652}
+[2018-04-11 20:51:27] Error in run 932: Run already exists in server. Run id(s): {8959653}
+[2018-04-11 20:51:27] Started run 940 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:27] Started run 941 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:28] Error in run 934: Run already exists in server. Run id(s): {8959647}
+[2018-04-11 20:51:28] Error in run 936: Run already exists in server. Run id(s): {8959655}
+[2018-04-11 20:51:28] Error in run 935: Run already exists in server. Run id(s): {8959656}
+[2018-04-11 20:51:28] Started run 942 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:28] Started run 943 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:28] Started run 944 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:29] Error in run 937: Run already exists in server. Run id(s): {8959661}
+[2018-04-11 20:51:29] Started run 945 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:31] Error in run 938: Run already exists in server. Run id(s): {8959659}
+[2018-04-11 20:51:31] Started run 946 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:31] Error in run 939: Run already exists in server. Run id(s): {8959664}
+[2018-04-11 20:51:31] Started run 947 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:32] Error in run 940: Run already exists in server. Run id(s): {8959665}
+[2018-04-11 20:51:32] Error in run 941: Run already exists in server. Run id(s): {8959663}
+[2018-04-11 20:51:32] Started run 948 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:32] Started run 949 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:33] Error in run 943: Run already exists in server. Run id(s): {8959672}
+[2018-04-11 20:51:33] Error in run 942: Run already exists in server. Run id(s): {8959669}
+[2018-04-11 20:51:33] Error in run 944: Run already exists in server. Run id(s): {8959673}
+[2018-04-11 20:51:33] Started run 950 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:33] Started run 951 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:33] Started run 952 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:34] Error in run 945: Run already exists in server. Run id(s): {8959670}
+[2018-04-11 20:51:34] Started run 953 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:35] Error in run 946: Run already exists in server. Run id(s): {8959674}
+[2018-04-11 20:51:35] Started run 954 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:36] Error in run 947: Run already exists in server. Run id(s): {8959677}
+[2018-04-11 20:51:36] Started run 955 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:37] Error in run 948: Run already exists in server. Run id(s): {8959680}
+[2018-04-11 20:51:37] Error in run 949: Run already exists in server. Run id(s): {8959681}
+[2018-04-11 20:51:37] Started run 956 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:37] Started run 957 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:37] Error in run 950: Run already exists in server. Run id(s): {8959682}
+[2018-04-11 20:51:37] Error in run 952: Run already exists in server. Run id(s): {8959688}
+[2018-04-11 20:51:37] Error in run 951: Run already exists in server. Run id(s): {8959685}
+[2018-04-11 20:51:37] Started run 958 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:37] Started run 959 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:37] Started run 960 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:39] Error in run 953: Run already exists in server. Run id(s): {8959690}
+[2018-04-11 20:51:39] Started run 961 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:40] Error in run 954: Run already exists in server. Run id(s): {8959689}
+[2018-04-11 20:51:40] Started run 962 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:40] Error in run 955: Run already exists in server. Run id(s): {8959694}
+[2018-04-11 20:51:40] Started run 963 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:41] Error in run 957: Run already exists in server. Run id(s): {8959697}
+[2018-04-11 20:51:41] Error in run 956: Run already exists in server. Run id(s): {8959696}
+[2018-04-11 20:51:41] Started run 964 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:41] Started run 965 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:42] Error in run 958: Run already exists in server. Run id(s): {8959698}
+[2018-04-11 20:51:42] Error in run 960: Run already exists in server. Run id(s): {8959704}
+[2018-04-11 20:51:42] Error in run 959: Run already exists in server. Run id(s): {8959702}
+[2018-04-11 20:51:42] Started run 966 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:42] Started run 967 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:42] Started run 968 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:44] Error in run 961: Run already exists in server. Run id(s): {8959705}
+[2018-04-11 20:51:44] Started run 969 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:44] Error in run 962: Run already exists in server. Run id(s): {8959706}
+[2018-04-11 20:51:44] Started run 970 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:45] Error in run 963: Run already exists in server. Run id(s): {8959709}
+[2018-04-11 20:51:45] Started run 971 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:46] Error in run 965: Run already exists in server. Run id(s): {8959714}
+[2018-04-11 20:51:46] Error in run 964: Run already exists in server. Run id(s): {8959712}
+[2018-04-11 20:51:46] Started run 972 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:46] Started run 973 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:47] Error in run 968: Run already exists in server. Run id(s): {8959720}
+[2018-04-11 20:51:47] Error in run 967: Run already exists in server. Run id(s): {8959717}
+[2018-04-11 20:51:47] Error in run 966: Run already exists in server. Run id(s): {8959713}
+[2018-04-11 20:51:47] Started run 974 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:47] Started run 976 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:47] Started run 975 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:48] Error in run 969: Run already exists in server. Run id(s): {8959721}
+[2018-04-11 20:51:48] Started run 977 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:49] Error in run 970: Run already exists in server. Run id(s): {8959722}
+[2018-04-11 20:51:49] Started run 978 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:50] Error in run 971: Run already exists in server. Run id(s): {8959724}
+[2018-04-11 20:51:50] Started run 979 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:51] Error in run 973: Run already exists in server. Run id(s): {8959730}
+[2018-04-11 20:51:51] Error in run 972: Run already exists in server. Run id(s): {8959727}
+[2018-04-11 20:51:51] Started run 980 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:51] Started run 981 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:51] Error in run 974: Run already exists in server. Run id(s): {8959729}
+[2018-04-11 20:51:51] Error in run 976: Run already exists in server. Run id(s): {8959732}
+[2018-04-11 20:51:51] Error in run 975: Run already exists in server. Run id(s): {8959731}
+[2018-04-11 20:51:51] Started run 982 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:51] Started run 983 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:51] Started run 984 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:53] Error in run 977: Run already exists in server. Run id(s): {8959739}
+[2018-04-11 20:51:53] Started run 985 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:54] Error in run 978: Run already exists in server. Run id(s): {8959734}
+[2018-04-11 20:51:54] Started run 986 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:55] Error in run 979: Run already exists in server. Run id(s): {8959736}
+[2018-04-11 20:51:55] Started run 987 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:56] Error in run 980: Run already exists in server. Run id(s): {8959741}
+[2018-04-11 20:51:56] Error in run 981: Run already exists in server. Run id(s): {8959743}
+[2018-04-11 20:51:56] Started run 988 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:56] Started run 989 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:56] Error in run 984: Run already exists in server. Run id(s): {8959747}
+[2018-04-11 20:51:56] Error in run 983: Run already exists in server. Run id(s): {8959748}
+[2018-04-11 20:51:56] Started run 990 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:56] Error in run 982: Run already exists in server. Run id(s): {8959740}
+[2018-04-11 20:51:56] Started run 991 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:56] Started run 992 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:58] Error in run 985: Run already exists in server. Run id(s): {8959749}
+[2018-04-11 20:51:58] Started run 993 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:59] Error in run 986: Run already exists in server. Run id(s): {8959752}
+[2018-04-11 20:51:59] Started run 994 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:51:59] Error in run 987: Run already exists in server. Run id(s): {8959756}
+[2018-04-11 20:51:59] Started run 995 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:52:00] Error in run 989: Run already exists in server. Run id(s): {8959758}
+[2018-04-11 20:52:00] Error in run 988: Run already exists in server. Run id(s): {8959751}
+[2018-04-11 20:52:00] Started run 996 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:52:00] Started run 997 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:52:01] Error in run 990: Run already exists in server. Run id(s): {8959757}
+[2018-04-11 20:52:01] Error in run 991: Run already exists in server. Run id(s): {8959761}
+[2018-04-11 20:52:01] Error in run 992: Run already exists in server. Run id(s): {8959764}
+[2018-04-11 20:52:01] Started run 998 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:52:01] Started run 1000 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:52:01] Started run 999 on task 146824, dataset 'mfeat-pixel'.
+[2018-04-11 20:52:03] Error in run 993: Run already exists in server. Run id(s): {8959765}
+[2018-04-11 20:52:03] Error in run 994: Run already exists in server. Run id(s): {8959766}
+[2018-04-11 20:52:04] Error in run 995: Run already exists in server. Run id(s): {8959768}
+[2018-04-11 20:52:05] Error in run 996: Run already exists in server. Run id(s): {8959769}
+[2018-04-11 20:52:05] Error in run 997: Run already exists in server. Run id(s): {8959773}
+[2018-04-11 20:52:06] Error in run 999: Run already exists in server. Run id(s): {8959776}
+[2018-04-11 20:52:06] Error in run 1000: Run already exists in server. Run id(s): {8959777}
+[2018-04-11 20:52:06] Error in run 998: Run already exists in server. Run id(s): {8959774}

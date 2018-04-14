@@ -1,0 +1,1275 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00052/certs"
+declare -x AZ_BATCH_JOB_ID="random_forest"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-4234576326_16-20180410t020756z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00052"
+declare -x AZ_BATCH_TASK_ID="task-00052"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00052/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/random_forest/job-1/task-00052/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/random_forest/job-1/task-00052/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/random_forest/job-1/task-00052/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+[2018-04-10 04:47:05] Results will not be logged locally.
+[2018-04-10 04:47:05] Retrieving tasks...
+[2018-04-10 04:47:05] Tasks will be retrieved based on provided task ids.
+[2018-04-10 04:47:05] The following tasks were retrieved: [9985].
+[2018-04-10 04:47:13] Downloaded task 9985.
+[2018-04-10 04:47:13] Prepared pipelines.
+[2018-04-10 04:47:13] Started run 1 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:47:13] Started run 4 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:47:13] Started run 2 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:47:13] Started run 3 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:47:13] Started run 5 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:47:13] Started run 6 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:47:13] Started run 7 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:47:13] Started run 8 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:47:18] Error in run 1: Run already exists in server. Run id(s): {9011868}
+[2018-04-10 04:47:18] Started run 9 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:49:33] [SCORE] run 8 on task 9985; Accuracy: 0.59.
+[2018-04-10 04:49:48] Uploaded run 8 with run id 9026591.
+[2018-04-10 04:49:48] Started run 10 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:49:51] Error in run 10, trying again in 55 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:50:46] Started run 10 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:53:50] [SCORE] run 2 on task 9985; Accuracy: 0.58.
+[2018-04-10 04:54:06] Uploaded run 2 with run id 9026962.
+[2018-04-10 04:54:06] Started run 11 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:55:39] [SCORE] run 3 on task 9985; Accuracy: 0.61.
+[2018-04-10 04:55:56] Uploaded run 3 with run id 9027123.
+[2018-04-10 04:55:56] Started run 12 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:56:00] [SCORE] run 4 on task 9985; Accuracy: 0.62.
+[2018-04-10 04:56:12] [SCORE] run 11 on task 9985; Accuracy: 0.60.
+[2018-04-10 04:56:13] Uploaded run 4 with run id 9027152.
+[2018-04-10 04:56:13] Started run 13 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:56:34] Uploaded run 11 with run id 9027173.
+[2018-04-10 04:56:34] Started run 14 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:59:15] [SCORE] run 14 on task 9985; Accuracy: 0.60.
+[2018-04-10 04:59:34] Uploaded run 14 with run id 9027450.
+[2018-04-10 04:59:34] Started run 15 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 04:59:37] Error in run 15, trying again in 27 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:00:04] Started run 15 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:00:30] [SCORE] run 12 on task 9985; Accuracy: 0.62.
+[2018-04-10 05:00:52] Uploaded run 12 with run id 9027562.
+[2018-04-10 05:00:52] Started run 16 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:01:20] [SCORE] run 10 on task 9985; Accuracy: 0.60.
+[2018-04-10 05:01:42] Uploaded run 10 with run id 9027635.
+[2018-04-10 05:01:42] Started run 17 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:05:09] [SCORE] run 16 on task 9985; Accuracy: 0.57.
+[2018-04-10 05:05:28] Uploaded run 16 with run id 9027981.
+[2018-04-10 05:05:28] Started run 18 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:10:30] [SCORE] run 5 on task 9985; Accuracy: 0.61.
+[2018-04-10 05:10:32] [SCORE] run 9 on task 9985; Accuracy: 0.62.
+[2018-04-10 05:10:49] Uploaded run 5 with run id 9028453.
+[2018-04-10 05:10:49] Started run 19 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:10:54] Uploaded run 9 with run id 9028457.
+[2018-04-10 05:10:54] Started run 20 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:10:59] Error in run 20: Run already exists in server. Run id(s): {9012956}
+[2018-04-10 05:10:59] Started run 21 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:11:33] [SCORE] run 7 on task 9985; Accuracy: 0.62.
+[2018-04-10 05:11:54] Uploaded run 7 with run id 9028549.
+[2018-04-10 05:11:54] Started run 22 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:13:48] [SCORE] run 22 on task 9985; Accuracy: 0.59.
+[2018-04-10 05:14:08] Uploaded run 22 with run id 9028762.
+[2018-04-10 05:14:08] Started run 23 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:15:13] [SCORE] run 15 on task 9985; Accuracy: 0.62.
+[2018-04-10 05:15:30] [SCORE] run 21 on task 9985; Accuracy: 0.60.
+[2018-04-10 05:15:32] Uploaded run 15 with run id 9028885.
+[2018-04-10 05:15:32] Started run 24 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:15:50] Uploaded run 21 with run id 9028907.
+[2018-04-10 05:15:50] Started run 25 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:15:52] Error in run 25, trying again in 23 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:16:15] Started run 25 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:18:09] [SCORE] run 19 on task 9985; Accuracy: 0.59.
+[2018-04-10 05:18:28] Uploaded run 19 with run id 9029147.
+[2018-04-10 05:18:28] Started run 26 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:19:37] [SCORE] run 13 on task 9985; Accuracy: 0.58.
+[2018-04-10 05:19:53] Uploaded run 13 with run id 9029277.
+[2018-04-10 05:19:53] Started run 27 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:20:32] [SCORE] run 18 on task 9985; Accuracy: 0.63.
+[2018-04-10 05:20:35] Error in uploading run 18, trying again in 44 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:20:35] [SCORE] run 23 on task 9985; Accuracy: 0.62.
+[2018-04-10 05:20:38] Error in uploading run 23, trying again in 32 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:21:34] Uploaded run 23 with run id 9029427.
+[2018-04-10 05:21:34] Started run 28 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:21:40] Uploaded run 18 with run id 9029438.
+[2018-04-10 05:21:40] Started run 29 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:21:58] [SCORE] run 6 on task 9985; Accuracy: 0.63.
+[2018-04-10 05:22:20] Uploaded run 6 with run id 9029492.
+[2018-04-10 05:22:20] Started run 30 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:23:53] [SCORE] run 17 on task 9985; Accuracy: 0.59.
+[2018-04-10 05:24:05] Uploaded run 17 with run id 9029660.
+[2018-04-10 05:24:05] Started run 31 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:25:38] [SCORE] run 31 on task 9985; Accuracy: 0.59.
+[2018-04-10 05:25:57] Uploaded run 31 with run id 9029813.
+[2018-04-10 05:25:57] Started run 32 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:27:40] [SCORE] run 30 on task 9985; Accuracy: 0.62.
+[2018-04-10 05:27:56] Uploaded run 30 with run id 9029989.
+[2018-04-10 05:27:56] Started run 33 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:29:07] [SCORE] run 25 on task 9985; Accuracy: 0.56.
+[2018-04-10 05:29:30] Uploaded run 25 with run id 9030119.
+[2018-04-10 05:29:30] Started run 34 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:31:01] [SCORE] run 34 on task 9985; Accuracy: 0.55.
+[2018-04-10 05:31:25] Uploaded run 34 with run id 9030299.
+[2018-04-10 05:31:25] Started run 35 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:31:46] [SCORE] run 32 on task 9985; Accuracy: 0.62.
+[2018-04-10 05:32:07] Uploaded run 32 with run id 9030354.
+[2018-04-10 05:32:07] Started run 36 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:32:21] [SCORE] run 33 on task 9985; Accuracy: 0.61.
+[2018-04-10 05:32:42] Uploaded run 33 with run id 9030407.
+[2018-04-10 05:32:42] Started run 37 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:36:29] [SCORE] run 37 on task 9985; Accuracy: 0.61.
+[2018-04-10 05:36:49] Uploaded run 37 with run id 9030758.
+[2018-04-10 05:36:49] Started run 38 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:39:45] [SCORE] run 24 on task 9985; Accuracy: 0.62.
+[2018-04-10 05:39:59] Uploaded run 24 with run id 9031031.
+[2018-04-10 05:39:59] Started run 39 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:40:53] [SCORE] run 39 on task 9985; Accuracy: 0.56.
+[2018-04-10 05:41:13] Uploaded run 39 with run id 9031127.
+[2018-04-10 05:41:13] Started run 40 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:41:17] [SCORE] run 26 on task 9985; Accuracy: 0.59.
+[2018-04-10 05:41:33] Uploaded run 26 with run id 9031160.
+[2018-04-10 05:41:33] Started run 41 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:42:12] [SCORE] run 28 on task 9985; Accuracy: 0.63.
+[2018-04-10 05:42:21] [SCORE] run 40 on task 9985; Accuracy: 0.56.
+[2018-04-10 05:42:25] Uploaded run 28 with run id 9031229.
+[2018-04-10 05:42:25] Started run 42 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:42:39] Uploaded run 40 with run id 9031240.
+[2018-04-10 05:42:39] Started run 43 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:47:39] [SCORE] run 36 on task 9985; Accuracy: 0.60.
+[2018-04-10 05:47:46] [SCORE] run 29 on task 9985; Accuracy: 0.60.
+[2018-04-10 05:47:57] Uploaded run 36 with run id 9031654.
+[2018-04-10 05:47:57] Started run 44 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:48:04] Uploaded run 29 with run id 9031664.
+[2018-04-10 05:48:04] Started run 45 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:49:18] [SCORE] run 45 on task 9985; Accuracy: 0.53.
+[2018-04-10 05:49:36] Uploaded run 45 with run id 9031781.
+[2018-04-10 05:49:36] Started run 46 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:51:05] [SCORE] run 38 on task 9985; Accuracy: 0.61.
+[2018-04-10 05:51:15] [SCORE] run 43 on task 9985; Accuracy: 0.57.
+[2018-04-10 05:51:21] Uploaded run 38 with run id 9031930.
+[2018-04-10 05:51:21] Started run 47 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:51:31] Uploaded run 43 with run id 9031942.
+[2018-04-10 05:51:31] Started run 48 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:52:08] [SCORE] run 41 on task 9985; Accuracy: 0.62.
+[2018-04-10 05:52:25] Uploaded run 41 with run id 9032017.
+[2018-04-10 05:52:25] Started run 49 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:56:41] [SCORE] run 27 on task 9985; Accuracy: 0.60.
+[2018-04-10 05:56:59] Uploaded run 27 with run id 9032411.
+[2018-04-10 05:56:59] Started run 50 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:58:33] [SCORE] run 42 on task 9985; Accuracy: 0.60.
+[2018-04-10 05:58:57] Uploaded run 42 with run id 9032575.
+[2018-04-10 05:58:57] Started run 51 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 05:59:13] [SCORE] run 47 on task 9985; Accuracy: 0.59.
+[2018-04-10 05:59:29] Uploaded run 47 with run id 9032630.
+[2018-04-10 05:59:29] Started run 52 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:00:39] [SCORE] run 48 on task 9985; Accuracy: 0.61.
+[2018-04-10 06:00:51] Uploaded run 48 with run id 9032741.
+[2018-04-10 06:00:51] Started run 53 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:01:40] [SCORE] run 44 on task 9985; Accuracy: 0.62.
+[2018-04-10 06:02:01] Uploaded run 44 with run id 9032840.
+[2018-04-10 06:02:01] Started run 54 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:03:34] [SCORE] run 46 on task 9985; Accuracy: 0.62.
+[2018-04-10 06:03:48] Uploaded run 46 with run id 9032982.
+[2018-04-10 06:03:48] Started run 55 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:04:15] [SCORE] run 49 on task 9985; Accuracy: 0.61.
+[2018-04-10 06:04:30] Uploaded run 49 with run id 9033046.
+[2018-04-10 06:04:30] Started run 56 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:06:25] [SCORE] run 53 on task 9985; Accuracy: 0.60.
+[2018-04-10 06:06:30] [SCORE] run 50 on task 9985; Accuracy: 0.62.
+[2018-04-10 06:06:41] Uploaded run 53 with run id 9033231.
+[2018-04-10 06:06:41] Started run 57 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:06:43] Uploaded run 50 with run id 9033239.
+[2018-04-10 06:06:43] Started run 58 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:07:14] [SCORE] run 56 on task 9985; Accuracy: 0.59.
+[2018-04-10 06:07:30] Uploaded run 56 with run id 9033296.
+[2018-04-10 06:07:30] Started run 59 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:09:34] [SCORE] run 35 on task 9985; Accuracy: 0.62.
+[2018-04-10 06:09:51] Uploaded run 35 with run id 9033491.
+[2018-04-10 06:09:51] Started run 60 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:09:57] [SCORE] run 59 on task 9985; Accuracy: 0.57.
+[2018-04-10 06:10:13] Uploaded run 59 with run id 9033522.
+[2018-04-10 06:10:13] Started run 61 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:12:38] [SCORE] run 52 on task 9985; Accuracy: 0.60.
+[2018-04-10 06:13:01] Uploaded run 52 with run id 9033753.
+[2018-04-10 06:13:01] Started run 62 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:15:09] [SCORE] run 51 on task 9985; Accuracy: 0.58.
+[2018-04-10 06:15:25] Uploaded run 51 with run id 9033963.
+[2018-04-10 06:15:25] Started run 63 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:20:50] [SCORE] run 62 on task 9985; Accuracy: 0.59.
+[2018-04-10 06:21:08] Uploaded run 62 with run id 9034414.
+[2018-04-10 06:21:08] Started run 64 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:21:24] [SCORE] run 54 on task 9985; Accuracy: 0.63.
+[2018-04-10 06:21:38] Uploaded run 54 with run id 9034461.
+[2018-04-10 06:21:38] Started run 65 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:23:26] [SCORE] run 60 on task 9985; Accuracy: 0.58.
+[2018-04-10 06:23:46] Uploaded run 60 with run id 9034627.
+[2018-04-10 06:23:46] Started run 66 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:23:53] [SCORE] run 65 on task 9985; Accuracy: 0.57.
+[2018-04-10 06:24:09] [SCORE] run 58 on task 9985; Accuracy: 0.58.
+[2018-04-10 06:24:10] Uploaded run 65 with run id 9034666.
+[2018-04-10 06:24:10] Started run 67 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:24:29] Uploaded run 58 with run id 9034692.
+[2018-04-10 06:24:29] Started run 68 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:25:49] [SCORE] run 55 on task 9985; Accuracy: 0.60.
+[2018-04-10 06:26:01] Uploaded run 55 with run id 9034792.
+[2018-04-10 06:26:01] Started run 69 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:27:21] [SCORE] run 66 on task 9985; Accuracy: 0.58.
+[2018-04-10 06:27:34] Uploaded run 66 with run id 9034891.
+[2018-04-10 06:27:34] Started run 70 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:28:08] [SCORE] run 64 on task 9985; Accuracy: 0.62.
+[2018-04-10 06:28:21] Uploaded run 64 with run id 9034940.
+[2018-04-10 06:28:21] Started run 71 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:29:36] [SCORE] run 71 on task 9985; Accuracy: 0.53.
+[2018-04-10 06:29:53] Uploaded run 71 with run id 9035026.
+[2018-04-10 06:29:53] Started run 72 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:31:36] [SCORE] run 63 on task 9985; Accuracy: 0.61.
+[2018-04-10 06:31:49] Uploaded run 63 with run id 9035158.
+[2018-04-10 06:31:49] Started run 73 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:33:31] [SCORE] run 70 on task 9985; Accuracy: 0.59.
+[2018-04-10 06:33:42] Uploaded run 70 with run id 9035273.
+[2018-04-10 06:33:42] Started run 74 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:33:58] [SCORE] run 57 on task 9985; Accuracy: 0.61.
+[2018-04-10 06:34:14] Uploaded run 57 with run id 9035310.
+[2018-04-10 06:34:14] Started run 75 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:35:30] [SCORE] run 72 on task 9985; Accuracy: 0.60.
+[2018-04-10 06:35:41] Uploaded run 72 with run id 9035378.
+[2018-04-10 06:35:41] Started run 76 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:36:58] [SCORE] run 75 on task 9985; Accuracy: 0.59.
+[2018-04-10 06:37:11] Uploaded run 75 with run id 9035454.
+[2018-04-10 06:37:11] Started run 77 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:37:24] [SCORE] run 74 on task 9985; Accuracy: 0.59.
+[2018-04-10 06:37:37] Uploaded run 74 with run id 9035480.
+[2018-04-10 06:37:37] Started run 78 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:39:12] [SCORE] run 67 on task 9985; Accuracy: 0.63.
+[2018-04-10 06:39:24] [SCORE] run 77 on task 9985; Accuracy: 0.60.
+[2018-04-10 06:39:24] Uploaded run 67 with run id 9035572.
+[2018-04-10 06:39:24] Started run 79 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:39:35] Uploaded run 77 with run id 9035579.
+[2018-04-10 06:39:35] Started run 80 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:40:54] [SCORE] run 76 on task 9985; Accuracy: 0.62.
+[2018-04-10 06:40:57] Error in uploading run 76, trying again in 50 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 06:41:59] Uploaded run 76 with run id 9035701.
+[2018-04-10 06:41:59] Started run 81 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:46:22] [SCORE] run 78 on task 9985; Accuracy: 0.60.
+[2018-04-10 06:46:33] Uploaded run 78 with run id 9035878.
+[2018-04-10 06:46:33] Started run 82 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:49:11] [SCORE] run 82 on task 9985; Accuracy: 0.59.
+[2018-04-10 06:49:21] Uploaded run 82 with run id 9035980.
+[2018-04-10 06:49:21] Started run 83 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:50:59] [SCORE] run 61 on task 9985; Accuracy: 0.56.
+[2018-04-10 06:51:13] Uploaded run 61 with run id 9036052.
+[2018-04-10 06:51:13] Started run 84 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 06:57:05] [SCORE] run 73 on task 9985; Accuracy: 0.60.
+[2018-04-10 06:57:16] Uploaded run 73 with run id 9036289.
+[2018-04-10 06:57:16] Started run 85 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:01:39] [SCORE] run 68 on task 9985; Accuracy: 0.61.
+[2018-04-10 07:01:49] Uploaded run 68 with run id 9036459.
+[2018-04-10 07:01:49] Started run 86 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:03:18] [SCORE] run 83 on task 9985; Accuracy: 0.56.
+[2018-04-10 07:03:31] Uploaded run 83 with run id 9036525.
+[2018-04-10 07:03:31] Started run 87 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:06:17] [SCORE] run 80 on task 9985; Accuracy: 0.59.
+[2018-04-10 07:06:27] [SCORE] run 69 on task 9985; Accuracy: 0.56.
+[2018-04-10 07:06:30] Uploaded run 80 with run id 9036630.
+[2018-04-10 07:06:30] Started run 88 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:06:37] Uploaded run 69 with run id 9036639.
+[2018-04-10 07:06:37] Started run 89 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:10:48] [SCORE] run 81 on task 9985; Accuracy: 0.63.
+[2018-04-10 07:10:58] Uploaded run 81 with run id 9036755.
+[2018-04-10 07:10:58] Started run 90 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:13:28] [SCORE] run 79 on task 9985; Accuracy: 0.61.
+[2018-04-10 07:13:39] Uploaded run 79 with run id 9036835.
+[2018-04-10 07:13:39] Started run 91 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:13:44] [SCORE] run 84 on task 9985; Accuracy: 0.61.
+[2018-04-10 07:13:55] Uploaded run 84 with run id 9036843.
+[2018-04-10 07:13:55] Started run 92 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:15:27] [SCORE] run 88 on task 9985; Accuracy: 0.61.
+[2018-04-10 07:15:37] Uploaded run 88 with run id 9036887.
+[2018-04-10 07:15:37] Started run 93 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:16:29] [SCORE] run 93 on task 9985; Accuracy: 0.56.
+[2018-04-10 07:16:40] Uploaded run 93 with run id 9036916.
+[2018-04-10 07:16:40] Started run 94 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:16:40] [SCORE] run 90 on task 9985; Accuracy: 0.61.
+[2018-04-10 07:16:51] Uploaded run 90 with run id 9036924.
+[2018-04-10 07:16:51] Started run 95 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:25:37] [SCORE] run 86 on task 9985; Accuracy: 0.61.
+[2018-04-10 07:25:48] Uploaded run 86 with run id 9037209.
+[2018-04-10 07:25:48] Started run 96 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:26:52] [SCORE] run 94 on task 9985; Accuracy: 0.60.
+[2018-04-10 07:27:03] Uploaded run 94 with run id 9037251.
+[2018-04-10 07:27:03] Started run 97 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:28:43] [SCORE] run 85 on task 9985; Accuracy: 0.61.
+[2018-04-10 07:28:55] Uploaded run 85 with run id 9037309.
+[2018-04-10 07:28:55] Started run 98 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:32:44] [SCORE] run 91 on task 9985; Accuracy: 0.63.
+[2018-04-10 07:32:55] Uploaded run 91 with run id 9037425.
+[2018-04-10 07:32:55] Started run 99 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:36:40] [SCORE] run 97 on task 9985; Accuracy: 0.62.
+[2018-04-10 07:36:51] Uploaded run 97 with run id 9037560.
+[2018-04-10 07:36:51] Started run 100 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:41:12] [SCORE] run 100 on task 9985; Accuracy: 0.63.
+[2018-04-10 07:41:26] Uploaded run 100 with run id 9037715.
+[2018-04-10 07:41:26] Started run 101 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:42:09] [SCORE] run 95 on task 9985; Accuracy: 0.59.
+[2018-04-10 07:42:23] Uploaded run 95 with run id 9037743.
+[2018-04-10 07:42:23] Started run 102 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:46:42] [SCORE] run 99 on task 9985; Accuracy: 0.61.
+[2018-04-10 07:46:53] Uploaded run 99 with run id 9037884.
+[2018-04-10 07:46:53] Started run 103 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:49:27] [SCORE] run 87 on task 9985; Accuracy: 0.59.
+[2018-04-10 07:49:34] [SCORE] run 96 on task 9985; Accuracy: 0.62.
+[2018-04-10 07:49:37] Uploaded run 87 with run id 9037974.
+[2018-04-10 07:49:37] Started run 104 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:49:47] Uploaded run 96 with run id 9037979.
+[2018-04-10 07:49:47] Started run 105 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:53:53] [SCORE] run 92 on task 9985; Accuracy: 0.57.
+[2018-04-10 07:54:03] Uploaded run 92 with run id 9038122.
+[2018-04-10 07:54:03] Started run 106 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 07:59:09] [SCORE] run 89 on task 9985; Accuracy: 0.57.
+[2018-04-10 07:59:20] Uploaded run 89 with run id 9038292.
+[2018-04-10 07:59:20] Started run 107 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:02:06] [SCORE] run 102 on task 9985; Accuracy: 0.62.
+[2018-04-10 08:02:16] Uploaded run 102 with run id 9038385.
+[2018-04-10 08:02:16] Started run 108 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:04:31] [SCORE] run 106 on task 9985; Accuracy: 0.62.
+[2018-04-10 08:04:41] Uploaded run 106 with run id 9038449.
+[2018-04-10 08:04:41] Started run 109 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:06:14] [SCORE] run 103 on task 9985; Accuracy: 0.59.
+[2018-04-10 08:06:25] Uploaded run 103 with run id 9038503.
+[2018-04-10 08:06:25] Started run 110 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:06:39] [SCORE] run 98 on task 9985; Accuracy: 0.59.
+[2018-04-10 08:06:49] Uploaded run 98 with run id 9038514.
+[2018-04-10 08:06:49] Started run 111 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:07:57] [SCORE] run 110 on task 9985; Accuracy: 0.60.
+[2018-04-10 08:08:08] Uploaded run 110 with run id 9038558.
+[2018-04-10 08:08:08] Started run 112 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:09:06] [SCORE] run 109 on task 9985; Accuracy: 0.60.
+[2018-04-10 08:09:17] Uploaded run 109 with run id 9038592.
+[2018-04-10 08:09:17] Started run 113 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:10:15] [SCORE] run 101 on task 9985; Accuracy: 0.62.
+[2018-04-10 08:10:17] Error in uploading run 101, trying again in 29 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 08:10:43] [SCORE] run 111 on task 9985; Accuracy: 0.57.
+[2018-04-10 08:10:53] Uploaded run 111 with run id 9038634.
+[2018-04-10 08:10:53] Started run 114 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:10:55] [SCORE] run 107 on task 9985; Accuracy: 0.59.
+[2018-04-10 08:10:57] Uploaded run 101 with run id 9038635.
+[2018-04-10 08:10:57] Started run 115 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:10:58] Error in run 115, trying again in 16 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 08:10:58] Error in uploading run 107, trying again in 21 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 08:11:14] Started run 115 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:11:18] Error in run 115, trying again in 6 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 08:11:21] Error in uploading run 107, trying again in 9 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 08:11:24] Started run 115 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:11:25] Error in run 115, trying again in 44 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 08:11:41] Uploaded run 107 with run id 9038659.
+[2018-04-10 08:11:41] Started run 116 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:11:43] Error in run 116, trying again in 20 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 08:12:03] Started run 116 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:12:09] Started run 115 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:12:31] [SCORE] run 114 on task 9985; Accuracy: 0.62.
+[2018-04-10 08:12:41] Uploaded run 114 with run id 9038691.
+[2018-04-10 08:12:41] Started run 117 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:13:10] [SCORE] run 115 on task 9985; Accuracy: 0.56.
+[2018-04-10 08:13:20] Uploaded run 115 with run id 9038708.
+[2018-04-10 08:13:20] Started run 118 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:14:01] [SCORE] run 104 on task 9985; Accuracy: 0.58.
+[2018-04-10 08:14:11] Uploaded run 104 with run id 9038737.
+[2018-04-10 08:14:11] Started run 119 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:14:41] [SCORE] run 105 on task 9985; Accuracy: 0.58.
+[2018-04-10 08:14:51] Uploaded run 105 with run id 9038762.
+[2018-04-10 08:14:51] Started run 120 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:16:23] [SCORE] run 113 on task 9985; Accuracy: 0.62.
+[2018-04-10 08:16:34] Uploaded run 113 with run id 9038821.
+[2018-04-10 08:16:34] Started run 121 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:17:19] [SCORE] run 117 on task 9985; Accuracy: 0.61.
+[2018-04-10 08:17:30] Uploaded run 117 with run id 9038849.
+[2018-04-10 08:17:30] Started run 122 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:20:07] [SCORE] run 119 on task 9985; Accuracy: 0.61.
+[2018-04-10 08:20:18] Uploaded run 119 with run id 9038927.
+[2018-04-10 08:20:18] Started run 123 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:20:39] [SCORE] run 112 on task 9985; Accuracy: 0.58.
+[2018-04-10 08:20:41] [SCORE] run 120 on task 9985; Accuracy: 0.63.
+[2018-04-10 08:20:49] Uploaded run 112 with run id 9038936.
+[2018-04-10 08:20:49] Started run 124 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:20:52] Uploaded run 120 with run id 9038937.
+[2018-04-10 08:20:52] Started run 125 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:21:25] [SCORE] run 118 on task 9985; Accuracy: 0.59.
+[2018-04-10 08:21:36] Uploaded run 118 with run id 9038968.
+[2018-04-10 08:21:36] Started run 126 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:22:13] [SCORE] run 122 on task 9985; Accuracy: 0.60.
+[2018-04-10 08:22:25] Uploaded run 122 with run id 9038992.
+[2018-04-10 08:22:25] Started run 127 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:23:45] [SCORE] run 116 on task 9985; Accuracy: 0.62.
+[2018-04-10 08:23:56] Uploaded run 116 with run id 9039046.
+[2018-04-10 08:23:56] Started run 128 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:24:05] [SCORE] run 127 on task 9985; Accuracy: 0.57.
+[2018-04-10 08:24:17] Uploaded run 127 with run id 9039063.
+[2018-04-10 08:24:17] Started run 129 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:27:48] [SCORE] run 124 on task 9985; Accuracy: 0.63.
+[2018-04-10 08:27:59] Uploaded run 124 with run id 9039171.
+[2018-04-10 08:27:59] Started run 130 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:29:26] [SCORE] run 128 on task 9985; Accuracy: 0.61.
+[2018-04-10 08:29:38] Uploaded run 128 with run id 9039220.
+[2018-04-10 08:29:38] Started run 131 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:29:53] [SCORE] run 121 on task 9985; Accuracy: 0.62.
+[2018-04-10 08:30:05] Uploaded run 121 with run id 9039236.
+[2018-04-10 08:30:05] Started run 132 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:31:53] [SCORE] run 125 on task 9985; Accuracy: 0.61.
+[2018-04-10 08:32:04] Uploaded run 125 with run id 9039289.
+[2018-04-10 08:32:04] Started run 133 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:32:27] [SCORE] run 126 on task 9985; Accuracy: 0.62.
+[2018-04-10 08:32:38] Uploaded run 126 with run id 9039304.
+[2018-04-10 08:32:38] Started run 134 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:38:49] [SCORE] run 131 on task 9985; Accuracy: 0.61.
+[2018-04-10 08:39:00] Uploaded run 131 with run id 9039482.
+[2018-04-10 08:39:00] Started run 135 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:39:05] [SCORE] run 108 on task 9985; Accuracy: 0.59.
+[2018-04-10 08:39:16] Uploaded run 108 with run id 9039488.
+[2018-04-10 08:39:16] Started run 136 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:39:50] [SCORE] run 134 on task 9985; Accuracy: 0.60.
+[2018-04-10 08:40:01] Uploaded run 134 with run id 9039511.
+[2018-04-10 08:40:01] Started run 137 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:42:21] [SCORE] run 137 on task 9985; Accuracy: 0.58.
+[2018-04-10 08:42:30] [SCORE] run 135 on task 9985; Accuracy: 0.61.
+[2018-04-10 08:42:32] Uploaded run 137 with run id 9039589.
+[2018-04-10 08:42:32] Started run 138 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:42:41] Uploaded run 135 with run id 9039596.
+[2018-04-10 08:42:41] Started run 139 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:43:57] [SCORE] run 133 on task 9985; Accuracy: 0.60.
+[2018-04-10 08:44:08] Uploaded run 133 with run id 9039628.
+[2018-04-10 08:44:08] Started run 140 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:45:55] [SCORE] run 130 on task 9985; Accuracy: 0.57.
+[2018-04-10 08:46:06] Uploaded run 130 with run id 9039683.
+[2018-04-10 08:46:06] Started run 141 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:48:29] [SCORE] run 136 on task 9985; Accuracy: 0.61.
+[2018-04-10 08:48:40] Uploaded run 136 with run id 9039738.
+[2018-04-10 08:48:40] Started run 142 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:48:49] [SCORE] run 123 on task 9985; Accuracy: 0.61.
+[2018-04-10 08:49:03] Uploaded run 123 with run id 9039750.
+[2018-04-10 08:49:03] Started run 143 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:50:01] [SCORE] run 143 on task 9985; Accuracy: 0.56.
+[2018-04-10 08:50:12] Uploaded run 143 with run id 9039776.
+[2018-04-10 08:50:12] Started run 144 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:50:45] [SCORE] run 139 on task 9985; Accuracy: 0.63.
+[2018-04-10 08:50:56] Uploaded run 139 with run id 9039798.
+[2018-04-10 08:50:56] Started run 145 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:51:28] [SCORE] run 141 on task 9985; Accuracy: 0.59.
+[2018-04-10 08:51:39] Uploaded run 141 with run id 9039817.
+[2018-04-10 08:51:39] Started run 146 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:52:22] [SCORE] run 140 on task 9985; Accuracy: 0.62.
+[2018-04-10 08:52:32] Uploaded run 140 with run id 9039839.
+[2018-04-10 08:52:32] Started run 147 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 08:56:04] [SCORE] run 142 on task 9985; Accuracy: 0.62.
+[2018-04-10 08:56:14] Uploaded run 142 with run id 9039942.
+[2018-04-10 08:56:14] Started run 148 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:00:21] [SCORE] run 138 on task 9985; Accuracy: 0.59.
+[2018-04-10 09:00:32] Uploaded run 138 with run id 9040065.
+[2018-04-10 09:00:32] Started run 149 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:01:37] [SCORE] run 129 on task 9985; Accuracy: 0.59.
+[2018-04-10 09:01:38] [SCORE] run 146 on task 9985; Accuracy: 0.60.
+[2018-04-10 09:01:47] Uploaded run 129 with run id 9040099.
+[2018-04-10 09:01:47] Started run 150 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:01:49] Uploaded run 146 with run id 9040100.
+[2018-04-10 09:01:49] Started run 151 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:06:27] [SCORE] run 147 on task 9985; Accuracy: 0.62.
+[2018-04-10 09:06:38] Uploaded run 147 with run id 9040235.
+[2018-04-10 09:06:38] Started run 152 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:07:44] [SCORE] run 145 on task 9985; Accuracy: 0.58.
+[2018-04-10 09:07:54] Uploaded run 145 with run id 9040270.
+[2018-04-10 09:07:54] Started run 153 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:08:31] [SCORE] run 144 on task 9985; Accuracy: 0.59.
+[2018-04-10 09:08:42] Uploaded run 144 with run id 9040287.
+[2018-04-10 09:08:42] Started run 154 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:09:57] [SCORE] run 154 on task 9985; Accuracy: 0.53.
+[2018-04-10 09:10:09] Uploaded run 154 with run id 9040334.
+[2018-04-10 09:10:09] Started run 155 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:12:20] [SCORE] run 132 on task 9985; Accuracy: 0.61.
+[2018-04-10 09:12:23] Error in uploading run 132, trying again in 11 seconds. Message: https://www.openml.org/api/v1/xml//run/ returned code 220: Unable to store uploaded file in database
+[2018-04-10 09:12:45] Uploaded run 132 with run id 9040411.
+[2018-04-10 09:12:45] Started run 156 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:13:47] [SCORE] run 155 on task 9985; Accuracy: 0.58.
+[2018-04-10 09:13:57] Uploaded run 155 with run id 9040444.
+[2018-04-10 09:13:57] Started run 157 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:14:04] [SCORE] run 149 on task 9985; Accuracy: 0.61.
+[2018-04-10 09:14:15] Uploaded run 149 with run id 9040454.
+[2018-04-10 09:14:15] Started run 158 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:15:08] [SCORE] run 152 on task 9985; Accuracy: 0.60.
+[2018-04-10 09:15:18] Uploaded run 152 with run id 9040475.
+[2018-04-10 09:15:18] Started run 159 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:15:23] [SCORE] run 151 on task 9985; Accuracy: 0.63.
+[2018-04-10 09:15:33] Uploaded run 151 with run id 9040481.
+[2018-04-10 09:15:33] Started run 160 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:15:46] [SCORE] run 156 on task 9985; Accuracy: 0.57.
+[2018-04-10 09:15:56] Uploaded run 156 with run id 9040489.
+[2018-04-10 09:15:56] Started run 161 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:18:57] [SCORE] run 158 on task 9985; Accuracy: 0.60.
+[2018-04-10 09:19:08] Uploaded run 158 with run id 9040582.
+[2018-04-10 09:19:08] Started run 162 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:21:56] [SCORE] run 160 on task 9985; Accuracy: 0.59.
+[2018-04-10 09:22:07] Uploaded run 160 with run id 9040650.
+[2018-04-10 09:22:07] Started run 163 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:22:24] [SCORE] run 157 on task 9985; Accuracy: 0.63.
+[2018-04-10 09:22:34] Uploaded run 157 with run id 9040661.
+[2018-04-10 09:22:34] Started run 164 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:22:51] [SCORE] run 159 on task 9985; Accuracy: 0.60.
+[2018-04-10 09:23:01] Uploaded run 159 with run id 9040670.
+[2018-04-10 09:23:01] Started run 165 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:25:27] [SCORE] run 164 on task 9985; Accuracy: 0.61.
+[2018-04-10 09:25:39] Uploaded run 164 with run id 9040723.
+[2018-04-10 09:25:39] Started run 166 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:26:24] [SCORE] run 165 on task 9985; Accuracy: 0.58.
+[2018-04-10 09:26:34] Uploaded run 165 with run id 9040750.
+[2018-04-10 09:26:34] Started run 167 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:26:57] [SCORE] run 166 on task 9985; Accuracy: 0.54.
+[2018-04-10 09:27:07] Uploaded run 166 with run id 9040763.
+[2018-04-10 09:27:07] Started run 168 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:29:13] [SCORE] run 161 on task 9985; Accuracy: 0.59.
+[2018-04-10 09:29:23] Uploaded run 161 with run id 9040812.
+[2018-04-10 09:29:23] Started run 169 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:32:34] [SCORE] run 169 on task 9985; Accuracy: 0.61.
+[2018-04-10 09:32:52] Uploaded run 169 with run id 9040880.
+[2018-04-10 09:32:52] Started run 170 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:36:35] [SCORE] run 148 on task 9985; Accuracy: 0.59.
+[2018-04-10 09:36:46] Uploaded run 148 with run id 9040981.
+[2018-04-10 09:36:46] Started run 171 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:37:02] [SCORE] run 163 on task 9985; Accuracy: 0.60.
+[2018-04-10 09:37:13] Uploaded run 163 with run id 9040994.
+[2018-04-10 09:37:13] Started run 172 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:39:21] [SCORE] run 172 on task 9985; Accuracy: 0.62.
+[2018-04-10 09:39:32] Uploaded run 172 with run id 9041045.
+[2018-04-10 09:39:32] Started run 173 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:40:39] [SCORE] run 170 on task 9985; Accuracy: 0.61.
+[2018-04-10 09:40:50] Uploaded run 170 with run id 9041080.
+[2018-04-10 09:40:50] Started run 174 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:41:57] [SCORE] run 173 on task 9985; Accuracy: 0.61.
+[2018-04-10 09:42:08] Uploaded run 173 with run id 9041113.
+[2018-04-10 09:42:08] Started run 175 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:46:44] [SCORE] run 171 on task 9985; Accuracy: 0.59.
+[2018-04-10 09:46:55] Uploaded run 171 with run id 9041223.
+[2018-04-10 09:46:55] Started run 176 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:48:01] [SCORE] run 162 on task 9985; Accuracy: 0.62.
+[2018-04-10 09:48:11] Uploaded run 162 with run id 9041260.
+[2018-04-10 09:48:11] Started run 177 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:50:13] [SCORE] run 168 on task 9985; Accuracy: 0.62.
+[2018-04-10 09:50:23] Uploaded run 168 with run id 9041304.
+[2018-04-10 09:50:23] Started run 178 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:51:10] [SCORE] run 150 on task 9985; Accuracy: 0.61.
+[2018-04-10 09:51:20] Uploaded run 150 with run id 9041332.
+[2018-04-10 09:51:20] Started run 179 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:54:00] [SCORE] run 178 on task 9985; Accuracy: 0.60.
+[2018-04-10 09:54:10] Uploaded run 178 with run id 9041393.
+[2018-04-10 09:54:10] Started run 180 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:55:00] [SCORE] run 179 on task 9985; Accuracy: 0.62.
+[2018-04-10 09:55:12] Uploaded run 179 with run id 9041420.
+[2018-04-10 09:55:12] Started run 181 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:56:52] [SCORE] run 153 on task 9985; Accuracy: 0.55.
+[2018-04-10 09:57:02] Uploaded run 153 with run id 9041462.
+[2018-04-10 09:57:02] Started run 182 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 09:58:23] [SCORE] run 180 on task 9985; Accuracy: 0.59.
+[2018-04-10 09:58:34] Uploaded run 180 with run id 9041493.
+[2018-04-10 09:58:34] Started run 183 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:01:52] [SCORE] run 181 on task 9985; Accuracy: 0.61.
+[2018-04-10 10:02:02] Uploaded run 181 with run id 9041571.
+[2018-04-10 10:02:02] Started run 184 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:04:27] [SCORE] run 177 on task 9985; Accuracy: 0.63.
+[2018-04-10 10:04:37] Uploaded run 177 with run id 9041629.
+[2018-04-10 10:04:37] Started run 185 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:07:15] [SCORE] run 176 on task 9985; Accuracy: 0.61.
+[2018-04-10 10:07:25] Uploaded run 176 with run id 9041683.
+[2018-04-10 10:07:25] Started run 186 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:13:02] [SCORE] run 185 on task 9985; Accuracy: 0.63.
+[2018-04-10 10:13:12] Uploaded run 185 with run id 9041812.
+[2018-04-10 10:13:12] Started run 187 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:14:00] [SCORE] run 175 on task 9985; Accuracy: 0.60.
+[2018-04-10 10:14:10] Uploaded run 175 with run id 9041832.
+[2018-04-10 10:14:10] Started run 188 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:17:31] [SCORE] run 184 on task 9985; Accuracy: 0.61.
+[2018-04-10 10:17:41] Uploaded run 184 with run id 9041912.
+[2018-04-10 10:17:41] Started run 189 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:18:18] [SCORE] run 174 on task 9985; Accuracy: 0.60.
+[2018-04-10 10:18:28] Uploaded run 174 with run id 9041935.
+[2018-04-10 10:18:28] Started run 190 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:19:17] [SCORE] run 183 on task 9985; Accuracy: 0.60.
+[2018-04-10 10:19:27] Uploaded run 183 with run id 9041960.
+[2018-04-10 10:19:27] Started run 191 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:20:31] [SCORE] run 167 on task 9985; Accuracy: 0.58.
+[2018-04-10 10:20:42] Uploaded run 167 with run id 9041990.
+[2018-04-10 10:20:42] Started run 192 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:27:03] [SCORE] run 187 on task 9985; Accuracy: 0.61.
+[2018-04-10 10:27:14] Uploaded run 187 with run id 9042139.
+[2018-04-10 10:27:14] Started run 193 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:28:37] [SCORE] run 192 on task 9985; Accuracy: 0.62.
+[2018-04-10 10:28:47] Uploaded run 192 with run id 9042174.
+[2018-04-10 10:28:47] Started run 194 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:31:36] [SCORE] run 190 on task 9985; Accuracy: 0.62.
+[2018-04-10 10:31:48] Uploaded run 190 with run id 9042246.
+[2018-04-10 10:31:48] Started run 195 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:33:26] [SCORE] run 193 on task 9985; Accuracy: 0.63.
+[2018-04-10 10:33:36] Uploaded run 193 with run id 9042282.
+[2018-04-10 10:33:36] Started run 196 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:34:03] [SCORE] run 182 on task 9985; Accuracy: 0.63.
+[2018-04-10 10:34:13] Uploaded run 182 with run id 9042293.
+[2018-04-10 10:34:13] Started run 197 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:37:04] [SCORE] run 195 on task 9985; Accuracy: 0.58.
+[2018-04-10 10:37:14] Uploaded run 195 with run id 9042358.
+[2018-04-10 10:37:14] Started run 198 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:40:16] [SCORE] run 196 on task 9985; Accuracy: 0.59.
+[2018-04-10 10:40:26] Uploaded run 196 with run id 9042423.
+[2018-04-10 10:40:26] Started run 199 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:43:44] [SCORE] run 199 on task 9985; Accuracy: 0.59.
+[2018-04-10 10:43:53] Uploaded run 199 with run id 9042494.
+[2018-04-10 10:43:53] Started run 200 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:44:59] [SCORE] run 191 on task 9985; Accuracy: 0.61.
+[2018-04-10 10:45:05] [SCORE] run 188 on task 9985; Accuracy: 0.59.
+[2018-04-10 10:45:10] Uploaded run 191 with run id 9042516.
+[2018-04-10 10:45:10] Started run 201 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:45:15] [SCORE] run 189 on task 9985; Accuracy: 0.60.
+[2018-04-10 10:45:16] Uploaded run 188 with run id 9042520.
+[2018-04-10 10:45:16] Started run 202 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:45:25] Uploaded run 189 with run id 9042523.
+[2018-04-10 10:45:25] Started run 203 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:45:55] [SCORE] run 186 on task 9985; Accuracy: 0.60.
+[2018-04-10 10:46:06] Uploaded run 186 with run id 9042541.
+[2018-04-10 10:46:06] Started run 204 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:48:19] [SCORE] run 202 on task 9985; Accuracy: 0.63.
+[2018-04-10 10:48:30] Uploaded run 202 with run id 9042592.
+[2018-04-10 10:48:30] Started run 205 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:49:25] [SCORE] run 198 on task 9985; Accuracy: 0.62.
+[2018-04-10 10:49:34] Uploaded run 198 with run id 9042618.
+[2018-04-10 10:49:34] Started run 206 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:50:27] [SCORE] run 194 on task 9985; Accuracy: 0.58.
+[2018-04-10 10:50:37] Uploaded run 194 with run id 9042643.
+[2018-04-10 10:50:37] Started run 207 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:52:52] [SCORE] run 203 on task 9985; Accuracy: 0.62.
+[2018-04-10 10:53:02] Uploaded run 203 with run id 9042683.
+[2018-04-10 10:53:02] Started run 208 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:53:05] [SCORE] run 197 on task 9985; Accuracy: 0.63.
+[2018-04-10 10:53:15] Uploaded run 197 with run id 9042686.
+[2018-04-10 10:53:15] Started run 209 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:55:57] [SCORE] run 201 on task 9985; Accuracy: 0.60.
+[2018-04-10 10:56:08] Uploaded run 201 with run id 9042755.
+[2018-04-10 10:56:08] Started run 210 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:56:48] [SCORE] run 208 on task 9985; Accuracy: 0.63.
+[2018-04-10 10:56:59] Uploaded run 208 with run id 9042774.
+[2018-04-10 10:56:59] Started run 211 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:59:19] [SCORE] run 207 on task 9985; Accuracy: 0.61.
+[2018-04-10 10:59:23] [SCORE] run 205 on task 9985; Accuracy: 0.58.
+[2018-04-10 10:59:29] Uploaded run 207 with run id 9042826.
+[2018-04-10 10:59:29] Started run 212 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 10:59:34] Uploaded run 205 with run id 9042827.
+[2018-04-10 10:59:34] Started run 213 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:00:13] [SCORE] run 209 on task 9985; Accuracy: 0.61.
+[2018-04-10 11:00:23] Uploaded run 209 with run id 9042845.
+[2018-04-10 11:00:23] Started run 214 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:02:23] [SCORE] run 204 on task 9985; Accuracy: 0.62.
+[2018-04-10 11:02:34] Uploaded run 204 with run id 9042875.
+[2018-04-10 11:02:34] Started run 215 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:03:01] [SCORE] run 206 on task 9985; Accuracy: 0.60.
+[2018-04-10 11:03:11] Uploaded run 206 with run id 9042894.
+[2018-04-10 11:03:11] Started run 216 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:05:09] [SCORE] run 210 on task 9985; Accuracy: 0.62.
+[2018-04-10 11:05:20] Uploaded run 210 with run id 9042939.
+[2018-04-10 11:05:20] Started run 217 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:05:49] [SCORE] run 215 on task 9985; Accuracy: 0.62.
+[2018-04-10 11:06:00] Uploaded run 215 with run id 9042951.
+[2018-04-10 11:06:00] Started run 218 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:08:12] [SCORE] run 214 on task 9985; Accuracy: 0.58.
+[2018-04-10 11:08:18] [SCORE] run 218 on task 9985; Accuracy: 0.60.
+[2018-04-10 11:08:22] Uploaded run 214 with run id 9042998.
+[2018-04-10 11:08:22] Started run 219 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:08:28] Uploaded run 218 with run id 9043002.
+[2018-04-10 11:08:28] Started run 220 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:09:45] [SCORE] run 216 on task 9985; Accuracy: 0.58.
+[2018-04-10 11:09:55] Uploaded run 216 with run id 9043038.
+[2018-04-10 11:09:55] Started run 221 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:12:52] [SCORE] run 213 on task 9985; Accuracy: 0.60.
+[2018-04-10 11:13:02] Uploaded run 213 with run id 9043103.
+[2018-04-10 11:13:02] Started run 222 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:15:38] [SCORE] run 219 on task 9985; Accuracy: 0.58.
+[2018-04-10 11:15:48] Uploaded run 219 with run id 9043154.
+[2018-04-10 11:15:48] Started run 223 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:17:23] [SCORE] run 220 on task 9985; Accuracy: 0.61.
+[2018-04-10 11:17:33] Uploaded run 220 with run id 9043189.
+[2018-04-10 11:17:33] Started run 224 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:18:33] [SCORE] run 224 on task 9985; Accuracy: 0.57.
+[2018-04-10 11:18:43] Uploaded run 224 with run id 9043219.
+[2018-04-10 11:18:43] Started run 225 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:20:02] [SCORE] run 200 on task 9985; Accuracy: 0.61.
+[2018-04-10 11:20:12] Uploaded run 200 with run id 9043243.
+[2018-04-10 11:20:12] Started run 226 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:24:03] [SCORE] run 217 on task 9985; Accuracy: 0.59.
+[2018-04-10 11:24:13] Uploaded run 217 with run id 9043322.
+[2018-04-10 11:24:13] Started run 227 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:25:53] [SCORE] run 222 on task 9985; Accuracy: 0.63.
+[2018-04-10 11:26:04] Uploaded run 222 with run id 9043354.
+[2018-04-10 11:26:04] Started run 228 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:32:58] [SCORE] run 225 on task 9985; Accuracy: 0.60.
+[2018-04-10 11:33:08] Uploaded run 225 with run id 9043470.
+[2018-04-10 11:33:08] Started run 229 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:34:44] [SCORE] run 228 on task 9985; Accuracy: 0.61.
+[2018-04-10 11:34:54] Uploaded run 228 with run id 9043512.
+[2018-04-10 11:34:54] Started run 230 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:35:51] [SCORE] run 212 on task 9985; Accuracy: 0.61.
+[2018-04-10 11:36:01] Uploaded run 212 with run id 9043528.
+[2018-04-10 11:36:01] Started run 231 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:37:19] [SCORE] run 223 on task 9985; Accuracy: 0.61.
+[2018-04-10 11:37:21] [SCORE] run 221 on task 9985; Accuracy: 0.60.
+[2018-04-10 11:37:29] Uploaded run 223 with run id 9043560.
+[2018-04-10 11:37:29] Started run 232 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:37:31] Uploaded run 221 with run id 9043562.
+[2018-04-10 11:37:31] Started run 233 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:38:43] [SCORE] run 211 on task 9985; Accuracy: 0.59.
+[2018-04-10 11:38:53] Uploaded run 211 with run id 9043595.
+[2018-04-10 11:38:53] Started run 234 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:39:17] [SCORE] run 227 on task 9985; Accuracy: 0.60.
+[2018-04-10 11:39:28] Uploaded run 227 with run id 9043604.
+[2018-04-10 11:39:28] Started run 235 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:39:38] [SCORE] run 229 on task 9985; Accuracy: 0.61.
+[2018-04-10 11:39:48] Uploaded run 229 with run id 9043613.
+[2018-04-10 11:39:48] Started run 236 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:42:19] [SCORE] run 233 on task 9985; Accuracy: 0.62.
+[2018-04-10 11:42:29] Uploaded run 233 with run id 9043659.
+[2018-04-10 11:42:29] Started run 237 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:43:36] [SCORE] run 226 on task 9985; Accuracy: 0.61.
+[2018-04-10 11:43:46] Uploaded run 226 with run id 9043680.
+[2018-04-10 11:43:46] Started run 238 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:44:54] [SCORE] run 234 on task 9985; Accuracy: 0.57.
+[2018-04-10 11:45:04] Uploaded run 234 with run id 9043707.
+[2018-04-10 11:45:04] Started run 239 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:46:24] [SCORE] run 231 on task 9985; Accuracy: 0.63.
+[2018-04-10 11:46:35] Uploaded run 231 with run id 9043734.
+[2018-04-10 11:46:35] Started run 240 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:46:45] [SCORE] run 237 on task 9985; Accuracy: 0.62.
+[2018-04-10 11:46:55] Uploaded run 237 with run id 9043740.
+[2018-04-10 11:46:55] Started run 241 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:47:43] [SCORE] run 236 on task 9985; Accuracy: 0.58.
+[2018-04-10 11:47:53] Uploaded run 236 with run id 9043765.
+[2018-04-10 11:47:53] Started run 242 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:49:12] [SCORE] run 235 on task 9985; Accuracy: 0.63.
+[2018-04-10 11:49:15] [SCORE] run 239 on task 9985; Accuracy: 0.58.
+[2018-04-10 11:49:22] Uploaded run 235 with run id 9043793.
+[2018-04-10 11:49:22] Started run 243 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:49:26] Uploaded run 239 with run id 9043794.
+[2018-04-10 11:49:26] Started run 244 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:50:45] [SCORE] run 244 on task 9985; Accuracy: 0.61.
+[2018-04-10 11:50:55] Uploaded run 244 with run id 9043822.
+[2018-04-10 11:50:55] Started run 245 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:50:58] [SCORE] run 241 on task 9985; Accuracy: 0.63.
+[2018-04-10 11:51:09] Uploaded run 241 with run id 9043827.
+[2018-04-10 11:51:09] Started run 246 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:53:20] [SCORE] run 245 on task 9985; Accuracy: 0.56.
+[2018-04-10 11:53:31] Uploaded run 245 with run id 9043879.
+[2018-04-10 11:53:31] Started run 247 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:56:04] [SCORE] run 230 on task 9985; Accuracy: 0.60.
+[2018-04-10 11:56:14] Uploaded run 230 with run id 9043932.
+[2018-04-10 11:56:14] Started run 248 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:56:52] [SCORE] run 232 on task 9985; Accuracy: 0.60.
+[2018-04-10 11:57:03] Uploaded run 232 with run id 9043953.
+[2018-04-10 11:57:03] Started run 249 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:58:21] [SCORE] run 248 on task 9985; Accuracy: 0.58.
+[2018-04-10 11:58:31] Uploaded run 248 with run id 9043987.
+[2018-04-10 11:58:31] Started run 250 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:58:32] [SCORE] run 247 on task 9985; Accuracy: 0.59.
+[2018-04-10 11:58:33] [SCORE] run 238 on task 9985; Accuracy: 0.62.
+[2018-04-10 11:58:43] Uploaded run 247 with run id 9043993.
+[2018-04-10 11:58:43] Started run 251 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:58:44] Uploaded run 238 with run id 9043994.
+[2018-04-10 11:58:44] Started run 252 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 11:59:50] [SCORE] run 246 on task 9985; Accuracy: 0.60.
+[2018-04-10 12:00:00] Uploaded run 246 with run id 9044015.
+[2018-04-10 12:00:00] Started run 253 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:01:08] [SCORE] run 240 on task 9985; Accuracy: 0.58.
+[2018-04-10 12:01:19] Uploaded run 240 with run id 9044033.
+[2018-04-10 12:01:19] Started run 254 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:01:49] [SCORE] run 249 on task 9985; Accuracy: 0.61.
+[2018-04-10 12:01:59] Uploaded run 249 with run id 9044051.
+[2018-04-10 12:01:59] Started run 255 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:07:19] [SCORE] run 253 on task 9985; Accuracy: 0.62.
+[2018-04-10 12:07:29] Uploaded run 253 with run id 9044148.
+[2018-04-10 12:07:29] Started run 256 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:10:15] [SCORE] run 254 on task 9985; Accuracy: 0.61.
+[2018-04-10 12:10:25] Uploaded run 254 with run id 9044212.
+[2018-04-10 12:10:25] Started run 257 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:12:10] [SCORE] run 251 on task 9985; Accuracy: 0.60.
+[2018-04-10 12:12:20] Uploaded run 251 with run id 9044250.
+[2018-04-10 12:12:20] Started run 258 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:13:01] [SCORE] run 250 on task 9985; Accuracy: 0.59.
+[2018-04-10 12:13:11] Uploaded run 250 with run id 9044266.
+[2018-04-10 12:13:11] Started run 259 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:14:12] [SCORE] run 256 on task 9985; Accuracy: 0.59.
+[2018-04-10 12:14:22] Uploaded run 256 with run id 9044286.
+[2018-04-10 12:14:22] Started run 260 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:14:55] [SCORE] run 252 on task 9985; Accuracy: 0.63.
+[2018-04-10 12:15:05] Uploaded run 252 with run id 9044300.
+[2018-04-10 12:15:05] Started run 261 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:18:35] [SCORE] run 259 on task 9985; Accuracy: 0.61.
+[2018-04-10 12:18:45] Uploaded run 259 with run id 9044370.
+[2018-04-10 12:18:45] Started run 262 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:20:23] [SCORE] run 257 on task 9985; Accuracy: 0.62.
+[2018-04-10 12:20:34] Uploaded run 257 with run id 9044402.
+[2018-04-10 12:20:34] Started run 263 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:21:42] [SCORE] run 258 on task 9985; Accuracy: 0.58.
+[2018-04-10 12:21:52] Uploaded run 258 with run id 9044427.
+[2018-04-10 12:21:52] Started run 264 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:22:44] [SCORE] run 263 on task 9985; Accuracy: 0.59.
+[2018-04-10 12:22:55] Uploaded run 263 with run id 9044445.
+[2018-04-10 12:22:55] Started run 265 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:24:29] [SCORE] run 265 on task 9985; Accuracy: 0.60.
+[2018-04-10 12:24:39] [SCORE] run 260 on task 9985; Accuracy: 0.60.
+[2018-04-10 12:24:39] Uploaded run 265 with run id 9044471.
+[2018-04-10 12:24:39] Started run 266 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:24:49] Uploaded run 260 with run id 9044472.
+[2018-04-10 12:24:49] Started run 267 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:30:15] [SCORE] run 255 on task 9985; Accuracy: 0.60.
+[2018-04-10 12:30:24] Uploaded run 255 with run id 9044572.
+[2018-04-10 12:30:24] Started run 268 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:32:54] [SCORE] run 266 on task 9985; Accuracy: 0.62.
+[2018-04-10 12:33:04] Uploaded run 266 with run id 9044618.
+[2018-04-10 12:33:04] Started run 269 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:34:21] [SCORE] run 264 on task 9985; Accuracy: 0.59.
+[2018-04-10 12:34:28] [SCORE] run 269 on task 9985; Accuracy: 0.58.
+[2018-04-10 12:34:31] Uploaded run 264 with run id 9044648.
+[2018-04-10 12:34:31] Started run 270 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:34:38] Uploaded run 269 with run id 9044649.
+[2018-04-10 12:34:38] Started run 271 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:36:53] [SCORE] run 270 on task 9985; Accuracy: 0.60.
+[2018-04-10 12:37:03] Uploaded run 270 with run id 9044695.
+[2018-04-10 12:37:03] Started run 272 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:38:26] [SCORE] run 272 on task 9985; Accuracy: 0.58.
+[2018-04-10 12:38:37] Uploaded run 272 with run id 9044724.
+[2018-04-10 12:38:37] Started run 273 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:40:33] [SCORE] run 242 on task 9985; Accuracy: 0.56.
+[2018-04-10 12:40:42] [SCORE] run 267 on task 9985; Accuracy: 0.62.
+[2018-04-10 12:40:43] Uploaded run 242 with run id 9044761.
+[2018-04-10 12:40:43] Started run 274 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:40:53] Uploaded run 267 with run id 9044765.
+[2018-04-10 12:40:53] Started run 275 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:41:40] [SCORE] run 243 on task 9985; Accuracy: 0.56.
+[2018-04-10 12:41:50] Uploaded run 243 with run id 9044788.
+[2018-04-10 12:41:50] Started run 276 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:45:10] [SCORE] run 273 on task 9985; Accuracy: 0.58.
+[2018-04-10 12:45:21] Uploaded run 273 with run id 9044848.
+[2018-04-10 12:45:21] Started run 277 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:45:22] [SCORE] run 261 on task 9985; Accuracy: 0.63.
+[2018-04-10 12:45:32] Uploaded run 261 with run id 9044851.
+[2018-04-10 12:45:32] Started run 278 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:48:54] [SCORE] run 277 on task 9985; Accuracy: 0.60.
+[2018-04-10 12:49:04] Uploaded run 277 with run id 9044917.
+[2018-04-10 12:49:04] Started run 279 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:50:52] [SCORE] run 262 on task 9985; Accuracy: 0.59.
+[2018-04-10 12:51:02] Uploaded run 262 with run id 9044949.
+[2018-04-10 12:51:02] Started run 280 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:55:33] [SCORE] run 274 on task 9985; Accuracy: 0.62.
+[2018-04-10 12:55:43] [SCORE] run 271 on task 9985; Accuracy: 0.61.
+[2018-04-10 12:55:44] Uploaded run 274 with run id 9045032.
+[2018-04-10 12:55:44] Started run 281 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:55:53] Uploaded run 271 with run id 9045036.
+[2018-04-10 12:55:53] Started run 282 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:56:49] [SCORE] run 281 on task 9985; Accuracy: 0.61.
+[2018-04-10 12:56:59] Uploaded run 281 with run id 9045062.
+[2018-04-10 12:56:59] Started run 283 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 12:57:56] [SCORE] run 279 on task 9985; Accuracy: 0.63.
+[2018-04-10 12:58:06] Uploaded run 279 with run id 9045084.
+[2018-04-10 12:58:06] Started run 284 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:00:53] [SCORE] run 268 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:00:56] [SCORE] run 278 on task 9985; Accuracy: 0.60.
+[2018-04-10 13:01:04] Uploaded run 268 with run id 9045150.
+[2018-04-10 13:01:04] Started run 285 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:01:06] Uploaded run 278 with run id 9045153.
+[2018-04-10 13:01:06] Started run 286 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:04:39] [SCORE] run 282 on task 9985; Accuracy: 0.62.
+[2018-04-10 13:04:49] Uploaded run 282 with run id 9045210.
+[2018-04-10 13:04:49] Started run 287 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:09:43] [SCORE] run 280 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:09:52] [SCORE] run 284 on task 9985; Accuracy: 0.63.
+[2018-04-10 13:09:54] Uploaded run 280 with run id 9045305.
+[2018-04-10 13:09:54] Started run 288 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:10:03] Uploaded run 284 with run id 9045309.
+[2018-04-10 13:10:03] Started run 289 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:10:13] [SCORE] run 286 on task 9985; Accuracy: 0.62.
+[2018-04-10 13:10:23] Uploaded run 286 with run id 9045315.
+[2018-04-10 13:10:23] Started run 290 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:10:40] [SCORE] run 276 on task 9985; Accuracy: 0.63.
+[2018-04-10 13:10:50] Uploaded run 276 with run id 9045323.
+[2018-04-10 13:10:50] Started run 291 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:11:19] [SCORE] run 275 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:11:29] Uploaded run 275 with run id 9045333.
+[2018-04-10 13:11:29] Started run 292 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:12:21] [SCORE] run 292 on task 9985; Accuracy: 0.53.
+[2018-04-10 13:12:32] Uploaded run 292 with run id 9045351.
+[2018-04-10 13:12:32] Started run 293 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:14:03] [SCORE] run 283 on task 9985; Accuracy: 0.62.
+[2018-04-10 13:14:13] Uploaded run 283 with run id 9045374.
+[2018-04-10 13:14:13] Started run 294 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:14:39] [SCORE] run 287 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:14:49] Uploaded run 287 with run id 9045393.
+[2018-04-10 13:14:49] Started run 295 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:16:52] [SCORE] run 289 on task 9985; Accuracy: 0.59.
+[2018-04-10 13:17:03] Uploaded run 289 with run id 9045422.
+[2018-04-10 13:17:03] Started run 296 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:18:56] [SCORE] run 290 on task 9985; Accuracy: 0.62.
+[2018-04-10 13:19:06] Uploaded run 290 with run id 9045457.
+[2018-04-10 13:19:06] Started run 297 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:19:09] [SCORE] run 291 on task 9985; Accuracy: 0.63.
+[2018-04-10 13:19:19] Uploaded run 291 with run id 9045463.
+[2018-04-10 13:19:19] Started run 298 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:19:56] [SCORE] run 293 on task 9985; Accuracy: 0.62.
+[2018-04-10 13:20:06] Uploaded run 293 with run id 9045469.
+[2018-04-10 13:20:06] Started run 299 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:22:18] [SCORE] run 297 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:22:28] [SCORE] run 296 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:22:29] Uploaded run 297 with run id 9045492.
+[2018-04-10 13:22:29] Started run 300 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:22:39] Uploaded run 296 with run id 9045495.
+[2018-04-10 13:22:39] Started run 301 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:30:50] [SCORE] run 294 on task 9985; Accuracy: 0.62.
+[2018-04-10 13:31:00] Uploaded run 294 with run id 9045583.
+[2018-04-10 13:31:00] Started run 302 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:34:20] [SCORE] run 299 on task 9985; Accuracy: 0.63.
+[2018-04-10 13:34:31] Uploaded run 299 with run id 9045614.
+[2018-04-10 13:34:31] Started run 303 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:37:18] [SCORE] run 295 on task 9985; Accuracy: 0.62.
+[2018-04-10 13:37:29] Uploaded run 295 with run id 9045644.
+[2018-04-10 13:37:29] Started run 304 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:41:23] [SCORE] run 304 on task 9985; Accuracy: 0.56.
+[2018-04-10 13:41:33] Uploaded run 304 with run id 9045684.
+[2018-04-10 13:41:33] Started run 305 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:43:33] [SCORE] run 288 on task 9985; Accuracy: 0.60.
+[2018-04-10 13:43:37] [SCORE] run 302 on task 9985; Accuracy: 0.60.
+[2018-04-10 13:43:43] Uploaded run 288 with run id 9045706.
+[2018-04-10 13:43:43] Started run 306 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:43:47] Uploaded run 302 with run id 9045708.
+[2018-04-10 13:43:47] Started run 307 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:45:34] [SCORE] run 301 on task 9985; Accuracy: 0.60.
+[2018-04-10 13:45:45] Uploaded run 301 with run id 9045725.
+[2018-04-10 13:45:45] Started run 308 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:46:36] [SCORE] run 308 on task 9985; Accuracy: 0.53.
+[2018-04-10 13:46:46] Uploaded run 308 with run id 9045738.
+[2018-04-10 13:46:46] Started run 309 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:46:47] [SCORE] run 298 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:46:57] Uploaded run 298 with run id 9045742.
+[2018-04-10 13:46:57] Started run 310 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:50:09] [SCORE] run 305 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:50:19] Uploaded run 305 with run id 9045780.
+[2018-04-10 13:50:19] Started run 311 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:51:22] [SCORE] run 306 on task 9985; Accuracy: 0.62.
+[2018-04-10 13:51:32] Uploaded run 306 with run id 9045793.
+[2018-04-10 13:51:32] Started run 312 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:53:03] [SCORE] run 310 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:53:13] Uploaded run 310 with run id 9045805.
+[2018-04-10 13:53:13] Started run 313 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:54:35] [SCORE] run 312 on task 9985; Accuracy: 0.62.
+[2018-04-10 13:54:45] Uploaded run 312 with run id 9045820.
+[2018-04-10 13:54:45] Started run 314 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:55:34] [SCORE] run 300 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:55:44] Uploaded run 300 with run id 9045825.
+[2018-04-10 13:55:44] Started run 315 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:56:21] [SCORE] run 285 on task 9985; Accuracy: 0.58.
+[2018-04-10 13:56:31] Uploaded run 285 with run id 9045834.
+[2018-04-10 13:56:31] Started run 316 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:56:36] [SCORE] run 303 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:56:46] Uploaded run 303 with run id 9045836.
+[2018-04-10 13:56:46] Started run 317 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:57:57] [SCORE] run 315 on task 9985; Accuracy: 0.61.
+[2018-04-10 13:58:07] Uploaded run 315 with run id 9045854.
+[2018-04-10 13:58:07] Started run 318 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:59:03] [SCORE] run 316 on task 9985; Accuracy: 0.58.
+[2018-04-10 13:59:13] Uploaded run 316 with run id 9045865.
+[2018-04-10 13:59:13] Started run 319 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 13:59:29] [SCORE] run 313 on task 9985; Accuracy: 0.62.
+[2018-04-10 13:59:39] Uploaded run 313 with run id 9045870.
+[2018-04-10 13:59:39] Started run 320 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:02:20] [SCORE] run 319 on task 9985; Accuracy: 0.58.
+[2018-04-10 14:02:29] Uploaded run 319 with run id 9045902.
+[2018-04-10 14:02:29] Started run 321 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:04:30] [SCORE] run 309 on task 9985; Accuracy: 0.62.
+[2018-04-10 14:04:40] Uploaded run 309 with run id 9045929.
+[2018-04-10 14:04:40] Started run 322 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:06:07] [SCORE] run 320 on task 9985; Accuracy: 0.58.
+[2018-04-10 14:06:17] Uploaded run 320 with run id 9045941.
+[2018-04-10 14:06:17] Started run 323 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:06:55] [SCORE] run 307 on task 9985; Accuracy: 0.59.
+[2018-04-10 14:07:06] Uploaded run 307 with run id 9045951.
+[2018-04-10 14:07:06] Started run 324 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:07:59] [SCORE] run 317 on task 9985; Accuracy: 0.63.
+[2018-04-10 14:08:09] Uploaded run 317 with run id 9045963.
+[2018-04-10 14:08:09] Started run 325 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:08:13] [SCORE] run 323 on task 9985; Accuracy: 0.58.
+[2018-04-10 14:08:23] Uploaded run 323 with run id 9045966.
+[2018-04-10 14:08:23] Started run 326 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:10:59] [SCORE] run 322 on task 9985; Accuracy: 0.62.
+[2018-04-10 14:11:09] Uploaded run 322 with run id 9046001.
+[2018-04-10 14:11:09] Started run 327 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:11:25] [SCORE] run 321 on task 9985; Accuracy: 0.62.
+[2018-04-10 14:11:34] Uploaded run 321 with run id 9046009.
+[2018-04-10 14:11:34] Started run 328 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:15:24] [SCORE] run 326 on task 9985; Accuracy: 0.62.
+[2018-04-10 14:15:34] Uploaded run 326 with run id 9046051.
+[2018-04-10 14:15:34] Started run 329 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:16:49] [SCORE] run 324 on task 9985; Accuracy: 0.63.
+[2018-04-10 14:16:58] Uploaded run 324 with run id 9046071.
+[2018-04-10 14:16:58] Started run 330 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:18:58] [SCORE] run 330 on task 9985; Accuracy: 0.62.
+[2018-04-10 14:19:09] Uploaded run 330 with run id 9046090.
+[2018-04-10 14:19:09] Started run 331 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:21:22] [SCORE] run 329 on task 9985; Accuracy: 0.61.
+[2018-04-10 14:21:22] [SCORE] run 314 on task 9985; Accuracy: 0.62.
+[2018-04-10 14:21:33] Uploaded run 314 with run id 9046118.
+[2018-04-10 14:21:33] Started run 332 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:21:33] Uploaded run 329 with run id 9046119.
+[2018-04-10 14:21:33] Started run 333 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:21:59] [SCORE] run 327 on task 9985; Accuracy: 0.59.
+[2018-04-10 14:22:09] Uploaded run 327 with run id 9046125.
+[2018-04-10 14:22:09] Started run 334 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:27:34] [SCORE] run 333 on task 9985; Accuracy: 0.63.
+[2018-04-10 14:27:44] Uploaded run 333 with run id 9046163.
+[2018-04-10 14:27:44] Started run 335 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:28:32] [SCORE] run 334 on task 9985; Accuracy: 0.59.
+[2018-04-10 14:28:42] Uploaded run 334 with run id 9046169.
+[2018-04-10 14:28:42] Started run 336 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:30:57] [SCORE] run 328 on task 9985; Accuracy: 0.58.
+[2018-04-10 14:31:07] Uploaded run 328 with run id 9046187.
+[2018-04-10 14:31:07] Started run 337 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:31:07] [SCORE] run 335 on task 9985; Accuracy: 0.58.
+[2018-04-10 14:31:17] Uploaded run 335 with run id 9046189.
+[2018-04-10 14:31:17] Started run 338 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:32:08] [SCORE] run 311 on task 9985; Accuracy: 0.55.
+[2018-04-10 14:32:15] [SCORE] run 325 on task 9985; Accuracy: 0.60.
+[2018-04-10 14:32:18] Uploaded run 311 with run id 9046198.
+[2018-04-10 14:32:18] Started run 339 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:32:25] Uploaded run 325 with run id 9046202.
+[2018-04-10 14:32:25] Started run 340 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:36:04] [SCORE] run 332 on task 9985; Accuracy: 0.62.
+[2018-04-10 14:36:15] Uploaded run 332 with run id 9046242.
+[2018-04-10 14:36:15] Started run 341 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:36:35] [SCORE] run 338 on task 9985; Accuracy: 0.61.
+[2018-04-10 14:36:45] Uploaded run 338 with run id 9046247.
+[2018-04-10 14:36:45] Started run 342 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:39:52] [SCORE] run 341 on task 9985; Accuracy: 0.63.
+[2018-04-10 14:40:01] Uploaded run 341 with run id 9046269.
+[2018-04-10 14:40:01] Started run 343 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:40:27] [SCORE] run 337 on task 9985; Accuracy: 0.62.
+[2018-04-10 14:40:38] Uploaded run 337 with run id 9046273.
+[2018-04-10 14:40:38] Started run 344 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:42:21] [SCORE] run 318 on task 9985; Accuracy: 0.62.
+[2018-04-10 14:42:31] Uploaded run 318 with run id 9046291.
+[2018-04-10 14:42:31] Started run 345 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:43:46] [SCORE] run 336 on task 9985; Accuracy: 0.55.
+[2018-04-10 14:43:56] Uploaded run 336 with run id 9046305.
+[2018-04-10 14:43:56] Started run 346 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:44:33] [SCORE] run 342 on task 9985; Accuracy: 0.61.
+[2018-04-10 14:44:44] Uploaded run 342 with run id 9046309.
+[2018-04-10 14:44:44] Started run 347 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:44:59] [SCORE] run 339 on task 9985; Accuracy: 0.62.
+[2018-04-10 14:45:09] Uploaded run 339 with run id 9046316.
+[2018-04-10 14:45:09] Started run 348 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:46:05] [SCORE] run 345 on task 9985; Accuracy: 0.58.
+[2018-04-10 14:46:16] Uploaded run 345 with run id 9046328.
+[2018-04-10 14:46:16] Started run 349 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:46:51] [SCORE] run 340 on task 9985; Accuracy: 0.58.
+[2018-04-10 14:47:01] Uploaded run 340 with run id 9046338.
+[2018-04-10 14:47:01] Started run 350 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:47:12] [SCORE] run 346 on task 9985; Accuracy: 0.60.
+[2018-04-10 14:47:22] Uploaded run 346 with run id 9046344.
+[2018-04-10 14:47:22] Started run 351 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:47:27] [SCORE] run 344 on task 9985; Accuracy: 0.59.
+[2018-04-10 14:47:37] Uploaded run 344 with run id 9046347.
+[2018-04-10 14:47:37] Started run 352 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:48:24] [SCORE] run 343 on task 9985; Accuracy: 0.58.
+[2018-04-10 14:48:36] Uploaded run 343 with run id 9046358.
+[2018-04-10 14:48:36] Started run 353 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:49:13] [SCORE] run 351 on task 9985; Accuracy: 0.59.
+[2018-04-10 14:49:24] Uploaded run 351 with run id 9046365.
+[2018-04-10 14:49:24] Started run 354 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:50:58] [SCORE] run 354 on task 9985; Accuracy: 0.54.
+[2018-04-10 14:51:10] Uploaded run 354 with run id 9046382.
+[2018-04-10 14:51:10] Started run 355 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:51:29] [SCORE] run 347 on task 9985; Accuracy: 0.59.
+[2018-04-10 14:51:39] Uploaded run 347 with run id 9046390.
+[2018-04-10 14:51:39] Started run 356 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:57:57] [SCORE] run 349 on task 9985; Accuracy: 0.59.
+[2018-04-10 14:57:58] [SCORE] run 348 on task 9985; Accuracy: 0.61.
+[2018-04-10 14:58:07] Uploaded run 349 with run id 9046451.
+[2018-04-10 14:58:07] Started run 357 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:58:09] Uploaded run 348 with run id 9046452.
+[2018-04-10 14:58:09] Started run 358 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 14:58:41] [SCORE] run 350 on task 9985; Accuracy: 0.59.
+[2018-04-10 14:58:50] Uploaded run 350 with run id 9046459.
+[2018-04-10 14:58:50] Started run 359 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:01:03] [SCORE] run 331 on task 9985; Accuracy: 0.57.
+[2018-04-10 15:01:13] Uploaded run 331 with run id 9046478.
+[2018-04-10 15:01:13] Started run 360 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:05:41] [SCORE] run 356 on task 9985; Accuracy: 0.60.
+[2018-04-10 15:05:51] Uploaded run 356 with run id 9046527.
+[2018-04-10 15:05:51] Started run 361 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:09:16] [SCORE] run 359 on task 9985; Accuracy: 0.60.
+[2018-04-10 15:09:26] Uploaded run 359 with run id 9046555.
+[2018-04-10 15:09:26] Started run 362 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:09:55] [SCORE] run 352 on task 9985; Accuracy: 0.62.
+[2018-04-10 15:10:05] Uploaded run 352 with run id 9046560.
+[2018-04-10 15:10:05] Started run 363 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:16:09] [SCORE] run 355 on task 9985; Accuracy: 0.61.
+[2018-04-10 15:16:21] Uploaded run 355 with run id 9046604.
+[2018-04-10 15:16:21] Started run 364 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:20:47] [SCORE] run 357 on task 9985; Accuracy: 0.63.
+[2018-04-10 15:20:57] Uploaded run 357 with run id 9046635.
+[2018-04-10 15:20:57] Started run 365 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:33:37] [SCORE] run 353 on task 9985; Accuracy: 0.55.
+[2018-04-10 15:33:46] [SCORE] run 361 on task 9985; Accuracy: 0.60.
+[2018-04-10 15:33:47] Uploaded run 353 with run id 9046721.
+[2018-04-10 15:33:47] Started run 366 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:33:56] Uploaded run 361 with run id 9046724.
+[2018-04-10 15:33:56] Started run 367 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:34:40] [SCORE] run 364 on task 9985; Accuracy: 0.60.
+[2018-04-10 15:34:51] Uploaded run 364 with run id 9046727.
+[2018-04-10 15:34:51] Started run 368 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:35:25] [SCORE] run 365 on task 9985; Accuracy: 0.62.
+[2018-04-10 15:35:35] Uploaded run 365 with run id 9046731.
+[2018-04-10 15:35:35] Started run 369 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:36:15] [SCORE] run 366 on task 9985; Accuracy: 0.59.
+[2018-04-10 15:36:26] Uploaded run 366 with run id 9046740.
+[2018-04-10 15:36:26] Started run 370 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:36:30] [SCORE] run 368 on task 9985; Accuracy: 0.60.
+[2018-04-10 15:36:36] [SCORE] run 358 on task 9985; Accuracy: 0.61.
+[2018-04-10 15:36:40] Uploaded run 368 with run id 9046745.
+[2018-04-10 15:36:40] Started run 371 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:36:46] Uploaded run 358 with run id 9046747.
+[2018-04-10 15:36:46] Started run 372 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:39:32] [SCORE] run 362 on task 9985; Accuracy: 0.60.
+[2018-04-10 15:39:42] Uploaded run 362 with run id 9046778.
+[2018-04-10 15:39:42] Started run 373 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:40:21] [SCORE] run 360 on task 9985; Accuracy: 0.60.
+[2018-04-10 15:40:31] Uploaded run 360 with run id 9046783.
+[2018-04-10 15:40:31] Started run 374 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:40:48] [SCORE] run 371 on task 9985; Accuracy: 0.60.
+[2018-04-10 15:40:58] Uploaded run 371 with run id 9046788.
+[2018-04-10 15:40:58] Started run 375 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:41:45] [SCORE] run 373 on task 9985; Accuracy: 0.62.
+[2018-04-10 15:41:55] Uploaded run 373 with run id 9046794.
+[2018-04-10 15:41:55] Started run 376 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:42:11] [SCORE] run 375 on task 9985; Accuracy: 0.57.
+[2018-04-10 15:42:21] Uploaded run 375 with run id 9046798.
+[2018-04-10 15:42:21] Started run 377 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:43:21] [SCORE] run 372 on task 9985; Accuracy: 0.62.
+[2018-04-10 15:43:31] Uploaded run 372 with run id 9046805.
+[2018-04-10 15:43:31] Started run 378 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:47:42] [SCORE] run 374 on task 9985; Accuracy: 0.59.
+[2018-04-10 15:47:53] Uploaded run 374 with run id 9046830.
+[2018-04-10 15:47:53] Started run 379 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:49:03] [SCORE] run 370 on task 9985; Accuracy: 0.59.
+[2018-04-10 15:49:15] Uploaded run 370 with run id 9046840.
+[2018-04-10 15:49:15] Started run 380 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:49:53] [SCORE] run 367 on task 9985; Accuracy: 0.59.
+[2018-04-10 15:50:03] Uploaded run 367 with run id 9046850.
+[2018-04-10 15:50:03] Started run 381 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:50:05] [SCORE] run 369 on task 9985; Accuracy: 0.59.
+[2018-04-10 15:50:15] Uploaded run 369 with run id 9046852.
+[2018-04-10 15:50:15] Started run 382 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:56:43] [SCORE] run 382 on task 9985; Accuracy: 0.60.
+[2018-04-10 15:56:54] Uploaded run 382 with run id 9046900.
+[2018-04-10 15:56:54] Started run 383 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:57:36] [SCORE] run 363 on task 9985; Accuracy: 0.57.
+[2018-04-10 15:57:46] Uploaded run 363 with run id 9046905.
+[2018-04-10 15:57:46] Started run 384 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:58:39] [SCORE] run 381 on task 9985; Accuracy: 0.60.
+[2018-04-10 15:58:49] Uploaded run 381 with run id 9046909.
+[2018-04-10 15:58:49] Started run 385 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 15:59:52] [SCORE] run 385 on task 9985; Accuracy: 0.59.
+[2018-04-10 16:00:03] [SCORE] run 379 on task 9985; Accuracy: 0.62.
+[2018-04-10 16:00:03] Uploaded run 385 with run id 9046918.
+[2018-04-10 16:00:03] Started run 386 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:00:15] Uploaded run 379 with run id 9046921.
+[2018-04-10 16:00:15] Started run 387 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:01:19] [SCORE] run 383 on task 9985; Accuracy: 0.60.
+[2018-04-10 16:01:29] Uploaded run 383 with run id 9046932.
+[2018-04-10 16:01:29] Started run 388 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:02:47] [SCORE] run 378 on task 9985; Accuracy: 0.60.
+[2018-04-10 16:02:57] Uploaded run 378 with run id 9046940.
+[2018-04-10 16:02:57] Started run 389 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:10:48] [SCORE] run 384 on task 9985; Accuracy: 0.62.
+[2018-04-10 16:10:58] Uploaded run 384 with run id 9046998.
+[2018-04-10 16:10:58] Started run 390 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:12:38] [SCORE] run 377 on task 9985; Accuracy: 0.60.
+[2018-04-10 16:12:49] Uploaded run 377 with run id 9047011.
+[2018-04-10 16:12:49] Started run 391 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:13:15] [SCORE] run 388 on task 9985; Accuracy: 0.60.
+[2018-04-10 16:13:26] Uploaded run 388 with run id 9047017.
+[2018-04-10 16:13:26] Started run 392 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:13:27] [SCORE] run 390 on task 9985; Accuracy: 0.59.
+[2018-04-10 16:13:38] Uploaded run 390 with run id 9047018.
+[2018-04-10 16:13:38] Started run 393 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:15:14] [SCORE] run 376 on task 9985; Accuracy: 0.59.
+[2018-04-10 16:15:24] Uploaded run 376 with run id 9047030.
+[2018-04-10 16:15:24] Started run 394 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:16:09] [SCORE] run 389 on task 9985; Accuracy: 0.62.
+[2018-04-10 16:16:20] Uploaded run 389 with run id 9047039.
+[2018-04-10 16:16:20] Started run 395 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:20:18] [SCORE] run 380 on task 9985; Accuracy: 0.61.
+[2018-04-10 16:20:28] Uploaded run 380 with run id 9047070.
+[2018-04-10 16:20:28] Started run 396 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:24:23] [SCORE] run 395 on task 9985; Accuracy: 0.60.
+[2018-04-10 16:24:34] Uploaded run 395 with run id 9047093.
+[2018-04-10 16:24:34] Started run 397 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:25:18] [SCORE] run 393 on task 9985; Accuracy: 0.60.
+[2018-04-10 16:25:26] [SCORE] run 386 on task 9985; Accuracy: 0.60.
+[2018-04-10 16:25:28] [SCORE] run 397 on task 9985; Accuracy: 0.55.
+[2018-04-10 16:25:29] Uploaded run 393 with run id 9047103.
+[2018-04-10 16:25:29] Started run 398 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:25:37] Uploaded run 386 with run id 9047104.
+[2018-04-10 16:25:37] Started run 399 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:25:39] Uploaded run 397 with run id 9047106.
+[2018-04-10 16:25:39] Started run 400 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:26:37] [SCORE] run 387 on task 9985; Accuracy: 0.61.
+[2018-04-10 16:26:47] Uploaded run 387 with run id 9047114.
+[2018-04-10 16:26:47] Started run 401 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:27:00] [SCORE] run 400 on task 9985; Accuracy: 0.54.
+[2018-04-10 16:27:11] Uploaded run 400 with run id 9047115.
+[2018-04-10 16:27:11] Started run 402 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:27:57] [SCORE] run 394 on task 9985; Accuracy: 0.59.
+[2018-04-10 16:28:07] Uploaded run 394 with run id 9047123.
+[2018-04-10 16:28:07] Started run 403 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:32:37] [SCORE] run 392 on task 9985; Accuracy: 0.60.
+[2018-04-10 16:32:47] Uploaded run 392 with run id 9047157.
+[2018-04-10 16:32:47] Started run 404 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:34:33] [SCORE] run 398 on task 9985; Accuracy: 0.63.
+[2018-04-10 16:34:38] [SCORE] run 403 on task 9985; Accuracy: 0.60.
+[2018-04-10 16:34:44] Uploaded run 398 with run id 9047169.
+[2018-04-10 16:34:44] Started run 405 on task 9985, dataset 'first-order-theorem-proving'.
+[2018-04-10 16:34:45] [SCORE] run 396 on task 9985; Accuracy: 0.57.
+[2018-04-10 16:34:48] Uploaded run 403 with run id 9047170.
+[2018-04-10 16:34:48] Started run 406 on task 9985, dataset 'first-order-theorem-proving'.

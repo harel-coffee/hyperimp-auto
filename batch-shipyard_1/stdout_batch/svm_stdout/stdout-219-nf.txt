@@ -1,0 +1,386 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/svm/job-1/task-00021/certs"
+declare -x AZ_BATCH_JOB_ID="svm"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/svm/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/svm/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-4234576326_14-20180410t020756z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/svm/job-1/task-00021"
+declare -x AZ_BATCH_TASK_ID="task-00021"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/svm/job-1/task-00021/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/svm/job-1/task-00021/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/svm/job-1/task-00021/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/svm/job-1/task-00021/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+[2018-04-10 02:15:51] Results will not be logged locally.
+[2018-04-10 02:15:51] Retrieving tasks...
+[2018-04-10 02:15:51] Tasks will be retrieved based on provided task ids.
+[2018-04-10 02:15:51] The following tasks were retrieved: [219].
+[2018-04-10 02:16:07] Downloaded task 219.
+[2018-04-10 02:16:07] Prepared pipelines.
+[2018-04-10 02:16:07] Started run 1 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:07] Started run 8 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:07] Started run 6 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:07] Started run 2 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:07] Started run 3 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:07] Started run 4 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:07] Started run 5 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:07] Started run 7 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:18] Error in run 3: Run already exists in server. Run id(s): {8928133}
+[2018-04-10 02:16:18] Started run 9 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:19] Error in run 1: Run already exists in server. Run id(s): {8928134}
+[2018-04-10 02:16:19] Started run 10 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:21] Error in run 2: Run already exists in server. Run id(s): {8928131}
+[2018-04-10 02:16:21] Started run 11 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:21] Error in run 7: Run already exists in server. Run id(s): {8928136}
+[2018-04-10 02:16:21] Started run 12 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:25] Error in run 4: Run already exists in server. Run id(s): {8928132}
+[2018-04-10 02:16:25] Started run 13 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:39] Error in run 9: Run already exists in server. Run id(s): {8928144}
+[2018-04-10 02:16:39] Started run 14 on task 219, dataset 'electricity'.
+[2018-04-10 02:16:54] Error in run 14: Run already exists in server. Run id(s): {8928249}
+[2018-04-10 02:16:54] Started run 15 on task 219, dataset 'electricity'.
+[2018-04-10 02:17:03] Error in run 15: Run already exists in server. Run id(s): {8970216}
+[2018-04-10 02:17:03] Started run 16 on task 219, dataset 'electricity'.
+[2018-04-10 02:17:17] Error in run 16: Run already exists in server. Run id(s): {8928251}
+[2018-04-10 02:17:17] Started run 17 on task 219, dataset 'electricity'.
+[2018-04-10 02:39:40] [SCORE] run 17 on task 219; Accuracy: 0.58.
+[2018-04-10 02:40:02] Uploaded run 17 with run id 9015682.
+[2018-04-10 02:40:02] Started run 18 on task 219, dataset 'electricity'.
+[2018-04-10 03:00:19] [SCORE] run 18 on task 219; Accuracy: 0.75.
+[2018-04-10 03:00:43] Uploaded run 18 with run id 9017376.
+[2018-04-10 03:00:44] Started run 19 on task 219, dataset 'electricity'.
+[2018-04-10 03:16:07] Run 8 timed out.
+[2018-04-10 03:16:07] Run 6 timed out.
+[2018-04-10 03:16:07] Started run 20 on task 219, dataset 'electricity'.
+[2018-04-10 03:16:07] Started run 21 on task 219, dataset 'electricity'.
+[2018-04-10 03:16:08] Run 5 timed out.
+[2018-04-10 03:16:08] Started run 22 on task 219, dataset 'electricity'.
+[2018-04-10 03:16:19] Run 10 timed out.
+[2018-04-10 03:16:19] Started run 23 on task 219, dataset 'electricity'.
+[2018-04-10 03:16:20] Error in run 23, trying again in 35 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:16:21] Run 11 timed out.
+[2018-04-10 03:16:21] Started run 24 on task 219, dataset 'electricity'.
+[2018-04-10 03:16:21] Run 12 timed out.
+[2018-04-10 03:16:21] Started run 25 on task 219, dataset 'electricity'.
+[2018-04-10 03:16:21] Error in run 24, trying again in 43 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:16:21] Error in run 25, trying again in 55 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:16:25] Run 13 timed out.
+[2018-04-10 03:16:25] Started run 26 on task 219, dataset 'electricity'.
+[2018-04-10 03:16:26] Error in run 26, trying again in 57 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:16:55] Started run 23 on task 219, dataset 'electricity'.
+[2018-04-10 03:16:57] Error in run 23, trying again in 48 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:17:04] Started run 24 on task 219, dataset 'electricity'.
+[2018-04-10 03:17:17] Started run 25 on task 219, dataset 'electricity'.
+[2018-04-10 03:17:23] Started run 26 on task 219, dataset 'electricity'.
+[2018-04-10 03:17:45] Started run 23 on task 219, dataset 'electricity'.
+[2018-04-10 03:17:49] Error in run 23, trying again in 32 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:18:21] Started run 23 on task 219, dataset 'electricity'.
+[2018-04-10 03:31:45] [SCORE] run 19 on task 219; Accuracy: 0.61.
+[2018-04-10 03:32:05] Uploaded run 19 with run id 9019866.
+[2018-04-10 03:32:05] Started run 27 on task 219, dataset 'electricity'.
+[2018-04-10 03:46:14] [SCORE] run 23 on task 219; Accuracy: 0.76.
+[2018-04-10 03:46:19] Error in uploading run 23, trying again in 36 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:47:00] Error in uploading run 23, trying again in 15 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:47:35] Uploaded run 23 with run id 9021157.
+[2018-04-10 03:47:35] Started run 28 on task 219, dataset 'electricity'.
+[2018-04-10 03:48:34] [SCORE] run 25 on task 219; Accuracy: 0.79.
+[2018-04-10 03:48:53] Uploaded run 25 with run id 9021263.
+[2018-04-10 03:48:53] Started run 29 on task 219, dataset 'electricity'.
+[2018-04-10 03:49:13] [SCORE] run 21 on task 219; Accuracy: 0.67.
+[2018-04-10 03:49:37] Uploaded run 21 with run id 9021321.
+[2018-04-10 03:49:37] Started run 30 on task 219, dataset 'electricity'.
+[2018-04-10 04:01:35] [SCORE] run 24 on task 219; Accuracy: 0.58.
+[2018-04-10 04:02:01] Uploaded run 24 with run id 9022350.
+[2018-04-10 04:02:01] Started run 31 on task 219, dataset 'electricity'.
+[2018-04-10 04:16:07] Run 20 timed out.
+[2018-04-10 04:16:07] Started run 32 on task 219, dataset 'electricity'.
+[2018-04-10 04:16:08] Run 22 timed out.
+[2018-04-10 04:16:08] Started run 33 on task 219, dataset 'electricity'.
+[2018-04-10 04:17:23] Run 26 timed out.
+[2018-04-10 04:17:23] Started run 34 on task 219, dataset 'electricity'.
+[2018-04-10 04:24:22] [SCORE] run 30 on task 219; Accuracy: 0.79.
+[2018-04-10 04:24:44] Uploaded run 30 with run id 9024341.
+[2018-04-10 04:24:44] Started run 35 on task 219, dataset 'electricity'.
+[2018-04-10 04:32:05] Run 27 timed out.
+[2018-04-10 04:32:05] Started run 36 on task 219, dataset 'electricity'.
+[2018-04-10 04:32:08] Error in run 36, trying again in 12 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:32:20] Started run 36 on task 219, dataset 'electricity'.
+[2018-04-10 04:39:34] [SCORE] run 31 on task 219; Accuracy: 0.76.
+[2018-04-10 04:39:57] Uploaded run 31 with run id 9025713.
+[2018-04-10 04:39:57] Started run 37 on task 219, dataset 'electricity'.
+[2018-04-10 04:45:03] [SCORE] run 32 on task 219; Accuracy: 0.78.
+[2018-04-10 04:45:29] Uploaded run 32 with run id 9026196.
+[2018-04-10 04:45:29] Started run 38 on task 219, dataset 'electricity'.
+[2018-04-10 04:45:30] Error in run 38, trying again in 44 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:46:14] Started run 38 on task 219, dataset 'electricity'.
+[2018-04-10 04:47:35] Run 28 timed out.
+[2018-04-10 04:47:35] Started run 39 on task 219, dataset 'electricity'.
+[2018-04-10 04:48:53] Run 29 timed out.
+[2018-04-10 04:48:53] Started run 40 on task 219, dataset 'electricity'.
+[2018-04-10 05:05:50] [SCORE] run 36 on task 219; Accuracy: 0.76.
+[2018-04-10 05:06:13] Uploaded run 36 with run id 9028046.
+[2018-04-10 05:06:13] Started run 41 on task 219, dataset 'electricity'.
+[2018-04-10 05:09:19] [SCORE] run 35 on task 219; Accuracy: 0.76.
+[2018-04-10 05:09:42] Uploaded run 35 with run id 9028356.
+[2018-04-10 05:09:42] Started run 42 on task 219, dataset 'electricity'.
+[2018-04-10 05:12:26] [SCORE] run 33 on task 219; Accuracy: 0.58.
+[2018-04-10 05:12:51] Uploaded run 33 with run id 9028638.
+[2018-04-10 05:12:51] Started run 43 on task 219, dataset 'electricity'.
+[2018-04-10 05:17:23] Run 34 timed out.
+[2018-04-10 05:17:23] Started run 44 on task 219, dataset 'electricity'.
+[2018-04-10 05:18:04] [SCORE] run 37 on task 219; Accuracy: 0.75.
+[2018-04-10 05:18:30] Uploaded run 37 with run id 9029146.
+[2018-04-10 05:18:30] Started run 45 on task 219, dataset 'electricity'.
+[2018-04-10 05:18:33] Error in run 45, trying again in 49 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:19:22] Started run 45 on task 219, dataset 'electricity'.
+[2018-04-10 05:19:22] Error in run 45, trying again in 37 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:20:00] Started run 45 on task 219, dataset 'electricity'.
+[2018-04-10 05:20:00] Error in run 45, trying again in 49 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:20:49] Started run 45 on task 219, dataset 'electricity'.
+[2018-04-10 05:30:57] [SCORE] run 38 on task 219; Accuracy: 0.58.
+[2018-04-10 05:31:26] Uploaded run 38 with run id 9030298.
+[2018-04-10 05:31:26] Started run 46 on task 219, dataset 'electricity'.
+[2018-04-10 05:45:52] [SCORE] run 42 on task 219; Accuracy: 0.76.
+[2018-04-10 05:46:10] Uploaded run 42 with run id 9031522.
+[2018-04-10 05:46:10] Started run 47 on task 219, dataset 'electricity'.
+[2018-04-10 05:47:35] Run 39 timed out.
+[2018-04-10 05:47:35] Started run 48 on task 219, dataset 'electricity'.
+[2018-04-10 05:48:53] Run 40 timed out.
+[2018-04-10 05:48:53] Started run 49 on task 219, dataset 'electricity'.
+[2018-04-10 05:59:52] [SCORE] run 45 on task 219; Accuracy: 0.79.
+[2018-04-10 06:00:15] Uploaded run 45 with run id 9032688.
+[2018-04-10 06:00:15] Started run 50 on task 219, dataset 'electricity'.
+[2018-04-10 06:03:02] [SCORE] run 43 on task 219; Accuracy: 0.76.
+[2018-04-10 06:03:24] Uploaded run 43 with run id 9032949.
+[2018-04-10 06:03:24] Started run 51 on task 219, dataset 'electricity'.
+[2018-04-10 06:06:13] Run 41 timed out.
+[2018-04-10 06:06:13] Started run 52 on task 219, dataset 'electricity'.
+[2018-04-10 06:17:23] Run 44 timed out.
+[2018-04-10 06:17:23] Started run 53 on task 219, dataset 'electricity'.
+[2018-04-10 06:30:17] [SCORE] run 47 on task 219; Accuracy: 0.76.
+[2018-04-10 06:30:36] Uploaded run 47 with run id 9035076.
+[2018-04-10 06:30:36] Started run 54 on task 219, dataset 'electricity'.
+[2018-04-10 06:31:26] Run 46 timed out.
+[2018-04-10 06:31:26] Started run 55 on task 219, dataset 'electricity'.
+[2018-04-10 06:47:35] Run 48 timed out.
+[2018-04-10 06:47:35] Started run 56 on task 219, dataset 'electricity'.
+[2018-04-10 06:48:54] Run 49 timed out.
+[2018-04-10 06:48:54] Started run 57 on task 219, dataset 'electricity'.
+[2018-04-10 07:00:15] Run 50 timed out.
+[2018-04-10 07:00:15] Started run 58 on task 219, dataset 'electricity'.
+[2018-04-10 07:03:24] Run 51 timed out.
+[2018-04-10 07:03:24] Started run 59 on task 219, dataset 'electricity'.
+[2018-04-10 07:06:13] Run 52 timed out.
+[2018-04-10 07:06:13] Started run 60 on task 219, dataset 'electricity'.
+[2018-04-10 07:12:18] [SCORE] run 53 on task 219; Accuracy: 0.79.
+[2018-04-10 07:12:34] Uploaded run 53 with run id 9036806.
+[2018-04-10 07:12:34] Started run 61 on task 219, dataset 'electricity'.
+[2018-04-10 07:30:36] Run 54 timed out.
+[2018-04-10 07:30:36] Started run 62 on task 219, dataset 'electricity'.
+[2018-04-10 07:31:26] Run 55 timed out.
+[2018-04-10 07:31:26] Started run 63 on task 219, dataset 'electricity'.
+[2018-04-10 07:47:35] Run 56 timed out.
+[2018-04-10 07:47:35] Started run 64 on task 219, dataset 'electricity'.
+[2018-04-10 07:48:54] Run 57 timed out.
+[2018-04-10 07:48:54] Started run 65 on task 219, dataset 'electricity'.
+[2018-04-10 08:00:15] Run 58 timed out.
+[2018-04-10 08:00:15] Started run 66 on task 219, dataset 'electricity'.
+[2018-04-10 08:03:24] Run 59 timed out.
+[2018-04-10 08:03:24] Started run 67 on task 219, dataset 'electricity'.
+[2018-04-10 08:04:08] [SCORE] run 61 on task 219; Accuracy: 0.79.
+[2018-04-10 08:04:24] Uploaded run 61 with run id 9038435.
+[2018-04-10 08:04:24] Started run 68 on task 219, dataset 'electricity'.
+[2018-04-10 08:06:13] Run 60 timed out.
+[2018-04-10 08:06:13] Started run 69 on task 219, dataset 'electricity'.
+[2018-04-10 08:30:36] Run 62 timed out.
+[2018-04-10 08:30:36] Started run 70 on task 219, dataset 'electricity'.
+[2018-04-10 08:31:26] Run 63 timed out.
+[2018-04-10 08:31:26] Started run 71 on task 219, dataset 'electricity'.
+[2018-04-10 08:47:35] Run 64 timed out.
+[2018-04-10 08:47:35] Started run 72 on task 219, dataset 'electricity'.
+[2018-04-10 08:48:54] Run 65 timed out.
+[2018-04-10 08:48:54] Started run 73 on task 219, dataset 'electricity'.
+[2018-04-10 09:00:15] Run 66 timed out.
+[2018-04-10 09:00:15] Started run 74 on task 219, dataset 'electricity'.
+[2018-04-10 09:03:24] Run 67 timed out.
+[2018-04-10 09:03:24] Started run 75 on task 219, dataset 'electricity'.
+[2018-04-10 09:04:24] Run 68 timed out.
+[2018-04-10 09:04:24] Started run 76 on task 219, dataset 'electricity'.
+[2018-04-10 09:06:13] Run 69 timed out.
+[2018-04-10 09:06:13] Started run 77 on task 219, dataset 'electricity'.
+[2018-04-10 09:30:36] Run 70 timed out.
+[2018-04-10 09:30:36] Started run 78 on task 219, dataset 'electricity'.
+[2018-04-10 09:31:26] Run 71 timed out.
+[2018-04-10 09:31:26] Started run 79 on task 219, dataset 'electricity'.
+[2018-04-10 09:47:35] Run 72 timed out.
+[2018-04-10 09:47:35] Started run 80 on task 219, dataset 'electricity'.
+[2018-04-10 09:48:54] Run 73 timed out.
+[2018-04-10 09:48:54] Started run 81 on task 219, dataset 'electricity'.
+[2018-04-10 10:00:15] Run 74 timed out.
+[2018-04-10 10:00:15] Started run 82 on task 219, dataset 'electricity'.
+[2018-04-10 10:03:24] Run 75 timed out.
+[2018-04-10 10:03:24] Started run 83 on task 219, dataset 'electricity'.
+[2018-04-10 10:04:25] Run 76 timed out.
+[2018-04-10 10:04:25] Started run 84 on task 219, dataset 'electricity'.
+[2018-04-10 10:06:13] Run 77 timed out.
+[2018-04-10 10:06:13] Started run 85 on task 219, dataset 'electricity'.
+[2018-04-10 10:30:36] Run 78 timed out.
+[2018-04-10 10:30:36] Started run 86 on task 219, dataset 'electricity'.
+[2018-04-10 10:31:26] Run 79 timed out.
+[2018-04-10 10:31:26] Started run 87 on task 219, dataset 'electricity'.
+[2018-04-10 10:47:35] Run 80 timed out.
+[2018-04-10 10:47:35] Started run 88 on task 219, dataset 'electricity'.
+[2018-04-10 10:48:54] Run 81 timed out.
+[2018-04-10 10:48:54] Started run 89 on task 219, dataset 'electricity'.
+[2018-04-10 11:00:15] Run 82 timed out.
+[2018-04-10 11:00:15] Started run 90 on task 219, dataset 'electricity'.
+[2018-04-10 11:03:24] Run 83 timed out.
+[2018-04-10 11:03:24] Started run 91 on task 219, dataset 'electricity'.
+[2018-04-10 11:03:29] Error in run 91: Run already exists in server. Run id(s): {8930489}
+[2018-04-10 11:03:29] Started run 92 on task 219, dataset 'electricity'.
+[2018-04-10 11:04:25] Run 84 timed out.
+[2018-04-10 11:04:25] Started run 93 on task 219, dataset 'electricity'.
+[2018-04-10 11:06:13] Run 85 timed out.
+[2018-04-10 11:06:13] Started run 94 on task 219, dataset 'electricity'.
+[2018-04-10 11:30:36] Run 86 timed out.
+[2018-04-10 11:30:36] Started run 95 on task 219, dataset 'electricity'.
+[2018-04-10 11:31:26] Run 87 timed out.
+[2018-04-10 11:31:26] Started run 96 on task 219, dataset 'electricity'.
+[2018-04-10 11:47:35] Run 88 timed out.
+[2018-04-10 11:47:35] Started run 97 on task 219, dataset 'electricity'.
+[2018-04-10 11:48:54] Run 89 timed out.
+[2018-04-10 11:48:54] Started run 98 on task 219, dataset 'electricity'.
+[2018-04-10 12:00:15] Run 90 timed out.
+[2018-04-10 12:00:15] Started run 99 on task 219, dataset 'electricity'.
+[2018-04-10 12:03:29] Run 92 timed out.
+[2018-04-10 12:03:29] Started run 100 on task 219, dataset 'electricity'.
+[2018-04-10 12:04:25] Run 93 timed out.
+[2018-04-10 12:04:25] Started run 101 on task 219, dataset 'electricity'.
+[2018-04-10 12:06:13] Run 94 timed out.
+[2018-04-10 12:06:13] Started run 102 on task 219, dataset 'electricity'.
+[2018-04-10 12:30:36] Run 95 timed out.
+[2018-04-10 12:30:36] Started run 103 on task 219, dataset 'electricity'.
+[2018-04-10 12:31:26] Run 96 timed out.
+[2018-04-10 12:31:26] Started run 104 on task 219, dataset 'electricity'.
+[2018-04-10 12:47:35] Run 97 timed out.
+[2018-04-10 12:47:35] Started run 105 on task 219, dataset 'electricity'.
+[2018-04-10 12:48:54] Run 98 timed out.
+[2018-04-10 12:48:54] Started run 106 on task 219, dataset 'electricity'.
+[2018-04-10 13:00:15] Run 99 timed out.
+[2018-04-10 13:00:15] Started run 107 on task 219, dataset 'electricity'.
+[2018-04-10 13:03:29] Run 100 timed out.
+[2018-04-10 13:03:29] Started run 108 on task 219, dataset 'electricity'.
+[2018-04-10 13:04:25] Run 101 timed out.
+[2018-04-10 13:04:25] Started run 109 on task 219, dataset 'electricity'.
+[2018-04-10 13:06:13] Run 102 timed out.
+[2018-04-10 13:06:13] Started run 110 on task 219, dataset 'electricity'.
+[2018-04-10 13:30:36] Run 103 timed out.
+[2018-04-10 13:30:36] Started run 111 on task 219, dataset 'electricity'.
+[2018-04-10 13:31:26] Run 104 timed out.
+[2018-04-10 13:31:26] Started run 112 on task 219, dataset 'electricity'.
+[2018-04-10 13:47:36] Run 105 timed out.
+[2018-04-10 13:47:36] Started run 113 on task 219, dataset 'electricity'.
+[2018-04-10 13:48:54] Run 106 timed out.
+[2018-04-10 13:48:54] Started run 114 on task 219, dataset 'electricity'.
+[2018-04-10 14:00:15] Run 107 timed out.
+[2018-04-10 14:00:15] Started run 115 on task 219, dataset 'electricity'.
+[2018-04-10 14:03:30] Run 108 timed out.
+[2018-04-10 14:03:30] Started run 116 on task 219, dataset 'electricity'.
+[2018-04-10 14:04:25] Run 109 timed out.
+[2018-04-10 14:04:25] Started run 117 on task 219, dataset 'electricity'.
+[2018-04-10 14:06:13] Run 110 timed out.
+[2018-04-10 14:06:13] Started run 118 on task 219, dataset 'electricity'.
+[2018-04-10 14:30:36] Run 111 timed out.
+[2018-04-10 14:30:36] Started run 119 on task 219, dataset 'electricity'.
+[2018-04-10 14:31:26] Run 112 timed out.
+[2018-04-10 14:31:26] Started run 120 on task 219, dataset 'electricity'.
+[2018-04-10 14:47:36] Run 113 timed out.
+[2018-04-10 14:47:36] Started run 121 on task 219, dataset 'electricity'.
+[2018-04-10 14:48:54] Run 114 timed out.
+[2018-04-10 14:48:54] Started run 122 on task 219, dataset 'electricity'.
+[2018-04-10 15:00:16] Run 115 timed out.
+[2018-04-10 15:00:16] Started run 123 on task 219, dataset 'electricity'.
+[2018-04-10 15:00:20] Error in run 123: Run already exists in server. Run id(s): {8933364}
+[2018-04-10 15:00:20] Started run 124 on task 219, dataset 'electricity'.
+[2018-04-10 15:00:25] Error in run 124: Run already exists in server. Run id(s): {8933547}
+[2018-04-10 15:00:25] Started run 125 on task 219, dataset 'electricity'.
+[2018-04-10 15:03:30] Run 116 timed out.
+[2018-04-10 15:03:30] Started run 126 on task 219, dataset 'electricity'.
+[2018-04-10 15:04:25] Run 117 timed out.
+[2018-04-10 15:04:25] Started run 127 on task 219, dataset 'electricity'.
+[2018-04-10 15:06:14] Run 118 timed out.
+[2018-04-10 15:06:14] Started run 128 on task 219, dataset 'electricity'.
+[2018-04-10 15:30:36] Run 119 timed out.
+[2018-04-10 15:30:36] Started run 129 on task 219, dataset 'electricity'.
+[2018-04-10 15:31:27] Run 120 timed out.
+[2018-04-10 15:31:27] Started run 130 on task 219, dataset 'electricity'.
+[2018-04-10 15:47:36] Run 121 timed out.
+[2018-04-10 15:47:36] Started run 131 on task 219, dataset 'electricity'.
+[2018-04-10 15:48:54] Run 122 timed out.
+[2018-04-10 15:48:54] Started run 132 on task 219, dataset 'electricity'.
+[2018-04-10 16:00:25] Run 125 timed out.
+[2018-04-10 16:00:25] Started run 133 on task 219, dataset 'electricity'.
+[2018-04-10 16:00:30] Error in run 133: Run already exists in server. Run id(s): {8937222}
+[2018-04-10 16:00:30] Started run 134 on task 219, dataset 'electricity'.
+[2018-04-10 16:00:35] Error in run 134: Run already exists in server. Run id(s): {8937409}
+[2018-04-10 16:00:35] Started run 135 on task 219, dataset 'electricity'.
+[2018-04-10 16:00:40] Error in run 135: Run already exists in server. Run id(s): {8937588}
+[2018-04-10 16:00:40] Started run 136 on task 219, dataset 'electricity'.
+[2018-04-10 16:03:30] Run 126 timed out.
+[2018-04-10 16:03:30] Started run 137 on task 219, dataset 'electricity'.
+[2018-04-10 16:04:25] Run 127 timed out.
+[2018-04-10 16:04:25] Started run 138 on task 219, dataset 'electricity'.
+[2018-04-10 16:06:14] Run 128 timed out.
+[2018-04-10 16:06:14] Started run 139 on task 219, dataset 'electricity'.
+[2018-04-10 16:30:36] Run 129 timed out.
+[2018-04-10 16:30:36] Started run 140 on task 219, dataset 'electricity'.
+[2018-04-10 16:30:41] Error in run 140: Run already exists in server. Run id(s): {8940311}
+[2018-04-10 16:30:41] Started run 141 on task 219, dataset 'electricity'.
+[2018-04-10 16:30:47] Error in run 141: Run already exists in server. Run id(s): {8940387}
+[2018-04-10 16:30:47] Started run 142 on task 219, dataset 'electricity'.
+[2018-04-10 16:31:27] Run 130 timed out.
+[2018-04-10 16:31:27] Started run 143 on task 219, dataset 'electricity'.
+[2018-04-10 16:47:36] Run 131 timed out.
+[2018-04-10 16:47:36] Started run 144 on task 219, dataset 'electricity'.
+[2018-04-10 16:48:54] Run 132 timed out.
+[2018-04-10 16:48:54] Started run 145 on task 219, dataset 'electricity'.
+[2018-04-10 16:49:00] Error in run 145: Run already exists in server. Run id(s): {8940727}
+[2018-04-10 16:49:00] Started run 146 on task 219, dataset 'electricity'.
+[2018-04-10 16:49:05] Error in run 146: Run already exists in server. Run id(s): {8940771}
+[2018-04-10 16:49:05] Started run 147 on task 219, dataset 'electricity'.

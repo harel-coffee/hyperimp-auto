@@ -1,0 +1,718 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00058/certs"
+declare -x AZ_BATCH_JOB_ID="random_forest"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-4234576326_41-20180410t020756z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00058"
+declare -x AZ_BATCH_TASK_ID="task-00058"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00058/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/random_forest/job-1/task-00058/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/random_forest/job-1/task-00058/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/random_forest/job-1/task-00058/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+[2018-04-10 03:00:42] Results will not be logged locally.
+[2018-04-10 03:00:42] Retrieving tasks...
+[2018-04-10 03:00:42] Tasks will be retrieved based on provided task ids.
+[2018-04-10 03:00:42] The following tasks were retrieved: [14969].
+[2018-04-10 03:00:59] Downloaded task 14969.
+[2018-04-10 03:01:00] Prepared pipelines.
+[2018-04-10 03:01:00] Started run 1 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:01:00] Started run 2 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:01:00] Started run 3 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:01:00] Started run 4 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:01:00] Started run 5 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:01:00] Started run 6 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:01:00] Started run 7 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:01:00] Started run 8 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:01:03] Error in run 3, trying again in 55 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:01:03] Error in run 2, trying again in 9 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:01:03] Error in run 4, trying again in 23 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:01:12] Started run 2 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:01:26] Started run 4 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:01:28] Error in run 4, trying again in 55 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:01:58] Started run 3 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:02:23] Started run 4 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:05:39] [SCORE] run 2 on task 14969; Accuracy: 0.64.
+[2018-04-10 03:06:03] Uploaded run 2 with run id 9017823.
+[2018-04-10 03:06:03] Started run 9 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:10:04] [SCORE] run 9 on task 14969; Accuracy: 0.61.
+[2018-04-10 03:10:21] Uploaded run 9 with run id 9018191.
+[2018-04-10 03:10:21] Started run 10 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:24:40] [SCORE] run 7 on task 14969; Accuracy: 0.61.
+[2018-04-10 03:25:03] Uploaded run 7 with run id 9019314.
+[2018-04-10 03:25:03] Started run 11 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:28:54] [SCORE] run 6 on task 14969; Accuracy: 0.62.
+[2018-04-10 03:29:12] [SCORE] run 1 on task 14969; Accuracy: 0.58.
+[2018-04-10 03:29:17] Uploaded run 6 with run id 9019661.
+[2018-04-10 03:29:17] Started run 12 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:29:17] Error in uploading run 1, trying again in 50 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 03:30:30] Uploaded run 1 with run id 9019752.
+[2018-04-10 03:30:30] Started run 13 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:32:04] [SCORE] run 11 on task 14969; Accuracy: 0.61.
+[2018-04-10 03:32:24] Uploaded run 11 with run id 9019881.
+[2018-04-10 03:32:24] Started run 14 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:33:18] [SCORE] run 12 on task 14969; Accuracy: 0.59.
+[2018-04-10 03:33:34] Uploaded run 12 with run id 9019955.
+[2018-04-10 03:33:34] Started run 15 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:39:19] [SCORE] run 13 on task 14969; Accuracy: 0.62.
+[2018-04-10 03:39:44] Uploaded run 13 with run id 9020473.
+[2018-04-10 03:39:44] Started run 16 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:40:11] [SCORE] run 15 on task 14969; Accuracy: 0.64.
+[2018-04-10 03:40:33] Uploaded run 15 with run id 9020551.
+[2018-04-10 03:40:33] Started run 17 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:48:45] [SCORE] run 16 on task 14969; Accuracy: 0.63.
+[2018-04-10 03:49:07] Uploaded run 16 with run id 9021272.
+[2018-04-10 03:49:07] Started run 18 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 03:55:42] [SCORE] run 14 on task 14969; Accuracy: 0.62.
+[2018-04-10 03:56:02] Uploaded run 14 with run id 9021838.
+[2018-04-10 03:56:02] Started run 19 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:01:00] Run 5 timed out.
+[2018-04-10 04:01:00] Started run 20 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:01:00] Run 8 timed out.
+[2018-04-10 04:01:00] Started run 21 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:01:58] Run 3 timed out.
+[2018-04-10 04:01:58] Started run 22 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:02:23] Run 4 timed out.
+[2018-04-10 04:02:23] Started run 23 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:02:24] Error in run 23, trying again in 46 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:03:10] Started run 23 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:08:48] [SCORE] run 21 on task 14969; Accuracy: 0.63.
+[2018-04-10 04:09:16] Uploaded run 21 with run id 9022985.
+[2018-04-10 04:09:16] Started run 24 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:10:21] Run 10 timed out.
+[2018-04-10 04:10:21] Started run 25 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:13:31] [SCORE] run 19 on task 14969; Accuracy: 0.59.
+[2018-04-10 04:13:55] Uploaded run 19 with run id 9023397.
+[2018-04-10 04:13:55] Started run 26 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:21:23] [SCORE] run 17 on task 14969; Accuracy: 0.59.
+[2018-04-10 04:21:29] Error in uploading run 17, trying again in 30 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:22:25] Uploaded run 17 with run id 9024117.
+[2018-04-10 04:22:25] Started run 27 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:26:48] [SCORE] run 24 on task 14969; Accuracy: 0.59.
+[2018-04-10 04:27:09] Uploaded run 24 with run id 9024550.
+[2018-04-10 04:27:09] Started run 28 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:31:07] [SCORE] run 27 on task 14969; Accuracy: 0.57.
+[2018-04-10 04:31:33] Uploaded run 27 with run id 9024946.
+[2018-04-10 04:31:33] Started run 29 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:35:10] [SCORE] run 23 on task 14969; Accuracy: 0.67.
+[2018-04-10 04:35:39] Uploaded run 23 with run id 9025320.
+[2018-04-10 04:35:39] Started run 30 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:40:48] [SCORE] run 25 on task 14969; Accuracy: 0.61.
+[2018-04-10 04:41:12] Uploaded run 25 with run id 9025812.
+[2018-04-10 04:41:12] Started run 31 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:46:46] [SCORE] run 31 on task 14969; Accuracy: 0.61.
+[2018-04-10 04:47:08] Uploaded run 31 with run id 9026351.
+[2018-04-10 04:47:08] Started run 32 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:49:07] Run 18 timed out.
+[2018-04-10 04:49:07] Started run 33 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:50:09] [SCORE] run 26 on task 14969; Accuracy: 0.66.
+[2018-04-10 04:50:24] Uploaded run 26 with run id 9026647.
+[2018-04-10 04:50:24] Started run 34 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:51:53] [SCORE] run 29 on task 14969; Accuracy: 0.63.
+[2018-04-10 04:52:16] Uploaded run 29 with run id 9026800.
+[2018-04-10 04:52:16] Started run 35 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:52:43] [SCORE] run 30 on task 14969; Accuracy: 0.63.
+[2018-04-10 04:53:09] Uploaded run 30 with run id 9026877.
+[2018-04-10 04:53:09] Started run 36 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:55:20] [SCORE] run 28 on task 14969; Accuracy: 0.65.
+[2018-04-10 04:55:41] Uploaded run 28 with run id 9027100.
+[2018-04-10 04:55:41] Started run 37 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:58:03] [SCORE] run 34 on task 14969; Accuracy: 0.59.
+[2018-04-10 04:58:26] Uploaded run 34 with run id 9027343.
+[2018-04-10 04:58:26] Started run 38 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 04:58:28] Error in run 38, trying again in 46 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 04:59:14] Started run 38 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:01:00] Run 20 timed out.
+[2018-04-10 05:01:00] Started run 39 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:01:58] Run 22 timed out.
+[2018-04-10 05:01:58] Started run 40 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:02:51] [SCORE] run 38 on task 14969; Accuracy: 0.54.
+[2018-04-10 05:02:58] [SCORE] run 32 on task 14969; Accuracy: 0.66.
+[2018-04-10 05:03:04] Error in uploading run 32, trying again in 32 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:03:20] Uploaded run 38 with run id 9027784.
+[2018-04-10 05:03:20] Started run 41 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:03:59] Uploaded run 32 with run id 9027848.
+[2018-04-10 05:03:59] Started run 42 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:06:50] [SCORE] run 39 on task 14969; Accuracy: 0.53.
+[2018-04-10 05:07:28] Uploaded run 39 with run id 9028158.
+[2018-04-10 05:07:28] Started run 43 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:07:42] Error in run 43, trying again in 10 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 05:07:52] Started run 43 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:17:32] [SCORE] run 42 on task 14969; Accuracy: 0.62.
+[2018-04-10 05:17:53] Uploaded run 42 with run id 9029092.
+[2018-04-10 05:17:53] Started run 44 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:19:40] [SCORE] run 36 on task 14969; Accuracy: 0.67.
+[2018-04-10 05:20:01] Uploaded run 36 with run id 9029284.
+[2018-04-10 05:20:01] Started run 45 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:20:12] [SCORE] run 40 on task 14969; Accuracy: 0.65.
+[2018-04-10 05:20:39] Uploaded run 40 with run id 9029339.
+[2018-04-10 05:20:39] Started run 46 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:22:12] [SCORE] run 44 on task 14969; Accuracy: 0.56.
+[2018-04-10 05:22:35] [SCORE] run 33 on task 14969; Accuracy: 0.56.
+[2018-04-10 05:22:37] Uploaded run 44 with run id 9029522.
+[2018-04-10 05:22:37] Started run 47 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:22:59] Uploaded run 33 with run id 9029557.
+[2018-04-10 05:22:59] Started run 48 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:23:21] [SCORE] run 43 on task 14969; Accuracy: 0.61.
+[2018-04-10 05:23:49] Uploaded run 43 with run id 9029629.
+[2018-04-10 05:23:49] Started run 49 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:28:21] [SCORE] run 35 on task 14969; Accuracy: 0.64.
+[2018-04-10 05:28:40] Uploaded run 35 with run id 9030051.
+[2018-04-10 05:28:40] Started run 50 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:29:59] [SCORE] run 41 on task 14969; Accuracy: 0.64.
+[2018-04-10 05:30:24] Uploaded run 41 with run id 9030209.
+[2018-04-10 05:30:24] Started run 51 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:39:46] [SCORE] run 46 on task 14969; Accuracy: 0.69.
+[2018-04-10 05:40:04] Uploaded run 46 with run id 9031038.
+[2018-04-10 05:40:04] Started run 52 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:42:46] [SCORE] run 51 on task 14969; Accuracy: 0.65.
+[2018-04-10 05:43:04] Uploaded run 51 with run id 9031276.
+[2018-04-10 05:43:04] Started run 53 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:45:12] [SCORE] run 50 on task 14969; Accuracy: 0.60.
+[2018-04-10 05:45:34] Uploaded run 50 with run id 9031473.
+[2018-04-10 05:45:34] Started run 54 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:48:25] [SCORE] run 45 on task 14969; Accuracy: 0.62.
+[2018-04-10 05:48:40] Uploaded run 45 with run id 9031716.
+[2018-04-10 05:48:40] Started run 55 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:51:30] [SCORE] run 54 on task 14969; Accuracy: 0.58.
+[2018-04-10 05:51:58] Uploaded run 54 with run id 9031977.
+[2018-04-10 05:51:58] Started run 56 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:55:41] Run 37 timed out.
+[2018-04-10 05:55:41] Started run 57 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:57:02] [SCORE] run 56 on task 14969; Accuracy: 0.64.
+[2018-04-10 05:57:27] Uploaded run 56 with run id 9032445.
+[2018-04-10 05:57:27] Started run 58 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 05:58:06] [SCORE] run 55 on task 14969; Accuracy: 0.66.
+[2018-04-10 05:58:29] Uploaded run 55 with run id 9032536.
+[2018-04-10 05:58:29] Started run 59 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:03:35] [SCORE] run 49 on task 14969; Accuracy: 0.65.
+[2018-04-10 06:03:42] [SCORE] run 57 on task 14969; Accuracy: 0.61.
+[2018-04-10 06:03:53] Uploaded run 49 with run id 9032990.
+[2018-04-10 06:03:53] Started run 60 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:04:01] Uploaded run 57 with run id 9033002.
+[2018-04-10 06:04:01] Started run 61 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:07:30] [SCORE] run 60 on task 14969; Accuracy: 0.55.
+[2018-04-10 06:07:33] [SCORE] run 61 on task 14969; Accuracy: 0.56.
+[2018-04-10 06:07:53] Uploaded run 60 with run id 9033327.
+[2018-04-10 06:07:53] Started run 62 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:07:56] Uploaded run 61 with run id 9033331.
+[2018-04-10 06:07:56] Started run 63 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:14:01] [SCORE] run 48 on task 14969; Accuracy: 0.68.
+[2018-04-10 06:14:21] Uploaded run 48 with run id 9033870.
+[2018-04-10 06:14:21] Started run 64 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:17:35] [SCORE] run 58 on task 14969; Accuracy: 0.63.
+[2018-04-10 06:17:56] Uploaded run 58 with run id 9034167.
+[2018-04-10 06:17:56] Started run 65 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:22:17] [SCORE] run 63 on task 14969; Accuracy: 0.65.
+[2018-04-10 06:22:35] Uploaded run 63 with run id 9034531.
+[2018-04-10 06:22:35] Started run 66 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:22:37] Run 47 timed out.
+[2018-04-10 06:22:37] Started run 67 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:23:33] [SCORE] run 62 on task 14969; Accuracy: 0.60.
+[2018-04-10 06:23:58] Uploaded run 62 with run id 9034643.
+[2018-04-10 06:23:58] Started run 68 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:25:38] [SCORE] run 59 on task 14969; Accuracy: 0.65.
+[2018-04-10 06:25:54] Uploaded run 59 with run id 9034781.
+[2018-04-10 06:25:54] Started run 69 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:29:37] [SCORE] run 69 on task 14969; Accuracy: 0.57.
+[2018-04-10 06:29:56] Uploaded run 69 with run id 9035033.
+[2018-04-10 06:29:56] Started run 70 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:32:31] [SCORE] run 64 on task 14969; Accuracy: 0.62.
+[2018-04-10 06:32:45] Uploaded run 64 with run id 9035220.
+[2018-04-10 06:32:45] Started run 71 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:35:37] [SCORE] run 65 on task 14969; Accuracy: 0.63.
+[2018-04-10 06:35:53] Uploaded run 65 with run id 9035385.
+[2018-04-10 06:35:53] Started run 72 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:39:02] [SCORE] run 72 on task 14969; Accuracy: 0.54.
+[2018-04-10 06:39:10] [SCORE] run 66 on task 14969; Accuracy: 0.60.
+[2018-04-10 06:39:20] Uploaded run 72 with run id 9035565.
+[2018-04-10 06:39:20] Started run 73 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:39:24] Uploaded run 66 with run id 9035573.
+[2018-04-10 06:39:25] Started run 74 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:40:04] Run 52 timed out.
+[2018-04-10 06:40:04] Started run 75 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:43:04] Run 53 timed out.
+[2018-04-10 06:43:04] Started run 76 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:45:32] [SCORE] run 68 on task 14969; Accuracy: 0.66.
+[2018-04-10 06:45:47] Uploaded run 68 with run id 9035848.
+[2018-04-10 06:45:47] Started run 77 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 06:51:33] [SCORE] run 71 on task 14969; Accuracy: 0.64.
+[2018-04-10 06:51:49] Uploaded run 71 with run id 9036076.
+[2018-04-10 06:51:49] Started run 78 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:02:11] [SCORE] run 76 on task 14969; Accuracy: 0.61.
+[2018-04-10 07:02:25] Uploaded run 76 with run id 9036484.
+[2018-04-10 07:02:25] Started run 79 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:09:33] [SCORE] run 67 on task 14969; Accuracy: 0.63.
+[2018-04-10 07:09:46] Uploaded run 67 with run id 9036711.
+[2018-04-10 07:09:46] Started run 80 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:12:31] [SCORE] run 78 on task 14969; Accuracy: 0.64.
+[2018-04-10 07:12:43] Uploaded run 78 with run id 9036810.
+[2018-04-10 07:12:43] Started run 81 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:14:04] [SCORE] run 75 on task 14969; Accuracy: 0.65.
+[2018-04-10 07:14:17] Uploaded run 75 with run id 9036855.
+[2018-04-10 07:14:17] Started run 82 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:20:26] [SCORE] run 70 on task 14969; Accuracy: 0.64.
+[2018-04-10 07:20:40] Uploaded run 70 with run id 9037052.
+[2018-04-10 07:20:40] Started run 83 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:21:01] [SCORE] run 80 on task 14969; Accuracy: 0.66.
+[2018-04-10 07:21:04] [SCORE] run 81 on task 14969; Accuracy: 0.67.
+[2018-04-10 07:21:17] Uploaded run 80 with run id 9037074.
+[2018-04-10 07:21:17] Started run 84 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:21:20] Uploaded run 81 with run id 9037076.
+[2018-04-10 07:21:20] Started run 85 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:25:35] [SCORE] run 79 on task 14969; Accuracy: 0.61.
+[2018-04-10 07:25:47] Uploaded run 79 with run id 9037206.
+[2018-04-10 07:25:47] Started run 86 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:33:28] [SCORE] run 82 on task 14969; Accuracy: 0.63.
+[2018-04-10 07:33:42] Uploaded run 82 with run id 9037450.
+[2018-04-10 07:33:42] Started run 87 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:34:00] [SCORE] run 84 on task 14969; Accuracy: 0.61.
+[2018-04-10 07:34:13] Uploaded run 84 with run id 9037464.
+[2018-04-10 07:34:13] Started run 88 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:36:47] [SCORE] run 83 on task 14969; Accuracy: 0.60.
+[2018-04-10 07:37:01] Uploaded run 83 with run id 9037562.
+[2018-04-10 07:37:01] Started run 89 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:39:20] Run 73 timed out.
+[2018-04-10 07:39:20] Started run 90 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:39:25] Run 74 timed out.
+[2018-04-10 07:39:25] Started run 91 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:40:54] [SCORE] run 87 on task 14969; Accuracy: 0.68.
+[2018-04-10 07:41:08] Uploaded run 87 with run id 9037701.
+[2018-04-10 07:41:08] Started run 92 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:45:47] Run 77 timed out.
+[2018-04-10 07:45:47] Started run 93 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:49:30] [SCORE] run 92 on task 14969; Accuracy: 0.62.
+[2018-04-10 07:49:46] Uploaded run 92 with run id 9037981.
+[2018-04-10 07:49:46] Started run 94 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:56:56] [SCORE] run 91 on task 14969; Accuracy: 0.65.
+[2018-04-10 07:57:12] Uploaded run 91 with run id 9038218.
+[2018-04-10 07:57:12] Started run 95 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 07:58:25] [SCORE] run 86 on task 14969; Accuracy: 0.64.
+[2018-04-10 07:58:40] Uploaded run 86 with run id 9038274.
+[2018-04-10 07:58:40] Started run 96 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:00:49] [SCORE] run 85 on task 14969; Accuracy: 0.59.
+[2018-04-10 08:01:04] Uploaded run 85 with run id 9038344.
+[2018-04-10 08:01:04] Started run 97 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:09:17] [SCORE] run 95 on task 14969; Accuracy: 0.64.
+[2018-04-10 08:09:31] Uploaded run 95 with run id 9038599.
+[2018-04-10 08:09:31] Started run 98 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:09:34] Error in run 98, trying again in 60 seconds. Message: Unexpected server error. Please contact the developers!
+Status code: 500
+
+[2018-04-10 08:10:34] Started run 98 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:13:31] [SCORE] run 90 on task 14969; Accuracy: 0.66.
+[2018-04-10 08:13:47] Uploaded run 90 with run id 9038719.
+[2018-04-10 08:13:47] Started run 99 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:16:38] [SCORE] run 98 on task 14969; Accuracy: 0.58.
+[2018-04-10 08:16:53] Uploaded run 98 with run id 9038827.
+[2018-04-10 08:16:53] Started run 100 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:20:55] [SCORE] run 93 on task 14969; Accuracy: 0.56.
+[2018-04-10 08:21:09] Uploaded run 93 with run id 9038949.
+[2018-04-10 08:21:09] Started run 101 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:22:49] [SCORE] run 89 on task 14969; Accuracy: 0.61.
+[2018-04-10 08:23:04] Uploaded run 89 with run id 9039015.
+[2018-04-10 08:23:04] Started run 102 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:34:13] Run 88 timed out.
+[2018-04-10 08:34:13] Started run 103 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:36:20] [SCORE] run 101 on task 14969; Accuracy: 0.62.
+[2018-04-10 08:36:36] Uploaded run 101 with run id 9039412.
+[2018-04-10 08:36:36] Started run 104 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:42:19] [SCORE] run 103 on task 14969; Accuracy: 0.56.
+[2018-04-10 08:42:36] Uploaded run 103 with run id 9039590.
+[2018-04-10 08:42:36] Started run 105 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:49:46] Run 94 timed out.
+[2018-04-10 08:49:46] Started run 106 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:58:40] Run 96 timed out.
+[2018-04-10 08:58:40] Started run 107 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 08:59:02] [SCORE] run 104 on task 14969; Accuracy: 0.68.
+[2018-04-10 08:59:17] Uploaded run 104 with run id 9040030.
+[2018-04-10 08:59:17] Started run 108 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:01:05] Run 97 timed out.
+[2018-04-10 09:01:05] Started run 109 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:02:29] [SCORE] run 105 on task 14969; Accuracy: 0.63.
+[2018-04-10 09:02:44] Uploaded run 105 with run id 9040124.
+[2018-04-10 09:02:44] Started run 110 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:02:53] [SCORE] run 99 on task 14969; Accuracy: 0.61.
+[2018-04-10 09:03:07] Uploaded run 99 with run id 9040139.
+[2018-04-10 09:03:07] Started run 111 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:05:27] [SCORE] run 108 on task 14969; Accuracy: 0.62.
+[2018-04-10 09:05:41] Uploaded run 108 with run id 9040215.
+[2018-04-10 09:05:41] Started run 112 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:09:59] [SCORE] run 106 on task 14969; Accuracy: 0.62.
+[2018-04-10 09:10:13] Uploaded run 106 with run id 9040337.
+[2018-04-10 09:10:13] Started run 113 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:16:52] [SCORE] run 102 on task 14969; Accuracy: 0.66.
+[2018-04-10 09:16:53] Run 100 timed out.
+[2018-04-10 09:16:53] Started run 114 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:17:07] Uploaded run 102 with run id 9040535.
+[2018-04-10 09:17:07] Started run 115 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:30:09] [SCORE] run 112 on task 14969; Accuracy: 0.67.
+[2018-04-10 09:30:23] Uploaded run 112 with run id 9040836.
+[2018-04-10 09:30:23] Started run 116 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:37:53] [SCORE] run 111 on task 14969; Accuracy: 0.67.
+[2018-04-10 09:38:08] Uploaded run 111 with run id 9041016.
+[2018-04-10 09:38:08] Started run 117 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:38:11] [SCORE] run 113 on task 14969; Accuracy: 0.60.
+[2018-04-10 09:38:26] Uploaded run 113 with run id 9041026.
+[2018-04-10 09:38:26] Started run 118 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:44:41] [SCORE] run 115 on task 14969; Accuracy: 0.66.
+[2018-04-10 09:44:55] Uploaded run 115 with run id 9041177.
+[2018-04-10 09:44:55] Started run 119 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 09:51:44] [SCORE] run 107 on task 14969; Accuracy: 0.66.
+[2018-04-10 09:51:58] Uploaded run 107 with run id 9041351.
+[2018-04-10 09:51:58] Started run 120 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:00:12] [SCORE] run 109 on task 14969; Accuracy: 0.61.
+[2018-04-10 10:00:28] Uploaded run 109 with run id 9041530.
+[2018-04-10 10:00:28] Started run 121 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:02:44] Run 110 timed out.
+[2018-04-10 10:02:44] Started run 122 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:02:57] [SCORE] run 120 on task 14969; Accuracy: 0.65.
+[2018-04-10 10:03:11] Uploaded run 120 with run id 9041591.
+[2018-04-10 10:03:11] Started run 123 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:09:18] [SCORE] run 121 on task 14969; Accuracy: 0.66.
+[2018-04-10 10:09:32] Uploaded run 121 with run id 9041740.
+[2018-04-10 10:09:32] Started run 124 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:11:33] [SCORE] run 114 on task 14969; Accuracy: 0.68.
+[2018-04-10 10:11:41] [SCORE] run 123 on task 14969; Accuracy: 0.59.
+[2018-04-10 10:11:47] Uploaded run 114 with run id 9041786.
+[2018-04-10 10:11:47] Started run 125 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:11:55] Uploaded run 123 with run id 9041788.
+[2018-04-10 10:11:55] Started run 126 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:12:21] [SCORE] run 116 on task 14969; Accuracy: 0.63.
+[2018-04-10 10:12:35] Uploaded run 116 with run id 9041802.
+[2018-04-10 10:12:35] Started run 127 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:28:31] [SCORE] run 118 on task 14969; Accuracy: 0.62.
+[2018-04-10 10:28:46] Uploaded run 118 with run id 9042173.
+[2018-04-10 10:28:46] Started run 128 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:29:59] [SCORE] run 125 on task 14969; Accuracy: 0.64.
+[2018-04-10 10:30:13] Uploaded run 125 with run id 9042213.
+[2018-04-10 10:30:13] Started run 129 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:31:20] [SCORE] run 122 on task 14969; Accuracy: 0.68.
+[2018-04-10 10:31:34] Uploaded run 122 with run id 9042240.
+[2018-04-10 10:31:34] Started run 130 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:32:38] [SCORE] run 117 on task 14969; Accuracy: 0.65.
+[2018-04-10 10:32:52] Uploaded run 117 with run id 9042268.
+[2018-04-10 10:32:52] Started run 131 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:43:48] [SCORE] run 124 on task 14969; Accuracy: 0.65.
+[2018-04-10 10:44:02] Uploaded run 124 with run id 9042495.
+[2018-04-10 10:44:02] Started run 132 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:44:51] [SCORE] run 131 on task 14969; Accuracy: 0.62.
+[2018-04-10 10:44:55] Run 119 timed out.
+[2018-04-10 10:44:55] Started run 133 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:45:05] Uploaded run 131 with run id 9042514.
+[2018-04-10 10:45:05] Started run 134 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:48:55] [SCORE] run 128 on task 14969; Accuracy: 0.63.
+[2018-04-10 10:49:09] Uploaded run 128 with run id 9042606.
+[2018-04-10 10:49:09] Started run 135 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:53:06] [SCORE] run 132 on task 14969; Accuracy: 0.63.
+[2018-04-10 10:53:20] Uploaded run 132 with run id 9042692.
+[2018-04-10 10:53:20] Started run 136 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 10:55:46] [SCORE] run 129 on task 14969; Accuracy: 0.67.
+[2018-04-10 10:56:01] Uploaded run 129 with run id 9042753.
+[2018-04-10 10:56:01] Started run 137 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:00:57] [SCORE] run 127 on task 14969; Accuracy: 0.64.
+[2018-04-10 11:01:10] Uploaded run 127 with run id 9042856.
+[2018-04-10 11:01:10] Started run 138 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:01:11] [SCORE] run 134 on task 14969; Accuracy: 0.60.
+[2018-04-10 11:01:23] Uploaded run 134 with run id 9042859.
+[2018-04-10 11:01:23] Started run 139 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:10:10] [SCORE] run 130 on task 14969; Accuracy: 0.64.
+[2018-04-10 11:10:23] Uploaded run 130 with run id 9043044.
+[2018-04-10 11:10:23] Started run 140 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:11:55] Run 126 timed out.
+[2018-04-10 11:11:55] Started run 141 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:22:58] [SCORE] run 141 on task 14969; Accuracy: 0.62.
+[2018-04-10 11:23:11] Uploaded run 141 with run id 9043301.
+[2018-04-10 11:23:11] Started run 142 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:36:45] [SCORE] run 140 on task 14969; Accuracy: 0.65.
+[2018-04-10 11:36:57] Uploaded run 140 with run id 9043546.
+[2018-04-10 11:36:57] Started run 143 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:41:40] [SCORE] run 142 on task 14969; Accuracy: 0.62.
+[2018-04-10 11:41:53] Uploaded run 142 with run id 9043652.
+[2018-04-10 11:41:53] Started run 144 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:44:55] Run 133 timed out.
+[2018-04-10 11:44:55] Started run 145 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:45:30] [SCORE] run 137 on task 14969; Accuracy: 0.66.
+[2018-04-10 11:45:43] Uploaded run 137 with run id 9043718.
+[2018-04-10 11:45:43] Started run 146 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:46:30] [SCORE] run 139 on task 14969; Accuracy: 0.61.
+[2018-04-10 11:46:43] Uploaded run 139 with run id 9043737.
+[2018-04-10 11:46:43] Started run 147 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:47:25] [SCORE] run 135 on task 14969; Accuracy: 0.62.
+[2018-04-10 11:47:40] Uploaded run 135 with run id 9043762.
+[2018-04-10 11:47:40] Started run 148 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:47:52] [SCORE] run 138 on task 14969; Accuracy: 0.62.
+[2018-04-10 11:48:05] Uploaded run 138 with run id 9043772.
+[2018-04-10 11:48:05] Started run 149 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:49:02] [SCORE] run 146 on task 14969; Accuracy: 0.63.
+[2018-04-10 11:49:16] Uploaded run 146 with run id 9043790.
+[2018-04-10 11:49:16] Started run 150 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:53:20] Run 136 timed out.
+[2018-04-10 11:53:20] Started run 151 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:53:56] [SCORE] run 147 on task 14969; Accuracy: 0.57.
+[2018-04-10 11:54:10] Uploaded run 147 with run id 9043891.
+[2018-04-10 11:54:10] Started run 152 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 11:54:44] [SCORE] run 149 on task 14969; Accuracy: 0.61.
+[2018-04-10 11:54:58] Uploaded run 149 with run id 9043908.
+[2018-04-10 11:54:58] Started run 153 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:00:05] [SCORE] run 143 on task 14969; Accuracy: 0.63.
+[2018-04-10 12:00:19] Uploaded run 143 with run id 9044019.
+[2018-04-10 12:00:19] Started run 154 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:03:21] [SCORE] run 153 on task 14969; Accuracy: 0.57.
+[2018-04-10 12:03:36] Uploaded run 153 with run id 9044079.
+[2018-04-10 12:03:36] Started run 155 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:04:11] [SCORE] run 154 on task 14969; Accuracy: 0.61.
+[2018-04-10 12:04:26] Uploaded run 154 with run id 9044090.
+[2018-04-10 12:04:26] Started run 156 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:05:12] [SCORE] run 150 on task 14969; Accuracy: 0.67.
+[2018-04-10 12:05:26] Uploaded run 150 with run id 9044109.
+[2018-04-10 12:05:26] Started run 157 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:11:30] [SCORE] run 155 on task 14969; Accuracy: 0.60.
+[2018-04-10 12:11:45] Uploaded run 155 with run id 9044238.
+[2018-04-10 12:11:45] Started run 158 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:15:17] [SCORE] run 151 on task 14969; Accuracy: 0.63.
+[2018-04-10 12:15:30] Uploaded run 151 with run id 9044309.
+[2018-04-10 12:15:30] Started run 159 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:16:43] [SCORE] run 145 on task 14969; Accuracy: 0.66.
+[2018-04-10 12:16:56] Uploaded run 145 with run id 9044334.
+[2018-04-10 12:16:56] Started run 160 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:21:51] [SCORE] run 156 on task 14969; Accuracy: 0.66.
+[2018-04-10 12:22:06] Uploaded run 156 with run id 9044432.
+[2018-04-10 12:22:06] Started run 161 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:22:28] [SCORE] run 157 on task 14969; Accuracy: 0.61.
+[2018-04-10 12:22:42] Uploaded run 157 with run id 9044440.
+[2018-04-10 12:22:42] Started run 162 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:22:53] [SCORE] run 152 on task 14969; Accuracy: 0.67.
+[2018-04-10 12:23:06] Uploaded run 152 with run id 9044449.
+[2018-04-10 12:23:06] Started run 163 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:31:38] [SCORE] run 158 on task 14969; Accuracy: 0.65.
+[2018-04-10 12:31:53] Uploaded run 158 with run id 9044598.
+[2018-04-10 12:31:53] Started run 164 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:35:34] [SCORE] run 148 on task 14969; Accuracy: 0.66.
+[2018-04-10 12:35:48] Uploaded run 148 with run id 9044671.
+[2018-04-10 12:35:48] Started run 165 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:41:53] Run 144 timed out.
+[2018-04-10 12:41:53] Started run 166 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:44:07] [SCORE] run 161 on task 14969; Accuracy: 0.63.
+[2018-04-10 12:44:21] Uploaded run 161 with run id 9044827.
+[2018-04-10 12:44:21] Started run 167 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:44:29] [SCORE] run 159 on task 14969; Accuracy: 0.60.
+[2018-04-10 12:44:44] Uploaded run 159 with run id 9044833.
+[2018-04-10 12:44:44] Started run 168 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:44:54] [SCORE] run 163 on task 14969; Accuracy: 0.67.
+[2018-04-10 12:45:08] Uploaded run 163 with run id 9044843.
+[2018-04-10 12:45:08] Started run 169 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:53:33] [SCORE] run 165 on task 14969; Accuracy: 0.60.
+[2018-04-10 12:53:46] Uploaded run 165 with run id 9045001.
+[2018-04-10 12:53:46] Started run 170 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:56:46] [SCORE] run 166 on task 14969; Accuracy: 0.64.
+[2018-04-10 12:56:59] Uploaded run 166 with run id 9045061.
+[2018-04-10 12:56:59] Started run 171 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 12:59:52] [SCORE] run 169 on task 14969; Accuracy: 0.63.
+[2018-04-10 13:00:05] Uploaded run 169 with run id 9045124.
+[2018-04-10 13:00:05] Started run 172 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:07:22] [SCORE] run 160 on task 14969; Accuracy: 0.64.
+[2018-04-10 13:07:28] [SCORE] run 171 on task 14969; Accuracy: 0.64.
+[2018-04-10 13:07:35] Uploaded run 160 with run id 9045263.
+[2018-04-10 13:07:35] Started run 173 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:07:40] Uploaded run 171 with run id 9045266.
+[2018-04-10 13:07:40] Started run 174 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:12:19] [SCORE] run 170 on task 14969; Accuracy: 0.64.
+[2018-04-10 13:12:32] Uploaded run 170 with run id 9045352.
+[2018-04-10 13:12:32] Started run 175 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:14:19] [SCORE] run 174 on task 14969; Accuracy: 0.61.
+[2018-04-10 13:14:32] Uploaded run 174 with run id 9045384.
+[2018-04-10 13:14:32] Started run 176 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:17:03] [SCORE] run 173 on task 14969; Accuracy: 0.61.
+[2018-04-10 13:17:09] [SCORE] run 175 on task 14969; Accuracy: 0.57.
+[2018-04-10 13:17:16] Uploaded run 173 with run id 9045425.
+[2018-04-10 13:17:16] Started run 177 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:17:22] Uploaded run 175 with run id 9045427.
+[2018-04-10 13:17:22] Started run 178 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:17:43] [SCORE] run 168 on task 14969; Accuracy: 0.64.
+[2018-04-10 13:17:57] Uploaded run 168 with run id 9045437.
+[2018-04-10 13:17:57] Started run 179 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:18:30] [SCORE] run 172 on task 14969; Accuracy: 0.62.
+[2018-04-10 13:18:43] Uploaded run 172 with run id 9045453.
+[2018-04-10 13:18:43] Started run 180 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:22:42] Run 162 timed out.
+[2018-04-10 13:22:42] Started run 181 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:31:53] Run 164 timed out.
+[2018-04-10 13:31:53] Started run 182 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:38:32] [SCORE] run 181 on task 14969; Accuracy: 0.63.
+[2018-04-10 13:38:45] Uploaded run 181 with run id 9045658.
+[2018-04-10 13:38:45] Started run 183 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:40:13] [SCORE] run 179 on task 14969; Accuracy: 0.62.
+[2018-04-10 13:40:18] [SCORE] run 176 on task 14969; Accuracy: 0.61.
+[2018-04-10 13:40:25] Uploaded run 179 with run id 9045670.
+[2018-04-10 13:40:25] Started run 184 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:40:31] Uploaded run 176 with run id 9045672.
+[2018-04-10 13:40:31] Started run 185 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:41:20] [SCORE] run 167 on task 14969; Accuracy: 0.66.
+[2018-04-10 13:41:33] Uploaded run 167 with run id 9045686.
+[2018-04-10 13:41:33] Started run 186 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:46:05] [SCORE] run 177 on task 14969; Accuracy: 0.61.
+[2018-04-10 13:46:18] Uploaded run 177 with run id 9045732.
+[2018-04-10 13:46:18] Started run 187 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:47:29] [SCORE] run 184 on task 14969; Accuracy: 0.61.
+[2018-04-10 13:47:44] Uploaded run 184 with run id 9045752.
+[2018-04-10 13:47:44] Started run 188 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 13:50:46] [SCORE] run 183 on task 14969; Accuracy: 0.65.
+[2018-04-10 13:51:00] Uploaded run 183 with run id 9045784.
+[2018-04-10 13:51:00] Started run 189 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:01:11] [SCORE] run 182 on task 14969; Accuracy: 0.67.
+[2018-04-10 14:01:25] Uploaded run 182 with run id 9045890.
+[2018-04-10 14:01:25] Started run 190 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:03:35] [SCORE] run 188 on task 14969; Accuracy: 0.64.
+[2018-04-10 14:03:49] Uploaded run 188 with run id 9045915.
+[2018-04-10 14:03:49] Started run 191 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:09:36] [SCORE] run 191 on task 14969; Accuracy: 0.60.
+[2018-04-10 14:09:52] Uploaded run 191 with run id 9045983.
+[2018-04-10 14:09:52] Started run 192 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:10:07] [SCORE] run 185 on task 14969; Accuracy: 0.58.
+[2018-04-10 14:10:20] Uploaded run 185 with run id 9045989.
+[2018-04-10 14:10:20] Started run 193 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:11:07] [SCORE] run 178 on task 14969; Accuracy: 0.68.
+[2018-04-10 14:11:21] Uploaded run 178 with run id 9046005.
+[2018-04-10 14:11:21] Started run 194 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:13:42] [SCORE] run 187 on task 14969; Accuracy: 0.61.
+[2018-04-10 14:13:56] Uploaded run 187 with run id 9046031.
+[2018-04-10 14:13:56] Started run 195 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:15:49] [SCORE] run 192 on task 14969; Accuracy: 0.63.
+[2018-04-10 14:16:01] Uploaded run 192 with run id 9046058.
+[2018-04-10 14:16:01] Started run 196 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:17:07] [SCORE] run 195 on task 14969; Accuracy: 0.53.
+[2018-04-10 14:17:22] Uploaded run 195 with run id 9046078.
+[2018-04-10 14:17:22] Started run 197 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:18:43] Run 180 timed out.
+[2018-04-10 14:18:43] Started run 198 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:25:33] [SCORE] run 190 on task 14969; Accuracy: 0.64.
+[2018-04-10 14:25:45] Uploaded run 190 with run id 9046145.
+[2018-04-10 14:25:45] Started run 199 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:27:19] [SCORE] run 193 on task 14969; Accuracy: 0.62.
+[2018-04-10 14:27:32] Uploaded run 193 with run id 9046162.
+[2018-04-10 14:27:32] Started run 200 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:29:39] [SCORE] run 194 on task 14969; Accuracy: 0.63.
+[2018-04-10 14:29:51] Uploaded run 194 with run id 9046176.
+[2018-04-10 14:29:51] Started run 201 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:35:48] [SCORE] run 196 on task 14969; Accuracy: 0.62.
+[2018-04-10 14:36:01] Uploaded run 196 with run id 9046234.
+[2018-04-10 14:36:01] Started run 202 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:41:33] Run 186 timed out.
+[2018-04-10 14:41:33] Started run 203 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:44:52] [SCORE] run 203 on task 14969; Accuracy: 0.58.
+[2018-04-10 14:45:05] Uploaded run 203 with run id 9046312.
+[2018-04-10 14:45:05] Started run 204 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:45:20] [SCORE] run 199 on task 14969; Accuracy: 0.62.
+[2018-04-10 14:45:33] Uploaded run 199 with run id 9046321.
+[2018-04-10 14:45:33] Started run 205 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:48:16] [SCORE] run 202 on task 14969; Accuracy: 0.59.
+[2018-04-10 14:48:30] Uploaded run 202 with run id 9046356.
+[2018-04-10 14:48:30] Started run 206 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:49:56] [SCORE] run 204 on task 14969; Accuracy: 0.59.
+[2018-04-10 14:49:58] [SCORE] run 189 on task 14969; Accuracy: 0.61.
+[2018-04-10 14:50:11] Uploaded run 189 with run id 9046372.
+[2018-04-10 14:50:11] Started run 207 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:50:14] Uploaded run 204 with run id 9046373.
+[2018-04-10 14:50:14] Started run 208 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:54:28] [SCORE] run 208 on task 14969; Accuracy: 0.59.
+[2018-04-10 14:54:40] Uploaded run 208 with run id 9046417.
+[2018-04-10 14:54:40] Started run 209 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 14:58:24] [SCORE] run 207 on task 14969; Accuracy: 0.63.
+[2018-04-10 14:58:37] Uploaded run 207 with run id 9046456.
+[2018-04-10 14:58:37] Started run 210 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:00:58] [SCORE] run 206 on task 14969; Accuracy: 0.67.
+[2018-04-10 15:01:11] Uploaded run 206 with run id 9046477.
+[2018-04-10 15:01:11] Started run 211 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:06:19] [SCORE] run 209 on task 14969; Accuracy: 0.61.
+[2018-04-10 15:06:31] Uploaded run 209 with run id 9046529.
+[2018-04-10 15:06:31] Started run 212 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:08:22] [SCORE] run 210 on task 14969; Accuracy: 0.62.
+[2018-04-10 15:08:34] Uploaded run 210 with run id 9046548.
+[2018-04-10 15:08:34] Started run 213 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:10:41] [SCORE] run 200 on task 14969; Accuracy: 0.61.
+[2018-04-10 15:10:53] Uploaded run 200 with run id 9046567.
+[2018-04-10 15:10:53] Started run 214 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:11:21] [SCORE] run 213 on task 14969; Accuracy: 0.56.
+[2018-04-10 15:11:33] Uploaded run 213 with run id 9046572.
+[2018-04-10 15:11:33] Started run 215 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:16:14] [SCORE] run 197 on task 14969; Accuracy: 0.64.
+[2018-04-10 15:16:27] Uploaded run 197 with run id 9046606.
+[2018-04-10 15:16:27] Started run 216 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:18:43] Run 198 timed out.
+[2018-04-10 15:18:43] Started run 217 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:24:56] [SCORE] run 201 on task 14969; Accuracy: 0.64.
+[2018-04-10 15:25:11] Uploaded run 201 with run id 9046664.
+[2018-04-10 15:25:11] Started run 218 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:27:01] [SCORE] run 211 on task 14969; Accuracy: 0.62.
+[2018-04-10 15:27:16] Uploaded run 211 with run id 9046680.
+[2018-04-10 15:27:16] Started run 219 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:33:42] [SCORE] run 214 on task 14969; Accuracy: 0.63.
+[2018-04-10 15:33:56] Uploaded run 214 with run id 9046723.
+[2018-04-10 15:33:56] Started run 220 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:38:36] [SCORE] run 219 on task 14969; Accuracy: 0.62.
+[2018-04-10 15:38:49] Uploaded run 219 with run id 9046769.
+[2018-04-10 15:38:49] Started run 221 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:38:57] [SCORE] run 220 on task 14969; Accuracy: 0.53.
+[2018-04-10 15:39:06] [SCORE] run 218 on task 14969; Accuracy: 0.64.
+[2018-04-10 15:39:11] Uploaded run 220 with run id 9046773.
+[2018-04-10 15:39:11] Started run 222 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:39:18] Uploaded run 218 with run id 9046775.
+[2018-04-10 15:39:18] Started run 223 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:45:33] Run 205 timed out.
+[2018-04-10 15:45:33] Started run 224 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 15:47:25] [SCORE] run 221 on task 14969; Accuracy: 0.60.
+[2018-04-10 15:47:40] Uploaded run 221 with run id 9046829.
+[2018-04-10 15:47:40] Started run 225 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 16:02:47] [SCORE] run 223 on task 14969; Accuracy: 0.69.
+[2018-04-10 16:03:01] Uploaded run 223 with run id 9046942.
+[2018-04-10 16:03:01] Started run 226 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 16:03:47] [SCORE] run 225 on task 14969; Accuracy: 0.68.
+[2018-04-10 16:04:02] Uploaded run 225 with run id 9046947.
+[2018-04-10 16:04:02] Started run 227 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 16:06:31] Run 212 timed out.
+[2018-04-10 16:06:31] Started run 228 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 16:11:33] Run 215 timed out.
+[2018-04-10 16:11:33] Started run 229 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 16:12:59] [SCORE] run 216 on task 14969; Accuracy: 0.63.
+[2018-04-10 16:13:14] Uploaded run 216 with run id 9047014.
+[2018-04-10 16:13:14] Started run 230 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 16:18:43] Run 217 timed out.
+[2018-04-10 16:18:43] Started run 231 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 16:19:50] [SCORE] run 229 on task 14969; Accuracy: 0.57.
+[2018-04-10 16:20:05] Uploaded run 229 with run id 9047065.
+[2018-04-10 16:20:05] Started run 232 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.
+[2018-04-10 16:28:01] [SCORE] run 232 on task 14969; Accuracy: 0.68.
+[2018-04-10 16:28:15] Uploaded run 232 with run id 9047125.
+[2018-04-10 16:28:15] Started run 233 on task 14969, dataset 'GesturePhaseSegmentationProcessed'.

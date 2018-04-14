@@ -12,7 +12,7 @@ taken from the search space.
 """
 
 from hyperimp.study.search_space import init_search_space
-from hyperimp.utils.preprocessing import ConditionalImputer
+from hyperimp.utils.preprocessing import ConditionalImputer2
 import scipy
 import random
 import pandas as pd 
@@ -32,12 +32,12 @@ def generate_classifiers(algorithm, task_id, num):
     """
     # get parameter dict for this classifier
     search_space = init_search_space()[algorithm]
-    seed = task_id # use task_id as random seed to generate settings
-    random.seed(seed)
     
     # generate num parameter settings
     param_settings = {}
+    seed = task_id # use task_id as random seed to generate settings
     for param, domain in search_space.items():
+        random.seed(seed)
         if isinstance(domain, list):
             samples = random.choices(domain, k = num)
         elif isinstance(domain, scipy.stats._distn_infrastructure.rv_frozen):
@@ -45,7 +45,8 @@ def generate_classifiers(algorithm, task_id, num):
         else:
             raise ValueError('Domain of %s is not properly specified.' % param)
         param_settings[param] = samples
-    
+        seed = seed + 1 
+
     # create list of num classifiers
     classifiers = []
     
@@ -71,7 +72,7 @@ def build_pipeline(classifier, indices):
     classifier : sklearn classification object including parameter settings
     indices : list of indices of all categorical features in the dataset
     """
-    steps = [('imputation', ConditionalImputer(fill_empty=0, 
+    steps = [('imputation', ConditionalImputer2(fill_empty=0, 
                                                categorical_features=indices, 
                                                strategy = 'mean', 
                                                strategy_nominal='most_frequent')),

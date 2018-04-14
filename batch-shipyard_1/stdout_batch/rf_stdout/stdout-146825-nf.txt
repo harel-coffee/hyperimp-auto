@@ -1,0 +1,269 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00076/certs"
+declare -x AZ_BATCH_JOB_ID="random_forest"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-4234576326_35-20180410t020756z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00076"
+declare -x AZ_BATCH_TASK_ID="task-00076"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest/job-1/task-00076/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/random_forest/job-1/task-00076/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/random_forest/job-1/task-00076/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/random_forest/job-1/task-00076/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+[2018-04-10 03:33:51] Results will not be logged locally.
+[2018-04-10 03:33:51] Retrieving tasks...
+[2018-04-10 03:33:51] Tasks will be retrieved based on provided task ids.
+[2018-04-10 03:33:51] The following tasks were retrieved: [146825].
+[2018-04-10 03:36:46] Downloaded task 146825.
+[2018-04-10 03:36:46] Prepared pipelines.
+[2018-04-10 03:36:46] Started run 1 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 03:36:46] Started run 2 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 03:36:46] Started run 3 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 03:36:46] Started run 4 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 03:36:46] Started run 8 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 03:36:46] Started run 5 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 03:36:46] Started run 6 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 03:36:46] Started run 7 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 04:36:46] Run 1 timed out.
+[2018-04-10 04:36:46] Started run 9 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 04:36:46] Run 2 timed out.
+[2018-04-10 04:36:46] Run 3 timed out.
+[2018-04-10 04:36:46] Started run 10 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 04:36:47] Run 4 timed out.
+[2018-04-10 04:36:46] Started run 11 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 04:36:47] Run 8 timed out.
+[2018-04-10 04:36:47] Started run 12 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 04:36:47] Run 5 timed out.
+[2018-04-10 04:36:47] Run 6 timed out.
+[2018-04-10 04:36:47] Started run 13 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 04:36:47] Run 7 timed out.
+[2018-04-10 04:36:47] Started run 15 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 04:36:47] Started run 16 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 04:36:47] Started run 14 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 05:36:46] Run 9 timed out.
+[2018-04-10 05:36:47] Run 10 timed out.
+[2018-04-10 05:36:46] Started run 17 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 05:36:47] Run 11 timed out.
+[2018-04-10 05:36:47] Started run 18 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 05:36:47] Run 12 timed out.
+[2018-04-10 05:36:47] Run 13 timed out.
+[2018-04-10 05:36:47] Started run 19 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 05:36:47] Run 15 timed out.
+[2018-04-10 05:36:47] Started run 21 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 05:36:47] Run 16 timed out.
+[2018-04-10 05:36:48] Run 14 timed out.
+[2018-04-10 05:36:47] Started run 23 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 05:36:48] Started run 24 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 05:36:47] Started run 20 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 05:36:47] Started run 22 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 06:36:47] Run 17 timed out.
+[2018-04-10 06:36:47] Run 18 timed out.
+[2018-04-10 06:36:47] Started run 25 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 06:36:47] Started run 26 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 06:36:47] Run 19 timed out.
+[2018-04-10 06:36:47] Run 21 timed out.
+[2018-04-10 06:36:47] Started run 27 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 06:36:48] Run 23 timed out.
+[2018-04-10 06:36:47] Started run 28 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 06:36:48] Run 24 timed out.
+[2018-04-10 06:36:48] Started run 29 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 06:36:48] Run 20 timed out.
+[2018-04-10 06:36:48] Started run 30 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 06:36:49] Run 22 timed out.
+[2018-04-10 06:36:48] Started run 31 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 06:36:49] Started run 32 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 07:36:47] Run 25 timed out.
+[2018-04-10 07:36:47] Run 26 timed out.
+[2018-04-10 07:36:47] Started run 33 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 07:36:48] Run 27 timed out.
+[2018-04-10 07:36:47] Started run 34 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 07:36:48] Run 28 timed out.
+[2018-04-10 07:36:48] Started run 35 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 07:36:48] Run 29 timed out.
+[2018-04-10 07:36:48] Run 30 timed out.
+[2018-04-10 07:36:48] Started run 36 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 07:36:49] Run 31 timed out.
+[2018-04-10 07:36:48] Started run 38 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 07:36:49] Run 32 timed out.
+[2018-04-10 07:36:49] Started run 39 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 07:36:48] Started run 37 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 07:36:49] Started run 40 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 07:36:59] Error in run 36: 
+[2018-04-10 07:36:59] Started run 41 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 07:37:00] Started run 42 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 07:37:17] Started run 43 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:36:47] Run 33 timed out.
+[2018-04-10 08:36:47] Started run 44 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:36:48] Run 34 timed out.
+[2018-04-10 08:36:48] Started run 45 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:36:48] Run 35 timed out.
+[2018-04-10 08:36:48] Started run 46 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:36:49] Run 38 timed out.
+[2018-04-10 08:36:49] Started run 47 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:36:49] Run 39 timed out.
+[2018-04-10 08:36:49] Started run 48 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:37:00] Run 41 timed out.
+[2018-04-10 08:37:00] Error in run 45: 
+[2018-04-10 08:37:00] Started run 49 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:37:00] Run 42 timed out.
+[2018-04-10 08:37:00] Started run 50 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:37:01] Error in run 46: 
+[2018-04-10 08:37:00] Started run 51 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:37:01] Started run 52 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:37:03] Started run 53 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:37:18] Run 43 timed out.
+[2018-04-10 08:37:18] Started run 54 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:37:38] Error in run 54: 
+[2018-04-10 08:37:38] Started run 55 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:37:59] Error in run 55: 
+[2018-04-10 08:37:59] Started run 56 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:38:21] Error in run 56: 
+[2018-04-10 08:38:21] Started run 57 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 08:38:28] Started run 58 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 09:36:49] Run 47 timed out.
+[2018-04-10 09:36:49] Started run 59 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 09:36:50] Run 48 timed out.
+[2018-04-10 09:36:50] Started run 60 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 09:37:00] Run 49 timed out.
+[2018-04-10 09:37:00] Started run 61 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 09:37:01] Run 51 timed out.
+[2018-04-10 09:37:01] Run 52 timed out.
+[2018-04-10 09:37:01] Started run 62 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 09:37:01] Started run 63 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 09:37:04] Run 53 timed out.
+[2018-04-10 09:37:04] Started run 64 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 09:37:13] Started run 65 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 09:38:22] Run 57 timed out.
+[2018-04-10 09:38:22] Started run 66 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 09:38:28] Run 58 timed out.
+[2018-04-10 09:38:28] Started run 67 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 10:36:50] Run 59 timed out.
+[2018-04-10 10:36:50] Started run 68 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 10:37:01] Run 61 timed out.
+[2018-04-10 10:37:01] Started run 69 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 10:37:01] Run 62 timed out.
+[2018-04-10 10:37:01] Started run 70 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 10:37:02] Run 63 timed out.
+[2018-04-10 10:37:02] Started run 71 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 10:37:04] Run 64 timed out.
+[2018-04-10 10:37:04] Started run 72 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 10:37:14] Run 65 timed out.
+[2018-04-10 10:37:14] Started run 73 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 10:37:16] Error in run 70: 
+[2018-04-10 10:37:16] Started run 74 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 10:37:19] Error in run 71: 
+[2018-04-10 10:37:19] Started run 75 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 10:37:20] Started run 76 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 10:38:22] Run 66 timed out.
+[2018-04-10 10:38:22] Started run 77 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 10:38:28] Run 67 timed out.
+[2018-04-10 10:38:28] Started run 78 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 11:37:01] Run 69 timed out.
+[2018-04-10 11:37:01] Started run 79 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 11:37:05] Run 72 timed out.
+[2018-04-10 11:37:05] Started run 80 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 11:37:14] Run 73 timed out.
+[2018-04-10 11:37:14] Started run 81 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 11:37:17] Run 74 timed out.
+[2018-04-10 11:37:17] Started run 82 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 11:37:19] Run 75 timed out.
+[2018-04-10 11:37:19] Started run 83 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 11:37:21] Run 76 timed out.
+[2018-04-10 11:37:21] Started run 84 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 11:37:23] Started run 85 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 11:38:22] Run 77 timed out.
+[2018-04-10 11:38:22] Started run 86 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 11:38:29] Run 78 timed out.
+[2018-04-10 11:38:29] Started run 87 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 12:37:05] Run 80 timed out.
+[2018-04-10 12:37:05] Started run 88 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 12:37:15] Run 81 timed out.
+[2018-04-10 12:37:15] Started run 89 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 12:37:17] Run 82 timed out.
+[2018-04-10 12:37:17] Started run 90 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 12:37:20] Run 83 timed out.
+[2018-04-10 12:37:20] Started run 91 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 12:37:21] Run 84 timed out.
+[2018-04-10 12:37:21] Started run 92 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 12:37:23] Run 85 timed out.
+[2018-04-10 12:37:23] Started run 93 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 12:37:36] Started run 94 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 12:38:23] Run 86 timed out.
+[2018-04-10 12:38:23] Started run 95 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 12:38:29] Run 87 timed out.
+[2018-04-10 12:38:29] Started run 96 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:37:06] Run 88 timed out.
+[2018-04-10 13:37:06] Started run 97 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:37:15] Run 89 timed out.
+[2018-04-10 13:37:15] Started run 98 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:37:18] Run 90 timed out.
+[2018-04-10 13:37:18] Started run 99 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:37:22] Run 92 timed out.
+[2018-04-10 13:37:22] Started run 100 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:37:24] Run 93 timed out.
+[2018-04-10 13:37:24] Started run 101 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:37:37] Run 94 timed out.
+[2018-04-10 13:37:37] Started run 102 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:38:23] Run 95 timed out.
+[2018-04-10 13:38:23] Started run 103 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:38:30] Run 96 timed out.
+[2018-04-10 13:38:30] Started run 104 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:39:29] Error in run 99: 
+[2018-04-10 13:39:29] Started run 105 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:39:33] Error in run 105: 
+[2018-04-10 13:39:33] Started run 106 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:39:48] Error in run 100: 
+[2018-04-10 13:39:48] Started run 107 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:39:51] Error in run 101: 
+[2018-04-10 13:39:51] Started run 108 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:40:01] Error in run 108: 
+[2018-04-10 13:40:01] Started run 109 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:40:51] Error in run 103: 
+[2018-04-10 13:40:51] Started run 110 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 13:41:04] Error in run 110: 
+[2018-04-10 13:41:04] Started run 111 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 14:37:16] Run 98 timed out.
+[2018-04-10 14:37:16] Started run 112 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 14:37:37] Run 102 timed out.
+[2018-04-10 14:37:37] Started run 113 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 14:39:34] Run 106 timed out.
+[2018-04-10 14:39:34] Started run 114 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 14:39:49] Run 107 timed out.
+[2018-04-10 14:39:49] Started run 115 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 14:40:02] Run 109 timed out.
+[2018-04-10 14:40:02] Started run 116 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 14:41:04] Run 111 timed out.
+[2018-04-10 14:41:04] Started run 117 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 14:41:59] Error in run 115: 
+[2018-04-10 14:41:59] Started run 118 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 15:37:16] Run 112 timed out.
+[2018-04-10 15:37:16] Started run 119 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 15:37:38] Run 113 timed out.
+[2018-04-10 15:37:38] Started run 120 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 15:39:34] Run 114 timed out.
+[2018-04-10 15:39:34] Started run 121 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 15:41:05] Run 117 timed out.
+[2018-04-10 15:41:05] Started run 122 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 15:42:00] Run 118 timed out.
+[2018-04-10 15:42:00] Started run 123 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 16:37:16] Run 119 timed out.
+[2018-04-10 16:37:16] Started run 124 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 16:37:38] Run 120 timed out.
+[2018-04-10 16:37:38] Started run 125 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 16:39:35] Run 121 timed out.
+[2018-04-10 16:39:35] Started run 126 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 16:41:05] Run 122 timed out.
+[2018-04-10 16:41:05] Started run 127 on task 146825, dataset 'Fashion-MNIST'.
+[2018-04-10 16:42:00] Run 123 timed out.
+[2018-04-10 16:42:00] Started run 128 on task 146825, dataset 'Fashion-MNIST'.
