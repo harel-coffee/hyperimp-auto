@@ -16,12 +16,12 @@ import arff
 import pickle
 from random import randint
 from time import sleep
-import pandas as pd
+
 def parse_args():
     parser = argparse.ArgumentParser(description='Importance of Tuning')
     parser.add_argument('--study_id', type=int, default=98, help='the study id to retrieve tasks from')
-    parser.add_argument('--task_ids', nargs = '*', type=int, default=[12], help='a list of tasks, leave None if a study is preferred')
-    parser.add_argument('--classifier', type=str, default='svm', help='classifier that must be trained')
+    parser.add_argument('--task_ids', nargs = '*', type=int, default=None, help='a list of tasks, leave None if a study is preferred')
+    parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained')
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
     parser.add_argument('--num', type=int, default=1000, help='number of runs')
     parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/results')
