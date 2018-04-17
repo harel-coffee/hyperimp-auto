@@ -32,23 +32,25 @@ def init_search_space():
         ('svm', 'kernel') : {
                 'type' : 'fix',
                 'domain' : ['rbf']},
+    
+        ('svm', 'random_state') : {
+                'type' : 'int',
+                'min' : 1,
+                'max' : 100000},
                 
         ('random_forest', 'n_estimators') : {
                 'type' : 'fix',
-                'domain' : [500]},
-        
-        ('svm', 'random_state') : {
-                'type' : 'fix',
-                'domain' : [1]},
+                'domain' : [300]},
                 
+        #('random_forest', 'n_jobs') : {
+        #        'type' : 'fix',
+        #        'domain' : [1]},
+        
         ('random_forest', 'random_state') : {
-                'type' : 'fix',
-                'domain' : [1]},
+                'type' : 'int',
+                'min' : 1,
+                'max' : 100000},
                 
-        ('random_forest', 'n_jobs') : {
-                'type' : 'fix',
-                'domain' : [1]},
-        
         # Parameters where a range of parameter settings is considered
         ('svm', 'gamma') : {
                 'type' : 'log2',

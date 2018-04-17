@@ -10,8 +10,6 @@ Created on Wed Mar 14 17:20:12 2018
 Set of functions to build simple pipelines with hyperparametersettings randomly
 taken from the search space.
 """
-
-from hyperimp.study.search_space import init_search_space
 from hyperimp.utils.preprocessing import ConditionalImputer
 import sklearn
 from sklearn.ensemble import RandomForestClassifier
@@ -61,7 +59,7 @@ def build_rscv(algorithm, indices, n_iter, seed, params):
     """
     # build pipeline
     if algorithm == 'random_forest':
-        clf = RandomForestClassifier()
+        clf = RandomForestClassifier(n_jobs = 1)
     elif algorithm == 'svm':
         clf = SVC()
     else:
@@ -71,10 +69,10 @@ def build_rscv(algorithm, indices, n_iter, seed, params):
     # build rscv
     rscv = RandomizedSearchCV(estimator=pipeline, param_distributions=params, 
                               n_iter=n_iter, fit_params=None, n_jobs=-1, 
-                              refit=False, cv=3, random_state=seed)    
+                              cv=5, random_state=seed, verbose = 1)    
     return rscv
 
-def build_params(param, fixed_value):
+def build_params(param, fixed_value, search_space):
     """
     Generates dictionary that can be used in randomsearchcv.
     
@@ -85,10 +83,12 @@ def build_params(param, fixed_value):
     fixed : ...
         the fixed value of the hyperparameter (e.g. 'gini' or 1)
         set to None to NOT fix the parameter
+    search_space : dict
+        dictionary with searchspace objects
     """
-    params = ...
-        key = 'clf__' + name 
-        
-    if fixed is not None:
-        params[fixed] = fixed
+    params = {}
+    for key, value in search_space.items():
+        params['clf__' + key] = value
+    if fixed_value is not None:
+        params['clf__' + param] = [fixed_value]
     return params

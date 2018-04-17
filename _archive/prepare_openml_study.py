@@ -43,29 +43,31 @@ def untag(object_id, object_type, study_id, api_key):
     response = requests.post("https://www.openml.org/api/v1/json/" + object_type + "/untag", data = data).json()
     return response
 
-if __name__ == '__init__':
+if __name__ == '__main__':
     # remove all tasks and datasets from OpenML100 benchmark study
-    benchmark_suite = openml.study.get_study('OpenML100','tasks') # obtain the benchmark suite
+    benchmark_suite = openml.study.get_study('OpenML-CC18','tasks').tasks # obtain the benchmark suite
+    study_98 = openml.study.get_study(98, 'tasks').tasks
     api_key = 'b9398f7994a9f426ec19a122ef61b098'
     study_id = 98
     
-    for task_id in benchmark_suite.tasks:
-        task = openml.tasks.get_task(task_id)
-        print('Untag task...')
-        print(untag(task_id, 'task', study_id, api_key))
-        print('Untag dataset...')
-        dataset_id = task.dataset_id
-        print(untag(dataset_id, 'data', study_id, api_key))
-        
-    # add all tasks and datasets from openml CC18 benchmark study
-    benchmark_suite = openml.study.get_study('OpenML-CC18','tasks') # obtain the benchmark suite
-    api_key = 'b9398f7994a9f426ec19a122ef61b098'
-    study_id = 98
+    # untag tasks and datasets in study_98 that are not in CC18
+    for task_id in study_98:
+        if task_id not in benchmark_suite:
+            print("Remove task %d" %task_id)
+            task = openml.tasks.get_task(task_id)
+            print('Untag task...')
+            print(untag(task_id, 'task', study_id, api_key))
+            print('Untag dataset...')
+            dataset_id = task.dataset_id
+            print(untag(dataset_id, 'data', study_id, api_key))
     
-    for task_id in benchmark_suite.tasks:
-        task = openml.tasks.get_task(task_id)
-        print('Tag task...')
-        print(tag(task_id, 'task', study_id, api_key))
-        print('Tag dataset...')
-        dataset_id = task.dataset_id
-        print(tag(dataset_id, 'data', study_id, api_key))
+    # tag tasks and datasets in CC18 that are not in study 98
+    for task_id in benchmark_suite:
+        if task_id not in study_98:
+            print("Add task %d" %task_id)
+            task = openml.tasks.get_task(task_id)
+            print('Tag task...')
+            print(tag(task_id, 'task', study_id, api_key))
+            print('Tag dataset...')
+            dataset_id = task.dataset_id
+            print(tag(dataset_id, 'data', study_id, api_key))

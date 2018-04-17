@@ -118,8 +118,8 @@ if __name__ == '__main__':
         
         try:
             #download task
-            counts_task = 1
-            while counts_task <= 100:
+            count_task = 1
+            while count_task <= 100:
                 try:
                     # train model
                     task = openml.tasks.get_task(task_id) 

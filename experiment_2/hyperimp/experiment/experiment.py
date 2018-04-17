@@ -11,7 +11,6 @@ import openml
 import hyperimp
 import traceback
 import sklearn
-from joblib import Parallel, delayed
 import arff
 import pickle
 from random import randint
@@ -19,16 +18,16 @@ from time import sleep
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Importance of Tuning')
-    parser.add_argument('--study_id', type=int, default=None, help='OpenML study id')
-    parser.add_argument('--task_id', type=int, default=None, help='OpenML task id')
+    parser.add_argument('--study_id', type=int, default=98, help='OpenML study id')
+    parser.add_argument('--task_id', type=int, default=18, help='OpenML task id')
     parser.add_argument('--param', type=str, default='max_features', help='Hyperparameter of interest.')
     parser.add_argument('--seed', type=str, default=1, help='Seed of the random search.')
-    parser.add_argument('--condition', type=str, default='fixed', help='Fixed or non-fixed experiment.')
-    parser.add_argument('--n_iter', type=int, default=50, help='Number of iterations of the random search.')
+    parser.add_argument('--condition', type=str, default='non-fixed', help="fixed' or 'non-fixed' experiment.")
+    parser.add_argument('--n_iter', type=int, default=100, help='Number of iterations of the random search.')
     parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained')
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
     parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/results')
-    parser.add_argument('--log', default=True, type=lambda x: (str(x).lower() == 'true'), help='results must be logged in container (True) or not (False)')
+    parser.add_argument('--log', default=False, type=lambda x: (str(x).lower() == 'true'), help='results must be logged in container (True) or not (False)')
     return parser.parse_args()
 
 @hyperimp.utils.misc.with_timeout(3*60*60)
@@ -41,9 +40,9 @@ def run_experiment(rscv, task, args):
         count = 1
         while count <= 100:
             try:
-                print("%s Started condition %s, parameter %s, seed %d on task %s, dataset '%s'." % (hyperimp.utils.get_time(), args.fixed, args.param, args.seed, args.task_id, task.get_dataset().name))
+                print("%s Started condition %s, parameter %s, RS seed %d on task %s, dataset '%s'." % (hyperimp.utils.get_time(), args.condition, args.param, args.seed, args.task_id, task.get_dataset().name))
                 # train model
-                run = train_model(task, classifier)
+                run = train_model(task, rscv)
                 break
             except openml.exceptions.OpenMLServerError as e:
                 if count == 100:
@@ -58,18 +57,15 @@ def run_experiment(rscv, task, args):
         print('%s [SCORE] Accuracy: %0.2f.' % (hyperimp.utils.get_time(), score.mean()))
         
         if args.log:
-            # log xml, predictions, settings 
-            output_dir = args.output_dir + '/' + args.classifier + '/task_' + str(task_id) + '/' + str(i)
+            # log xml, predictions 
+            output_dir = args.output_dir + '/' + args.classifier + '/task_' + str(args.task_id) + '/' + str(args.condition)
             os.makedirs(output_dir)
             run_xml = run._create_description_xml()
-            
             predictions_arff = arff.dumps(run._generate_arff_dict())
             with open(output_dir + '/run.xml', 'w') as f:
                 f.write(run_xml)
             with open(output_dir + '/predictions.arff', 'w') as f:
                 f.write(predictions_arff)
-            with open(output_dir + '/param_settings.pickle', 'wb') as handle:
-                pickle.dump(classifier.get_params(), handle, protocol=pickle.HIGHEST_PROTOCOL)
         else:
             None
             
@@ -97,6 +93,7 @@ def run_experiment(rscv, task, args):
 
 if __name__ == '__main__':
     args = parse_args()
+    print(os.getcwd())
     
     # configure openml
     if args.openml_apikey is not None:
@@ -125,16 +122,23 @@ if __name__ == '__main__':
                 count_task += 1
                 sleep(sleeptime_task)
         print('%s Downloaded task %d.' % (hyperimp.utils.get_time(), args.task_id))
-    
+
         # build RandomizedSearchCV object
         search_space = hyperimp.study.search_space.init_search_space()[args.classifier]
-        
-# TODO : IMPLEMENT PARAMS
-        
-        params = ...
+        if args.condition == "fixed":
+            # load default parameter setting
+            with open('def_params.pickle', 'rb') as handle:
+                def_params = pickle.load(handle)
+            def_param = def_params[args.classifier][args.task_id][args.param]
+            # retrieve parameter settings with param fixed to def_param
+            params = hyperimp.experiment.generate.build_params(args.param, def_param, search_space)
+        elif args.condition == "non-fixed":
+            params = hyperimp.experiment.generate.build_params(args.param, None, search_space)
+        else:
+            raise ValueError("invalid 'condition' argument")
         indices = task.get_dataset().get_features_by_type('nominal', [task.target_name])
         rscv = hyperimp.experiment.generate.build_rscv(args.classifier, indices, args.n_iter, args.seed, params)
-        
+
         # run experiment
         run_experiment(rscv, task, args)
         
