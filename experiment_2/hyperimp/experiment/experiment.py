@@ -20,10 +20,11 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Importance of Tuning')
     parser.add_argument('--study_id', type=int, default=98, help='OpenML study id')
     parser.add_argument('--task_id', type=int, default=18, help='OpenML task id')
-    parser.add_argument('--param', type=str, default='max_features', help='Hyperparameter of interest.')
-    parser.add_argument('--seed', type=str, default=1, help='Seed of the random search.')
-    parser.add_argument('--condition', type=str, default='non-fixed', help="fixed' or 'non-fixed' experiment.")
+    parser.add_argument('--param', type=str, default='criterion', help='Hyperparameter of interest.')
+    parser.add_argument('--seed', type=int, default=1, help='Seed of the random search.')
+    parser.add_argument('--condition', type=str, default='fixed', help="fixed' or 'non-fixed' experiment.")
     parser.add_argument('--n_iter', type=int, default=100, help='Number of iterations of the random search.')
+    parser.add_argument('--cv', type=int, default=5, help='Number of cv folds in random search.')
     parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained')
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
     parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/results')
@@ -40,7 +41,7 @@ def run_experiment(rscv, task, args):
         count = 1
         while count <= 100:
             try:
-                print("%s Started condition %s, parameter %s, RS seed %d on task %s, dataset '%s'." % (hyperimp.utils.get_time(), args.condition, args.param, args.seed, args.task_id, task.get_dataset().name))
+                print("%s Started condition %s, parameter '%s', RS seed %s (%s) on task %s, dataset '%s'." % (hyperimp.utils.get_time(), args.condition, args.param, args.seed, args.seed + args.task_id, args.task_id, task.get_dataset().name))
                 # train model
                 run = train_model(task, rscv)
                 break
@@ -91,6 +92,10 @@ def run_experiment(rscv, task, args):
         traceback.print_exc()
     return
 
+print(os.getcwd())
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # MONKEY PATCH FOR CONDITION = FIXED
 import warnings
 import numpy as np
@@ -170,6 +175,7 @@ def fit(self, X, y=None, groups=None, **fit_params):
     if args.condition == 'fixed':
         for monkey_param in candidate_params:
             monkey_param['clf__' + args.param] = def_param
+
             
     n_candidates = len(candidate_params)
     if self.verbose > 0:
@@ -302,8 +308,10 @@ def fit(self, X, y=None, groups=None, **fit_params):
     self.n_splits_ = n_splits
 
     return self
-
-
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+    
 if __name__ == '__main__':
     args = parse_args()
     
@@ -346,11 +354,14 @@ if __name__ == '__main__':
             with open('def_params.pickle', 'rb') as handle:
                 def_params = pickle.load(handle)
             def_param = def_params[args.classifier][args.task_id][args.param]
+            if type(def_param) == np.bool_: #prevent JSON serializable error
+                def_param = bool(def_param)
             # monkey patch fit function to add default parameter
             sklearn.model_selection.RandomizedSearchCV.fit = fit
 
         indices = task.get_dataset().get_features_by_type('nominal', [task.target_name])
-        rscv = hyperimp.experiment.generate.build_rscv(args.classifier, indices, args.n_iter, args.seed, params)
+        seed = args.task_id + args.seed
+        rscv = hyperimp.experiment.generate.build_rscv(args.classifier, indices, args.n_iter, seed, args.cv, params)
         
         # run experiment
         run_experiment(rscv, task, args)

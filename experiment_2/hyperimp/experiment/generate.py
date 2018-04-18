@@ -40,7 +40,7 @@ def build_pipeline(classifier, indices):
     pipeline = sklearn.pipeline.Pipeline(steps = steps)
     return pipeline
 
-def build_rscv(algorithm, indices, n_iter, seed, params):
+def build_rscv(algorithm, indices, n_iter, seed, cv, params):
     """
     Build random search cv object with 3-fold cv.
     
@@ -54,6 +54,8 @@ def build_rscv(algorithm, indices, n_iter, seed, params):
         number of iterations random search
     seed : int
         random search seed
+    cv : int
+        number of cv folds in random search
     params : dict
         { clf__paramname : list/distribution }
     """
@@ -69,7 +71,7 @@ def build_rscv(algorithm, indices, n_iter, seed, params):
     # build rscv
     rscv = RandomizedSearchCV(estimator=pipeline, param_distributions=params, 
                               n_iter=n_iter, fit_params=None, n_jobs=-1, 
-                              cv=5, random_state=seed, verbose = 1)    
+                              cv=cv, random_state=seed, verbose = 1)  
     return rscv
 
 def build_params(param, fixed_value, search_space):
