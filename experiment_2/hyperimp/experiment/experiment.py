@@ -44,7 +44,7 @@ def run_experiment(rscv, task, args):
         count = 1
         while count <= 100:
             try:
-                print("%s Started classifier %s, condition %s, parameter '%s', RS seed %s on task %s, dataset '%s'." % (hyperimp.utils.get_time(), args.classifier, args.condition, args.param, args.seed, args.task_id, task.get_dataset().name))
+                print("%s Started classifier %s, condition %s, parameter '%s', deftype '%s', RS seed %s on task %s, dataset '%s'." % (hyperimp.utils.get_time(), args.classifier, args.condition, args.param, args.deftype, args.seed, args.task_id, task.get_dataset().name))
                 # train model
                 run = train_model(task, rscv)
                 break
