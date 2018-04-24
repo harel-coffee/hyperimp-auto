@@ -21,10 +21,10 @@ import numpy as np
 def parse_args():
     parser = argparse.ArgumentParser(description='Importance of Tuning')
     parser.add_argument('--study_id', type=int, default=98, help='OpenML study id, used for tagging.')
-    parser.add_argument('--task_id', type=int, default=3, help='OpenML task id.')
-    parser.add_argument('--param', type=str, default=None, help='Hyperparameter of interest.')
+    parser.add_argument('--task_id', type=int, default=15, help='OpenML task id.')
+    parser.add_argument('--param', type=str, default='bootstrap', help='Hyperparameter of interest.')
     parser.add_argument('--seed', type=int, default=1, help='Seed of the random search.')
-    parser.add_argument('--condition', type=str, default='non-fixed', help="fixed' or 'non-fixed' experiment.")
+    parser.add_argument('--condition', type=str, default='fixed', help="fixed' or 'non-fixed' experiment.")
     parser.add_argument('--n_iter', type=int, default=100, help='Number of iterations of the random search.')
     parser.add_argument('--cv', type=int, default=5, help='Number of cv folds in random search.')
     parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained, choose from random_forest and svm')

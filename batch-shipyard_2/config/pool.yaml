@@ -8,14 +8,6 @@ pool_specification:
       sku: 16.04-LTS
   vm_size: standard_ds5_v2 # azure VM size
   vm_count:
-    dedicated: 0 # minimum number of nodes
+    dedicated: 60 # number of nodes
     low_priority: 0 
   max_tasks_per_node: 1 # maximum number of containers that can do stuff per task
-  autoscale: # to make sure nodes are removed after task completion instead of left idle
-    evaluation_interval: 00:05:00
-    scenario:
-      name: pending_tasks
-      maximum_vm_count:
-        dedicated: 2 # maximum number of nodes
-        low_priority: 0
-      node_deallocation_option: taskcompletion
