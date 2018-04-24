@@ -21,6 +21,7 @@ based on data generated in Experiment 1.
 
 import pandas as pd
 import numpy as np
+from scipy.optimize import curve_fit
 
 class Alg:
     """
@@ -139,6 +140,9 @@ def get_topn(alg, n, m, log):
     topn = pd.concat(groups)
     return topn
 
+def func_max_features(x, a):
+    return x ** a
+
 def find_default(alg, df, ranges):
     """ 
     Estimates the 'best' hyperparameter settings for a specific dataset using
@@ -201,6 +205,13 @@ def find_default(alg, df, ranges):
                     setting_lower = 10**setting_lower
                     setting_upper = 10**setting_upper
                     setting_average = 10**setting_average
+            if param.name == 'max_features':
+                x = topn_task['NumberOfFeatures']
+                y = np.ceil(topn_task[param.name] * topn_task['NumberOfFeatures'])
+                popt, pcov = curve_fit(func_max_features, x, y)
+                setting_average = popt[0]
+                setting_lower = setting_average
+                setting_upper = setting_average
             if ranges:
                 task_settings[param.name] = (setting_lower, setting_upper, setting_average)
             else:

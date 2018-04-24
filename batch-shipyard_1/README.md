@@ -40,4 +40,4 @@ Delete pool:
 ```
 SHIPYARD_CONFIGDIR=config shipyard pool del -y
 ```
-You can also do this in BatchLabs (try not to accidentally remove your Batch account as well).
+You can also do this in BatchLabs (try not to accidentally remove your Batch account, as this probably will also remove your batch core quota).

@@ -15,19 +15,22 @@ import arff
 import pickle
 from random import randint
 from time import sleep
+import random
+import numpy as np
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Importance of Tuning')
-    parser.add_argument('--study_id', type=int, default=98, help='OpenML study id')
-    parser.add_argument('--task_id', type=int, default=18, help='OpenML task id')
-    parser.add_argument('--param', type=str, default='criterion', help='Hyperparameter of interest.')
+    parser.add_argument('--study_id', type=int, default=98, help='OpenML study id, used for tagging.')
+    parser.add_argument('--task_id', type=int, default=18, help='OpenML task id.')
+    parser.add_argument('--param', type=str, default='max_features', help='Hyperparameter of interest.')
     parser.add_argument('--seed', type=int, default=1, help='Seed of the random search.')
     parser.add_argument('--condition', type=str, default='fixed', help="fixed' or 'non-fixed' experiment.")
     parser.add_argument('--n_iter', type=int, default=100, help='Number of iterations of the random search.')
     parser.add_argument('--cv', type=int, default=5, help='Number of cv folds in random search.')
-    parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained')
+    parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained, choose from random_forest and svm')
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
     parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/results')
+    parser.add_argument('--deftype', type = str, default='hyperimp', help="only used for max_features and gamma. Choose either 'sklearn' or 'hyperimp'")
     parser.add_argument('--log', default=False, type=lambda x: (str(x).lower() == 'true'), help='results must be logged in container (True) or not (False)')
     return parser.parse_args()
 
@@ -41,7 +44,7 @@ def run_experiment(rscv, task, args):
         count = 1
         while count <= 100:
             try:
-                print("%s Started condition %s, parameter '%s', RS seed %s (%s) on task %s, dataset '%s'." % (hyperimp.utils.get_time(), args.condition, args.param, args.seed, args.seed + args.task_id, args.task_id, task.get_dataset().name))
+                print("%s Started classifier %s, condition %s, parameter '%s', RS seed %s on task %s, dataset '%s'." % (hyperimp.utils.get_time(), args.classifier, args.condition, args.param, args.seed, args.task_id, task.get_dataset().name))
                 # train model
                 run = train_model(task, rscv)
                 break
@@ -84,7 +87,7 @@ def run_experiment(rscv, task, args):
                 print("%s Error in uploading run trying again in %d seconds. Message: %s" % (hyperimp.utils.get_time(), sleeptime_run, e))
                 count_run += 1
                 sleep(sleeptime_run)
-        print("%s Uploaded run with run id %d." % (hyperimp.utils.get_time(), run.run_id))
+        print("%s Uploaded run condition %s, parameter %s, RS seed %s, task %s, with run id %d." % (hyperimp.utils.get_time(), args.condition, args.param, args.seed, args.task_id, run.run_id))
     except TimeoutError as e:
         print("%s Run timed out." % (hyperimp.utils.get_time()))
     except Exception as e:
@@ -96,7 +99,7 @@ print(os.getcwd())
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
-# MONKEY PATCH FOR CONDITION = FIXED
+# MONKEY PATCH FOR CONDITION == FIXED
 import warnings
 import numpy as np
 from itertools import product
@@ -354,18 +357,39 @@ if __name__ == '__main__':
             with open('def_params.pickle', 'rb') as handle:
                 def_params = pickle.load(handle)
             def_param = def_params[args.classifier][args.task_id][args.param]
+            if args.param == 'max_features':
+                # if max_features, either sqrt(n) ('auto) or ceiling(n**def_param)
+                n_features = len(task.get_dataset().features)
+                if args.deftype == 'sklearn':
+                    def_param = 'auto'
+                elif args.deftype == 'hyperimp':
+                    def_param = int(np.ceil(n_features ** def_param))
+            if args.param == 'gamma':
+                # if gamma, either 1/n or just def_param
+                n_features = len(task.get_dataset().features)
+                if args.deftype == 'sklearn':
+                    def_param = 'auto'
+                elif args.deftype == 'hyperimp':
+                    def_param = def_param
             if type(def_param) == np.bool_: #prevent JSON serializable error
                 def_param = bool(def_param)
+            if ((args.param == 'min_samples_leaf') or (args.param == 'min_samples_split')):
+                def_param = int(def_param)
             # monkey patch fit function to add default parameter
             sklearn.model_selection.RandomizedSearchCV.fit = fit
 
         indices = task.get_dataset().get_features_by_type('nominal', [task.target_name])
-        seed = args.task_id + args.seed
-        rscv = hyperimp.experiment.generate.build_rscv(args.classifier, indices, args.n_iter, seed, args.cv, params)
+        
+        # set random generator seed to task_id
+        random.seed(args.task_id)
+        # generate the random seed that will be used in the random search
+        rs_seed = [random.randint(0,1000000) for i in range(0,args.seed)][args.seed - 1]
+        
+        rscv = hyperimp.experiment.generate.build_rscv(args.classifier, indices, args.n_iter, rs_seed, args.cv, params)
         
         # run experiment
         run_experiment(rscv, task, args)
         
     except Exception as e:
         print("%s Error in run: %s" % (hyperimp.utils.get_time(), e))
-        traceback.print_exc()
+        #traceback.print_exc()

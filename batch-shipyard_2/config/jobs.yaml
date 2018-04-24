@@ -1,0 +1,23 @@
+# specify the jobs to execute
+
+# containers are removed upon exit
+# pool is removed upon all jobs are completed
+job_specifications:
+- id: random_forest
+  auto_complete: true # set job complete once all tasks are complete
+  tasks:
+  - docker_image: hilde/experiment_2
+    additional_docker_run_options:
+    - -w /exp # force working directory to be /exp of docker container
+    - --shm-size 5g # set shm size larger than standard 64m to prevent joblib from hanging
+    task_factory: # give task list
+      parametric_sweep:
+        product:
+        - iterable:
+          - '18'
+          - '11'
+        - iterable:
+          - 'bootstrap'
+          - 'max_features'
+    command: --study_id 98 --task_id {0} --param {1} --seed 1 condition fixed --n_iter 100 --cv 5 --classifier random_forest --openml_apikey <openml_apikey> --log False
+    remove_container_after_exit: true

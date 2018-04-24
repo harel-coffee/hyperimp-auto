@@ -50,6 +50,16 @@ if __name__ == '__main__':
     api_key = 'b9398f7994a9f426ec19a122ef61b098'
     study_id = 98
     
+    # untag tasks with not enough observations
+    for task_id in [14965]:
+        print("Remove task %d" %task_id)
+        task = openml.tasks.get_task(task_id)
+        print('Untag task...')
+        print(untag(task_id, 'task', study_id, api_key))
+        print('Untag dataset...')
+        dataset_id = task.dataset_id
+        print(untag(dataset_id, 'data', study_id, api_key))
+"""
     # untag tasks and datasets in study_98 that are not in CC18
     for task_id in study_98:
         if task_id not in benchmark_suite:
@@ -71,3 +81,4 @@ if __name__ == '__main__':
             print('Tag dataset...')
             dataset_id = task.dataset_id
             print(tag(dataset_id, 'data', study_id, api_key))
+    """
