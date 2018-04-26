@@ -8,6 +8,6 @@ pool_specification:
       sku: 16.04-LTS
   vm_size: standard_ds5_v2 # azure VM size
   vm_count:
-    dedicated: 60 # number of nodes
+    dedicated: 90 # number of nodes
     low_priority: 0 
   max_tasks_per_node: 1 # maximum number of containers that can do stuff per task
