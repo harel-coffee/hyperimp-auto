@@ -13,6 +13,38 @@ of tuning experiments.
 
 import scipy
 import numpy as np
+from scipy.stats import rankdata, distributions
+
+def get_val_scores(trace):
+    """
+    For each iteration of a run, compute the maximum validation score up until 
+    that iteration.
+    
+    Parameters
+    ----------
+    trace : OpenMLTrace object
+        trace object that can be retrieved using openml.runs.get_run_trace(run_id)
+        
+    Returns
+    -------
+    val_scores : list
+        a list of maximum validation scores for each iteration from 0 up until 99
+    """
+    val_scores = []
+    val_max = 0
+    for iteration in range(0,100):
+        # compute average validation score for this iteration
+        val_sum = 0
+        for fold in range(0,10):
+            val_sum += trace.trace_iterations[(0, fold, iteration)].evaluation
+        val_avg = val_sum/10
+        # check if new validation average is larger than the current maximum
+        if val_avg > val_max:
+            val_max = val_avg
+        # store current maximum for iteration
+        val_scores.append(val_max)
+    return val_scores
+
 
 def tunability(x, y):
     """
@@ -93,15 +125,12 @@ def noninferior(x, y, delta, alpha):
     alpha : float
         type 1 error rate
     """
-    
-    x, y = map(np.asarray, (x, y))
     if len(x) != len(y):
         raise ValueError('Unequal N in non-inferiority test. Aborting.')
     d = [(a - b)/b - delta for a, b in zip(x, y)]
-    
-    r = scipy.stats.rankdata(abs(d)) # ranks
-    sr = np.sum((d < 0) * r, axis=0) # sum of negative ranks
+    r = rankdata(np.abs(d)) # ranks
+    sr = np.sum([x < 0 for x in d] * r) # sum of negative ranks
     N = len(d)
     z = (sr - (N*(N+1))/4)/np.sqrt((N*(N+1)*(2*N+1))/24)
-    p = distributions.norm.sf(abs(z))
+    p = distributions.norm.sf(np.abs(z))
     return z, p
