@@ -1,0 +1,40 @@
+declare -x AZ_BATCH_ACCOUNT_NAME="exp1hildebatch"
+declare -x AZ_BATCH_ACCOUNT_URL="https://exp1hildebatch.southeastasia.batch.azure.com/"
+declare -x AZ_BATCH_CERTIFICATES_DIR="/mnt/batch/tasks/workitems/random_forest_min_samples_split_5/job-1/task-00009/certs"
+declare -x AZ_BATCH_JOB_ID="random_forest_min_samples_split_5"
+declare -x AZ_BATCH_JOB_PREP_DIR="/mnt/batch/tasks/workitems/random_forest_min_samples_split_5/job-1/jobpreparation"
+declare -x AZ_BATCH_JOB_PREP_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest_min_samples_split_5/job-1/jobpreparation/wd"
+declare -x AZ_BATCH_NODE_ID="tvm-2112069986_77-20180424t042544z"
+declare -x AZ_BATCH_NODE_IS_DEDICATED="true"
+declare -x AZ_BATCH_NODE_ROOT_DIR="/mnt/batch/tasks"
+declare -x AZ_BATCH_NODE_SHARED_DIR="/mnt/batch/tasks/shared"
+declare -x AZ_BATCH_NODE_STARTUP_DIR="/mnt/batch/tasks/startup"
+declare -x AZ_BATCH_POOL_ID="experiment2"
+declare -x AZ_BATCH_TASK_DIR="/mnt/batch/tasks/workitems/random_forest_min_samples_split_5/job-1/task-00009"
+declare -x AZ_BATCH_TASK_ID="task-00009"
+declare -x AZ_BATCH_TASK_USER="_azbatch"
+declare -x AZ_BATCH_TASK_USER_IDENTITY="PoolAdmin"
+declare -x AZ_BATCH_TASK_WORKING_DIR="/mnt/batch/tasks/workitems/random_forest_min_samples_split_5/job-1/task-00009/wd"
+declare -x HOME="/mnt/batch/tasks/workitems/random_forest_min_samples_split_5/job-1/task-00009/wd"
+declare -x OLDPWD
+declare -x PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/batch/tasks/shared:/mnt/batch/tasks/workitems/random_forest_min_samples_split_5/job-1/task-00009/wd"
+declare -x PWD="/mnt/batch/tasks/workitems/random_forest_min_samples_split_5/job-1/task-00009/wd"
+declare -x SHLVL="1"
+declare -x USER="_azbatch"
+/exp/hyperimp/experiment
+[2018-04-25 15:10:18] Results will not be logged locally.
+[2018-04-25 15:10:18] Retrieving tasks...
+[2018-04-25 15:10:24] Downloaded task 23.
+[2018-04-25 15:10:24] Started classifier random_forest, condition fixed, parameter 'min_samples_split', deftype 'None', RS seed 5 on task 23, dataset 'cmc'.
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+[2018-04-25 15:17:36] [SCORE] Accuracy: 0.56.
+[2018-04-25 15:17:48] Uploaded run condition fixed, parameter min_samples_split, RS seed 5, task 23, with run id 9194066.

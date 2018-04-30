@@ -1,0 +1,4 @@
+2018-04-24T15:31:02,286841018+00:00 - DEBUG - Block for Docker images: hilde/experiment_2
+2018-04-24T15:31:02,287977462+00:00 - DEBUG - Block for Singularity images: 
+2018-04-24T15:31:02,289221609+00:00 - INFO - blocking until Docker images ready: hilde/experiment_2
+2018-04-24T15:31:02,371353556+00:00 - INFO - all Docker images present

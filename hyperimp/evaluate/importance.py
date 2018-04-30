@@ -71,8 +71,7 @@ def tunability(x, y):
     """
     x, y = map(np.asarray, (x, y))
     scores  = [a - b for a, b in zip(x, y)]
-    average = np.mean(scores)
-    return scores, average
+    return scores
 
 def relative_tunability(x, y):
     """
@@ -98,9 +97,9 @@ def relative_tunability(x, y):
         average relative tunability
     """
     x, y = map(np.asarray, (x, y))
-    scores  = [(a - b)/b for a, b in zip(x, y)]
-    average = np.mean(scores)
-    return scores, average
+    scores = []
+    scores = [(a-b)/b for a, b in zip(x,y)]
+    return scores
 
 def noninferior(x, y, delta, alpha):
     """
@@ -134,3 +133,98 @@ def noninferior(x, y, delta, alpha):
     z = (sr - (N*(N+1))/4)/np.sqrt((N*(N+1)*(2*N+1))/24)
     p = distributions.norm.sf(np.abs(z))
     return z, p
+
+def equivalence(x, y, delta, alpha):
+    """
+    Perform two one sided non-inferiority tests for relative risk.
+    
+    hypothesis 1:
+        H0: (Median_x - Median_y)/(Median_y) >= delta
+        H1: (Median_x - Median_y)/(Median_y) < delta
+    
+    hypothesis 2:
+        H0: (Median_x - Median_y)/(Median_y) >= - delta
+        H1: (Median_x - Median_y)/(Median_y) < -delta
+
+    Part of this code is adapted from scipy's scipy.stats.wilcoxon.
+    
+    Parameters
+    ----------
+    x : array_like
+        first set of RISK observations (not performance!)
+        
+    y : array_like
+        second set of RISK observations (not performance!)
+    
+    delta : float
+        non-inferiority margin
+        
+    alpha : float
+        type 1 error rate
+    """
+    if len(x) != len(y):
+        raise ValueError('Unequal N in equivalence test. Aborting.')
+    N = len(x)
+    
+    # test 1
+    d1 = [(a - b)/b - delta for a, b in zip(x, y)]
+    r1 = rankdata(np.abs(d1)) # compute signed ranks
+    sr1 = np.sum([x < 0 for x in d1] * r1) # absolute sum of negative ranks
+    z1 = (sr1 - (N*(N+1))/4)/np.sqrt((N*(N+1)*(2*N+1))/24)
+    p1 = distributions.norm.sf(np.abs(z1))
+    
+    # test 2
+    d2 = [(a - b)/b - (-delta) for a, b in zip(x, y)]
+    r2 = rankdata(np.abs(d2)) # compute signed ranks
+    sr2 = np.sum([x > 0 for x in d2] * r2) # sum of positive ranks
+    z2 = (sr2 - (N*(N+1))/4)/np.sqrt((N*(N+1)*(2*N+1))/24)
+    p2 = distributions.norm.sf(np.abs(z2))
+    return z1, p1, z2, p2
+
+def equivalence_nonrel(x, y, delta, alpha):
+    """
+    Perform two one sided non-inferiority tests for relative risk.
+    
+    hypothesis 1:
+        H0: (Median_x - Median_y)/(Median_y) >= delta
+        H1: (Median_x - Median_y)/(Median_y) < delta
+    
+    hypothesis 2:
+        H0: (Median_x - Median_y)/(Median_y) >= - delta
+        H1: (Median_x - Median_y)/(Median_y) < -delta
+
+    Part of this code is adapted from scipy's scipy.stats.wilcoxon.
+    
+    Parameters
+    ----------
+    x : array_like
+        first set of RISK observations (not performance!)
+        
+    y : array_like
+        second set of RISK observations (not performance!)
+    
+    delta : float
+        non-inferiority margin
+        
+    alpha : float
+        type 1 error rate
+    """
+    if len(x) != len(y):
+        raise ValueError('Unequal N in equivalence test. Aborting.')
+    N = len(x)
+    
+    # test 1
+    d1 = [(a - b) - delta for a, b in zip(x, y)]
+    r1 = rankdata(np.abs(d1)) # compute signed ranks
+    sr1 = np.sum([x < 0 for x in d1] * r1) # absolute sum of negative ranks
+    z1 = (sr1 - (N*(N+1))/4)/np.sqrt((N*(N+1)*(2*N+1))/24)
+    p1 = distributions.norm.sf(np.abs(z1))
+    
+    # test 2
+    d2 = [(a - b) - (-delta) for a, b in zip(x, y)]
+    r2 = rankdata(np.abs(d2)) # compute signed ranks
+    sr2 = np.sum([x > 0 for x in d2] * r2) # sum of positive ranks
+    z2 = (sr2 - (N*(N+1))/4)/np.sqrt((N*(N+1)*(2*N+1))/24)
+    p2 = distributions.norm.sf(np.abs(z2))
+    return z1, p1, z2, p2
+
