@@ -26,6 +26,6 @@ for run_id in data['run_id']:
     i += 1
 
 #%%
-with open(os.getcwd() + '/01 data/exp2/trace_data_2.pickle', 'wb') as handle:
+with open(os.getcwd() + '/01 data/exp2/trace_data_3.pickle', 'wb') as handle:
     pickle.dump(traces, handle, protocol=pickle.HIGHEST_PROTOCOL)
 #%%
