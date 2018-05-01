@@ -21,7 +21,7 @@ If you want to increase your batch core quota, also include the Batch account na
 I will list three of them.
 
 #### 1. Docker for Azure
-With Docker for Azure, you can launch a Docker swarm including workers, managers, load balancing, and all other sorts of fun things. However, it seems to be mostly meant for web applications rather than a fixed set of experiments. So for benchmarking experiments, this is probably not the best option.
+With Docker for Azure, you can launch a Docker swarm including workers, managers, load balancing, etc. However, it seems to be mostly meant for web applications rather than a fixed set of experiments. So for benchmarking experiments, this is probably not the best option.
 
 Info: https://www.docker.com/docker-azure
 
@@ -34,17 +34,26 @@ _Disdadvantages_: if you want to run many experiments, quite some manual work is
 Info: https://docs.microsoft.com/en-us/azure/virtual-machines/linux/docker-machine
 
 #### 3. batch-shipyard 
-Batch shipyard is a docker-friendly module that uses batch services. The 
+Batch shipyard is a docker-friendly module that uses Azure batch services. You can use configure files to determine the size of the pool and the specific tasks that need to be performed (e.g. the commands of the docker container). Then, you can start your batch service with only a few lines of codes in Azure Cloud shell.
 
-_Advantage_: Very nice maintainer that will answer your questions on Github (so no support request required!).
-_Disadvantage_: 
+_Advantage_: easy way to run many tasks without much manual interventions, very nice maintainer that answers questions on Github very fast (so no support requests to Microsoft, hooray!)
+_Disadvantage_: not all VM types are available
 
 Info: http://batch-shipyard.readthedocs.io/
 
 ## OpenML
 
-### Add retry to any API call; 
-preferably with random number of seconds (e.g. between 5 and 60 seconds). Otherwise you might feel like you’re performing a DoS attack on the OpenML server (which feels pretty badass until you realise you’re only hurting yourself).
+### Add retry to any API call
+Preferably with random number of seconds (e.g. between 5 and 60 seconds). Otherwise you might feel like you’re performing a DoS attack on the OpenML server (which feels pretty badass until you realise you’re only hurting yourself).
 
 ### The evaluation engine can be slow
-At this point, a single evaluation can take up to 20 seconds.
+Every run you send to OpenML will be evaluated by the evaluation engine. However, when uploading many runs, the engine will often fall behind. A single evaluation takes about 10 to 20 seconds. You can ask an OpenML maintainer for extra evaluation engines dedicated to your experiments. You might consider storing the evaluations within your experiments instead.
+
+### Retrieving traces can go wrong
+When retrieving traces using e.g. `openml.runs.get_run_trace(run_id)`, you might get the following error:
+
+'''
+OpenMLServerException: No successful trace associated with this run.
+'''
+
+Often, however, there actually exists a successful trace on the server, but something went wrong during the evaluation. If that is the case, you can simply reset the run using the following API call: https://www.openml.org/api/v1/run/reset/run_id.
