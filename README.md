@@ -28,11 +28,11 @@ Data obtained from OpenML, partly preprocessed.
 All figures resulting from the analysis.
 
 ## Files
-### [analysis experiment 1](analysis experiment 1.ipynb)
+* `analysis experiment 1.ipynb`
 Analysis of the results of experiment 1. Performance data is analyzed and default values are computed.
 
-### [analysis experiment 2](analysis experiment 2.ipynb)
-Analysis of the results of experiment 1. Performance data is analyzed and default values are computed.
+* `analysis experiment 2.ipynb`
+Analysis of the results of experiment 2. Includes average ranks over number of iterations, tunability, and non-inferiority tests.
 
-### [Reflection](reflection.md)
+* [reflection.md](reflection.md)
 Some general tips, tricks, and other reflections related to performing experiments on Azure and OpenML using dockerized experiment scripts.
