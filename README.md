@@ -23,3 +23,6 @@ Analysis of the results of experiment 2. Includes average ranks over number of i
 
 * [reflection.md](reflection.md)
 Some general tips, tricks, and other reflections related to performing experiments on Azure and OpenML using dockerized experiment scripts.
+
+## 
+We thank Microsoft Azure for providing the computational resources for this study.
