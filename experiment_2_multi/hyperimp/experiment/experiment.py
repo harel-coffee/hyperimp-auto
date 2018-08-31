@@ -22,7 +22,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Importance of Tuning')
     parser.add_argument('--study_id', type=int, default=98, help='OpenML study id, used for tagging.')
     parser.add_argument('--task_id', type=int, default=15, help='OpenML task id.')
-    parser.add_argument('--params', type=str, default='bootstrap criterion', help='Hyperparameters of interest in string separated by spaces')
+    parser.add_argument('--params', type=str, default='max_features,criterion', help='Hyperparameters of interest in string separated by commas (no spaces)')
     parser.add_argument('--seed', type=int, default=1, help='Seed of the random search.')
     parser.add_argument('--condition', type=str, default='fixed', help="fixed' or 'non-fixed' experiment.")
     parser.add_argument('--n_iter', type=int, default=100, help='Number of iterations of the random search.')
@@ -30,7 +30,7 @@ def parse_args():
     parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained, choose from random_forest and svm')
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
     parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/results')
-    parser.add_argument('--deftypes', type = str, default='sklearn sklearn', help="List of 'sklearn' or 'hyperimp' for each hyperparameter separated by spaces")
+    parser.add_argument('--deftypes', type = str, default='sklearn,sklearn', help="List of 'sklearn' or 'hyperimp' for each hyperparameter separated by commas (no spaces)")
     parser.add_argument('--log', default=False, type=lambda x: (str(x).lower() == 'true'), help='results must be logged in container (True) or not (False)')
     return parser.parse_args()
 
@@ -87,7 +87,7 @@ def run_experiment(rscv, task, args):
                 print("%s Error in uploading run trying again in %d seconds. Message: %s" % (hyperimp.utils.get_time(), sleeptime_run, e))
                 count_run += 1
                 sleep(sleeptime_run)
-        print("%s Uploaded run condition %s, parameter %s, RS seed %s, task %s, with run id %d." % (hyperimp.utils.get_time(), args.condition, args.params, args.seed, args.task_id, run.run_id))
+        print("%s Uploaded run condition %s, parameters %s, deftypes %s, RS seed %s, task %s, with run id %d." % (hyperimp.utils.get_time(), args.condition, args.params, args.deftypes, args.seed, args.task_id, run.run_id))
     except TimeoutError as e:
         print("%s Run timed out." % (hyperimp.utils.get_time()))
     except Exception as e:
@@ -177,7 +177,7 @@ def fit(self, X, y=None, groups=None, **fit_params):
     
     # Monkey patch: alter parameter to fixed value
     if args.condition == 'fixed':
-        for param, def_param in zip(args.params.split(), def_params_list):
+        for param, def_param in zip(args.params.split(','), def_params_list):
             for monkey_param in candidate_params:
                 monkey_param['clf__' + param] = def_param
 
@@ -364,7 +364,7 @@ if __name__ == '__main__':
             with open('def_params_sklearn.pickle', 'rb') as handle:
                 def_params_sklearn = pickle.load(handle)
                 
-            for param, deftype in zip(args.params.split(), args.deftypes.split()):
+            for param, deftype in zip(args.params.split(','), args.deftypes.split(',')):
                 if deftype == 'sklearn':
                     def_param = def_params_sklearn[args.classifier][param]
                 elif deftype == 'hyperimp':
