@@ -30,7 +30,7 @@ def parse_args():
     parser.add_argument('--classifier', type=str, default='random_forest', help='classifier that must be trained, choose from random_forest and svm')
     parser.add_argument('--openml_apikey', type=str, default=None, help='the apikey to authenticate to OpenML')
     parser.add_argument('--output_dir', type=str, default=os.path.expanduser('~') + '/results')
-    parser.add_argument('--deftypes', type = str, default='hyperimp sklearn', help="List of 'sklearn' or 'hyperimp' for each hyperparameter separated by spaces")
+    parser.add_argument('--deftypes', type = str, default='sklearn sklearn', help="List of 'sklearn' or 'hyperimp' for each hyperparameter separated by spaces")
     parser.add_argument('--log', default=False, type=lambda x: (str(x).lower() == 'true'), help='results must be logged in container (True) or not (False)')
     return parser.parse_args()
 
@@ -77,7 +77,7 @@ def run_experiment(rscv, task, args):
         while count_run <= 100:
             try:
                 # publish run on OpenML
-                # run.publish()
+                run.publish()
                 break
             except openml.exceptions.OpenMLServerError as e:
                 if count_run == 100:
@@ -391,13 +391,10 @@ if __name__ == '__main__':
         rs_seed = [random.randint(0,1000000) for i in range(0,args.seed)][args.seed - 1]
         
         rscv = hyperimp.experiment.generate.build_rscv(args.classifier, indices, args.n_iter, rs_seed, args.cv, params)
-        
+       
         # run experiment
         run_experiment(rscv, task, args)
         
     except Exception as e:
         print("%s Error in run: %s" % (hyperimp.utils.get_time(), e))
         #traceback.print_exc()
-        
-        #%%
-args.params.split()
